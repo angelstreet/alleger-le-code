@@ -290,6 +290,7 @@ section{padding:56px 0 8px}
 .cand blockquote{margin:0;padding:12px 16px;border-left:3px solid var(--fr);font-size:16px;line-height:1.5;color:var(--ink-2);background:var(--surface-2);border-radius:0 8px 8px 0}
 .sources{font-size:14px;color:var(--ink-2);display:grid;gap:8px;line-height:1.5}
 footer{padding:40px 0 60px}
+.fshare{display:grid;gap:12px;padding:20px 0 28px;margin-bottom:28px;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
 footer .eyebrow{margin-bottom:12px}
 
 @media (max-width:420px){
@@ -325,7 +326,7 @@ footer .eyebrow{margin-bottom:12px}
   @page{margin:16mm 14mm 18mm; @bottom-left{content:"Code du travail simplifié — brouillon à relire";font:9pt 'IBM Plex Mono',monospace;color:#666} @bottom-right{content:"Page " counter(page);font:9pt 'IBM Plex Mono',monospace;color:#666}}
   .perma{display:none!important}
   .band{background:#fff;box-shadow:none}
-  .sitebar,.topnav,.tabbar,.share,.vote,.vote-note,.toast,#pdf,#pdf-top,.more{display:none!important}
+  .sitebar,.topnav,.tabbar,.share,.fshare,.vote,.vote-note,.toast,#pdf,#pdf-top,.more{display:none!important}
   .panel[hidden]{display:grid!important}
   #code-allege[hidden],#top-allege[hidden]{display:none!important}
   .panel{page-break-before:always;padding-top:0}
@@ -340,7 +341,7 @@ footer .eyebrow{margin-bottom:12px}
 </style>
 
 <div class="sitebar"><div class="wrap"><a class="brand" href="#top">Notre objectif : alléger le Code du travail français</a><nav class="sections" aria-label="Sections">
-  <a href="#ensemble" data-sec="ensemble">Vue d’ensemble</a><a href="#sujets" data-sec="sujets">Comparer</a><a href="#sujets" data-sec="road" data-road="1">Objectif</a><a href="#code-allege" data-sec="code-allege">Code allégé</a><a href="#partager" data-sec="partager">Soutenir</a><a href="#methode" data-sec="methode">Méthode</a>
+  <a href="#ensemble" data-sec="ensemble">Vue d’ensemble</a><a href="#sujets" data-sec="sujets">Comparer</a><a href="#sujets" data-sec="road" data-road="1">Objectif</a><a href="#code-allege" data-sec="code-allege">Code allégé</a><a href="#partager" data-sec="partager">Soutenir</a><a href="#methode" data-sec="methode">Méthode</a><a href="mailto:ndoye.joachim@gmail.com">Contact</a>
 </nav></div></div>
 
 <header class="mast wrap" id="top">
@@ -429,10 +430,11 @@ footer .eyebrow{margin-bottom:12px}
     <p class="lede">Un lien, un message prêt à envoyer. Les chiffres sont vérifiables à la source.</p>
   </div>
   <div class="share">
-    <button class="btn primary" id="copy">Copier le lien</button>
-    <a class="btn" id="sh-wa" target="_blank" rel="noopener">WhatsApp</a>
-    <a class="btn" id="sh-x" target="_blank" rel="noopener">X</a>
-    <a class="btn" id="sh-mail">E-mail</a>
+    <button class="btn primary sh-copy" type="button">Copier le lien</button>
+    <a class="btn sh-x" target="_blank" rel="noopener">X</a>
+    <a class="btn sh-wa" target="_blank" rel="noopener">WhatsApp</a>
+    <a class="btn sh-li" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn sh-mail">E-mail</a>
     <button class="btn" id="pdf" type="button">Télécharger en PDF</button>
   </div>
   <p style="font-size:14px;color:var(--muted)">Le PDF contient tous les sujets, tous les textes dépliés — pour lire hors ligne ou imprimer.</p>
@@ -470,6 +472,16 @@ footer .eyebrow{margin-bottom:12px}
 </section>
 
 <footer class="wrap">
+  <div class="fshare">
+    <span class="eyebrow">Partager</span>
+    <div class="share">
+      <a class="btn sh-x" target="_blank" rel="noopener">X</a>
+      <a class="btn sh-wa" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn sh-li" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn sh-mail">E-mail</a>
+      <button class="btn sh-copy" type="button">Copier le lien</button>
+    </div>
+  </div>
   <span class="eyebrow">Sources</span>
   <div class="sources">
     <span>Code du travail — <a href="https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050">Légifrance</a> · données <a href="https://www.data.gouv.fr/datasets/legi-codes-lois-et-reglements-consolides">LEGI (data.gouv.fr)</a> via <a href="https://github.com/SocialGouv/legi-data">@socialgouv/legi-data</a></span>
@@ -783,15 +795,17 @@ footer .eyebrow{margin-bottom:12px}
   const first = D.topics[0];
   $('pledge').textContent = `« Sur ${D.topics.length > 1 ? 'les ' + D.topics.length + ' sujets déjà comparés' : 'le ' + first.name.toLowerCase()}, je m’engage à ramener le Code du travail de ${fmt(covFr)} à moins de ${fmt(Math.ceil(covTarget/10)*10)} articles avant la fin du quinquennat, sans réduire les droits des salariés, en renvoyant les modalités aux conventions de branche et en fusionnant les dispositifs redondants. Les articles supprimés, modifiés et conservés seront publiés en ligne, un par un. »`;
   const url = /codedutravailsimplifie\.com$/.test(location.hostname) || location.protocol === 'file:' ? 'https://www.codedutravailsimplifie.com/' : location.href.split('#')[0];
-  const msg = `${first.share} Mêmes droits, moins de texte : le Code du travail simplifié, article par article → ${url}`;
-  $('sh-wa').href = 'https://wa.me/?text=' + encodeURIComponent(msg);
-  $('sh-x').href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(msg);
-  $('sh-mail').href = 'mailto:?subject=' + encodeURIComponent('Code du travail simplifié — mêmes droits, moins de texte') + '&body=' + encodeURIComponent(msg);
+  const msg = `${first.share}  ${url}`;
+  const setAll = (cls, href) => document.querySelectorAll('.' + cls).forEach(a => a.href = href);
+  setAll('sh-wa', 'https://wa.me/?text=' + encodeURIComponent(msg));
+  setAll('sh-x', 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(msg));
+  setAll('sh-li', 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(url));
+  setAll('sh-mail', 'mailto:?subject=' + encodeURIComponent('Code du travail simplifié — mêmes droits, moins de texte') + '&body=' + encodeURIComponent(msg));
   const toastEl = $('toast'); let tt;
   function toast(t){ toastEl.textContent = t; toastEl.classList.add('show'); clearTimeout(tt); tt = setTimeout(()=>toastEl.classList.remove('show'), 1800); }
   window.__copy = copy;
   async function copy(text, ok){ try { await navigator.clipboard.writeText(text); toast(ok); } catch(e){ toast('Copie impossible ici — sélectionnez le texte.'); } }
-  $('copy').addEventListener('click', () => copy(url, 'Lien copié'));
+  document.querySelectorAll('.sh-copy').forEach(b => b.addEventListener('click', () => copy(url, 'Lien copié')));
   $('copy-eng').addEventListener('click', () => copy($('pledge').textContent.trim(), 'Engagement copié'));
   // PDF: open everything, print, restore
   function printAll(){
