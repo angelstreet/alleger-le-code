@@ -64,7 +64,14 @@ section{padding:56px 0 8px}
 .stack{display:grid;gap:14px}
 .stack-lg{display:grid;gap:28px}
 .dot{width:10px;height:10px;border-radius:50%;flex:none;display:inline-block}
-.dot.fr{background:var(--fr)}.dot.ch{background:var(--ch)}
+.dot.fr{background:var(--fr)}.dot.ch{background:var(--ch)}.dot.al{background:var(--keep-ink)}
+.duel.mini{margin:18px 0 6px;grid-template-columns:1fr 1fr auto;align-items:stretch}
+.duel.mini .big{font-size:clamp(30px,8vw,44px)}
+.duel.mini > div{padding:14px 16px 12px}
+.duel.mini .cta{display:flex;align-items:center;padding:14px 18px;border-left:1px solid var(--hair);font-family:var(--display);font-weight:700;font-size:15px;text-decoration:none;color:var(--ink);background:var(--surface-2)}
+.duel.mini .cta:hover{background:var(--hair)}
+@media (max-width:560px){ .duel.mini{grid-template-columns:1fr 1fr} .duel.mini .cta{grid-column:1 / -1;border-left:0;border-top:1px solid var(--hair);justify-content:center} }
+@media (max-width:420px){ .duel.mini{grid-template-columns:1fr 1fr} .duel.mini > div + div{border-top:0;border-left:1px solid var(--hair)} }
 
 /* masthead */
 .mast{padding:40px 0 8px}
@@ -277,7 +284,11 @@ footer .eyebrow{margin-bottom:12px}
   <h1>Alléger le Code</h1>
   <p class="lede">Le Code du travail français, comparé article par article au droit suisse. Et une feuille de route : ce qu’on garde, ce qu’on simplifie, ce qu’on supprime, ce qu’on ajoute.</p>
   <p class="claim">Ce site ne juge pas si le droit français protège trop ou pas assez. Il mesure sa complexité, et propose comment obtenir le même résultat avec moins de texte.</p>
-  <p id="top-allege" class="claim" style="margin-top:14px" hidden><a href="#code-allege" style="font-weight:700;color:var(--ink)">Lire le Code allégé →</a> la version simplifiée proposée, article par article.</p>
+  <div id="top-allege" class="duel mini" hidden>
+    <div><div class="who"><span class="dot fr"></span>Code du travail aujourd’hui</div><div class="big"><span class="num" id="ta-cur-n"></span><small>articles</small></div><p class="sub"><b class="num" id="ta-cur-w"></b> mots · <span id="ta-scope"></span></p></div>
+    <div><div class="who"><span class="dot al"></span>Code allégé proposé</div><div class="big"><span class="num" id="ta-new-n"></span><small>articles</small></div><p class="sub"><b class="num" id="ta-new-w"></b> mots · <b id="ta-pct"></b> de texte</p></div>
+    <a class="cta" href="#code-allege">Lire le Code allégé →</a>
+  </div>
   <p class="claim" style="margin-top:8px">Indépendant et apolitique. Réalisé par un citoyen avec l’IA Claude (Anthropic), sans parti ni financement. Données, code et méthode ouverts.</p>
 </header>
 
@@ -532,6 +543,10 @@ footer .eyebrow{margin-bottom:12px}
   const aTopics = D.topics.filter(t => A[t.id]);
   if(aTopics.length){
     $('code-allege').hidden = false; $('top-allege').hidden = false;
+    const curN = aTopics.reduce((s,t)=>s+t.fr.n,0), curW = aTopics.reduce((s,t)=>s+t.fr.w,0);
+    const newN = aTopics.reduce((s,t)=>s+A[t.id].articles.length,0), newW = aTopics.reduce((s,t)=>s+A[t.id].articles.reduce((x,a)=>x+a.text.split(/\s+/).length,0),0);
+    $('ta-cur-n').textContent = fmt(curN); $('ta-cur-w').textContent = fmt(curW); $('ta-scope').textContent = aTopics.length + ' sujets comparés';
+    $('ta-new-n').textContent = fmt(newN); $('ta-new-w').textContent = fmt(newW); $('ta-pct').textContent = '−' + Math.round(100 - 100*newW/curW) + ' %';
     $('allege-status').innerHTML = '<b>Statut : ' + esc(A[aTopics[0].id].status) + '.</b> Sujets rédigés : ' + aTopics.map(t=>esc(t.name)).join(', ') + '. Les autres suivent, sujet par sujet.';
     $('allege-tabs').innerHTML = aTopics.map(t => `<button class="tab" role="tab" type="button" data-allege="${t.id}" aria-selected="false">${esc(t.name)}<span class="n">${A[t.id].articles.length} art.</span></button>`).join('');
     $('allege-panels').innerHTML = aTopics.map(t => {
