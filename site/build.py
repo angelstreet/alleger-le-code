@@ -462,3 +462,18 @@ tpl = open(root / 'site/template.html', encoding='utf-8').read()
 out = tpl.replace('{{DATA}}', payload).replace('{{SUPABASE}}', supabase)
 open(root / 'site/index.html', 'w', encoding='utf-8').write(out)
 print('wrote', len(out), 'bytes;', len(topics), 'topics')
+
+# ---------------------------------------------------------------- PDF (headless Chrome, optional)
+import subprocess, shutil, urllib.parse
+chrome = os.environ.get('ALC_CHROME') or next((p for p in ['/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', shutil.which('google-chrome') or '', shutil.which('chromium') or ''] if p and os.path.exists(p)), None)
+if chrome and os.environ.get('ALC_PDF', '1') != '0':
+    pdf = root / 'site/alleger-le-code.pdf'
+    url = 'file://' + urllib.parse.quote(str(root / 'site/index.html')) + '?print=1'
+    r = subprocess.run([chrome, '--headless=new', '--disable-gpu', '--no-pdf-header-footer', '--virtual-time-budget=8000',
+                        '--run-all-compositor-stages-before-draw', f'--print-to-pdf={pdf}', url], capture_output=True, text=True, timeout=180)
+    if pdf.exists() and pdf.stat().st_size > 10000:
+        print('pdf', pdf.stat().st_size // 1024, 'KB')
+    else:
+        print('pdf generation failed:', r.stderr[-400:])
+else:
+    print('pdf skipped (no Chrome or ALC_PDF=0)')

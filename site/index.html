@@ -250,8 +250,11 @@ footer .eyebrow{margin-bottom:12px}
   .index .hd,.irow{grid-template-columns:1fr 54px 54px 44px;gap:8px;padding-left:12px;padding-right:12px}
 }
 @media (prefers-reduced-motion:reduce){ .toast{transition:none} html{scroll-behavior:auto} }
+.print-mode .tabbar,.print-mode .share,.print-mode .vote,.print-mode .vote-note,.print-mode #pdf,.print-mode #pdf-top{display:none!important}
+.print-mode .panel{padding-top:24px}
 @media print{
   body{background:#fff;color:#000;font-size:11pt}
+  @page{margin:16mm 14mm}
   .tabbar,.share,.vote,.vote-note,.toast,#pdf,#pdf-top,.more{display:none!important}
   .panel[hidden]{display:grid!important}
   #code-allege[hidden],#top-allege[hidden]{display:none!important}
@@ -560,6 +563,16 @@ footer .eyebrow{margin-bottom:12px}
     if(location.hash.startsWith('#a-')){ const el = document.querySelector(location.hash); if(el){ showA(el.id.split('-')[1]); el.scrollIntoView(); } }
   }
 
+  // ---------- Print mode (?print=1, used by the build to generate the PDF) ----------
+  const PRINT = new URLSearchParams(location.search).has('print');
+  if(PRINT){
+    document.documentElement.classList.add('print-mode');
+    document.querySelectorAll('details').forEach(d => d.open = true);
+    document.querySelectorAll('.panel[hidden]').forEach(p => p.hidden = false);
+    document.querySelectorAll('.law .art .t.clamp').forEach(x => x.classList.remove('clamp'));
+    document.querySelectorAll('.more').forEach(b => b.remove());
+  }
+
   // ---------- Votes ----------
   const LS = 'allegerlecode.votes';
   let mine = {};
@@ -650,8 +663,11 @@ footer .eyebrow{margin-bottom:12px}
     window.addEventListener('afterprint', restore);
     setTimeout(() => window.print(), 50);
   }
-  $('pdf').addEventListener('click', printAll);
-  $('pdf-top').addEventListener('click', printAll);
+  let pdfUrl = null;
+  fetch('alleger-le-code.pdf', {method:'HEAD'}).then(r => { if(r.ok && /pdf/i.test(r.headers.get('content-type')||'')) pdfUrl = 'alleger-le-code.pdf'; }).catch(()=>{});
+  const onPdf = () => pdfUrl ? window.open(pdfUrl, '_blank', 'noopener') : printAll();
+  $('pdf').addEventListener('click', onPdf);
+  $('pdf-top').addEventListener('click', onPdf);
 
 })();
 </script>
