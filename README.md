@@ -1,4 +1,6 @@
-# Alléger le Code
+# Code du travail simplifié
+
+Projet « Alléger le Code » — mêmes droits, moins de texte.
 
 Le Code du travail français comparé, sujet par sujet et à périmètre égal, au droit du travail suisse — avec une feuille de route de simplification : ce qu'on garde, ce qu'on simplifie, ce qu'on délègue aux branches, ce qu'on supprime, ce qu'on ajoute.
 

@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<title>Alléger le Code</title>
+<title>Code du travail simplifié</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
@@ -308,11 +308,11 @@ footer .eyebrow{margin-bottom:12px}
 
 <header class="mast wrap">
   <div class="top">
-    <span class="pill"><b id="n-topics">0</b> sujets comparés</span>
+    <span class="pill">Alléger le Code · <b id="n-topics">0</b> sujets comparés</span>
     <button class="pill" id="pdf-top" type="button" style="cursor:pointer">Télécharger · PDF</button>
   </div>
-  <h1>Alléger le Code</h1>
-  <p class="lede">Le Code du travail français, comparé article par article au droit suisse. Et une feuille de route : ce qu’on garde, ce qu’on simplifie, ce qu’on supprime, ce qu’on ajoute.</p>
+  <h1>Code du travail simplifié</h1>
+  <p class="lede"><b style="color:var(--ink);font-weight:600">Mêmes droits, moins de texte.</b> Le Code du travail français, comparé article par article au droit suisse, et réécrit sujet par sujet : ce qu’on garde, ce qu’on simplifie, ce qu’on supprime, ce qu’on ajoute.</p>
   <p class="claim">Ce site ne juge pas si le droit français protège trop ou pas assez. Il mesure sa complexité, et propose comment obtenir le même résultat avec moins de texte.</p>
   <div id="top-allege" class="duel mini" hidden>
     <div><div class="who"><span class="dot fr"></span>Code du travail aujourd’hui</div><div class="big"><span class="num" id="ta-cur-n"></span><small>articles</small></div><p class="sub"><b class="num" id="ta-cur-w"></b> mots · <span id="ta-scope"></span></p></div>
@@ -705,10 +705,10 @@ footer .eyebrow{margin-bottom:12px}
   const first = D.topics[0];
   $('pledge').textContent = `« Sur ${D.topics.length > 1 ? 'les ' + D.topics.length + ' sujets déjà comparés' : 'le ' + first.name.toLowerCase()}, je m’engage à ramener le Code du travail de ${fmt(covFr)} à moins de ${fmt(Math.ceil(covTarget/10)*10)} articles avant la fin du quinquennat, sans réduire les droits des salariés, en renvoyant les modalités aux conventions de branche et en fusionnant les dispositifs redondants. Les articles supprimés, modifiés et conservés seront publiés en ligne, un par un. »`;
   const url = location.href.split('#')[0];
-  const msg = `${first.share} Une feuille de route pour alléger le Code du travail, article par article → ${url}`;
+  const msg = `${first.share} Mêmes droits, moins de texte : le Code du travail simplifié, article par article → ${url}`;
   $('sh-wa').href = 'https://wa.me/?text=' + encodeURIComponent(msg);
   $('sh-x').href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(msg);
-  $('sh-mail').href = 'mailto:?subject=' + encodeURIComponent('Alléger le Code du travail') + '&body=' + encodeURIComponent(msg);
+  $('sh-mail').href = 'mailto:?subject=' + encodeURIComponent('Code du travail simplifié — mêmes droits, moins de texte') + '&body=' + encodeURIComponent(msg);
   const toastEl = $('toast'); let tt;
   function toast(t){ toastEl.textContent = t; toastEl.classList.add('show'); clearTimeout(tt); tt = setTimeout(()=>toastEl.classList.remove('show'), 1800); }
   async function copy(text, ok){ try { await navigator.clipboard.writeText(text); toast(ok); } catch(e){ toast('Copie impossible ici — sélectionnez le texte.'); } }
