@@ -1,0 +1,855 @@
+{
+  "topic": "temps-travail",
+  "title": "Durée du travail, repos et jours fériés",
+  "status": "brouillon — à relire par des juristes",
+  "generated_at": "2026-09-10",
+  "articles": [
+    {
+      "n": 1,
+      "row": "duree",
+      "title": "Temps de travail effectif",
+      "text": "1. Le temps de travail effectif est celui pendant lequel le salarié est à la disposition de l'employeur et se conforme à ses directives, sans pouvoir vaquer librement à des occupations personnelles.\n2. Le temps de restauration et les temps de pause sont comptés comme du temps de travail effectif lorsqu'ils remplissent cette condition ; à défaut, un accord collectif peut néanmoins prévoir qu'ils sont rémunérés.\n3. Le temps passé à la douche après des travaux insalubres ou salissants est payé au tarif normal des heures de travail, sans être compté comme du temps de travail effectif.",
+      "replaces": [
+        "L3121-1",
+        "L3121-2",
+        "L3121-6",
+        "R3121-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 2,
+      "row": "duree",
+      "title": "Habillage, déshabillage et temps de trajet",
+      "text": "1. Lorsqu'une tenue de travail est imposée et doit être mise et retirée dans l'entreprise, le temps d'habillage et de déshabillage donne lieu à une contrepartie, en repos ou en argent, ou est assimilé à du temps de travail effectif.\n2. Le temps de déplacement professionnel n'est pas un temps de travail effectif, mais s'il dépasse le temps normal de trajet entre le domicile et le lieu habituel de travail, il donne lieu à une contrepartie ; la part de ce dépassement qui coïncide avec l'horaire de travail n'entraîne aucune perte de salaire.\n3. Si le trajet entre le domicile et le lieu de travail est allongé du fait d'un handicap, il peut donner lieu à une contrepartie en repos.\n4. Un accord collectif fixe ces contreparties ; à défaut, l'employeur les fixe après consultation du comité social et économique.",
+      "replaces": [
+        "L3121-3",
+        "L3121-4",
+        "L3121-5",
+        "L3121-7",
+        "L3121-8"
+      ],
+      "note": ""
+    },
+    {
+      "n": 3,
+      "row": "duree",
+      "title": "Astreintes",
+      "text": "1. Une période d'astreinte est une période pendant laquelle le salarié, sans être sur son lieu de travail ni à la disposition permanente et immédiate de l'employeur, doit être en mesure d'intervenir pour l'entreprise.\n2. Seule la durée de l'intervention est un temps de travail effectif ; elle compte aussi pour le calcul des repos quotidien et hebdomadaire.\n3. La période d'astreinte donne lieu à une contrepartie, financière ou en repos.\n4. Un accord collectif fixe l'organisation des astreintes, l'information des salariés et leur compensation ; à défaut, l'employeur les fixe après avis du comité social et économique et information de l'inspection du travail, en prévenant chaque salarié de sa programmation individuelle au moins quinze jours à l'avance, sauf urgence.\n5. L'employeur remet chaque mois à chaque salarié concerné un document récapitulant ses heures d'astreinte et la compensation correspondante.",
+      "replaces": [
+        "L3121-9",
+        "L3121-10",
+        "L3121-11",
+        "L3121-12",
+        "R3121-2",
+        "R3121-3"
+      ],
+      "note": ""
+    },
+    {
+      "n": 4,
+      "row": "duree",
+      "title": "Régime d'équivalence",
+      "text": "1. Pour certaines professions comportant des périodes d'inaction, un régime d'équivalence peut déterminer autrement le temps de travail effectif et sa rémunération.\n2. Un accord de branche étendu institue ce régime et fixe la rémunération des périodes d'inaction ; à défaut, il peut être institué par décret.",
+      "replaces": [
+        "L3121-13",
+        "L3121-14",
+        "L3121-15"
+      ],
+      "note": ""
+    },
+    {
+      "n": 5,
+      "row": "duree",
+      "title": "Pause quotidienne",
+      "text": "1. Dès que le temps de travail quotidien atteint six heures, le salarié a droit à une pause d'au moins vingt minutes consécutives.\n2. Un accord collectif peut fixer une durée de pause supérieure.",
+      "replaces": [
+        "L3121-16",
+        "L3121-17"
+      ],
+      "note": ""
+    },
+    {
+      "n": 6,
+      "row": "duree",
+      "title": "Durée quotidienne maximale de travail",
+      "text": "1. La durée quotidienne de travail effectif ne peut dépasser dix heures.\n2. Elle peut être dépassée jusqu'à douze heures par accord collectif, en cas d'activité accrue ou pour des raisons d'organisation.\n3. À défaut d'accord, l'inspecteur du travail peut l'autoriser en cas de surcroît temporaire d'activité, après demande motivée de l'employeur accompagnée de l'avis du comité social et économique ; il répond dans les quinze jours.\n4. En cas d'urgence, l'employeur peut dépasser cette durée sous sa responsabilité, à charge de régulariser sans délai auprès de l'inspecteur du travail.",
+      "replaces": [
+        "L3121-18",
+        "L3121-19",
+        "D3121-4",
+        "D3121-5",
+        "D3121-6",
+        "D3121-7"
+      ],
+      "note": ""
+    },
+    {
+      "n": 7,
+      "row": "duree",
+      "title": "Durée hebdomadaire maximale absolue",
+      "text": "1. La durée maximale de travail au cours d'une même semaine est de quarante-huit heures.\n2. En cas de circonstances exceptionnelles, l'autorité administrative peut autoriser un dépassement, sans que la durée du travail puisse excéder soixante heures par semaine, après avis du comité social et économique ; elle répond dans les trente jours et peut assortir son autorisation de mesures compensatoires.\n3. Cette autorisation est révocable si les raisons qui l'ont justifiée disparaissent.",
+      "replaces": [
+        "L3121-20",
+        "L3121-21",
+        "R3121-8",
+        "R3121-9",
+        "R3121-10"
+      ],
+      "note": ""
+    },
+    {
+      "n": 8,
+      "row": "duree",
+      "title": "Durée hebdomadaire moyenne sur douze semaines",
+      "text": "1. Sur une période quelconque de douze semaines consécutives, la durée moyenne de travail ne peut dépasser quarante-quatre heures.\n2. Un accord collectif peut porter cette moyenne jusqu'à quarante-six heures.\n3. À défaut d'accord, ce dépassement, jusqu'à quarante-six heures, est autorisé par l'autorité administrative, à la demande de l'employeur ou d'une organisation d'employeurs, après consultation des organisations syndicales et avis du comité social et économique.\n4. À titre exceptionnel, dans certains secteurs, régions ou entreprises, un dépassement au-delà de quarante-six heures peut être autorisé pour une durée déterminée.",
+      "replaces": [
+        "L3121-22",
+        "L3121-23",
+        "L3121-24",
+        "L3121-25",
+        "L3121-26",
+        "R3121-11",
+        "R3121-12",
+        "R3121-13",
+        "R3121-14",
+        "R3121-15",
+        "R3121-16"
+      ],
+      "note": ""
+    },
+    {
+      "n": 9,
+      "row": "duree",
+      "title": "Durée légale du travail",
+      "text": "1. La durée légale de travail effectif des salariés à temps complet est de trente-cinq heures par semaine.\n2. La semaine débute le lundi à zéro heure et se termine le dimanche à vingt-quatre heures, sauf accord collectif fixant une autre période de sept jours consécutifs.\n3. Dans les entreprises dont l'horaire collectif dépasse la durée légale, la rémunération mensuelle peut être calculée sur la base de cet horaire, majorations des heures supplémentaires comprises.",
+      "replaces": [
+        "L3121-27",
+        "L3121-29",
+        "L3121-32",
+        "L3121-35",
+        "L3121-31"
+      ],
+      "note": ""
+    },
+    {
+      "n": 10,
+      "row": "duree",
+      "title": "Heures supplémentaires : majoration, contingent et repos compensateur",
+      "text": "1. Toute heure de travail effectuée au-delà de la durée légale hebdomadaire est une heure supplémentaire, qui ouvre droit à une majoration de salaire ou à un repos compensateur équivalent.\n2. Des heures supplémentaires peuvent être accomplies dans la limite d'un contingent annuel ; au-delà, elles ouvrent droit à une contrepartie obligatoire sous forme de repos.\n3. Un accord collectif fixe le taux de majoration, qui ne peut être inférieur à 10 %, le contingent annuel et la contrepartie due au-delà, et peut remplacer tout ou partie du paiement des heures supplémentaires par un repos compensateur équivalent ; il est consulté au moins une fois par an sur l'utilisation du contingent.\n4. À défaut d'accord, la majoration est de 25 % pour les huit premières heures supplémentaires et de 50 % au-delà ; le contingent annuel est fixé par décret à deux cent vingt heures par salarié ; la contrepartie obligatoire en repos est de 50 % des heures accomplies au-delà du contingent dans les entreprises de vingt salariés au plus, et de 100 % au-delà.\n5. Dans les entreprises dépourvues de délégué syndical, l'employeur peut, si le comité social et économique ne s'y oppose pas, remplacer tout ou partie du paiement des heures supplémentaires par un repos compensateur équivalent.",
+      "replaces": [
+        "L3121-28",
+        "L3121-30",
+        "L3121-33",
+        "L3121-36",
+        "L3121-37",
+        "L3121-38",
+        "L3121-39",
+        "L3121-40",
+        "D3121-24"
+      ],
+      "note": ""
+    },
+    {
+      "n": 11,
+      "row": "duree",
+      "title": "Prise de la contrepartie obligatoire en repos",
+      "text": "1. Le droit à la contrepartie obligatoire en repos est ouvert dès que ce repos atteint sept heures ; il ne se perd pas faute d'avoir été demandé, et l'employeur invite alors le salarié à le prendre dans l'année.\n2. Le salarié demande à en bénéficier au moins une semaine à l'avance ; l'employeur répond dans les sept jours et ne peut différer la prise du repos de plus de deux mois, sauf accord contraire.\n3. En cas d'impossibilité de satisfaire plusieurs demandes simultanées, la priorité va aux demandes déjà différées, puis à la situation de famille, puis à l'ancienneté.\n4. Le repos est assimilé à du travail effectif pour les droits du salarié et n'entraîne aucune diminution de sa rémunération.\n5. Le salarié dont le contrat prend fin, ou ses ayants droit en cas de décès, avant d'avoir pu prendre ce repos reçoit une indemnité correspondant à ses droits acquis.",
+      "replaces": [
+        "D3121-17",
+        "D3121-18",
+        "D3121-19",
+        "D3121-20",
+        "D3121-21",
+        "D3121-22",
+        "D3121-23"
+      ],
+      "note": ""
+    },
+    {
+      "n": 12,
+      "row": "duree",
+      "title": "Aménagement du temps de travail sur plusieurs semaines",
+      "text": "1. Un accord collectif peut organiser la durée du travail sur une période de référence supérieure à la semaine, dans la limite de trois ans ; les heures supplémentaires sont alors décomptées à l'issue de cette période, au-delà de 1 607 heures si elle est annuelle, ou d'une moyenne de trente-cinq heures hebdomadaires sinon.\n2. L'accord fixe la période de référence, le délai de prévenance des changements d'horaires et les règles applicables aux absences, arrivées et départs en cours de période, et peut prévoir une rémunération mensuelle indépendante de l'horaire réel ; cet aménagement ne constitue pas une modification du contrat des salariés à temps complet, informés dans un délai raisonnable de tout changement d'horaires.\n3. À défaut d'accord, l'employeur peut répartir la durée du travail sur plusieurs semaines — neuf au plus dans les entreprises de moins de cinquante salariés, quatre au-delà, sans cette limite dans les entreprises fonctionnant en continu — avec un délai de prévenance de sept jours ; il établit alors un programme indicatif soumis pour avis au comité social et économique, et la rémunération mensuelle, calculée sur trente-cinq heures, est indépendante de l'horaire réel.\n4. Pour les activités saisonnières, un accord de branche peut adapter les règles de décompte des heures supplémentaires et des repos compensateurs sur cette période.",
+      "replaces": [
+        "L3121-34",
+        "L3121-41",
+        "L3121-42",
+        "L3121-43",
+        "L3121-44",
+        "L3121-45",
+        "L3121-46",
+        "L3121-47",
+        "D3121-25",
+        "D3121-27",
+        "D3121-28",
+        "R3121-26"
+      ],
+      "note": ""
+    },
+    {
+      "n": 13,
+      "row": "duree",
+      "title": "Horaires individualisés",
+      "text": "1. À la demande de salariés, l'employeur peut mettre en place des horaires individualisés permettant de reporter des heures d'une semaine à une autre ; dans ce cadre, les heures ainsi librement choisies par le salarié au-delà de l'horaire hebdomadaire ne sont pas des heures supplémentaires.\n2. Dans les entreprises sans représentant du personnel, l'inspecteur du travail autorise cette mise en place ; il répond dans les trente jours.\n3. Les salariés handicapés, les aidants familiaux et les parents d'un enfant dont l'état de santé exige une présence soutenue bénéficient, à leur demande, d'un aménagement d'horaires individualisés.\n4. Un accord collectif fixe les limites et modalités du report d'heures ; à défaut, le report ne peut excéder trois heures par semaine ni dix heures au total.",
+      "replaces": [
+        "L3121-48",
+        "L3121-49",
+        "L3121-51",
+        "L3121-52",
+        "R3121-29",
+        "R3121-30"
+      ],
+      "note": ""
+    },
+    {
+      "n": 14,
+      "row": "duree",
+      "title": "Récupération des heures perdues",
+      "text": "1. Seules peuvent être récupérées les heures perdues par suite d'une interruption collective du travail due à un accident, une intempérie, un cas de force majeure, un inventaire, ou au chômage d'un jour compris entre un jour férié et un jour de repos hebdomadaire ou précédant les congés annuels.\n2. Les heures perdues ne peuvent être récupérées que dans les douze mois qui précèdent ou suivent leur perte ; leur répartition ne peut ni être uniforme sur l'année, ni allonger la journée de travail de plus d'une heure, ni la semaine de plus de huit heures.\n3. L'employeur informe l'inspecteur du travail des interruptions collectives et des modalités de récupération, immédiatement en cas d'événement imprévu.\n4. Il ne peut licencier pour insuffisance d'activité, dans le mois suivant une période de récupération, les salariés habituellement employés dans l'établissement concerné.",
+      "replaces": [
+        "L3121-50",
+        "R3121-31",
+        "R3121-32",
+        "R3121-33",
+        "R3121-34",
+        "R3121-35"
+      ],
+      "note": ""
+    },
+    {
+      "n": 15,
+      "row": "duree",
+      "title": "Forfaits : principe et forfait en heures",
+      "text": "1. La durée du travail peut être forfaitisée en heures, sur la semaine, le mois ou l'année, ou en jours, sur l'année.\n2. La mise en place d'un forfait suppose l'accord du salarié et une convention individuelle écrite.\n3. Le forfait en heures sur l'année est réservé aux cadres qui ne suivent pas l'horaire collectif de leur service et aux salariés disposant d'une réelle autonomie dans l'organisation de leur temps.\n4. La rémunération du salarié en forfait heures est au moins égale au salaire minimal applicable dans l'entreprise pour le nombre d'heures correspondant, majorations des heures supplémentaires incluses le cas échéant.",
+      "replaces": [
+        "L3121-53",
+        "L3121-54",
+        "L3121-55",
+        "L3121-56",
+        "L3121-57"
+      ],
+      "note": ""
+    },
+    {
+      "n": 16,
+      "row": "duree",
+      "title": "Forfait en jours : salariés concernés et mise en place",
+      "text": "1. Le forfait en jours sur l'année est réservé aux cadres autonomes dans l'organisation de leur temps qui ne suivent pas l'horaire collectif de leur service, et aux salariés dont la durée du travail ne peut être prédéterminée et qui disposent d'une réelle autonomie.\n2. Il est mis en place par un accord collectif, qui détermine les catégories de salariés concernés, la période de référence, le nombre de jours compris dans le forfait, dans la limite de deux cent dix-huit jours, et les conditions de prise en compte des absences, arrivées et départs en cours de période.\n3. L'accord fixe les modalités de suivi de la charge de travail du salarié, de communication entre l'employeur et le salarié sur cette charge et sur l'articulation entre vie professionnelle et vie personnelle, et d'exercice du droit à la déconnexion.",
+      "replaces": [
+        "L3121-58",
+        "L3121-63",
+        "L3121-64"
+      ],
+      "note": ""
+    },
+    {
+      "n": 17,
+      "row": "duree",
+      "title": "Forfait en jours : suivi de la charge de travail",
+      "text": "1. L'employeur s'assure régulièrement que la charge de travail du salarié en forfait jours est raisonnable et permet une bonne répartition de son travail dans le temps.\n2. À défaut de précisions dans l'accord collectif sur ce suivi, l'employeur établit un document de contrôle des jours et demi-journées travaillés, s'assure que la charge de travail reste compatible avec les repos quotidien et hebdomadaire, et organise chaque année un entretien avec le salarié sur sa charge de travail, l'organisation de son travail, l'articulation entre vie professionnelle et vie personnelle, et sa rémunération.\n3. Un salarié dont la rémunération est manifestement sans rapport avec les sujétions imposées peut saisir le juge pour obtenir une indemnité, malgré toute clause contraire.",
+      "replaces": [
+        "L3121-60",
+        "L3121-61",
+        "L3121-65"
+      ],
+      "note": ""
+    },
+    {
+      "n": 18,
+      "row": "duree",
+      "title": "Forfait en jours : renonciation à des jours de repos",
+      "text": "1. Le salarié peut, avec l'accord de son employeur, renoncer par écrit à une partie de ses jours de repos, en contrepartie d'une majoration de salaire d'au moins 10 %.\n2. Un accord de branche fixe le nombre maximal de jours travaillés dans l'année en cas de renonciation ; à défaut, ce nombre est de deux cent trente-cinq.",
+      "replaces": [
+        "L3121-59",
+        "L3121-66"
+      ],
+      "note": ""
+    },
+    {
+      "n": 19,
+      "row": "duree",
+      "title": "Forfait en jours : régime applicable et retraite progressive",
+      "text": "1. Le salarié en forfait jours n'est pas soumis aux durées quotidienne et hebdomadaires maximales de travail, ni à la durée légale hebdomadaire ; il reste soumis aux repos quotidien et hebdomadaire ainsi qu'aux jours fériés chômés dans l'entreprise.\n2. Le salarié en forfait jours qui souhaite travailler à temps réduit pour bénéficier d'une retraite progressive adresse sa demande par écrit à l'employeur, au moins deux mois avant la date d'effet souhaitée ; à défaut de réponse motivée dans les deux mois suivant la demande, l'accord de l'employeur est réputé acquis.",
+      "replaces": [
+        "L3121-62",
+        "L3121-60-1",
+        "D3121-36"
+      ],
+      "note": ""
+    },
+    {
+      "n": 20,
+      "row": "duree",
+      "title": "Décret d'application",
+      "text": "1. Des décrets précisent, pour l'ensemble des branches ou pour certaines d'entre elles, les modalités d'application des règles de ce titre, notamment la répartition des horaires, les astreintes, les dérogations, les repos et le contrôle du respect de ces règles.\n2. Un accord collectif étendu, ou un accord d'entreprise, peut déroger aux dispositions de ces décrets relatives à la répartition des horaires dans la semaine, aux repos, aux astreintes et à la récupération des heures perdues ; en cas de dénonciation ou de non-renouvellement de l'accord, les dispositions du décret redeviennent applicables.",
+      "replaces": [
+        "L3121-67",
+        "L3121-68",
+        "L3121-69"
+      ],
+      "note": ""
+    },
+    {
+      "n": 21,
+      "row": "nuit",
+      "title": "Recours et définition du travail de nuit",
+      "text": "1. Le recours au travail de nuit est exceptionnel ; il doit prendre en compte la santé et la sécurité des travailleurs et être justifié par la nécessité d'assurer la continuité de l'activité économique ou d'un service d'utilité sociale.\n2. Est considéré comme travail de nuit tout travail accompli entre 21 heures et 6 heures.\n3. Pour la presse, la radio, la télévision, le cinéma, le spectacle vivant et les discothèques, ainsi que pour les commerces situés dans les zones touristiques internationales, la nuit peut être définie autrement, dans une période d'au moins sept heures consécutives comprenant l'intervalle entre minuit et 5 heures.\n4. À défaut de stipulation conventionnelle, l'inspecteur du travail peut autoriser une autre définition de la période de nuit, dans le respect de ces limites, si les caractéristiques de l'activité le justifient.",
+      "replaces": [
+        "L3122-1",
+        "L3122-2",
+        "L3122-3",
+        "L3122-4",
+        "L3122-20",
+        "L3122-22"
+      ],
+      "note": ""
+    },
+    {
+      "n": 22,
+      "row": "nuit",
+      "title": "Mise en place du travail de nuit par accord collectif",
+      "text": "1. Un accord d'entreprise ou de branche met en place le travail de nuit ou l'étend à de nouvelles catégories de salariés.\n2. Il justifie ce recours, définit la période de nuit dans les limites légales, fixe la contrepartie en repos et, le cas échéant, en salaire, et prévoit des mesures pour améliorer les conditions de travail, concilier vie professionnelle et vie personnelle, assurer l'égalité entre femmes et hommes et organiser les pauses.\n3. Dans les zones touristiques internationales, un accord collectif ou territorial peut prévoir l'emploi de salariés entre 21 heures et minuit, avec mise à disposition d'un moyen de transport et prise en compte des contraintes familiales des salariés concernés.",
+      "replaces": [
+        "L3122-15",
+        "L3122-16",
+        "L3122-19"
+      ],
+      "note": ""
+    },
+    {
+      "n": 23,
+      "row": "nuit",
+      "title": "Autorisation à défaut d'accord collectif",
+      "text": "1. À défaut d'accord et si l'employeur a engagé des négociations sérieuses et loyales, l'inspecteur du travail peut autoriser l'affectation de salariés à des postes de nuit, après vérification des contreparties et des temps de pause prévus.\n2. La demande justifie les contraintes rendant nécessaire le travail de nuit, le caractère loyal des négociations engagées dans les douze mois précédents, les contreparties prévues et la prise en compte de la santé des salariés ; l'inspecteur du travail répond dans les trente jours.",
+      "replaces": [
+        "L3122-21",
+        "R3122-9",
+        "R3122-10"
+      ],
+      "note": ""
+    },
+    {
+      "n": 24,
+      "row": "nuit",
+      "title": "Travailleur de nuit : définition",
+      "text": "1. Est un travailleur de nuit le salarié qui accomplit, selon son horaire habituel, au moins deux fois par semaine trois heures de travail de nuit, ou qui accomplit, sur une période de référence, un nombre minimal d'heures de nuit.\n2. Un accord collectif étendu peut fixer ce nombre minimal d'heures sur la période de référence ; à défaut, il est de deux cent soixante-dix heures sur douze mois consécutifs.",
+      "replaces": [
+        "L3122-5",
+        "L3122-23"
+      ],
+      "note": ""
+    },
+    {
+      "n": 25,
+      "row": "nuit",
+      "title": "Durée du travail de nuit",
+      "text": "1. La durée quotidienne du travailleur de nuit ne peut dépasser huit heures, sauf dérogation, et sa durée hebdomadaire, calculée sur douze semaines, ne peut dépasser quarante heures.\n2. Un accord collectif peut prévoir un dépassement de la durée quotidienne, dans des conditions fixées par décret, ou de la durée hebdomadaire, dans la limite de quarante-quatre heures sur douze semaines, si les caractéristiques du secteur le justifient.\n3. À défaut d'accord, l'inspecteur du travail peut autoriser un dépassement de la durée quotidienne en cas de faits extérieurs à l'employeur, anormaux et imprévisibles, ou d'événements exceptionnels ; le salarié bénéficie alors d'un repos au moins égal aux heures accomplies en plus, pris dans les meilleurs délais, ou, si cela n'est pas possible, d'une contrepartie équivalente fixée par accord collectif.\n4. En cas d'urgence, l'employeur peut décider ce dépassement sous sa responsabilité, à charge de régulariser sans délai auprès de l'inspecteur du travail.\n5. À défaut d'accord, un décret peut fixer, pour certains secteurs, une durée hebdomadaire maximale comprise entre quarante et quarante-quatre heures.",
+      "replaces": [
+        "L3122-6",
+        "L3122-7",
+        "L3122-17",
+        "L3122-18",
+        "L3122-24",
+        "R3122-1",
+        "R3122-2",
+        "R3122-3",
+        "R3122-4",
+        "R3122-5",
+        "R3122-6",
+        "R3122-7",
+        "R3122-8"
+      ],
+      "note": ""
+    },
+    {
+      "n": 26,
+      "row": "nuit",
+      "title": "Contreparties du travail de nuit",
+      "text": "1. Le travailleur de nuit bénéficie, pour les périodes de travail de nuit pendant lesquelles il est employé, d'une contrepartie en repos compensateur et, le cas échéant, d'une compensation salariale.\n2. Pour les activités de presse, de radio, de télévision, de cinéma, de spectacle vivant et de discothèque, lorsque la durée effective de travail de nuit est inférieure à la durée légale, cette contrepartie n'est pas obligatoirement donnée en repos.",
+      "replaces": [
+        "L3122-8",
+        "L3122-9"
+      ],
+      "note": ""
+    },
+    {
+      "n": 27,
+      "row": "nuit",
+      "title": "Priorité de poste et protection familiale",
+      "text": "1. Le refus du travail de nuit pour cause d'obligations familiales impérieuses, notamment la garde d'un enfant ou la prise en charge d'une personne dépendante, n'est ni une faute ni un motif de licenciement ; le salarié peut alors demander un poste de jour.\n2. Le travailleur de nuit qui souhaite occuper un poste de jour, et le salarié de jour qui souhaite occuper un poste de nuit, ont priorité pour un emploi de leur catégorie ou équivalent dans le même établissement ou la même entreprise ; l'employeur leur communique la liste des emplois disponibles.",
+      "replaces": [
+        "L3122-12",
+        "L3122-13"
+      ],
+      "note": ""
+    },
+    {
+      "n": 28,
+      "row": "nuit",
+      "title": "Suivi médical et inaptitude",
+      "text": "1. Tout travailleur de nuit bénéficie d'un suivi individuel régulier de son état de santé, destiné à apprécier les conséquences du travail de nuit, notamment sur les rythmes biologiques et la vie sociale.\n2. Le médecin du travail est informé des absences pour maladie des travailleurs de nuit, analyse les conditions de travail liées à l'alternance des postes, conseille l'employeur sur l'organisation du travail de nuit et informe les travailleurs, en particulier les femmes enceintes et les travailleurs vieillissants, des risques pour leur santé.\n3. Le travailleur de nuit déclaré inapte à ce poste par le médecin du travail est transféré, à titre temporaire ou définitif, sur un poste de jour correspondant à sa qualification ; l'employeur ne peut rompre son contrat que s'il justifie par écrit de l'impossibilité de proposer un tel poste ou du refus du salarié de l'accepter.",
+      "replaces": [
+        "L3122-10",
+        "L3122-11",
+        "L3122-14",
+        "R3122-11",
+        "R3122-12",
+        "R3122-13",
+        "R3122-14",
+        "R3122-15"
+      ],
+      "note": ""
+    },
+    {
+      "n": 29,
+      "row": "partiel",
+      "title": "Définition et contrat de travail à temps partiel",
+      "text": "1. Est un salarié à temps partiel celui dont la durée de travail est inférieure à la durée légale ou, si elle est inférieure, à la durée conventionnelle de la branche ou de l'entreprise, appréciée sur la semaine, le mois ou l'année.\n2. Le contrat de travail à temps partiel est écrit ; il mentionne la qualification, la rémunération, la durée du travail et sa répartition, les cas de modification de cette répartition, les modalités de communication des horaires et les limites des heures complémentaires.",
+      "replaces": [
+        "L3123-1",
+        "L3123-6"
+      ],
+      "note": ""
+    },
+    {
+      "n": 30,
+      "row": "partiel",
+      "title": "Durée minimale de travail",
+      "text": "1. Le salarié à temps partiel bénéficie d'une durée minimale de travail hebdomadaire.\n2. Un accord de branche étendu fixe cette durée minimale ; s'il la fixe en deçà de vingt-quatre heures, il prévoit des garanties d'horaires réguliers ou permettant de cumuler plusieurs activités.\n3. À défaut d'accord, cette durée minimale est de vingt-quatre heures par semaine, ou son équivalent mensuel.\n4. Une durée inférieure peut être fixée à la demande écrite et motivée du salarié, pour lui permettre de faire face à des contraintes personnelles ou de cumuler des activités ; elle est fixée de droit, à sa demande, pour le salarié de moins de vingt-six ans poursuivant ses études, compatible avec celles-ci.",
+      "replaces": [
+        "L3123-7",
+        "L3123-19",
+        "L3123-27"
+      ],
+      "note": ""
+    },
+    {
+      "n": 31,
+      "row": "partiel",
+      "title": "Heures complémentaires",
+      "text": "1. Les heures complémentaires accomplies au-delà de la durée prévue au contrat donnent lieu à une majoration de salaire ; elles ne peuvent porter la durée de travail au niveau de la durée légale ou conventionnelle.\n2. Le refus d'accomplir des heures complémentaires au-delà des limites du contrat, ou en deçà si le salarié en est informé moins de trois jours à l'avance, n'est ni une faute ni un motif de licenciement.\n3. Un accord de branche étendu peut porter la limite des heures complémentaires jusqu'au tiers de la durée contractuelle, fixer leur taux de majoration, qui ne peut être inférieur à 10 %, et permettre, par avenant au contrat, d'augmenter temporairement cette durée, dans la limite de huit avenants par an et par salarié.\n4. À défaut d'accord, les heures complémentaires ne peuvent dépasser un dixième de la durée contractuelle, majoré de 10 % ; entre ce dixième et le tiers de la durée contractuelle, la majoration est de 25 % ; au-delà de la durée fixée par un avenant, la majoration est d'au moins 25 %.",
+      "replaces": [
+        "L3123-8",
+        "L3123-9",
+        "L3123-10",
+        "L3123-20",
+        "L3123-21",
+        "L3123-22",
+        "L3123-28",
+        "L3123-29"
+      ],
+      "note": ""
+    },
+    {
+      "n": 32,
+      "row": "partiel",
+      "title": "Répartition et modification de la durée du travail",
+      "text": "1. Toute modification de la répartition de la durée du travail est notifiée au salarié dans un délai de prévenance.\n2. Le refus du salarié d'accepter une modification non prévue par le contrat n'est ni une faute ni un motif de licenciement ; il en va de même pour une modification prévue au contrat, si elle est incompatible avec des obligations familiales impérieuses, un enseignement suivi, une autre activité professionnelle.\n3. Un accord collectif fixe les règles de répartition des horaires dans la journée et le délai de prévenance des modifications, qui ne peut être inférieur à trois jours ouvrés ; il prévoit une contrepartie lorsque ce délai est inférieur à sept jours.\n4. À défaut d'accord, l'horaire ne peut comporter qu'une seule interruption d'activité par jour, d'au plus deux heures, et toute modification de répartition est notifiée au moins sept jours ouvrés à l'avance.\n5. Si, sur douze semaines, l'horaire moyen réellement accompli dépasse de deux heures ou plus par semaine l'horaire contractuel, celui-ci est modifié en conséquence, sous réserve d'un préavis de sept jours, sauf opposition du salarié.",
+      "replaces": [
+        "L3123-11",
+        "L3123-12",
+        "L3123-13",
+        "L3123-23",
+        "L3123-24",
+        "L3123-25",
+        "L3123-30",
+        "L3123-31"
+      ],
+      "note": ""
+    },
+    {
+      "n": 33,
+      "row": "partiel",
+      "title": "Passage à temps partiel ou à temps complet",
+      "text": "1. Le salarié à temps partiel qui souhaite reprendre un temps complet, et le salarié à temps complet qui souhaite passer à temps partiel, ont priorité pour un emploi de leur catégorie ou équivalent ; l'employeur leur communique la liste des emplois disponibles.\n2. Le refus d'un salarié de travailler à temps partiel, ou de réduire temporairement sa durée de travail d'au moins une semaine pour des raisons personnelles, dans la limite de la durée légale annuelle, n'est ni une faute ni un motif de licenciement ; pendant les périodes travaillées, il reprend l'horaire collectif.\n3. Le salarié qui souhaite travailler à temps partiel pour bénéficier d'une retraite progressive adresse sa demande par écrit ; à défaut de réponse motivée dans les deux mois, l'accord de l'employeur est réputé acquis.\n4. Un accord collectif peut organiser la mise en place du temps partiel, à l'initiative de l'employeur ou des salariés, et fixer la procédure de demande et de réponse ; à défaut, l'employeur peut y recourir après avis du comité social et économique, et le salarié peut demander un poste à temps partiel, que l'employeur ne peut refuser que faute d'emploi disponible ou en cas de conséquences préjudiciables à l'entreprise.",
+      "replaces": [
+        "L3123-2",
+        "L3123-3",
+        "L3123-4",
+        "L3123-17",
+        "L3123-18",
+        "L3123-26",
+        "L3123-4-1",
+        "D3123-1-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 34,
+      "row": "partiel",
+      "title": "Égalité de traitement",
+      "text": "1. Le salarié à temps partiel bénéficie des mêmes droits que le salarié à temps complet ; sa rémunération est proportionnelle à celle d'un salarié à temps complet de qualification et d'ancienneté équivalentes.\n2. Sa période d'essai ne peut être plus longue, en durée calendaire, que celle d'un salarié à temps complet ; son ancienneté est décomptée comme s'il avait travaillé à temps complet.\n3. Ses indemnités de licenciement et de départ à la retraite sont calculées au prorata de ses périodes de travail à temps partiel et à temps complet.",
+      "replaces": [
+        "L3123-5"
+      ],
+      "note": ""
+    },
+    {
+      "n": 35,
+      "row": "partiel",
+      "title": "Exercice d'un mandat et information des représentants du personnel",
+      "text": "1. Le temps de travail mensuel d'un salarié à temps partiel ne peut être réduit de plus d'un tiers par l'utilisation du crédit d'heures lié à l'exercice de ses mandats ; le solde peut être utilisé en dehors de ses heures de travail.\n2. L'employeur communique chaque année au comité social et économique et aux délégués syndicaux un bilan du travail à temps partiel dans l'entreprise, comprenant le nombre et les horaires des salariés concernés, les heures complémentaires accomplies, et les raisons des refus de passage à temps partiel ou à temps complet.",
+      "replaces": [
+        "L3123-14",
+        "L3123-15",
+        "L3123-16",
+        "R3123-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 36,
+      "row": "partiel",
+      "title": "Mise en œuvre et application",
+      "text": "1. Des décrets déterminent les modalités d'application de ce chapitre pour l'ensemble des professions ou pour certaines d'entre elles ; si le temps partiel y provoque un déséquilibre grave et durable de l'emploi, ils peuvent en limiter le recours.\n2. La demande de bénéficier d'un horaire à temps partiel, ou de travailler à temps partiel dans le cadre d'une retraite progressive, est adressée à l'employeur par lettre recommandée avec avis de réception, au moins six mois avant la date envisagée pour la première et deux mois pour la seconde ; l'employeur y répond de même façon, dans les trois mois pour la première et les deux mois pour la seconde.",
+      "replaces": [
+        "L3123-32",
+        "D3123-2",
+        "D3123-3"
+      ],
+      "note": ""
+    },
+    {
+      "n": 37,
+      "row": "partiel",
+      "title": "Travail intermittent : principe et contrat",
+      "text": "1. Un accord collectif peut prévoir le recours à des contrats de travail intermittent, pour pourvoir un emploi permanent comportant par nature une alternance de périodes travaillées et non travaillées.\n2. Ce contrat, à durée indéterminée, est écrit et mentionne la qualification du salarié, sa rémunération, la durée annuelle minimale de travail, les périodes de travail et la répartition des heures à l'intérieur de ces périodes.\n3. Les heures dépassant cette durée annuelle minimale ne peuvent excéder le tiers de celle-ci, sauf accord du salarié.",
+      "replaces": [
+        "L3123-33",
+        "L3123-34",
+        "L3123-35"
+      ],
+      "note": ""
+    },
+    {
+      "n": 38,
+      "row": "partiel",
+      "title": "Travail intermittent : droits du salarié et mise en place",
+      "text": "1. Le salarié en contrat de travail intermittent bénéficie des droits reconnus aux salariés à temps complet ; son ancienneté est décomptée en tenant compte de la totalité des périodes non travaillées.\n2. Les entreprises adaptées peuvent conclure un tel contrat avec un travailleur handicapé même sans accord collectif le prévoyant.\n3. L'accord collectif qui met en place le travail intermittent définit les emplois permanents concernés et peut prévoir une rémunération mensuelle indépendante de l'horaire réel ; dans les secteurs, définis par décret, où l'activité ne permet pas de fixer précisément les périodes de travail, il détermine les adaptations nécessaires, notamment les conditions dans lesquelles le salarié peut refuser les dates et horaires proposés.",
+      "replaces": [
+        "L3123-36",
+        "L3123-37",
+        "L3123-38",
+        "D3123-4"
+      ],
+      "note": ""
+    },
+    {
+      "n": 39,
+      "row": "repos",
+      "title": "Repos quotidien de onze heures",
+      "text": "1. Tout salarié bénéficie d'un repos quotidien d'au moins onze heures consécutives.\n2. Un accord collectif peut déroger à cette durée minimale, notamment pour les activités qui exigent une continuité du service ou comportent des périodes d'intervention fractionnées.\n3. À défaut d'accord, il peut y être dérogé, dans des conditions fixées par décret, en cas de surcroît exceptionnel d'activité ou d'urgence.",
+      "replaces": [
+        "L3131-1",
+        "L3131-2",
+        "L3131-3"
+      ],
+      "note": ""
+    },
+    {
+      "n": 40,
+      "row": "repos",
+      "title": "Dérogations au repos quotidien",
+      "text": "1. La dérogation au repos quotidien peut concerner les activités caractérisées par l'éloignement entre le domicile et le lieu de travail, les activités de garde et de surveillance, celles qui exigent une continuité du service, notamment le travail en équipes successives, les activités de manutention liées aux transports, et celles qui s'exercent par périodes fractionnées dans la journée.\n2. Un accord collectif ne peut réduire le repos quotidien en deçà de neuf heures ; en cas de surcroît d'activité, il peut prévoir une réduction dans cette limite.\n3. À défaut d'accord, une réduction pour surcroît d'activité peut être mise en œuvre selon la même procédure que pour la durée quotidienne maximale de travail.\n4. L'employeur peut, sous sa responsabilité et en informant l'inspecteur du travail, déroger au repos quotidien en cas de travaux urgents de sauvetage, de prévention d'accidents imminents ou de réparation d'accidents survenus au matériel, aux installations ou aux bâtiments.",
+      "replaces": [
+        "D3131-1",
+        "D3131-4",
+        "D3131-5",
+        "D3131-6",
+        "D3131-7"
+      ],
+      "note": ""
+    },
+    {
+      "n": 41,
+      "row": "repos",
+      "title": "Modalités du repos quotidien",
+      "text": "1. Toute dérogation au repos quotidien est compensée par une période au moins équivalente de repos ; si cela n'est pas possible, une contrepartie équivalente est prévue par accord collectif.\n2. Pour les salariés sans horaire collectif, l'employeur peut fixer une période quotidienne correspondant au moins à la durée du repos, affichée dans l'entreprise ; à défaut, le respect du repos quotidien doit pouvoir être démontré par tout moyen.",
+      "replaces": [
+        "D3131-2",
+        "D3131-3"
+      ],
+      "note": ""
+    },
+    {
+      "n": 42,
+      "row": "dimanche",
+      "title": "Principe du repos hebdomadaire",
+      "text": "1. Il est interdit de faire travailler un même salarié plus de six jours par semaine.\n2. Le repos hebdomadaire a une durée minimale de vingt-quatre heures consécutives, auxquelles s'ajoutent les heures de repos quotidien.\n3. Dans l'intérêt des salariés, ce repos est donné le dimanche.\n4. Le refus d'un demandeur d'emploi d'accepter une offre impliquant de travailler le dimanche ne peut motiver sa radiation de la liste des demandeurs d'emploi.",
+      "replaces": [
+        "L3132-1",
+        "L3132-2",
+        "L3132-3",
+        "L3132-3-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 43,
+      "row": "dimanche",
+      "title": "Dérogations permanentes liées à l'activité",
+      "text": "1. Le repos hebdomadaire peut être suspendu pour des travaux urgents de sauvetage, de prévention d'accidents imminents ou de réparation d'accidents survenus au matériel, aux installations ou aux bâtiments, avec un repos compensateur équivalent.\n2. Un décret fixe la liste des activités où ce repos peut aussi être suspendu ou différé : industries traitant des matières périssables ou soumises à un surcroît extraordinaire de travail, dans la limite de deux suspensions par mois et six par an ; activités saisonnières, sous réserve d'au moins deux jours de repos par mois ; ports ; établissements liés à la défense nationale ; nettoyage et maintenance indispensables à la reprise de l'activité, avec repos compensateur ; gardiens et concierges, sauf s'ils ont moins de dix-huit ans.\n3. Dans les établissements fonctionnant en continu, un décret fixe les travaux pouvant différer ce repos, à condition que chaque salarié bénéficie d'un nombre de repos de vingt-quatre heures au moins égal au nombre de semaines travaillées, avec le dimanche aussi souvent que possible.\n4. Dans le commerce de détail alimentaire, le repos peut être donné le dimanche à partir de treize heures, avec un repos compensateur ; au-delà d'un seuil de surface fixé par décret, les salariés privés de repos dominical perçoivent une rémunération majorée d'au moins 30 %.",
+      "replaces": [
+        "L3132-4",
+        "L3132-5",
+        "L3132-6",
+        "L3132-7",
+        "L3132-8",
+        "L3132-9",
+        "L3132-10",
+        "L3132-11",
+        "L3132-12",
+        "L3132-13",
+        "R3132-8"
+      ],
+      "note": ""
+    },
+    {
+      "n": 44,
+      "row": "dimanche",
+      "title": "Travail en continu et équipes de suppléance",
+      "text": "1. Dans les entreprises industrielles, un accord collectif peut organiser le travail de façon continue, pour des raisons économiques, et attribuer le repos hebdomadaire par roulement ; à défaut d'accord, l'inspecteur du travail peut l'autoriser si cela améliore l'utilisation des équipements et maintient ou développe l'emploi. La durée du travail en équipes successives selon un cycle continu ne peut dépasser en moyenne trente-cinq heures par semaine travaillée sur l'année.\n2. Un accord collectif peut aussi organiser une équipe de suppléance, chargée de remplacer l'autre pendant ses jours de repos, dont le repos hebdomadaire est donné un autre jour que le dimanche ; il prévoit la formation de ces salariés et leur droit d'occuper un autre emploi. À défaut d'accord, l'inspecteur du travail peut autoriser ce recours dans les mêmes conditions.\n3. La rémunération de l'équipe de suppléance est majorée d'au moins 50 %, sauf remplacement de salariés en congé ; sa durée quotidienne de travail peut atteindre douze heures pour un recours d'au plus quarante-huit heures, et dix heures au-delà sur autorisation de l'inspecteur du travail.\n4. La demande d'autorisation est motivée et accompagnée de l'avis des délégués syndicaux et du comité social et économique ; l'inspecteur du travail répond dans les trente jours.",
+      "replaces": [
+        "L3132-14",
+        "L3132-15",
+        "L3132-16",
+        "L3132-17",
+        "L3132-18",
+        "L3132-19",
+        "R3132-9",
+        "R3132-10",
+        "R3132-11",
+        "R3132-12",
+        "R3132-13"
+      ],
+      "note": ""
+    },
+    {
+      "n": 45,
+      "row": "dimanche",
+      "title": "Autorisations données par le préfet",
+      "text": "1. Lorsque le repos simultané de tous les salariés le dimanche serait préjudiciable au public ou au fonctionnement de l'établissement, le préfet peut autoriser un autre jour de repos, un report du dimanche midi au lundi midi, un repos l'après-midi compensé par une journée par quinzaine, ou un roulement, pour une durée maximale de trois ans, après avis du conseil municipal et des organisations professionnelles concernées.\n2. Cette autorisation ne s'applique pas aux clercs et employés des offices ministériels.\n3. Elle peut être étendue aux établissements de la même localité exerçant la même activité auprès de la même clientèle ; cette extension est retirée si la majorité des établissements concernés le demande.",
+      "replaces": [
+        "L3132-20",
+        "L3132-21",
+        "L3132-22",
+        "L3132-23",
+        "R3132-16",
+        "R3132-17"
+      ],
+      "note": ""
+    },
+    {
+      "n": 46,
+      "row": "dimanche",
+      "title": "Dérogations géographiques : zones touristiques et commerciales",
+      "text": "1. Les commerces situés dans des zones touristiques internationales, des zones touristiques ou des zones commerciales caractérisées par une affluence ou une offre particulièrement importantes peuvent donner le repos hebdomadaire par roulement.\n2. Ces zones sont délimitées par l'autorité administrative, sur demande motivée du maire ou de l'intercommunalité, après avis des communes, des organisations professionnelles et syndicales concernées et, selon le cas, des instances du tourisme ou du commerce, en tenant compte notamment du rayonnement international, de l'affluence touristique, de la desserte en transports, de la surface commerciale ou du nombre de clients.\n3. Un arrêté peut de même autoriser les commerces situés dans une gare à forte affluence à donner le repos par roulement.\n4. Le commerce de détail alimentaire reste soumis au régime du repos à partir de treize heures dans ces zones et ces gares.",
+      "replaces": [
+        "L3132-24",
+        "L3132-25",
+        "L3132-25-1",
+        "L3132-25-2",
+        "L3132-25-5",
+        "L3132-25-6",
+        "R3132-19",
+        "R3132-20",
+        "R3132-20-1",
+        "R3132-21-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 47,
+      "row": "dimanche",
+      "title": "Contreparties et volontariat pour le travail dominical",
+      "text": "1. Dans les établissements bénéficiant d'une dérogation géographique ou préfectorale au repos dominical, seuls les salariés volontaires ayant donné leur accord écrit peuvent travailler le dimanche ; ce choix ne peut être un motif de refus d'embauche, de discrimination ou de licenciement, et peut être révoqué à tout moment, avec effet trois mois après sa notification.\n2. Un accord collectif ou territorial fixe les contreparties, notamment salariales, accordées à ces salariés, les engagements pris en matière d'emploi, les mesures facilitant la garde des enfants et la conciliation entre vie professionnelle et vie personnelle.\n3. À défaut d'accord, ces contreparties sont fixées par l'employeur après consultation du personnel et approbation de la majorité ; le salarié bénéficie alors d'un repos compensateur et d'une rémunération au moins double, et conserve la faculté de refuser de travailler trois dimanches de son choix par an, sous réserve d'un mois de préavis.\n4. L'employeur prend les mesures nécessaires pour permettre à ces salariés de voter lorsqu'un scrutin a lieu un dimanche.",
+      "replaces": [
+        "L3132-25-3",
+        "L3132-25-4"
+      ],
+      "note": ""
+    },
+    {
+      "n": 48,
+      "row": "dimanche",
+      "title": "Dérogations accordées par le maire",
+      "text": "1. Le maire peut, après avis du conseil municipal, désigner jusqu'à douze dimanches par an où le repos hebdomadaire des commerces de détail peut être supprimé ; la liste en est arrêtée avant le 31 décembre pour l'année suivante.\n2. Au-delà de cinq dimanches, cette décision requiert l'avis conforme de l'intercommunalité.\n3. Chaque salarié privé de repos dominical à ce titre perçoit une rémunération au moins double et un repos compensateur équivalent, accordé collectivement ou par roulement dans la quinzaine ; si le dimanche supprimé précède une fête légale, le repos est donné ce jour-là.\n4. Les mêmes règles de volontariat que pour les autres dérogations au repos dominical s'appliquent à ces salariés.",
+      "replaces": [
+        "L3132-26",
+        "L3132-26-1",
+        "L3132-27",
+        "L3132-27-1",
+        "R3132-21"
+      ],
+      "note": ""
+    },
+    {
+      "n": 49,
+      "row": "dimanche",
+      "title": "Concertation locale et décisions de fermeture",
+      "text": "1. Le représentant de l'État réunit chaque année, dans le périmètre de chaque schéma de cohérence territoriale, les élus locaux et les organisations professionnelles et syndicales du commerce, pour une concertation sur les pratiques d'ouverture dominicale et leurs effets sur l'équilibre commercial du territoire.\n2. Lorsqu'un accord est intervenu entre organisations syndicales et patronales d'une profession et d'une zone géographique sur les conditions du repos hebdomadaire, le préfet peut, à leur demande, ordonner la fermeture au public des établissements concernés pendant ce repos ; il peut abroger cette décision à la demande de la majorité de la profession, avec un délai minimal de trois mois.\n3. Cette fermeture ne s'applique pas aux stands des foires et salons figurant sur une liste fixée par arrêté, dont les exposants peuvent organiser le repos hebdomadaire par roulement.",
+      "replaces": [
+        "L3132-27-2",
+        "L3132-29",
+        "L3132-30",
+        "R3132-22",
+        "R3132-23"
+      ],
+      "note": ""
+    },
+    {
+      "n": 50,
+      "row": "dimanche",
+      "title": "Procédure de référé de l'inspecteur du travail",
+      "text": "1. En cas d'emploi illicite de salariés en méconnaissance des règles sur le repos dominical, l'inspecteur du travail peut, indépendamment des poursuites pénales, saisir le juge judiciaire en référé pour faire cesser cette situation.\n2. Le juge peut notamment ordonner la fermeture du ou des établissements concernés le dimanche, sous astreinte au profit du Trésor.",
+      "replaces": [
+        "L3132-31"
+      ],
+      "note": ""
+    },
+    {
+      "n": 51,
+      "row": "dimanche",
+      "title": "Décret d'application",
+      "text": "1. Un décret en Conseil d'État précise les modalités d'application des dérogations au repos hebdomadaire prévues par ce chapitre, notamment les catégories d'activités concernées et les procédures d'autorisation.\n2. Le président du tribunal judiciaire est le juge compétent pour les procédures de référé prévues par ce chapitre.",
+      "replaces": [
+        "L3132-28",
+        "D3132-24"
+      ],
+      "note": ""
+    },
+    {
+      "n": 52,
+      "row": "feries",
+      "title": "Liste des jours fériés",
+      "text": "1. Sont des jours fériés : le 1er janvier, le lundi de Pâques, le 1er mai, le 8 mai, l'Ascension, le lundi de Pentecôte, le 14 juillet, l'Assomption, la Toussaint, le 11 novembre et le jour de Noël.\n2. Les heures de travail perdues du fait du chômage d'un jour férié ne donnent lieu à aucune récupération.",
+      "replaces": [
+        "L3133-1",
+        "L3133-2"
+      ],
+      "note": ""
+    },
+    {
+      "n": 53,
+      "row": "feries",
+      "title": "Jours fériés chômés",
+      "text": "1. Le chômage d'un jour férié ne peut entraîner de perte de salaire pour le salarié ayant au moins trois mois d'ancienneté dans l'entreprise, y compris pour le salarié saisonnier qui atteint cette ancienneté par des contrats successifs ; cette garantie ne s'applique ni au travail à domicile, ni au travail intermittent ou temporaire.\n2. Un accord collectif définit les jours fériés chômés dans l'entreprise ; à défaut, l'employeur les fixe.",
+      "replaces": [
+        "L3133-3",
+        "L3133-3-1",
+        "L3133-3-2"
+      ],
+      "note": ""
+    },
+    {
+      "n": 54,
+      "row": "feries",
+      "title": "Le 1er mai",
+      "text": "1. Le 1er mai est un jour férié et chômé.\n2. Son chômage ne peut entraîner de réduction de salaire ; les salariés payés à l'heure, à la journée ou au rendement reçoivent une indemnité égale au salaire perdu.\n3. Dans les établissements qui ne peuvent interrompre le travail, les salariés qui travaillent le 1er mai reçoivent, en plus de leur salaire, une indemnité d'un même montant, calculée sur la base de leur horaire habituel.",
+      "replaces": [
+        "L3133-4",
+        "L3133-5",
+        "L3133-6",
+        "D3133-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 55,
+      "row": "feries",
+      "title": "Journée de solidarité",
+      "text": "1. La journée de solidarité finance des actions en faveur de l'autonomie des personnes âgées ou handicapées ; elle prend la forme d'un jour de travail supplémentaire non rémunéré pour le salarié, et d'une contribution de l'employeur.\n2. Ce jour de travail, dans la limite de sept heures, ou de la durée proportionnelle pour un salarié à temps partiel, ne donne pas lieu à rémunération ni à contrepartie, et ne s'impute ni sur le contingent d'heures supplémentaires ni sur les heures complémentaires.\n3. Un accord collectif fixe les modalités d'accomplissement de cette journée, notamment le jour férié précédemment chômé ou le jour de repos qu'elle remplace ; à défaut, l'employeur les fixe après consultation du comité social et économique.\n4. Le salarié qui a déjà accompli une journée de solidarité dans l'année, et qui en doit une nouvelle en raison d'un changement d'employeur, est rémunéré pour ce jour et peut refuser de le travailler sans que ce refus soit une faute ou un motif de licenciement.",
+      "replaces": [
+        "L3133-7",
+        "L3133-8",
+        "L3133-9",
+        "L3133-10",
+        "L3133-11",
+        "L3133-12"
+      ],
+      "note": ""
+    },
+    {
+      "n": 56,
+      "row": "alsace",
+      "title": "Champ d'application du droit local",
+      "text": "1. Les départements de la Moselle, du Bas-Rhin et du Haut-Rhin conservent leur régime local propre au repos dominical et aux jours fériés, hérité du droit applicable avant 1918.\n2. Ce régime ne s'applique pas aux professions agricoles et de la pêche, aux chemins de fer, aux bacs publics, à l'enseignement, aux professions libérales, à l'assurance, à l'emploi à domicile par un particulier, aux professions artistiques, médicales et paramédicales, ni à la vente de médicaments.",
+      "replaces": [
+        "L3134-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 57,
+      "row": "alsace",
+      "title": "Interdiction de principe et durée du repos",
+      "text": "1. L'emploi de salariés dans les entreprises industrielles, commerciales ou artisanales est interdit les dimanches et jours fériés, sauf dérogation prévue par ce régime local.\n2. Dans les mines, salines, carrières, l'industrie, le bâtiment et les chantiers navals, ce repos est de vingt-quatre heures pour un dimanche ou un jour férié isolé, de trente-six heures pour un dimanche et un jour férié consécutifs, et de quarante-huit heures pour Noël, Pâques et la Pentecôte.",
+      "replaces": [
+        "L3134-2",
+        "L3134-3"
+      ],
+      "note": ""
+    },
+    {
+      "n": 58,
+      "row": "alsace",
+      "title": "Régime propre des commerces",
+      "text": "1. Dans le commerce, les salariés ne peuvent être employés le premier jour de Noël, de Pâques ou de la Pentecôte ; les autres dimanches et jours fériés, leur travail ne peut dépasser cinq heures, sauf réduction ou interdiction complémentaire décidée localement, ou extension jusqu'à dix heures pendant les quatre semaines avant Noël ou pour des besoins ponctuels.\n2. Ces règles ne s'appliquent ni à la restauration, à l'hôtellerie et aux débits de boissons, ni aux spectacles, expositions et transports, où seuls les travaux qui ne peuvent être ni ajournés ni interrompus restent autorisés ces jours-là.\n3. Lorsque l'emploi de salariés y est interdit, toute exploitation industrielle, commerciale ou artisanale dans les lieux de vente au public l'est également.",
+      "replaces": [
+        "L3134-4",
+        "L3134-10",
+        "L3134-11"
+      ],
+      "note": ""
+    },
+    {
+      "n": 59,
+      "row": "alsace",
+      "title": "Jours fériés locaux et journée de solidarité",
+      "text": "1. S'ajoutent à la liste nationale des jours fériés le Vendredi saint, dans les communes ayant un temple protestant ou une église mixte, et le second jour de Noël ; dans le département de la Moselle, l'autorité administrative peut étendre ou retirer l'ouverture des commerces le Vendredi saint de façon uniforme.\n2. La journée de solidarité ne peut être fixée ni un jour de Noël ni, sauf extension prévue au premier alinéa, le Vendredi saint.",
+      "replaces": [
+        "L3134-13",
+        "L3134-14",
+        "L3134-16"
+      ],
+      "note": ""
+    }
+  ],
+  "removed": [
+    {
+      "nums": "R3132-1, R3132-5",
+      "reason": "Tableaux détaillés des industries et établissements bénéficiant de plein droit d'une dérogation au repos dominical (matières périssables, surcroît extraordinaire, établissements ouverts de droit) : ces listes deviennent un décret unique auquel renvoient les nouveaux articles sur les dérogations permanentes."
+    },
+    {
+      "nums": "R3132-2, R3132-3, R3132-4",
+      "reason": "Listes des activités portuaires et saisonnières bénéficiant d'une dérogation au repos hebdomadaire : même logique, absorbées par le décret unique de renvoi."
+    },
+    {
+      "nums": "R3132-6, R3132-7",
+      "reason": "Précisions sur le champ d'application du tableau de l'article R. 3132-5 : deviennent sans objet avec la suppression de ce tableau."
+    },
+    {
+      "nums": "R3132-14, R3132-15",
+      "reason": "Recours hiérarchique contre les décisions de l'inspecteur du travail en matière de travail continu et d'équipes de suppléance : voie de recours administratif de droit commun, non reprise spécifiquement dans le code allégé."
+    },
+    {
+      "nums": "L3134-5, L3134-6, L3134-7, L3134-8, L3134-9, L3134-12",
+      "reason": "Dérogations et procédures d'autorisation locales détaillées (travaux indispensables, activités saisonnières, dérogations temporaires imprévisibles, extension à une commune) : le régime unique de dérogation applicable au reste du pays (question 5) est étendu par renvoi ; ces procédures parallèles ne sont plus nécessaires."
+    },
+    {
+      "nums": "L3134-15",
+      "reason": "Procédure de référé propre au droit local pour l'emploi illicite dans le commerce : déjà couverte par la procédure de référé générale du régime unique (question 5)."
+    },
+    {
+      "nums": "R3134-1, R3134-2, R3134-3, R3134-4, D3134-5",
+      "reason": "Registre des salariés employés le dimanche et les jours fériés, désignation de l'autorité administrative compétente et du juge du référé : dispositions d'application devenues sans objet avec la suppression des procédures locales parallèles, ou reprises par renvoi au régime général."
+    }
+  ],
+  "counts": {
+    "articles": 59,
+    "replaces_total": 280,
+    "removed_total": 21,
+    "current_total": 301
+  }
+}

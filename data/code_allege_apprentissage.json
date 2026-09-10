@@ -1,0 +1,284 @@
+{
+  "topic": "apprentissage",
+  "title": "L’apprentissage",
+  "status": "brouillon — à relire par des juristes",
+  "generated_at": "2026-09-10",
+  "articles": [
+    {
+      "n": 1,
+      "row": "contrat",
+      "title": "Objet de l’apprentissage et rôle des acteurs",
+      "text": "1. L’apprentissage forme, par l’alternance entre l’entreprise et un centre de formation, des jeunes et des adultes en vue d’une qualification professionnelle reconnue par un diplôme ou un titre. La formation est gratuite pour l’apprenti.\n2. Le contrat d’apprentissage est un contrat de travail particulier : l’employeur y assure une formation professionnelle complète et verse un salaire ; l’apprenti travaille pour cet employeur et suit cette formation.\n3. Aucune contrepartie financière ne peut être exigée de l’apprenti, de son représentant légal ou de l’employeur au titre de la conclusion, du dépôt ou de la rupture du contrat.\n4. Les régions peuvent contribuer au financement des centres de formation d’apprentis ; les chambres consulaires accompagnent les entreprises, participent à la formation des maîtres d’apprentissage et assurent la médiation prévue par la loi.\n5. Un décret précise les conditions dans lesquelles la formation peut être dispensée à distance.",
+      "replaces": ["L6211-1", "L6211-2", "L6211-3", "L6211-4", "D6211-2", "D6211-3", "R6211-4", "R6211-5", "R6211-6", "L6221-1", "L6221-2"],
+      "note": ""
+    },
+    {
+      "n": 2,
+      "row": "contrat",
+      "title": "Âge de l’apprenti",
+      "text": "1. Nul ne peut être engagé comme apprenti avant seize ans, sauf s’il a accompli le premier cycle du secondaire et a au moins quinze ans.\n2. La limite d’âge supérieure est fixée à vingt-neuf ans révolus. Elle ne s’applique pas en cas de contrat préparant un diplôme supérieur au précédent, de rupture pour une cause indépendante de la volonté de l’apprenti, de reconnaissance de travailleur handicapé, de projet de reprise ou de création d’entreprise conditionné au diplôme, ou pour un sportif de haut niveau.\n3. Un décret précise les conditions de ces dérogations, notamment le délai dans lequel un nouveau contrat doit être conclu.",
+      "replaces": ["L6222-1", "L6222-2", "L6222-3", "D6222-1", "R6222-1-1", "D6222-1-2"],
+      "note": ""
+    },
+    {
+      "n": 3,
+      "row": "contrat",
+      "title": "Forme et contenu du contrat",
+      "text": "1. Le contrat d’apprentissage est écrit et signé par les deux parties avant l’emploi de l’apprenti ; il mentionne l’employeur, l’effectif de l’entreprise, le diplôme préparé, le maître d’apprentissage et son attestation de compétence.\n2. Lorsque l’apprenti mineur est employé par un ascendant, une déclaration remplace le contrat et produit les mêmes effets ; une partie du salaire est versée sur un compte ouvert au nom de l’apprenti.\n3. Pour les activités saisonnières, deux employeurs peuvent conclure conjointement un contrat en vue de deux qualifications ; une convention tripartite répartit l’apprenti entre les deux entreprises et désigne celle qui verse le salaire pendant les périodes de formation. Chaque entreprise nomme un maître d’apprentissage.\n4. Un décret précise les autres mentions du contrat et les modalités de ces conventions.",
+      "replaces": ["L6222-4", "L6222-5", "L6222-5-1", "L6222-6", "R6222-2", "R6222-3", "R6222-4", "R6224-8"],
+      "note": ""
+    },
+    {
+      "n": 4,
+      "row": "contrat",
+      "title": "Durée du contrat",
+      "text": "1. Le contrat d’apprentissage est conclu pour une durée limitée ou pour une durée indéterminée, auquel cas il débute par une période d’apprentissage régie par le présent titre.\n2. Cette durée est comprise entre six mois et trois ans ; elle correspond en principe à celle du cycle de formation visé, sous réserve d’un aménagement, fixé par convention, tenant compte du niveau initial ou des compétences déjà acquises de l’apprenti.\n3. La formation pratique en entreprise et la formation en centre commencent au plus tard trois mois après le début du contrat.\n4. En cas d’échec à l’examen, la durée peut être prolongée d’un an au plus, par avenant ou par un nouveau contrat avec un autre employeur.\n5. Un contrat à durée indéterminée déjà en cours peut être suspendu, d’un commun accord, pendant la durée d’un contrat d’apprentissage conclu avec le même employeur.\n6. Un décret précise les autres modalités d’application du présent article.",
+      "replaces": ["L6222-7", "L6222-7-1", "L6222-11", "L6222-12", "L6222-12-1", "L6222-13", "L6222-14", "R6222-6", "R6222-7", "R6222-8", "R6222-9", "R6222-10"],
+      "note": ""
+    },
+    {
+      "n": 5,
+      "row": "contrat",
+      "title": "Contrats successifs et poursuite en contrat à durée indéterminée",
+      "text": "1. Un apprenti peut souscrire des contrats successifs pour préparer des diplômes de niveaux ou de spécialités différents, sans délai imposé entre deux contrats.\n2. Un troisième contrat de même niveau requiert l’autorisation du directeur du dernier centre de formation fréquenté.\n3. Si le contrat d’apprentissage est suivi, dans la même entreprise, d’un contrat de travail ordinaire, aucune période d’essai ne peut être exigée, et sa durée compte pour l’ancienneté et la rémunération du salarié.\n4. Un apprenti préparant un baccalauréat professionnel peut, après la première année, se réorienter vers un certificat d’aptitude professionnelle relevant du même domaine ; la durée du contrat est alors réduite d’un an.",
+      "replaces": ["L6222-15", "L6222-16", "L6222-17", "L6222-22-1"],
+      "note": ""
+    },
+    {
+      "n": 6,
+      "row": "contrat",
+      "title": "Rupture du contrat",
+      "text": "1. Pendant les quarante-cinq premiers jours, consécutifs ou non, de formation pratique en entreprise, le contrat peut être rompu librement par l’une ou l’autre des parties, sans indemnité sauf clause contraire.\n2. Passé ce délai, la rupture requiert l’accord écrit des deux parties, ou repose sur un cas de force majeure, une faute grave de l’apprenti ou une inaptitude constatée par le médecin du travail ; elle prend alors la forme d’un licenciement.\n3. L’apprenti peut aussi rompre le contrat à son initiative, après un préavis et après avoir saisi le médiateur ; s’il est mineur, son représentant légal signe l’acte de rupture ou, à défaut de réponse, le médiateur recueille son accord.\n4. En cas d’obtention du diplôme préparé, l’apprenti peut mettre fin au contrat avant son terme, en informant l’employeur un mois à l’avance.\n5. Un décret précise les délais et les modalités de cette procédure.",
+      "replaces": ["L6222-18", "D6222-21-1", "R6222-21", "R6222-23", "L6222-19", "L6222-21", "L6222-22"],
+      "note": ""
+    },
+    {
+      "n": 7,
+      "row": "contrat",
+      "title": "Exclusion du centre de formation et liquidation judiciaire",
+      "text": "1. Lorsque le centre de formation exclut définitivement l’apprenti, l’employeur peut le licencier ; cette exclusion constitue la cause réelle et sérieuse du licenciement.\n2. À défaut d’inscription dans un nouveau centre de formation dans les deux mois suivant l’exclusion, le maintien de l’apprenti dans l’entreprise suppose la conclusion d’un contrat de travail de droit commun ou d’un avenant mettant fin à la période d’apprentissage.\n3. En cas de liquidation judiciaire de l’entreprise sans maintien de l’activité, le liquidateur notifie la rupture du contrat à l’apprenti.\n4. Dans ces deux cas, le centre de formation permet à l’apprenti de poursuivre sa formation théorique pendant six mois et l’aide à trouver un nouvel employeur.",
+      "replaces": ["L6222-18-1", "L6222-18-2", "R6222-23-1"],
+      "note": ""
+    },
+    {
+      "n": 8,
+      "row": "contrat",
+      "title": "Temps de travail, santé et sécurité",
+      "text": "1. L’apprenti bénéficie des règles applicables à l’ensemble des salariés, sauf disposition contraire tenant à sa situation de jeune travailleur en formation.\n2. Le temps passé en centre de formation est compris dans l’horaire de travail ; pour le reste, l’apprenti accomplit, dans la limite de cet horaire, un travail en lien direct avec sa formation.\n3. Il est interdit de l’employer à des travaux dangereux pour sa santé ou sa sécurité, sauf pour certaines formations énumérées par décret et sous la responsabilité de l’employeur.\n4. Le travail de nuit est interdit avant dix-huit ans, sauf dérogation accordée par l’inspecteur du travail, sous la responsabilité du maître d’apprentissage.\n5. L’apprenti bénéficie d’une visite médicale dans les deux mois suivant son embauche et reste couvert, en centre de formation, par le régime des accidents du travail dont il relève comme salarié.\n6. Un décret précise les conditions d’application du présent article.",
+      "replaces": ["L6222-23", "L6222-24", "L6222-25", "L6222-26", "R6222-24", "R6222-25", "L6222-30", "L6222-31", "L6222-32", "L6222-33", "R6222-36"],
+      "note": ""
+    },
+    {
+      "n": 9,
+      "row": "contrat",
+      "title": "Examens, carte d’étudiant des métiers et médiation consulaire",
+      "text": "1. L’apprenti se présente aux épreuves du diplôme ou du titre prévu par son contrat ; il bénéficie, dans le mois qui précède, d’un congé supplémentaire payé de cinq jours ouvrables pour les préparer.\n2. Une carte d’étudiant des métiers, délivrée par le centre de formation, lui permet de faire valoir son statut, notamment pour bénéficier des réductions accordées aux étudiants ; elle est restituée en cas de rupture du contrat.\n3. Dans les entreprises relevant des chambres consulaires, un médiateur peut être sollicité par les parties pour résoudre leurs différends sur l’exécution ou la rupture du contrat.\n4. Un décret précise le modèle de la carte et les autres modalités d’application.",
+      "replaces": ["L6222-34", "L6222-35", "L6222-36", "L6222-36-1", "D6222-42", "D6222-43", "D6222-44", "L6222-39"],
+      "note": ""
+    },
+    {
+      "n": 10,
+      "row": "contrat",
+      "title": "Salaire de l’apprenti",
+      "text": "1. L’apprenti perçoit un salaire au moins égal à un pourcentage du salaire minimum de croissance, qui varie selon son âge et son année de formation ; ce pourcentage est fixé par un décret unique, applicable à toute forme d’apprentissage.\n2. Une rémunération plus favorable résultant du contrat ou d’une convention collective prévaut. Lorsque l’apprenti change d’employeur ou prolonge sa formation, sa rémunération ne peut être inférieure à celle perçue l’année précédente ; elle est majorée à l’âge de dix-huit, vingt et un et vingt-six ans, sans jamais dépasser le salaire minimum de croissance.\n3. Les heures supplémentaires sont rémunérées comme pour les autres salariés de l’entreprise. Des avantages en nature peuvent être déduits du salaire, dans une limite fixée par décret.",
+      "replaces": ["L6222-27", "L6222-28", "L6222-29", "D6222-26", "D6222-27", "D6222-28", "D6222-28-1", "D6222-28-2", "D6222-29", "D6222-30", "D6222-31", "D6222-32", "D6222-33"],
+      "note": ""
+    },
+    {
+      "n": 11,
+      "row": "contrat",
+      "title": "Aménagements particuliers et mobilité",
+      "text": "1. Des aménagements de l’âge, de la durée du contrat, du nombre de contrats successifs et du temps de travail sont prévus pour les apprentis en situation de handicap et pour les sportifs de haut niveau, notamment pour prolonger d’un an la durée de leur formation.\n2. Le contrat d’apprentissage peut être exécuté en partie à l’étranger, pour une durée limitée à un an et à la moitié de la durée totale du contrat, dans le cadre d’une convention entre l’apprenti, l’employeur et le centre de formation, qui organise la mise à disposition ou la mise en veille du contrat auprès de la structure d’accueil et la protection sociale de l’apprenti pendant cette période.\n3. Un décret précise ces aménagements et les garanties dont bénéficie l’apprenti en mobilité, notamment en matière de santé, de sécurité et de responsabilité civile.",
+      "replaces": ["L6222-37", "L6222-38", "R6222-45", "R6222-46", "R6222-47", "R6222-48", "R6222-49", "R6222-49-1", "R6222-50", "R6222-51", "L6222-40", "L6222-41", "R6222-59", "R6222-60", "R6222-61", "R6222-62", "R6222-63", "R6222-64", "R6222-65", "L6222-42", "L6222-43", "L6222-44", "R6222-66", "R6222-66-1", "R6222-67", "R6222-68"],
+      "note": ""
+    },
+    {
+      "n": 12,
+      "row": "contrat",
+      "title": "Maître d’apprentissage",
+      "text": "1. L’employeur inscrit l’apprenti dans un centre de formation correspondant au diplôme préparé et assure sa formation pratique, en lui confiant des tâches conformes à une progression définie avec ce centre.\n2. Un maître d’apprentissage, responsable de cette formation, est désigné : salarié volontaire et majeur, offrant les garanties de compétence et de moralité requises ; sa fonction peut être partagée entre plusieurs salariés. L’employeur lui laisse le temps nécessaire à sa mission et veille à sa propre formation.\n3. Un maître d’apprentissage encadre au plus deux apprentis à la fois, sauf dérogation.\n4. Une partie de la formation pratique peut être dispensée, par convention, dans une ou deux autres entreprises dotées elles aussi d’un maître d’apprentissage ; l’entreprise d’accueil répond alors des règles de travail, de santé et de sécurité applicables durant cette période.\n5. Un décret précise les conditions de compétence du maître d’apprentissage et le contenu de ces conventions.",
+      "replaces": ["L6223-2", "L6223-3", "L6223-4", "L6223-5", "L6223-6", "L6223-7", "L6223-8", "L6223-8-1", "L6223-9", "R6223-1", "R6223-6", "R6223-7", "R6223-8", "R6223-9", "R6223-22", "R6223-23", "R6223-10", "R6223-11", "R6223-12", "R6223-14", "R6223-15", "R6223-16"],
+      "note": ""
+    },
+    {
+      "n": 13,
+      "row": "contrat",
+      "title": "Dépôt du contrat et travail temporaire",
+      "text": "1. Le contrat d’apprentissage est transmis par l’employeur, dans les cinq jours ouvrables suivant le début de son exécution, à l’opérateur de compétences, qui vérifie le respect des règles d’âge, de salaire, de maître d’apprentissage et de certification, puis le dépose ; le dépôt est gratuit.\n2. Son silence, passé un délai fixé par décret, vaut refus de prise en charge financière. Tout avenant modifiant un élément essentiel du contrat suit la même procédure ; toute rupture anticipée est notifiée sans délai à l’opérateur de compétences.\n3. Une entreprise de travail temporaire peut conclure des contrats d’apprentissage, exécutés par missions de six mois au moins ; un maître d’apprentissage est désigné dans cette entreprise et un autre dans chaque entreprise utilisatrice, qui répond du respect des règles applicables durant la mission.\n4. Un décret précise les modalités de ce dépôt et de ces missions.",
+      "replaces": ["L6224-1", "D6224-1", "D6224-2", "R6224-3", "D6224-4", "D6224-5", "D6224-6", "D6224-7", "L6226-1", "R6226-1", "R6226-2", "R6226-3", "R6226-4", "R6226-5", "R6226-6"],
+      "note": ""
+    },
+    {
+      "n": 14,
+      "row": "contrat",
+      "title": "Opposition à l’engagement d’apprentis et suspension du contrat",
+      "text": "1. L’autorité administrative peut s’opposer à l’engagement de nouveaux apprentis par un employeur qui méconnaît ses obligations envers eux, après une mise en demeure restée sans effet ; elle décide alors si les contrats en cours peuvent se poursuivre.\n2. Si elle refuse leur poursuite, les contrats concernés sont rompus à la date de sa décision, et l’employeur verse aux apprentis les sommes dues jusqu’au terme prévu ; le centre de formation les aide à poursuivre leur formation et à trouver un nouvel employeur.\n3. En cas de risque sérieux pour la santé ou l’intégrité de l’apprenti, l’inspection du travail peut proposer la suspension du contrat, avec maintien du salaire ; l’autorité administrative se prononce dans les quinze jours sur sa reprise. Un refus emporte rupture du contrat et peut s’accompagner d’une interdiction de recruter de nouveaux apprentis.\n4. L’employeur peut demander la levée de l’opposition ou de l’interdiction en justifiant qu’il a régularisé sa situation.\n5. Un décret précise les modalités de ces procédures.",
+      "replaces": ["L6225-1", "L6225-2", "L6225-3", "L6225-3-1", "L6225-4", "L6225-5", "L6225-6", "L6225-7", "L6225-8", "R6225-1", "R6225-2", "R6225-3", "R6225-4", "R6225-5", "R6225-6", "R6225-7", "R6225-8", "R6225-9", "R6225-10", "R6225-11", "R6225-12"],
+      "note": ""
+    },
+    {
+      "n": 15,
+      "row": "public",
+      "title": "Régime commun et adaptations",
+      "text": "1. Les personnes morales de droit public, y compris les organismes publics sans personnalité morale capables de recruter, peuvent conclure des contrats d’apprentissage selon les règles communes du présent titre, sous réserve des adaptations du présent chapitre.\n2. Le contrat est conclu pour une durée limitée et déposé auprès du représentant de l’État dans le département.\n3. Ce dernier vérifie, dans les cinq jours suivant le début du contrat, le respect des règles d’âge et de rémunération ; il refuse le dépôt, par décision motivée, si l’une d’elles n’est pas respectée. Son silence dans les vingt jours vaut acceptation.\n4. Tout avenant essentiel et toute rupture anticipée lui sont notifiés dans les mêmes conditions.",
+      "replaces": ["L6227-1", "L6227-12", "L6227-2", "L6227-11", "D6275-1", "D6275-2", "R6275-3", "D6275-4", "D6275-5"],
+      "note": ""
+    },
+    {
+      "n": 16,
+      "row": "public",
+      "title": "Organisation de la formation et médiation",
+      "text": "1. Lorsqu’il ne peut assurer seul la formation pratique, l’employeur public conclut une convention avec une autre personne publique ou une entreprise pour la compléter, tout en assurant plus de la moitié de cette formation ; l’entreprise ou la personne publique d’accueil répond alors des règles de travail, de santé et de sécurité applicables.\n2. Les conditions générales d’accueil des apprentis font l’objet d’un avis annuel des représentants du personnel.\n3. Un centre de formation d’apprentis peut confier une partie de ses enseignements à un centre géré par une personne publique ; il en garde la responsabilité pédagogique.\n4. L’employeur public prend en charge le coût de la formation de ses apprentis, sauf s’il est lui-même redevable de la taxe d’apprentissage.\n5. Un médiateur, ou le service de ressources humaines de proximité, est désigné pour résoudre les différends sur l’exécution ou la rupture du contrat.",
+      "replaces": ["L6227-3", "L6227-4", "L6227-5", "L6227-6", "D6271-1", "D6271-2", "D6271-3", "D6273-1", "D6274-1"],
+      "note": ""
+    },
+    {
+      "n": 17,
+      "row": "public",
+      "title": "Statut social et rémunération de l’apprenti public",
+      "text": "1. L’apprenti employé par une personne publique est affilié au régime général de sécurité sociale et à un régime complémentaire de retraite ; l’employeur est exonéré des cotisations sociales à sa charge, à l’exception de celles dues au titre des accidents du travail.\n2. Sa rémunération suit les mêmes règles que dans le secteur privé ; l’employeur public peut la majorer.\n3. Les services accomplis en tant qu’apprenti ne comptent ni comme services publics ni au titre des régimes spéciaux de retraite applicables aux agents publics.",
+      "replaces": ["L6227-8", "L6227-8-1", "L6227-9", "L6227-10", "D6272-1", "D6272-2"],
+      "note": ""
+    },
+    {
+      "n": 18,
+      "row": "cfa",
+      "title": "Missions des centres de formation d’apprentis",
+      "text": "1. Les centres de formation d’apprentis relèvent des règles générales applicables aux organismes de formation, complétées par les dispositions du présent titre.\n2. Ils accompagnent les personnes, y compris en situation de handicap, dans leur orientation vers l’apprentissage et dans la recherche d’un employeur ; ils assurent la cohérence entre la formation dispensée en leur sein et en entreprise, informent les apprentis de leurs droits, favorisent la mixité et la diversité, accompagnent la mobilité et évaluent les compétences acquises.\n3. En cas de rupture du contrat, ils permettent à l’apprenti de poursuivre sa formation pendant six mois en l’aidant à trouver un nouvel employeur.\n4. Ces missions peuvent être confiées, par convention, aux chambres consulaires.",
+      "replaces": ["L6231-1", "L6231-2", "R6231-2"],
+      "note": ""
+    },
+    {
+      "n": 19,
+      "row": "cfa",
+      "title": "Conseil de perfectionnement",
+      "text": "1. Tout centre de formation d’apprentis institue un conseil de perfectionnement, placé auprès de son directeur, chargé de veiller à son organisation et à son fonctionnement.\n2. Il examine notamment le projet pédagogique, les conditions d’accueil des apprentis, l’organisation des formations, les conventions envisagées avec d’autres établissements ou entreprises et les projets d’investissement.\n3. Un règlement intérieur fixe sa composition et son fonctionnement.",
+      "replaces": ["L6231-3", "R6231-3", "R6231-4", "R6231-5"],
+      "note": ""
+    },
+    {
+      "n": 20,
+      "row": "cfa",
+      "title": "Obligations administratives des centres de formation",
+      "text": "1. Le directeur de l’organisme de formation est chargé de la mise en œuvre des missions et obligations du centre de formation d’apprentis.\n2. Tout centre tient une comptabilité analytique, transmise chaque année à l’institution compétente ; ses statuts mentionnent expressément l’activité de formation en apprentissage.\n3. Le nom de « centre de formation d’apprentis » ne peut être utilisé par un organisme dont la déclaration d’activité n’a pas été enregistrée.\n4. La devise de la République, le drapeau tricolore, le drapeau européen et la Déclaration des droits de l’homme et du citoyen sont affichés dans ses locaux.",
+      "replaces": ["L6231-4", "L6231-5", "L6231-6", "L6231-7", "R6231-1"],
+      "note": ""
+    },
+    {
+      "n": 21,
+      "row": "cfa",
+      "title": "Conventions de formation partagée et unités de formation par apprentissage",
+      "text": "1. Un centre de formation d’apprentis peut confier, par convention, tout ou partie de ses enseignements à un établissement d’enseignement, un organisme de formation ou une entreprise, qui met à disposition ses équipements ; il garde la responsabilité pédagogique et administrative de ces enseignements.\n2. La convention précise son objet, sa durée, l’organisation des formations et des équipements, le nombre d’apprentis accueillis et les modalités de financement ; lorsqu’elle porte sur des enseignements assurés par une entreprise, celle-ci garantit la nature des équipements et de la technologie mis à disposition.\n3. Une unité de formation par apprentissage peut aussi être créée, par convention, au sein d’un établissement d’enseignement, qui en a alors la responsabilité pédagogique, pour la durée du cycle de formation.\n4. Un décret précise les mesures d’application du présent titre, notamment pour les centres de formation internes à une entreprise.",
+      "replaces": ["L6232-1", "R6232-1", "R6232-2", "R6232-3", "L6233-1", "R6233-1", "R6233-2", "L6234-1", "R6234-1"],
+      "note": ""
+    },
+    {
+      "n": 22,
+      "row": "cfa",
+      "title": "Contrôle pédagogique des formations conduisant à un diplôme",
+      "text": "1. Chaque ministre certificateur institue une mission de contrôle pédagogique des formations par apprentissage conduisant à ses diplômes, composée d’inspecteurs et d’experts désignés par les partenaires sociaux et par les chambres consulaires. L’exercice de ce contrôle est incompatible avec une fonction dans un centre de formation d’apprentis.\n2. Le contrôle, qui peut être demandé par un centre, un employeur, un apprenti ou son représentant légal, porte sur la mise en œuvre de la formation au regard du référentiel du diplôme ; les personnes chargées du contrôle sont tenues au secret professionnel.\n3. Un rapport, précédé d’un projet soumis à observations, est adressé au centre et aux employeurs concernés ; un rapport annuel de synthèse est présenté au comité régional compétent.",
+      "replaces": ["R6251-1", "R6251-2", "R6251-3", "R6251-4"],
+      "note": ""
+    },
+    {
+      "n": 23,
+      "row": "cfa",
+      "title": "Apprentissage transfrontalier",
+      "text": "1. L’apprentissage transfrontalier permet à un apprenti d’effectuer une partie de sa formation pratique ou théorique dans un pays frontalier de la France.\n2. Ses modalités sont fixées par une convention entre la France et ce pays, qui précise notamment le régime du contrat de travail, de la certification et de la formation, ainsi que le financement de ce dispositif et les contributions respectives des parties.\n3. Un décret précise les conditions de mise en œuvre de cette convention.",
+      "replaces": ["L6235-1", "L6235-2", "L6235-6"],
+      "note": "Les 20 articles décrivant, disposition par disposition, quelles règles françaises s’appliquent ou non selon que la partie pratique ou théorique de la formation se déroule en France ou dans le pays frontalier sont remplacés par ce renvoi à l’accord bilatéral et à son décret d’application."
+    },
+    {
+      "n": 24,
+      "row": "financement",
+      "title": "Principe de la taxe d’apprentissage",
+      "text": "1. Une taxe d’apprentissage favorise l’égal accès à l’apprentissage et finance son développement.\n2. Elle est due par les employeurs soumis à l’impôt sur les sociétés ou exerçant une activité commerciale, industrielle ou artisanale, ainsi que par certains organismes à activité non lucrative ; les employeurs occupant un ou plusieurs apprentis en sont exonérés lorsque leur masse salariale reste inférieure à un seuil fixé par décret.\n3. L’assiette, le taux et les modalités de recouvrement de la taxe sont fixés par le code général des impôts.",
+      "replaces": ["L6241-1"],
+      "note": "Assiette, taux et recouvrement relèvent désormais du code général des impôts, où figurent les autres taxes assises sur les salaires."
+    },
+    {
+      "n": 25,
+      "row": "financement",
+      "title": "Emploi du produit de la taxe",
+      "text": "1. Une part principale du produit de la taxe finance le développement de l’apprentissage ; une entreprise dotée de son propre centre de formation peut en déduire les dépenses correspondantes, dans une limite fixée par décret.\n2. Le solde finance, au choix de l’employeur, les formations technologiques et professionnelles hors apprentissage dispensées par des établissements habilités, ou des subventions en équipements versées aux centres de formation d’apprentis.\n3. Un décret fixe la liste des établissements habilités à recevoir ce solde et les conditions de cette habilitation.",
+      "replaces": ["L6241-2", "L6241-4", "L6241-5"],
+      "note": ""
+    },
+    {
+      "n": 26,
+      "row": "financement",
+      "title": "Contribution supplémentaire à l’apprentissage",
+      "text": "1. Les entreprises d’au moins deux cent cinquante salariés dont la proportion d’alternants reste inférieure à un seuil fixé par décret doivent, en outre, une contribution supplémentaire à l’apprentissage.\n2. Son taux, dégressif selon cette proportion, ainsi que son assiette et son recouvrement, sont fixés par le code général des impôts.",
+      "replaces": ["L6242-1"],
+      "note": ""
+    },
+    {
+      "n": 27,
+      "row": "financement",
+      "title": "Aide à l’embauche d’apprentis",
+      "text": "1. Les contrats d’apprentissage conclus dans les entreprises de moins de deux cent cinquante salariés, pour préparer un diplôme ou un titre au plus égal au baccalauréat, ouvrent droit à une aide de l’État versée à l’employeur.\n2. L’opérateur France Travail aide les entreprises redevables de la contribution supplémentaire à recruter des apprentis.\n3. Un décret fixe le montant de l’aide et ses conditions d’attribution.",
+      "replaces": ["L6243-1", "L6243-1-1", "L6243-1-2"],
+      "note": ""
+    },
+    {
+      "n": 28,
+      "row": "financement",
+      "title": "Exonérations de cotisations",
+      "text": "1. L’apprenti est exonéré des cotisations salariales dues sur la part de sa rémunération inférieure à un plafond fixé par décret, qui ne peut excéder la moitié du salaire minimum de croissance.\n2. L’État prend en charge les cotisations sociales ainsi exonérées et celles de l’employeur ; l’assurance vieillesse valide, pour l’apprenti, un nombre de trimestres correspondant à la durée du contrat.",
+      "replaces": ["L6243-2", "L6243-3"],
+      "note": ""
+    },
+    {
+      "n": 29,
+      "row": "financement",
+      "title": "Décret d’application",
+      "text": "1. Un décret précise les conditions d’application du présent titre.",
+      "replaces": ["L6243-4"],
+      "note": ""
+    },
+    {
+      "n": 30,
+      "row": "alsace9",
+      "title": "Droit local d’Alsace-Moselle",
+      "text": "1. Dans les départements du Bas-Rhin, du Haut-Rhin et de la Moselle, un décret en Conseil d’État précise les modalités particulières d’application du présent titre pour tenir compte des circonstances locales, notamment le rôle des chambres de métiers et de l’artisanat de région.",
+      "replaces": ["L6261-2"],
+      "note": "Les douze articles réglementaires décrivant, chambre par chambre et procédure par procédure, la mise en œuvre du droit local (conciliation, brevet de maîtrise, taux réduit de la taxe, contrôle pédagogique) sont couverts par ce renvoi général et supprimés du code."
+    }
+  ],
+  "removed": [
+    {
+      "nums": "R6227-1 → R6227-9",
+      "reason": "Sanctions pénales spécifiques aux manquements de l’employeur envers l’apprenti supprimées : ces manquements sont déjà sanctionnés par l’opposition à l’engagement d’apprentis, la suspension du contrat et l’interdiction de recruter prévues au titre sur le contrat d’apprentissage."
+    },
+    {
+      "nums": "L6235-3, L6235-4, L6235-5",
+      "reason": "Modalités techniques de l’apprentissage transfrontalier, énumérant article par article les dispositions applicables ou non ; couvertes par le renvoi à l’accord bilatéral et à son décret d’application."
+    },
+    {
+      "nums": "D6235-1 → D6235-17",
+      "reason": "Application, disposition par disposition, du dispositif transfrontalier selon que la partie pratique ou théorique de la formation se déroule en France ou dans le pays frontalier ; couverte par le renvoi à l’accord bilatéral et à son décret d’application."
+    },
+    {
+      "nums": "D6241-8, R6241-19 → R6241-25, D6241-25-1, R6241-26, D6241-27, D6241-27-1, R6241-28 → R6241-28-5, D6241-29 → D6241-33",
+      "reason": "Modalités de calcul, de collecte, d’affectation et de gestion du solde de la taxe d’apprentissage par les opérateurs de compétences et la Caisse des dépôts et consignations, renvoyées à un décret."
+    },
+    {
+      "nums": "L6241-1-1",
+      "reason": "Assiette et taux de la taxe d’apprentissage transférés au code général des impôts, où figurent les autres taxes assises sur les salaires."
+    },
+    {
+      "nums": "D6243-1 → D6243-5",
+      "reason": "Montant de l’aide à l’embauche d’apprentis et modalités de sa gestion par l’Agence de services et de paiement, renvoyés à un décret."
+    },
+    {
+      "nums": "R6261-1, R6261-2, R6261-5, R6261-9, R6261-10, R6261-13, R6261-15 → R6261-20",
+      "reason": "Modalités locales de mise en œuvre du droit local d’Alsace-Moselle (chambres de métiers, conciliation, brevet de maîtrise, taux réduit de la taxe, contrôle pédagogique) ; couvertes par le renvoi général de l’article unique du présent titre."
+    }
+  ],
+  "counts": {
+    "articles": 30,
+    "replaces_total": 231,
+    "removed_total": 70,
+    "current_total": 301
+  }
+}

@@ -1,0 +1,524 @@
+{
+  "topic": "salaire",
+  "title": "Salaire : minimum, paiement, protection",
+  "status": "brouillon — à relire par des juristes",
+  "generated_at": "2026-09-10",
+  "articles": [
+    {
+      "n": 1,
+      "row": "minimum",
+      "title": "Champ d'application",
+      "text": "1. Les règles de ce titre s'appliquent aux employeurs de droit privé et à leurs salariés.\n2. Elles s'appliquent aussi au personnel des établissements publics à caractère industriel et commercial et au personnel de droit privé des établissements publics administratifs.",
+      "replaces": [
+        "L3211-1",
+        "L3231-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 2,
+      "row": "minimum",
+      "title": "Le salaire minimum de croissance",
+      "text": "1. Le salaire minimum de croissance garantit aux salariés les moins rémunérés le maintien de leur pouvoir d'achat et une participation au développement économique du pays.\n2. Il est indexé sur l'indice national des prix à la consommation : lorsque cet indice augmente d'au moins 2 % depuis la dernière revalorisation, le salaire minimum est relevé dans la même proportion dès le premier jour du mois suivant.\n3. Aucune convention ou accord collectif ne peut indexer ses salaires sur le salaire minimum de croissance ni s'y référer pour les fixer.",
+      "replaces": [
+        "L3231-2",
+        "L3231-3",
+        "L3231-4",
+        "L3231-5"
+      ],
+      "note": ""
+    },
+    {
+      "n": 3,
+      "row": "minimum",
+      "title": "Revalorisation annuelle",
+      "text": "1. Indépendamment de cette indexation, le taux du salaire minimum de croissance est fixé chaque année, avec effet au 1er janvier, selon une procédure prévue par décret.\n2. Sa progression annuelle en pouvoir d'achat ne peut être inférieure à la moitié de celle des salaires horaires moyens ; elle vise à éviter tout écart durable avec l'évolution générale de l'économie et des revenus.\n3. En cours d'année, il peut aussi être relevé à un niveau supérieur par voie réglementaire.\n4. Tous les quatre ans au moins, le ministre chargé du travail évalue son niveau au regard du salaire médian et du salaire moyen.",
+      "replaces": [
+        "L3231-6",
+        "L3231-7",
+        "L3231-8",
+        "L3231-9",
+        "L3231-10",
+        "L3231-11",
+        "D3231-2-2"
+      ],
+      "note": ""
+    },
+    {
+      "n": 4,
+      "row": "minimum",
+      "title": "Rémunération mensuelle minimale",
+      "text": "1. Le salarié dont l'horaire de travail atteint la durée légale hebdomadaire perçoit chaque mois une rémunération au moins égale au salaire minimum de croissance mensualisé ; les apprentis et les salariés temporaires ne sont pas concernés.\n2. Cette rémunération minimale est réduite au prorata lorsque le contrat commence ou se termine en cours de mois, ou que son exécution est suspendue.\n3. Si l'horaire est réduit pour d'autres causes, l'employeur verse la différence sous forme d'allocation complémentaire, remboursée pour moitié par l'État.\n4. Un décret précise les modalités d'application, notamment pour les professions et situations particulières.",
+      "replaces": [
+        "L3231-12",
+        "L3232-1",
+        "L3232-2",
+        "L3232-3",
+        "L3232-4",
+        "L3232-5",
+        "L3232-6",
+        "L3232-7",
+        "L3232-9",
+        "R3232-1",
+        "R3232-2",
+        "R3232-3",
+        "R3232-4",
+        "R3232-5",
+        "R3232-6",
+        "R3232-7",
+        "R3232-8",
+        "R3232-9",
+        "R3232-10"
+      ],
+      "note": ""
+    },
+    {
+      "n": 5,
+      "row": "minimum",
+      "title": "Jeunes travailleurs et avantages en nature",
+      "text": "1. Le salaire minimum applicable aux jeunes travailleurs de moins de dix-huit ans est réduit de 20 % avant dix-sept ans et de 10 % entre dix-sept et dix-huit ans ; cet abattement disparaît après six mois de pratique professionnelle dans la branche, et ne s'applique pas aux apprentis.\n2. Lorsque la rémunération comprend habituellement la nourriture, le logement ou un autre avantage en nature, celui-ci est évalué par convention collective ou, à défaut, par décret, et déduit du salaire minimum en espèces.\n3. Aucune convention ne peut prévoir la fourniture de boissons alcoolisées comme avantage en nature, hors les boissons servies avec un repas.",
+      "replaces": [
+        "D3231-3",
+        "D3231-5",
+        "D3231-6",
+        "D3231-8",
+        "D3231-9",
+        "D3231-10",
+        "D3231-11",
+        "D3231-12",
+        "D3231-13",
+        "D3231-14",
+        "D3231-15",
+        "R3231-16",
+        "D3211-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 6,
+      "row": "minimum",
+      "title": "Sanction",
+      "text": "1. Payer un salarié en dessous du salaire minimum de croissance ou de la rémunération mensuelle minimale est puni d'une amende, appliquée autant de fois qu'il y a de salariés concernés.",
+      "replaces": [
+        "R3233-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 7,
+      "row": "egalite",
+      "title": "Égalité de rémunération entre femmes et hommes",
+      "text": "1. Tout employeur assure, pour un même travail ou pour un travail de valeur égale, l'égalité de rémunération entre les femmes et les hommes.\n2. La rémunération comprend le salaire de base et tous les avantages versés, en espèces ou en nature, en raison de l'emploi.\n3. Ces règles s'appliquent aussi aux employeurs et salariés non régis par le code du travail, y compris les agents publics.",
+      "replaces": [
+        "L3221-1",
+        "L3221-2",
+        "L3221-3"
+      ],
+      "note": ""
+    },
+    {
+      "n": 8,
+      "row": "egalite",
+      "title": "Travail de valeur égale",
+      "text": "1. Deux travaux ont une valeur égale lorsqu'ils exigent un ensemble comparable de connaissances professionnelles, de capacités tirées de l'expérience, de responsabilités et de charge physique ou nerveuse.\n2. Les disparités de rémunération entre établissements d'une même entreprise ne peuvent jamais reposer sur le sexe des salariés.\n3. Les catégories, les critères de classification et de promotion, et les autres bases de calcul de la rémunération sont établis selon des règles identiques pour les femmes et les hommes.",
+      "replaces": [
+        "L3221-4",
+        "L3221-5",
+        "L3221-6"
+      ],
+      "note": ""
+    },
+    {
+      "n": 9,
+      "row": "egalite",
+      "title": "Nullité et charge de la preuve",
+      "text": "1. Toute clause d'un contrat, d'une convention ou d'un accord qui prévoit, pour un même travail ou un travail de valeur égale, une rémunération inférieure pour l'un des deux sexes est nulle ; la rémunération la plus élevée s'y substitue de plein droit.\n2. En cas de litige, les règles de preuve applicables à la discrimination s'appliquent.",
+      "replaces": [
+        "L3221-7",
+        "L3221-8"
+      ],
+      "note": ""
+    },
+    {
+      "n": 10,
+      "row": "egalite",
+      "title": "Contrôle et sanctions",
+      "text": "1. Les agents de contrôle de l'inspection du travail constatent les infractions à ces règles ; ils peuvent exiger communication des éléments qui déterminent les rémunérations dans l'entreprise et mener une enquête contradictoire.\n2. L'employeur informe de ces règles, par tout moyen, les personnes ayant accès aux lieux de travail et les candidats à l'embauche.\n3. Le juge qui constate une infraction peut ajourner sa décision et enjoindre à l'employeur de rétablir l'égalité professionnelle dans un délai déterminé, après consultation du comité social et économique ; à défaut, il prononce la peine.\n4. Un décret en Conseil d'État précise les modalités d'application du présent chapitre.",
+      "replaces": [
+        "L3221-9",
+        "L3221-10",
+        "R3221-1",
+        "R3221-2",
+        "L3222-1",
+        "L3222-2",
+        "R3222-1",
+        "R3222-2",
+        "R3222-3"
+      ],
+      "note": ""
+    },
+    {
+      "n": 11,
+      "row": "paiement",
+      "title": "Modes de paiement et pourboires",
+      "text": "1. Le salaire est payé en espèces, par chèque barré ou par virement sur un compte dont le salarié est titulaire ou cotitulaire ; il ne peut désigner un tiers pour le recevoir.\n2. En dessous d'un montant mensuel fixé par décret, il est payé en espèces si le salarié le demande ; au-delà d'un autre montant fixé par décret, il est payé par chèque ou virement. Le paiement a lieu un jour ouvrable, sauf virement.\n3. Les pourboires perçus par l'employeur pour le service sont intégralement reversés au personnel en contact avec la clientèle ; ils s'ajoutent au salaire fixe, sauf salaire minimum garanti.\n4. Un décret précise les modalités de justification et de répartition des pourboires selon les professions.",
+      "replaces": [
+        "L3241-1",
+        "R3241-1",
+        "L3244-1",
+        "L3244-2",
+        "R3244-1",
+        "R3244-2"
+      ],
+      "note": ""
+    },
+    {
+      "n": 12,
+      "row": "paiement",
+      "title": "Mensualisation",
+      "text": "1. La rémunération est mensuelle et indépendante du nombre de jours travaillés dans le mois, pour un horaire de travail effectif déterminé.\n2. Elle est versée une fois par mois ; un acompte égal à la moitié de la rémunération mensuelle est versé à la demande du salarié pour la quinzaine écoulée.\n3. Les salariés qui n'en bénéficient pas — travail à domicile, saisonniers, intermittents, temporaires — sont payés au moins deux fois par mois.\n4. Pour le travail aux pièces qui dure plus d'une quinzaine, des acomptes quinzomadaires sont versés, le solde étant réglé dans la quinzaine suivant la livraison.",
+      "replaces": [
+        "L3242-1",
+        "L3242-2",
+        "L3242-3",
+        "L3242-4"
+      ],
+      "note": ""
+    },
+    {
+      "n": 13,
+      "row": "paiement",
+      "title": "Bulletin de paie : remise",
+      "text": "1. Lors du paiement, l'employeur remet à chaque salarié un bulletin de paie ; il ne peut exiger aucune signature ou décharge autre que celle constatant la remise de la somme correspondant au montant net indiqué.\n2. Sauf opposition du salarié, ce bulletin peut être remis sous forme électronique, dans des conditions garantissant son intégrité, sa confidentialité et sa disponibilité.",
+      "replaces": [
+        "L3243-1",
+        "L3243-2"
+      ],
+      "note": ""
+    },
+    {
+      "n": 14,
+      "row": "paiement",
+      "title": "Contenu du bulletin de paie",
+      "text": "1. Le bulletin de paie indique l'identité et l'adresse de l'employeur, l'identité, l'emploi et la classification du salarié, la période et le nombre d'heures de travail, la rémunération brute, les cotisations et contributions, la somme effectivement versée et sa date de paiement.\n2. Un arrêté fixe un modèle unique présentant ces mentions de façon claire et regroupée.",
+      "replaces": [
+        "R3243-1",
+        "R3243-2"
+      ],
+      "note": ""
+    },
+    {
+      "n": 15,
+      "row": "paiement",
+      "title": "Mentions interdites et conservation",
+      "text": "1. Le bulletin de paie ne peut jamais mentionner l'exercice du droit de grève ni une activité de représentation du personnel ; la rémunération de cette activité figure sur une annexe distincte.\n2. Il comporte une mention invitant le salarié à le conserver sans limite de durée.\n3. L'employeur en garde un double, ou l'équivalent électronique, pendant cinq ans.",
+      "replaces": [
+        "R3243-4",
+        "R3243-5",
+        "R3243-6",
+        "L3243-4",
+        "L3243-5"
+      ],
+      "note": ""
+    },
+    {
+      "n": 16,
+      "row": "paiement",
+      "title": "Bulletin électronique",
+      "text": "1. L'employeur qui choisit la remise électronique en informe le salarié un mois avant la première émission, avec son droit de s'y opposer à tout moment.\n2. Il garantit au salarié l'accès à ses bulletins pendant cinquante ans, ou jusqu'à six ans après l'âge de la retraite ; en cas de fermeture du service, les salariés sont prévenus trois mois à l'avance pour récupérer leurs bulletins dans un format réutilisable.\n3. Ces bulletins restent consultables depuis le compte personnel d'activité du salarié.",
+      "replaces": [
+        "D3243-7",
+        "D3243-8",
+        "R3243-9"
+      ],
+      "note": ""
+    },
+    {
+      "n": 17,
+      "row": "paiement",
+      "title": "Effet du bulletin et prescription",
+      "text": "1. Accepter un bulletin de paie sans réserve ne vaut jamais renonciation du salarié au paiement de sommes qui lui restent dues.\n2. L'action en paiement ou en remboursement du salaire se prescrit par trois ans ; elle porte sur les sommes dues au titre des trois dernières années ou, si le contrat est rompu, des trois années précédant la rupture.",
+      "replaces": [
+        "L3243-3",
+        "L3245-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 18,
+      "row": "paiement",
+      "title": "Responsabilité du donneur d'ordre",
+      "text": "1. Averti par écrit qu'un sous-traitant ou un cocontractant ne paie pas le salaire minimum dû à ses salariés, le maître d'ouvrage ou le donneur d'ordre lui enjoint aussitôt d'y remédier, et en informe l'agent de contrôle si la situation n'est pas régularisée dans le délai fixé par décret.\n2. À défaut d'avoir adressé cette injonction ou cette information, il est solidairement responsable avec l'employeur du paiement des rémunérations, indemnités et cotisations dues.\n3. Les salariés concernés sont informés de leur droit de saisir le conseil de prud'hommes.\n4. Cette responsabilité ne s'applique pas au particulier qui contracte pour son usage personnel ou familial.",
+      "replaces": [
+        "L3245-2",
+        "R3245-1",
+        "R3245-2",
+        "R3245-3",
+        "R3245-4"
+      ],
+      "note": ""
+    },
+    {
+      "n": 19,
+      "row": "protection",
+      "title": "Interdiction de la compensation",
+      "text": "1. L'employeur ne peut retenir sur le salaire aucune somme pour compenser des fournitures diverses qu'il aurait faites au salarié.\n2. Il peut toutefois opérer une compensation pour les outils, les matières confiées au salarié ou les avances faites pour les acquérir.\n3. En dehors de ce cas, une avance en espèces ne peut être retenue que par prélèvements successifs, chacun limité à un dixième du salaire exigible ; un acompte sur un travail en cours n'est pas une avance.",
+      "replaces": [
+        "L3251-1",
+        "L3251-2",
+        "L3251-3"
+      ],
+      "note": ""
+    },
+    {
+      "n": 20,
+      "row": "protection",
+      "title": "Retenues interdites et économats",
+      "text": "1. Dans les hôtels, cafés et restaurants, les spectacles et casinos, et les entreprises de transport, l'employeur ne peut imposer au salarié aucun versement ni aucune retenue, sous quelque dénomination que ce soit, à l'occasion de son travail normal.\n2. Il ne peut pas non plus tenir un économat vendant aux salariés, ni les obliger à dépenser leur salaire dans des magasins qu'il désigne — sauf s'il leur cède des fournitures à prix coûtant.",
+      "replaces": [
+        "L3251-4",
+        "L3254-1",
+        "L3254-2"
+      ],
+      "note": ""
+    },
+    {
+      "n": 21,
+      "row": "protection",
+      "title": "Saisie et cession du salaire : champ et barème",
+      "text": "1. Les sommes dues à titre de rémunération, quels que soient leur montant et leur nature, ne sont saisissables ou cessibles que dans une proportion croissante par tranches de rémunération.\n2. Un décret fixe ces tranches et les relève chaque année selon l'évolution des prix ; il augmente le seuil insaisissable pour chaque personne à la charge du salarié.\n3. Tout créancier muni d'un titre exécutoire peut faire procéder à cette saisie.",
+      "replaces": [
+        "L3252-1",
+        "L3252-2",
+        "R3252-1",
+        "R3252-2",
+        "R3252-3",
+        "R3252-4"
+      ],
+      "note": ""
+    },
+    {
+      "n": 22,
+      "row": "protection",
+      "title": "Assiette et cumul d'employeurs",
+      "text": "1. Pour déterminer la part insaisissable, on retient le salaire et ses accessoires après déduction des cotisations obligatoires, en excluant les remboursements de frais et les indemnités pour charge de famille ; une fraction reste toujours insaisissable, égale au revenu de solidarité active d'une personne seule.\n2. Lorsque le salarié perçoit une rémunération de plusieurs employeurs, la part saisissable est calculée sur l'ensemble de ces sommes.",
+      "replaces": [
+        "L3252-3",
+        "L3252-4",
+        "R3252-5",
+        "R3252-6"
+      ],
+      "note": ""
+    },
+    {
+      "n": 23,
+      "row": "protection",
+      "title": "Pensions alimentaires et saisie conservatoire",
+      "text": "1. Le paiement d'une pension alimentaire peut être prélevé sur l'intégralité du salaire, au-delà même de la part normalement saisissable, une somme minimale restant toujours à la disposition du salarié.\n2. Le salaire ne peut jamais faire l'objet d'une saisie conservatoire.",
+      "replaces": [
+        "L3252-5",
+        "L3252-7"
+      ],
+      "note": ""
+    },
+    {
+      "n": 24,
+      "row": "protection",
+      "title": "Cession de rémunération",
+      "text": "1. Le salarié qui cède une part de sa rémunération le déclare en personne au greffe du tribunal de son domicile ; le greffier notifie la cession à l'employeur, qui verse alors directement au bénéficiaire la somme cédée, dans la limite de la part saisissable.\n2. Une cession non notifiée dans l'année est périmée ; en cas de saisie ultérieure, le bénéficiaire de la cession vient en concours avec le créancier saisissant.",
+      "replaces": [
+        "R3252-45",
+        "R3252-46",
+        "R3252-47",
+        "R3252-48",
+        "R3252-49"
+      ],
+      "note": ""
+    },
+    {
+      "n": 25,
+      "row": "protection",
+      "title": "Garantie des créances salariales",
+      "text": "1. En cas de procédure de sauvegarde, de redressement ou de liquidation judiciaire, les salaires dus pour les soixante derniers jours de travail sont payés avant toute autre créance, dans la limite d'un plafond mensuel fixé par décret.\n2. Cette priorité s'étend aux indemnités de congés payés, dans les mêmes conditions, ainsi qu'aux sommes dues par un donneur d'ordre défaillant à ses façonniers, au titre des salaires de leurs employés.",
+      "replaces": [
+        "L3253-1",
+        "L3253-2",
+        "L3253-3",
+        "L3253-4",
+        "L3253-5",
+        "D3253-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 26,
+      "row": "protection",
+      "title": "Assurance contre le risque de non-paiement",
+      "text": "1. Tout employeur assure ses salariés contre le risque de non-paiement des sommes dues en exécution du contrat de travail en cas de procédure de sauvegarde, de redressement ou de liquidation judiciaire ; ce droit du salarié existe même si l'employeur n'a pas rempli ses propres obligations envers l'assurance.\n2. Elle couvre les sommes dues à l'ouverture de la procédure, celles nées d'une rupture du contrat dans les semaines qui suivent, les mesures d'un plan de sauvegarde de l'emploi validé, et, pour un mois et demi au plus, les sommes dues pendant la poursuite de l'activité.\n3. Elle couvre aussi, dans des conditions et limites fixées par décret, l'intéressement, la participation et certaines préretraites d'entreprise.",
+      "replaces": [
+        "L3253-6",
+        "L3253-7",
+        "L3253-8",
+        "L3253-9",
+        "L3253-10",
+        "L3253-11",
+        "L3253-12",
+        "L3253-13",
+        "D3253-2",
+        "D3253-3"
+      ],
+      "note": ""
+    },
+    {
+      "n": 27,
+      "row": "protection",
+      "title": "Plafond de la garantie",
+      "text": "1. Cette garantie est plafonnée, toutes sommes confondues, à un montant fixé par décret en référence au plafond mensuel de l'assurance chômage.",
+      "replaces": [
+        "L3253-17",
+        "D3253-5"
+      ],
+      "note": ""
+    },
+    {
+      "n": 28,
+      "row": "protection",
+      "title": "Privilèges spéciaux",
+      "text": "1. Dans le bâtiment et les travaux publics, dans l'agriculture et pour les auxiliaires des travailleurs à domicile, les salariés bénéficient, dans les conditions fixées par le code civil, d'une action directe ou d'un privilège spécial contre le maître de l'ouvrage ou le donneur d'ordre.\n2. Les sommes dues aux entrepreneurs de travaux publics ne peuvent être saisies au préjudice de leurs salariés, qui sont payés en priorité.",
+      "replaces": [
+        "L3253-22",
+        "L3253-23"
+      ],
+      "note": ""
+    },
+    {
+      "n": 29,
+      "row": "avantages",
+      "title": "Champ d'application et frais de transports publics",
+      "text": "1. Ces règles s'appliquent aux employeurs et salariés relevant du code du travail, ainsi qu'aux salariés dont l'activité s'exerce en France pour un employeur établi à l'étranger.\n2. L'employeur prend en charge une partie du prix des titres d'abonnement de transport public ou de service public de location de vélos utilisés par le salarié entre son domicile et son lieu de travail.\n3. Un décret fixe le taux de cette prise en charge, ses modalités de calcul et de remboursement, et les cas de cumul avec d'autres avantages.",
+      "replaces": [
+        "L3261-1",
+        "L3261-2",
+        "R3261-1",
+        "R3261-2",
+        "R3261-3",
+        "R3261-4",
+        "R3261-5",
+        "R3261-6",
+        "R3261-7",
+        "R3261-8",
+        "R3261-9",
+        "R3261-10"
+      ],
+      "note": ""
+    },
+    {
+      "n": 30,
+      "row": "avantages",
+      "title": "Frais de transport personnel",
+      "text": "1. L'employeur peut prendre en charge tout ou partie des frais de carburant ou d'alimentation d'un véhicule électrique, hybride ou à hydrogène, ainsi que les frais de transport personnel des salariés dont la résidence ou les horaires de travail rendent difficile l'usage des transports en commun.\n2. Il peut aussi verser un forfait mobilités durables pour financer les trajets effectués en covoiturage, à vélo ou par d'autres moyens de mobilité partagée.\n3. Un décret fixe les conditions, les montants et l'exonération sociale et fiscale de ces prises en charge.",
+      "replaces": [
+        "L3261-3",
+        "L3261-3-1",
+        "L3261-4",
+        "R3261-11",
+        "R3261-12",
+        "R3261-13",
+        "R3261-13-1",
+        "R3261-13-2"
+      ],
+      "note": ""
+    },
+    {
+      "n": 31,
+      "row": "avantages",
+      "title": "Titre-mobilité : principe",
+      "text": "1. L'employeur peut financer ces prises en charge au moyen d'un titre-mobilité, dématérialisé, affecté exclusivement au paiement des frais de transport du salarié.\n2. Ce titre est émis par des organismes habilités, dans des conditions et pour une durée de validité fixées par décret.",
+      "replaces": [
+        "L3261-5",
+        "L3261-6",
+        "L3261-7",
+        "R3261-13-3",
+        "R3261-13-4",
+        "R3261-13-5"
+      ],
+      "note": ""
+    },
+    {
+      "n": 32,
+      "row": "avantages",
+      "title": "Titre-mobilité : usage",
+      "text": "1. Le titre-mobilité est utilisable exclusivement par le salarié à qui il est destiné, sur présentation d'une pièce d'identité si l'organisme habilité le demande.\n2. Le salarié conserve ses titres inutilisés en fin de période d'utilisation, dans une limite et selon des reports fixés par décret.",
+      "replaces": [
+        "L3261-8",
+        "L3261-9",
+        "R3261-13-6",
+        "R3261-13-7"
+      ],
+      "note": ""
+    },
+    {
+      "n": 33,
+      "row": "avantages",
+      "title": "Non-cumul et dispositions communes",
+      "text": "1. Les différentes prises en charge de ce chapitre ne se cumulent pas avec le remboursement de frais professionnels portant sur le même trajet, sauf disposition contraire.\n2. Elles bénéficient aux salariés à temps partiel selon des règles proportionnelles fixées par décret.\n3. Un décret précise les modalités d'application de l'ensemble du présent chapitre.",
+      "replaces": [
+        "L3261-10",
+        "L3261-11",
+        "R3261-13-8",
+        "R3261-13-9",
+        "R3261-14",
+        "R3261-15"
+      ],
+      "note": ""
+    },
+    {
+      "n": 34,
+      "row": "avantages",
+      "title": "Titres-restaurant",
+      "text": "1. L'employeur peut attribuer à ses salariés des titres-restaurant pour financer tout ou partie de leurs repas pris pendant leur journée de travail.\n2. Le titre est cofinancé par l'employeur et le salarié ; sa valeur, la part patronale exonérée de cotisations et ses conditions d'utilisation sont fixées par décret.\n3. Un décret précise également les modalités d'application du présent article.",
+      "replaces": [
+        "L3262-1",
+        "L3262-2",
+        "L3262-3",
+        "L3262-4",
+        "L3262-5",
+        "L3262-6",
+        "L3262-7"
+      ],
+      "note": ""
+    }
+  ],
+  "removed": [
+    {
+      "nums": "R3246-1, R3246-2, R3246-3, R3246-4",
+      "reason": "Contraventions pour non-respect des modalités de paiement, du bulletin de paie et des pourboires supprimées : le salarié récupère les sommes dues par l'action en paiement, et le nouveau régime de responsabilité du donneur d'ordre renforce déjà la protection."
+    },
+    {
+      "nums": "L3253-14, L3253-15, L3253-16, L3253-17-1, L3253-18, L3253-18-1 → L3253-18-9, L3253-19 → L3253-21, R3253-4, R3253-6",
+      "reason": "Transféré au Code de la sécurité sociale : fonctionnement de l'AGS — institution de garantie, cotisations, avances, subrogation, règles applicables aux employeurs d'un autre État membre, contrôle des fraudes. Le droit du salarié à la garantie, lui, est gardé dans ce titre."
+    },
+    {
+      "nums": "L3255-1, R3255-1",
+      "reason": "Sanctions pénales pour économats et retenues abusives supprimées ; l'interdiction elle-même est maintenue et reste sanctionnable comme tout manquement contractuel."
+    },
+    {
+      "nums": "R3262-1, R3262-1-1, R3262-1-2, R3262-2 → R3262-19, R3262-21 → R3262-46",
+      "reason": "Transféré au Code monétaire et financier : réglementation des émetteurs de titres-restaurant (agrément, comptes dédiés, commission de contrôle) et des restaurateurs affiliés. Le principe du titre-restaurant, lui, est gardé dans ce titre."
+    },
+    {
+      "nums": "R3261-16",
+      "reason": "Sanction pénale pour non-respect de la prise en charge des frais de transport supprimée ; le salarié réclame les sommes dues par l'action en paiement du salaire."
+    },
+    {
+      "nums": "L3263-1",
+      "reason": "Chèques-vacances déjà régis par le Code du tourisme (articles L. 411-1 et suivants) ; disposition redondante supprimée."
+    }
+  ],
+  "counts": {
+    "articles": 34,
+    "replaces_total": 178,
+    "removed_total": 74,
+    "current_total": 252
+  }
+}

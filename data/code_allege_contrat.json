@@ -1,0 +1,366 @@
+{
+  "topic": "contrat",
+  "title": "Le contrat de travail : embauche, exécution, maladie, transfert",
+  "status": "brouillon — à relire par des juristes",
+  "generated_at": "2026-09-10",
+  "articles": [
+    {
+      "n": 1,
+      "row": "embauche",
+      "title": "Formation et rédaction du contrat",
+      "text": "1. Le contrat de travail est formé librement, sous réserve du droit commun des contrats.\n2. Le contrat à durée indéterminée est la forme normale et générale de la relation de travail.\n3. Le contrat écrit est rédigé en français ; le salarié étranger peut en demander une traduction dans sa langue, seule opposable en cas de désaccord entre les deux textes.\n4. Est nulle toute clause qui fixe le salaire par enchère électronique inversée, ou qui attribue par avance la compétence d'une juridiction.",
+      "replaces": [
+        "L1221-1",
+        "L1221-2",
+        "L1221-3",
+        "L1221-4",
+        "L1221-5"
+      ],
+      "note": ""
+    },
+    {
+      "n": 2,
+      "row": "embauche",
+      "title": "Information écrite sur la relation de travail",
+      "text": "1. L'employeur remet au salarié, par écrit, les informations essentielles sur la relation de travail : identité des parties, poste, date d'embauche, durée et période d'essai le cas échéant, rémunération, durée du travail, congés, convention applicable et procédure de rupture.\n2. L'essentiel est communiqué dans les sept jours suivant l'embauche, le reste dans le mois ; toute modification est signalée dans les mêmes délais.\n3. Le salarié envoyé travailler à l'étranger plus de quatre semaines reçoit en outre, avant son départ, les informations propres à cette mission.\n4. Le salarié qui n'a rien reçu met d'abord en demeure l'employeur ; il ne peut saisir le juge qu'à défaut de réponse dans les sept jours.\n5. Un décret précise le contenu et les modalités de cette information.",
+      "replaces": [
+        "L1221-5-1",
+        "R1221-34",
+        "R1221-35",
+        "R1221-36",
+        "R1221-37",
+        "R1221-38",
+        "R1221-39",
+        "R1221-40",
+        "R1221-41"
+      ],
+      "note": ""
+    },
+    {
+      "n": 3,
+      "row": "embauche",
+      "title": "Loyauté du recrutement",
+      "text": "1. Les informations demandées à un candidat, quelle qu'en soit la forme, ne peuvent servir qu'à apprécier sa capacité à occuper le poste proposé ; il y répond de bonne foi, et un décret peut permettre leur examen anonyme.\n2. Le candidat est informé, avant leur mise en œuvre, des méthodes de recrutement utilisées à son égard ; leurs résultats restent confidentiels.\n3. Aucune information personnelle sur un candidat ne peut être collectée par un dispositif dont il n'a pas été informé au préalable.",
+      "replaces": [
+        "L1221-6",
+        "L1221-7",
+        "L1221-8",
+        "L1221-9"
+      ],
+      "note": ""
+    },
+    {
+      "n": 4,
+      "row": "embauche",
+      "title": "Déclaration préalable à l'embauche",
+      "text": "1. Toute embauche est précédée d'une déclaration nominative de l'employeur auprès des organismes de protection sociale, par voie électronique, portant sur l'identité des parties, la date et la nature du contrat.\n2. Cette déclaration vaut immatriculation de l'employeur et du salarié, affiliation à l'assurance chômage et, selon le cas, demande de visite médicale d'embauche.\n3. L'organisme destinataire en accuse réception ; l'employeur remet cet accusé, ou une copie de la déclaration, au salarié.\n4. Une déclaration est aussi requise en cas de reprise d'activité après une fermeture d'au moins six mois, de changement d'exploitant, ou de transformation substantielle de l'établissement ; dans certains secteurs, l'employeur informe aussi le service public de l'emploi de toute embauche ou rupture.\n5. Le défaut de déclaration est sanctionné d'une pénalité égale à trois cents fois le taux horaire du minimum garanti.\n6. Un décret précise le contenu, les délais et les modalités de cette déclaration, ainsi que le recouvrement des pénalités.",
+      "replaces": [
+        "L1221-10",
+        "L1221-11",
+        "L1221-12",
+        "L1221-12-1",
+        "L1221-16",
+        "L1221-17",
+        "R1221-1",
+        "R1221-2",
+        "R1221-3",
+        "R1221-4",
+        "R1221-5",
+        "R1221-6",
+        "R1221-7",
+        "R1221-8",
+        "R1221-9",
+        "R1221-12",
+        "R1221-13",
+        "R1221-14",
+        "R1221-15",
+        "R1221-16",
+        "R1221-17",
+        "R1221-18",
+        "R1221-32",
+        "R1221-33",
+        "D1221-18",
+        "D1221-19"
+      ],
+      "note": ""
+    },
+    {
+      "n": 5,
+      "row": "embauche",
+      "title": "Registre unique du personnel",
+      "text": "1. L'employeur tient, dans chaque établissement, un registre unique du personnel, où les salariés sont inscrits dans l'ordre des embauches, de façon indélébile, avec leur identité, leur emploi, la nature de leur contrat et les dates d'entrée et de sortie.\n2. Les stagiaires y figurent à part, avec la durée de leur présence et le nom de leur tuteur.\n3. Une copie des titres de travail des salariés étrangers y est annexée.\n4. Le registre est tenu à la disposition du comité social et économique et des agents de contrôle, et conservé cinq ans après le départ du salarié.\n5. Un décret précise les autres mentions à porter sur le registre et les formes dans lesquelles il peut être tenu.",
+      "replaces": [
+        "L1221-13",
+        "L1221-14",
+        "L1221-15",
+        "L1221-15-1",
+        "D1221-23",
+        "D1221-23-1",
+        "D1221-24",
+        "D1221-24-1",
+        "D1221-25",
+        "D1221-27",
+        "R1221-26"
+      ],
+      "note": ""
+    },
+    {
+      "n": 6,
+      "row": "embauche",
+      "title": "Déclarations liées aux départs et au suivi de l'emploi",
+      "text": "1. Chaque année, avant le 31 janvier, l'employeur déclare à l'organisme de recouvrement le nombre de salariés partis en préretraite, en cessation anticipée d'activité, mis à la retraite d'office ou licenciés après cinquante-cinq ans, avec leur âge et les indemnités versées.\n2. Dans les entreprises de cinquante salariés et plus, l'employeur adresse chaque mois aux services statistiques le relevé des contrats conclus ou rompus, sauf pour les contrats d'un mois au plus.\n3. Un décret précise le contenu de ces déclarations.",
+      "replaces": [
+        "L1221-18",
+        "D1221-28",
+        "D1221-29",
+        "D1221-30",
+        "D1221-31"
+      ],
+      "note": ""
+    },
+    {
+      "n": 7,
+      "row": "embauche",
+      "title": "Période d'essai : durée et renouvellement",
+      "text": "1. Le contrat à durée indéterminée peut comporter une période d'essai, pour permettre à l'employeur d'évaluer le salarié et à celui-ci d'apprécier si l'emploi lui convient.\n2. Sa durée maximale est de deux mois pour les ouvriers et employés, trois mois pour les agents de maîtrise et techniciens, quatre mois pour les cadres.\n3. Elle peut être renouvelée une fois si un accord de branche étendu le prévoit, sans dépasser, renouvellement compris, quatre, six ou huit mois selon ces mêmes catégories.\n4. Elle ne se présume pas : elle doit être expressément prévue par le contrat, qui seul peut en réduire la durée.\n5. Le stage de fin d'études suivi dans l'entreprise, en cas d'embauche dans les trois mois, se déduit de la période d'essai.",
+      "replaces": [
+        "L1221-19",
+        "L1221-20",
+        "L1221-21",
+        "L1221-22",
+        "L1221-23",
+        "L1221-24"
+      ],
+      "note": ""
+    },
+    {
+      "n": 8,
+      "row": "embauche",
+      "title": "Fin de la période d'essai : délai de prévenance",
+      "text": "1. Lorsque l'employeur met fin au contrat pendant ou au terme de la période d'essai, il prévient le salarié avec un délai croissant selon sa présence : vingt-quatre heures en deçà de huit jours, quarante-huit heures jusqu'à un mois, deux semaines après un mois, un mois après trois mois.\n2. Ce délai ne prolonge pas l'essai ; à défaut d'être respecté, sauf faute grave, il ouvre droit à une indemnité égale aux salaires que le salarié aurait perçus jusqu'à son terme.\n3. Le salarié qui met fin à l'essai respecte un délai de quarante-huit heures, ramené à vingt-quatre heures avant huit jours de présence.",
+      "replaces": [
+        "L1221-25",
+        "L1221-26"
+      ],
+      "note": ""
+    },
+    {
+      "n": 9,
+      "row": "execution",
+      "title": "Exécution de bonne foi et protection des données du salarié",
+      "text": "1. Le contrat de travail est exécuté de bonne foi par les deux parties.\n2. Les informations demandées au salarié ne peuvent servir qu'à apprécier ses aptitudes professionnelles ; il y répond de bonne foi.\n3. Le salarié est informé, avant leur mise en œuvre, des méthodes d'évaluation utilisées à son égard, dont les résultats restent confidentiels.\n4. Aucune information personnelle sur un salarié ne peut être collectée par un dispositif dont il n'a pas été informé au préalable.",
+      "replaces": [
+        "L1222-1",
+        "L1222-2",
+        "L1222-3",
+        "L1222-4"
+      ],
+      "note": ""
+    },
+    {
+      "n": 10,
+      "row": "execution",
+      "title": "Liberté du salarié de créer une entreprise",
+      "text": "1. L'employeur ne peut opposer aucune clause d'exclusivité, même prévue par le contrat ou la convention collective, au salarié qui crée ou reprend une entreprise, pendant un an à compter du début de cette activité.\n2. Le salarié reste, pendant cette période, tenu à son obligation de loyauté envers son employeur.",
+      "replaces": [
+        "L1222-5",
+        "D1222-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 11,
+      "row": "execution",
+      "title": "Modification du contrat pour motif économique",
+      "text": "1. Lorsque l'employeur envisage de modifier un élément essentiel du contrat pour un motif économique, il le propose au salarié par lettre recommandée avec avis de réception.\n2. Cette lettre informe le salarié qu'il dispose d'un mois pour refuser la modification, réduit à quinze jours si l'entreprise est en redressement ou en liquidation judiciaire.\n3. À défaut de réponse dans ce délai, le salarié est réputé avoir accepté la modification.",
+      "replaces": [
+        "L1222-6"
+      ],
+      "note": ""
+    },
+    {
+      "n": 12,
+      "row": "execution",
+      "title": "Télétravail",
+      "text": "1. Le télétravail est le travail que le salarié effectue volontairement hors des locaux de l'employeur, au moyen des technologies de l'information, alors qu'il aurait pu être exécuté dans ces locaux.\n2. Il est organisé par accord collectif ou, à défaut, par une charte de l'employeur, ou par accord individuel avec le salarié ; ces textes fixent les conditions de passage et de retour, et les plages de contact.\n3. Le télétravailleur a les mêmes droits que les autres salariés ; un refus, motivé par l'employeur ou opposé par le salarié, ne peut jamais justifier une rupture du contrat.\n4. L'accident survenu sur le lieu de télétravail pendant l'activité professionnelle est présumé accident du travail.\n5. En cas de force majeure, le télétravail peut être imposé comme aménagement du poste pour assurer la continuité de l'activité.",
+      "replaces": [
+        "L1222-9",
+        "L1222-10",
+        "L1222-11"
+      ],
+      "note": ""
+    },
+    {
+      "n": 13,
+      "row": "execution",
+      "title": "Mobilité volontaire sécurisée",
+      "text": "1. Dans les entreprises et groupes d'au moins trois cents salariés, un salarié ayant deux ans d'ancienneté peut, avec l'accord de l'employeur, exercer une activité dans une autre entreprise, pendant une période où son contrat est suspendu.\n2. Un avenant fixe l'objet, la durée et le terme de cette période, ainsi que le délai dans lequel le salarié informe l'employeur de son choix de ne pas réintégrer l'entreprise.\n3. À son retour, il retrouve son emploi ou un emploi similaire, avec une qualification et une rémunération au moins équivalentes.\n4. S'il choisit de ne pas réintégrer l'entreprise, son contrat est rompu ; cette rupture constitue une démission.",
+      "replaces": [
+        "L1222-12",
+        "L1222-13",
+        "L1222-14",
+        "L1222-15",
+        "L1222-16"
+      ],
+      "note": ""
+    },
+    {
+      "n": 14,
+      "row": "execution",
+      "title": "Contrats particuliers : mission à l'exportation et chantier",
+      "text": "1. Un accord collectif peut organiser un contrat de mission à l'exportation, accompli en majeure partie hors de France, dont la rupture par l'employeur à la fin de la mission suit une procédure propre.\n2. Cet accord fixe les salariés et missions concernés, une durée minimale de six mois, et une indemnité de rupture au moins égale à l'indemnité légale de licenciement.\n3. Une convention ou un accord de branche étendu peut de même organiser un contrat de chantier ou d'opération, à durée indéterminée, dont il fixe les entreprises concernées et les modalités de rupture propres à la fin ou à l'échec du chantier.",
+      "replaces": [
+        "L1223-5",
+        "L1223-6",
+        "L1223-7",
+        "L1223-8",
+        "L1223-9"
+      ],
+      "note": ""
+    },
+    {
+      "n": 15,
+      "row": "transfert",
+      "title": "Transfert des contrats de travail",
+      "text": "1. Lorsque la situation juridique de l'employeur change — vente, fusion, succession, mise en société —, tous les contrats de travail en cours subsistent entre le nouvel employeur et le personnel.\n2. Le nouvel employeur reprend les obligations de l'ancien à la date du changement, sauf en cas de procédure collective ou de changement d'employeur sans convention entre eux ; dans ce dernier cas, l'ancien employeur rembourse au nouvel employeur les sommes dues à cette date.\n3. Un accord de branche étendu peut organiser la poursuite des contrats en cas de succession d'entreprises sur un même marché, sans que les salariés du nouveau prestataire puissent invoquer les avantages obtenus par leurs prédécesseurs.",
+      "replaces": [
+        "L1224-1",
+        "L1224-2",
+        "L1224-3-2",
+        "L1224-4"
+      ],
+      "note": ""
+    },
+    {
+      "n": 16,
+      "row": "transfert",
+      "title": "Transfert vers ou depuis une personne publique",
+      "text": "1. Lorsqu'une activité employant des salariés de droit privé est reprise par une personne publique gérant un service public administratif, celle-ci leur propose un contrat de droit public reprenant les clauses substantielles de leur contrat, notamment la rémunération ; les services accomplis chez l'ancien employeur sont assimilés à des services accomplis chez elle.\n2. Il en va de même, en sens inverse, pour une activité publique reprise par une personne privée.\n3. Dans les deux cas, le salarié qui refuse le contrat proposé voit son contrat prendre fin de plein droit, selon les règles du licenciement.",
+      "replaces": [
+        "L1224-3",
+        "L1224-3-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 17,
+      "row": "maladie",
+      "title": "Maintien de salaire pendant la maladie ou l'accident",
+      "text": "1. Après un an d'ancienneté, le salarié absent pour maladie ou accident, justifié par certificat médical, a droit à une indemnité complémentaire à celle de la sécurité sociale.\n2. Elle est égale à 90 % de la rémunération pendant les trente premiers jours, puis aux deux tiers pendant les trente jours suivants ; ces durées augmentent de dix jours par tranche de cinq ans d'ancienneté, sans dépasser quatre-vingt-dix jours chacune, et sont réduites des indemnités déjà perçues.\n3. Le commis commercial victime d'un accident dont il n'est pas responsable a droit à son salaire pendant six semaines, sans déduction.\n4. En Alsace-Moselle, le salarié dont le contrat est suspendu pour une cause personnelle indépendante de sa volonté et de courte durée a droit, dans les mêmes conditions, au maintien de son salaire.\n5. Un décret adapte ces règles en cas de risque sanitaire exceptionnel.",
+      "replaces": [
+        "L1226-1",
+        "L1226-1-1",
+        "L1226-23",
+        "L1226-24",
+        "D1226-1",
+        "D1226-2",
+        "D1226-3",
+        "D1226-4",
+        "D1226-5",
+        "D1226-6",
+        "D1226-7",
+        "D1226-8"
+      ],
+      "note": ""
+    },
+    {
+      "n": 18,
+      "row": "maladie",
+      "title": "Suivi de l'arrêt et actions de reclassement",
+      "text": "1. Le contrat reste suspendu pendant que le salarié suit une action de prévention de la désinsertion professionnelle, un stage de reclassement, ou une convention de rééducation professionnelle en cas de risque d'inaptitude.\n2. Le salarié atteint d'une maladie grave bénéficie d'autorisations d'absence pour ses traitements.\n3. Au-delà d'une durée d'arrêt fixée par décret, un rendez-vous de liaison peut être organisé avec le service de santé au travail pour informer le salarié des actions de prévention ; son refus n'a aucune conséquence.",
+      "replaces": [
+        "L1226-1-2",
+        "L1226-1-3",
+        "L1226-1-4",
+        "L1226-3",
+        "L1226-5",
+        "D1226-8-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 19,
+      "row": "maladie",
+      "title": "Suspension et protection pendant un accident du travail ou une maladie professionnelle",
+      "text": "1. Le contrat du salarié victime d'un accident du travail — autre qu'un accident de trajet — ou d'une maladie professionnelle est suspendu pendant l'arrêt de travail et les stages qui en découlent ; ces périodes comptent pour l'ancienneté.\n2. À l'issue, le salarié retrouve son emploi ou un emploi similaire, avec une rémunération au moins équivalente, sans retard de promotion.\n3. Pendant la suspension, l'employeur ne peut rompre le contrat que pour faute grave sans lien avec l'accident, ou pour impossibilité de le maintenir pour un motif étranger à celui-ci ; ces règles s'appliquent aussi en cas de mise en quarantaine.",
+      "replaces": [
+        "L1226-6",
+        "L1226-7",
+        "L1226-8",
+        "L1226-9",
+        "L1226-9-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 20,
+      "row": "maladie",
+      "title": "Inaptitude : obligation de reclassement",
+      "text": "1. Lorsque le médecin du travail déclare un salarié inapte à reprendre son emploi — quelle que soit l'origine, professionnelle ou non, de l'inaptitude —, l'employeur lui propose un autre emploi approprié à ses capacités, au sein de l'entreprise ou du groupe.\n2. Cette proposition tient compte de l'avis du médecin du travail et, s'il existe, de celui du comité social et économique ; l'emploi proposé est aussi comparable que possible au précédent.",
+      "replaces": [
+        "L1226-2",
+        "L1226-10"
+      ],
+      "note": "Régime unique de reclassement, que l'inaptitude soit d'origine professionnelle ou non ; seule l'indemnité de rupture diffère (article suivant)."
+    },
+    {
+      "n": 21,
+      "row": "maladie",
+      "title": "Rupture pour inaptitude : conditions et indemnités",
+      "text": "1. Si l'employeur ne peut proposer aucun autre emploi, il en informe le salarié par écrit ; il ne peut rompre le contrat que faute de reclassement possible, sur refus du salarié, ou si le médecin du travail exclut tout maintien ou reclassement.\n2. Faute de reclassement ou de licenciement dans le mois suivant l'examen médical, l'employeur verse au salarié le salaire de son emploi antérieur.\n3. La rupture ouvre droit à une indemnité compensatrice de préavis et à une indemnité spéciale de licenciement, doublée si l'inaptitude a une origine professionnelle, sauf refus abusif du salarié.\n4. Toute rupture prononcée en méconnaissance de ces règles est nulle ; le juge peut proposer la réintégration ou accorder une indemnité qui se cumule avec les précédentes.",
+      "replaces": [
+        "L1226-2-1",
+        "L1226-4",
+        "L1226-4-1",
+        "L1226-11",
+        "L1226-12",
+        "L1226-13",
+        "L1226-14",
+        "L1226-15",
+        "L1226-16",
+        "L1226-17"
+      ],
+      "note": ""
+    },
+    {
+      "n": 22,
+      "row": "maladie",
+      "title": "Salarié en contrat à durée déterminée",
+      "text": "1. Le salarié en contrat à durée déterminée victime d'un accident du travail ou d'une maladie professionnelle bénéficie, en l'absence de reclassement, du maintien de salaire prévu à l'article précédent ; l'employeur ne peut rompre son contrat pendant la suspension que pour faute grave ou force majeure.\n2. La suspension ne fait pas obstacle à l'échéance normale du contrat ; en cas de renouvellement prévu, l'employeur ne peut le refuser pendant la suspension que pour un motif réel et sérieux étranger à l'accident.\n3. Lorsque le salarié est déclaré inapte, la rupture ouvre droit à une indemnité au moins égale au double de l'indemnité légale de licenciement.",
+      "replaces": [
+        "L1226-18",
+        "L1226-19",
+        "L1226-20",
+        "L1226-21",
+        "L1226-22",
+        "L1226-4-2",
+        "L1226-4-3"
+      ],
+      "note": ""
+    }
+  ],
+  "removed": [
+    {
+      "nums": "R1226-9",
+      "reason": "Renvoi à l'aide financière prévue pour la transformation d'un poste de travailleur handicapé (article L. 5213-10) : ce dispositif, extérieur au présent titre, s'applique de plein droit sans qu'il soit besoin de le répéter."
+    },
+    {
+      "nums": "R1226-10, R1226-11, R1226-12",
+      "reason": "Modalités de la contre-visite médicale (lieu, convocation, compte rendu) : relèvent de l'organisation de la médecine de contrôle, renvoyées au Code de la santé publique."
+    },
+    {
+      "nums": "L1227-1",
+      "reason": "Sanction pénale du secret de fabrication : rattachée à l'article général de sanctions du code ; le secret des affaires reste protégé par le droit commun."
+    },
+    {
+      "nums": "R1227-1 → R1227-7",
+      "reason": "Contraventions sanctionnant le non-respect des obligations déclaratives, du registre du personnel, de l'information du service public de l'emploi et des protections de la grossesse et de la maternité : rattachées à l'article général de sanctions du code."
+    }
+  ],
+  "counts": {
+    "articles": 22,
+    "replaces_total": 136,
+    "removed_total": 12,
+    "current_total": 148
+  }
+}
