@@ -45,7 +45,8 @@
   --focus:#3987e5;
 }
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:150px}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.55;font-optical-sizing:auto}
 a{color:inherit;text-decoration-color:var(--hair-2);text-underline-offset:3px}
 a:hover{text-decoration-color:currentColor}
@@ -77,7 +78,7 @@ section{padding:56px 0 8px}
 /* site bar */
 .sitebar{position:sticky;top:0;z-index:7;background:var(--bg);border-bottom:1px solid var(--hair);height:44px}
 .sitebar .wrap{display:flex;align-items:center;gap:18px;height:44px}
-.brand{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2);text-decoration:none;white-space:nowrap}
+.brand{font-family:var(--display);font-weight:700;font-size:13px;color:var(--ink-2);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
 .sections{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;margin-left:auto}
 .sections::-webkit-scrollbar{display:none}
 .sections a{font-family:var(--display);font-weight:700;font-size:13px;color:var(--ink-2);text-decoration:none;padding:6px 10px;border-radius:6px;white-space:nowrap}
@@ -137,13 +138,20 @@ section{padding:56px 0 8px}
 .context .fn{font-family:var(--mono);font-size:12px;color:var(--muted)}
 
 /* tabs */
-.topnav{position:sticky;top:44px;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--hair);margin-top:24px}
+.topnav{position:sticky;top:44px;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--hair)}
+.mast{padding-bottom:28px}
+#ensemble{padding-top:32px}
 .tab.home{background:var(--surface-2);border-color:var(--hair)}
 .tabs{display:flex;flex-wrap:wrap;gap:6px}
 .tab{flex:none;font-family:var(--display);font-weight:700;font-size:13px;padding:7px 12px;border-radius:999px;border:1px solid var(--hair-2);background:var(--surface);color:var(--ink-2);cursor:pointer;min-height:36px}
 .tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .tab .n{font-family:var(--mono);font-weight:500;font-size:11px;opacity:.75;margin-left:6px}
-@media (max-width:480px){ .tab{font-size:12px;padding:6px 10px;min-height:32px} .tab .n{display:none} .topnav{padding:6px 0} }
+.tab .k{font-family:var(--mono);font-weight:600;font-size:11px;opacity:.7;margin-right:6px}
+.perma{font-family:var(--mono);font-size:13px;line-height:1;background:none;border:0;color:var(--muted);cursor:pointer;padding:2px 6px;border-radius:4px}
+.perma:hover{color:var(--ink);background:var(--surface-2)}
+.ref{display:flex;justify-content:space-between;align-items:center;gap:8px}
+@media (max-width:1099px){ .tab .n{display:none} }
+@media (max-width:480px){ .tab{font-size:12px;padding:6px 10px;min-height:32px} .topnav{padding:6px 0} }
 .panel{display:grid;gap:44px;padding-top:36px}
 .panel > .stack-lg{padding:0}
 .topic-head{display:grid;gap:12px}
@@ -301,7 +309,8 @@ footer .eyebrow{margin-bottom:12px}
 .print-mode .panel{padding-top:24px}
 @media print{
   body{background:#fff;color:#000;font-size:11pt}
-  @page{margin:16mm 14mm}
+  @page{margin:16mm 14mm 18mm; @bottom-left{content:"Code du travail simplifié — brouillon à relire";font:9pt 'IBM Plex Mono',monospace;color:#666} @bottom-right{content:"Page " counter(page);font:9pt 'IBM Plex Mono',monospace;color:#666}}
+  .perma{display:none!important}
   .band{background:#fff;box-shadow:none}
   .sitebar,.topnav,.tabbar,.share,.vote,.vote-note,.toast,#pdf,#pdf-top,.more{display:none!important}
   .panel[hidden]{display:grid!important}
@@ -317,8 +326,8 @@ footer .eyebrow{margin-bottom:12px}
 
 </style>
 
-<div class="sitebar"><div class="wrap"><a class="brand" href="#top">Alléger le Code</a><nav class="sections" aria-label="Sections">
-  <a href="#ensemble" data-sec="ensemble">Ensemble</a><a href="#sujets" data-sec="sujets">Comparer</a><a href="#sujets" data-sec="road" data-road="1">Feuille de route</a><a href="#code-allege" data-sec="code-allege">Code allégé</a><a href="#partager" data-sec="partager">Soutenir</a><a href="#methode" data-sec="methode">Méthode</a>
+<div class="sitebar"><div class="wrap"><a class="brand" href="#top">Notre objectif : alléger le Code du travail français</a><nav class="sections" aria-label="Sections">
+  <a href="#ensemble" data-sec="ensemble">Vue d’ensemble</a><a href="#sujets" data-sec="sujets">Comparer</a><a href="#sujets" data-sec="road" data-road="1">Objectif</a><a href="#code-allege" data-sec="code-allege">Code allégé</a><a href="#partager" data-sec="partager">Soutenir</a><a href="#methode" data-sec="methode">Méthode</a>
 </nav></div></div>
 
 <header class="mast wrap" id="top">
@@ -365,7 +374,7 @@ footer .eyebrow{margin-bottom:12px}
 
   <div class="stack">
     <h3>Index des sujets</h3>
-    <p style="font-size:15px;color:var(--ink-2)">Nombre d’articles en vigueur sur le même sujet. Touchez un sujet pour voir le détail, les textes et la feuille de route.</p>
+    <p style="font-size:15px;color:var(--ink-2)">Nombre d’articles en vigueur sur le même sujet. Touchez un sujet pour voir le détail, les textes et l’objectif.</p>
   </div>
   <div class="index">
     <div class="hd"><span>Sujet</span><span>France</span><span>Suisse</span><span>Écart</span></div>
@@ -393,7 +402,7 @@ footer .eyebrow{margin-bottom:12px}
   <div class="stack">
     <span class="eyebrow">Le Code allégé</span>
     <h2>La version proposée, à lire</h2>
-    <p class="lede">Le résultat de la feuille de route : les articles qui remplaceraient les articles actuels, écrits pour être compris sans juriste. Chaque article dit ce qu’il remplace.</p>
+    <p class="lede">Le résultat des objectifs : les articles qui remplaceraient les articles actuels, écrits pour être compris sans juriste. Chaque article dit ce qu’il remplace.</p>
     <p class="note" id="allege-status"></p>
   </div>
   <div class="ahead"><span id="allege-current"></span><button class="btn" id="allege-all" type="button">Afficher les neuf sujets</button></div>
@@ -499,9 +508,11 @@ footer .eyebrow{margin-bottom:12px}
       ${long?'<button class="more" type="button">Lire la suite</button>':''}
     </div>`;
   }
+  const tnum = t => D.topics.indexOf(t) + 1;
   function matchHtml(t, r){
+    const qn = t.rows.indexOf(r) + 1;
     return `<article class="match" id="m-${t.id}-${r.id}">
-      <header><span class="eyebrow">${esc(r.q)}</span><h3>${esc(r.title)}</h3></header>
+      <header><span class="eyebrow ref"><span>Sujet ${tnum(t)} · Question ${qn}</span><button class="perma" type="button" data-link="#m-${t.id}-${r.id}" title="Copier le lien">¶ ${tnum(t)}.${qn}</button></span><h3>${esc(r.title)}</h3></header>
       <div class="sides">
         <div class="side"><div class="who"><span class="dot fr"></span>France</div>
           <div class="cnt"><span class="num">${fmt(r.fr.n)}</span><small>art.</small></div>
@@ -520,6 +531,7 @@ footer .eyebrow{margin-bottom:12px}
   function cardHtml(t, r){
     return `<article class="card" id="p-${t.id}-${r.id}">
       <div class="head">
+        <span class="eyebrow ref"><span>Sujet ${tnum(t)} · Proposition ${t.rows.indexOf(r)+1}</span><button class="perma" type="button" data-link="#p-${t.id}-${r.id}" title="Copier le lien">¶ ${tnum(t)}.${t.rows.indexOf(r)+1}</button></span>
         <div class="chips">${r.verdict.map(v=>`<span class="chip ${v}">${CHIP[v]}</span>`).join('')}</div>
         <h3>${esc(r.title)}</h3>
         <div class="delta"><b class="num">${fmt(r.fr.n)}</b><span class="arrow">→</span><b class="num">${fmt(r.target)}</b><span>articles · cible</span></div>
@@ -537,7 +549,7 @@ footer .eyebrow{margin-bottom:12px}
     return `<div class="panel" id="panel-${t.id}" role="tabpanel" hidden>
       <div class="stack-lg hero">
         <div class="topic-head">
-          <span class="eyebrow">Sujet</span>
+          <span class="eyebrow">Sujet ${tnum(t)} sur ${D.topics.length}</span>
           <h2>${esc(t.title)}</h2>
           <p class="lede">${t.lede}</p>
           <div class="scope"><span class="dot fr" style="margin-top:5px"></span><span><a href="${t.fr.url}" target="_blank" rel="noopener">${esc(t.fr.scope)} ↗</a></span><span class="dot ch" style="margin-top:5px"></span><span><a href="${t.ch.url}" target="_blank" rel="noopener">${esc(t.ch.scope)} ↗</a></span></div>
@@ -562,36 +574,43 @@ footer .eyebrow{margin-bottom:12px}
         <div class="stack grid2">${t.rows.map(r=>matchHtml(t,r)).join('')}</div>
       </div>
       <div class="stack-lg">
-        <div class="stack"><span class="eyebrow">Feuille de route</span><h2>De ${fmt(t.fr.n)} à ${fmt(target)} articles</h2><p class="lede">Une proposition, question par question. Chaque verdict renvoie aux articles concernés ; chacun peut le contester, ou le soutenir.</p></div>
+        <div class="stack"><span class="eyebrow">Objectif</span><h2>De ${fmt(t.fr.n)} à ${fmt(target)} articles</h2><p class="lede">Une proposition, question par question. Chaque verdict renvoie aux articles concernés ; chacun peut le contester, ou le soutenir.</p></div>
         <div class="road">${t.rows.map(r=>cardHtml(t,r)).join('')}</div>
       </div>
     </div>`;
   }
-  $('tabs').innerHTML = `<button class="tab home" type="button" data-goto="ensemble">Ensemble</button>` + D.topics.map(t => `<button class="tab" role="tab" type="button" data-topic="${t.id}" aria-selected="false">${esc(t.name)}<span class="n">${fmt(t.fr.n)} / ${fmt(t.ch.n)}</span></button>`).join('');
+  $('tabs').innerHTML = `<button class="tab home" type="button" data-goto="ensemble">Tout</button>` + D.topics.map((t,i) => `<button class="tab" role="tab" type="button" data-topic="${t.id}" aria-selected="false"><span class="k">${i+1}</span>${esc(t.name)}<span class="n">${fmt(t.fr.n)} / ${fmt(t.ch.n)}</span></button>`).join('');
   $('panels').innerHTML = D.topics.map(panelHtml).join('');
 
   let current = D.topics[0].id;
   const hooks = [];
+  let navLock = 0;
+  const jump = el => { navLock = Date.now() + 1500; el.scrollIntoView({block:'start', behavior:'instant'}); };
+  const jumpHome = () => { navLock = Date.now() + 1500; const mast = $('top'), bar = document.querySelector('.sitebar'); window.scrollTo({top: mast.offsetTop + mast.offsetHeight - (bar ? bar.offsetHeight : 0), behavior:'instant'}); };
+  function setHome(on){ const home = document.querySelector('.tab.home'); if(home) home.setAttribute('aria-selected', on ? 'true':'false'); document.querySelectorAll('[data-topic].tab').forEach(b => b.setAttribute('aria-selected', (!on && b.dataset.topic===current) ? 'true':'false')); }
   function show(id, scroll){
     if(!D.topics.some(t=>t.id===id)) id = D.topics[0].id;
     current = id;
     document.querySelectorAll('[data-topic].tab').forEach(b => b.setAttribute('aria-selected', b.dataset.topic===id ? 'true':'false'));
+    const home = document.querySelector('.tab.home'); if(home) home.setAttribute('aria-selected','false');
     document.querySelectorAll('#panels .panel').forEach(p => p.hidden = p.id !== 'panel-'+id);
     hooks.forEach(f => f(id));
-    if(scroll) $('sujets').scrollIntoView({block:'start'});
+    if(scroll) jump($('sujets'));
     try { history.replaceState(null, '', '#sujet=' + id); } catch(e) {}
   }
   document.addEventListener('click', e => {
-    const rd = e.target.closest('[data-road]'); if(rd){ e.preventDefault(); const el = document.querySelector('#panels .panel:not([hidden]) .road'); if(el) el.parentElement.scrollIntoView({block:'start'}); return; }
-    const g = e.target.closest('[data-goto]'); if(g){ $(g.dataset.goto).scrollIntoView({block:'start'}); return; }
+    const rd = e.target.closest('[data-road]'); if(rd){ e.preventDefault(); const el = document.querySelector('#panels .panel:not([hidden]) .road'); if(el){ setHome(false); jump(el.parentElement); } return; }
+    const sl = e.target.closest('.sections a[href^="#"]:not([data-road])'); if(sl){ const el = document.querySelector(sl.getAttribute('href')); if(el){ e.preventDefault(); setHome(sl.dataset.sec==='ensemble'); if(sl.dataset.sec==='ensemble') jumpHome(); else jump(el); } return; }
+    const g = e.target.closest('[data-goto]'); if(g){ setHome(true); jumpHome(); return; }
     const b = e.target.closest('[data-topic]'); if(b){
       const above = window.scrollY + 120 < $('sujets').offsetTop;
       show(b.dataset.topic, b.classList.contains('irow') || above); return; }
     const m = e.target.closest('.more'); if(m){ m.previousElementSibling.classList.remove('clamp'); m.remove(); return; }
+    const pl = e.target.closest('.perma'); if(pl){ const link = location.href.split('#')[0] + pl.dataset.link; (window.__copy || copy)(link, 'Lien copié — ' + pl.dataset.link.slice(1)); return; }
   });
   const h = (location.hash.match(/sujet=([\w-]+)/)||[])[1];
   show(h || D.topics[0].id, false);
-  if(location.hash.startsWith('#m-')){ const el = document.querySelector(location.hash); if(el){ const tid = el.id.split('-')[1]; show(tid,false); el.scrollIntoView(); } }
+  if(/^#(m|p)-/.test(location.hash)){ const el = document.querySelector(location.hash); if(el){ const tid = el.id.split('-')[1]; show(tid,false); setTimeout(() => el.scrollIntoView(), 50); } }
 
   // ---------- Code allégé ----------
   const A = D.allege || {};
@@ -609,7 +628,7 @@ footer .eyebrow{margin-bottom:12px}
       const arts = d.articles.map(a => {
         const head = a.row !== lastRow ? `<div class="part">${esc(d.rows[a.row] || a.row)}</div>` : ''; lastRow = a.row;
         return head + `<article class="cart" id="a-${t.id}-${a.n}">
-          <div class="h"><span class="n">Art. ${a.n}</span><span class="t">${esc(a.title)}</span></div>
+          <div class="h"><span class="n">Art. ${a.n}</span><span class="t">${esc(a.title)}</span><button class="perma" type="button" data-link="#a-${t.id}-${a.n}" title="Copier le lien" style="margin-left:auto">¶</button></div>
           <div class="x">${esc(a.text)}</div>
           <div class="r"><b>Remplace</b> ${a.replaces.map(r=>`<a href="${r.url}" target="_blank" rel="noopener">${esc(r.num)}</a>`).join(', ') || '—'}${a.note ? ' · ' + esc(a.note) : ''}</div>
         </article>`;
@@ -618,7 +637,7 @@ footer .eyebrow{margin-bottom:12px}
       const c = d.counts || {};
       return `<div class="panel" id="apanel-${t.id}" role="tabpanel" hidden>
         <div class="stack-lg">
-          <h3 class="ptitle">${esc(t.name)}</h3>
+          <h3 class="ptitle">Sujet ${tnum(t)} — ${esc(t.name)}</h3>
           <div class="astat"><span><b>${fmt(c.current_total || t.fr.n)}</b> articles aujourd’hui</span><span>→</span><span><b>${fmt(d.articles.length)}</b> articles proposés</span><span><b>${fmt(c.replaces_total || 0)}</b> remplacés</span><span><b>${fmt(c.removed_total || 0)}</b> supprimés sans successeur</span></div>
           <div class="code">${arts}</div>
           ${rem ? `<div class="stack"><h3>Articles supprimés sans successeur</h3><div class="removed">${rem}</div></div>` : ''}
@@ -649,12 +668,18 @@ footer .eyebrow{margin-bottom:12px}
     document.querySelectorAll('.more').forEach(b => b.remove());
   }
 
+  // ---------- Sticky offset ----------
+  function stickyH(){ const a = document.querySelector('.sitebar'), b = document.querySelector('.topnav'); return (a ? a.offsetHeight : 0) + (b ? b.offsetHeight : 0); }
+  function setOffset(){ document.documentElement.style.scrollPaddingTop = (stickyH() + 32) + 'px'; }
+  setOffset(); window.addEventListener('resize', setOffset); window.addEventListener('load', setOffset);
+
   // ---------- Active section in the site bar ----------
   const secLinks = [...document.querySelectorAll('.sections a[data-sec]')];
   const secEls = ['ensemble','sujets','code-allege','partager','methode'].map(id => $(id)).filter(Boolean);
   if('IntersectionObserver' in window){
     const io = new IntersectionObserver(entries => {
-      entries.forEach(en => { if(en.isIntersecting){ secLinks.forEach(a => a.classList.toggle('on', a.dataset.sec === en.target.id)); } });
+      if(Date.now() < navLock) return;
+      entries.forEach(en => { if(en.isIntersecting){ secLinks.forEach(a => a.classList.toggle('on', a.dataset.sec === en.target.id)); setHome(en.target.id === 'ensemble'); } });
     }, {rootMargin: '-45% 0px -50% 0px'});
     secEls.forEach(s => io.observe(s));
   }
@@ -737,6 +762,7 @@ footer .eyebrow{margin-bottom:12px}
   $('sh-mail').href = 'mailto:?subject=' + encodeURIComponent('Code du travail simplifié — mêmes droits, moins de texte') + '&body=' + encodeURIComponent(msg);
   const toastEl = $('toast'); let tt;
   function toast(t){ toastEl.textContent = t; toastEl.classList.add('show'); clearTimeout(tt); tt = setTimeout(()=>toastEl.classList.remove('show'), 1800); }
+  window.__copy = copy;
   async function copy(text, ok){ try { await navigator.clipboard.writeText(text); toast(ok); } catch(e){ toast('Copie impossible ici — sélectionnez le texte.'); } }
   $('copy').addEventListener('click', () => copy(url, 'Lien copié'));
   $('copy-eng').addEventListener('click', () => copy($('pledge').textContent.trim(), 'Engagement copié'));
