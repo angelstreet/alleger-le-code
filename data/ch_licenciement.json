@@ -1,0 +1,287 @@
+{
+  "country": "CH",
+  "source": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr ; https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr ; consolidated HTML via https://fedlex.data.admin.ch/filestore/... (CO état 1er janvier 2026; LTr état 1er septembre 2023)",
+  "fetched_at": "2026-09-10",
+  "topic": "Fin des rapports de travail (résiliation)",
+  "code_totals": {
+    "co_titre10": {
+      "articles": 139,
+      "words": 14230,
+      "range": "art. 319–362"
+    },
+    "ltr": {
+      "articles": 83,
+      "words": 7288
+    },
+    "co_whole": {
+      "articles": 1603,
+      "words": 120996
+    },
+    "note": "Counts are per <article> element in the Fedlex consolidated HTML (fr), including lettered sub-articles (e.g. 335a) and a handful of jointly-repealed article ranges (e.g. 'art. 226a–226d') that count as one element each. Words = whitespace-separated tokens of the plain article text (footnote markers/footnotes excluded). CO whole = art. 1–1186 (Livre cinquième du Code civil suisse), état 1er janvier 2026. LTr = RS 822.11, état 1er septembre 2023."
+  },
+  "topic_totals": {
+    "articles": 29,
+    "words": 2928
+  },
+  "sections": [
+    {
+      "id": "co-tit10-chap1-G-I",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > G. Fin des rapports de travail > I. Contrat de durée déterminée",
+      "title": "I. Contrat de durée déterminée",
+      "articles": [
+        {
+          "num": "Art. 334",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_334",
+          "text": "1 Le contrat de durée déterminée prend fin sans qu’il soit nécessaire de donner congé.\n2 Si, après l’expiration de la période convenue, le contrat de durée déterminée est reconduit tacitement, il est réputé être un contrat de durée indéterminée.\n3 Le contrat conclu pour plus de dix ans peut être résilié après dix ans par chacune des parties pour la fin d’un mois, moyennant un délai de congé de six mois.",
+          "words": 72
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-G-II-1",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > G. Fin des rapports de travail > II. Contrat de durée indéterminée > 1. Congé en général",
+      "title": "II. Contrat de durée indéterminée – 1. Congé en général",
+      "articles": [
+        {
+          "num": "Art. 335",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_335",
+          "text": "1 Le contrat de durée indéterminée peut être résilié par chacune des parties.\n2 La partie qui donne le congé doit motiver sa décision par écrit si l’autre partie le demande.",
+          "words": 31
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-G-II-2",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > G. Fin des rapports de travail > II. Contrat de durée indéterminée > 2. Délais de congé",
+      "title": "II. Contrat de durée indéterminée – 2. Délais de congé",
+      "articles": [
+        {
+          "num": "Art. 335a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_335_a",
+          "text": "1 Les délais de congé doivent être identiques pour les deux parties; si un accord prévoit des délais différents, le délai le plus long est applicable aux deux parties.\n2 Lorsque l’employeur a manifesté son intention de résilier le contrat de travail ou qu’il l’a résilié pour des motifs d’ordre économique, des délais de congé plus courts peuvent toutefois être prévus en faveur du travailleur, par accord, contrat-type de travail ou convention collective.",
+          "words": 73
+        },
+        {
+          "num": "Art. 335b",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_335_b",
+          "text": "1 Pendant le temps d’essai, chacune des parties peut résilier le contrat de travail à tout moment moyennant un délai de congé de sept jours; est considéré comme temps d’essai le premier mois de travail.\n2 Des dispositions différentes peuvent être prévues par accord écrit, contrat-type de travail ou convention collective; toutefois, le temps d’essai ne peut dépasser trois mois.\n3 Lorsque, pendant le temps d’essai, le travail est interrompu par suite de maladie, d’accident ou d’accomplissement d’une obligation légale incombant au travailleur sans qu’il ait demandé de l’assumer, le temps d’essai est prolongé d’autant.",
+          "words": 95
+        },
+        {
+          "num": "Art. 335c",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_335_c",
+          "text": "1 Le contrat peut être résilié pour la fin d’un mois moyennant un délai de congé d’un mois pendant la première année de service, de deux mois de la deuxième à la neuvième année de service, de trois mois ultérieurement.\n2 Ces délais peuvent être modifiés par accord écrit, contrat-type de travail ou convention collective; des délais inférieurs à un mois ne peuvent toutefois être fixés que par convention collective et pour la première année de service.\n3 Si l’employeur résilie le contrat de travail et que le travailleur bénéficie du congé de l’autre parent au sens de l’art. 329g avant la fin du contrat de travail, le délai de congé est prolongé du nombre de jours de congé qui n’ont pas été pris.",
+          "words": 124
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-G-IIbis",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > G. Fin des rapports de travail > II bis. Licenciement collectif",
+      "title": "II bis. Licenciement collectif",
+      "articles": [
+        {
+          "num": "Art. 335d",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_335_d",
+          "text": "Par licenciement collectif, on entend les congés donnés dans une entreprise par l’employeur dans un délai de 30 jours pour des motifs non inhérents à la personne du travailleur et dont le nombre est au moins:\n1. égal à 10 dans les établissements employant habituellement plus de 20 et moins de 100 travailleurs;\n2. de 10 % du nombre des travailleurs dans les établissements employant habituellement au moins 100 et moins de 300 travailleurs;\n3. égal à 30 dans les établissements employant habituellement au moins 300 travailleurs.",
+          "words": 87
+        },
+        {
+          "num": "Art. 335e",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_335_e",
+          "text": "1 Les dispositions relatives au licenciement collectif s’appliquent également aux contrats de durée déterminée, lorsque les rapports de travail prennent fin avant l’expiration de la durée convenue.\n2 Elles ne s’appliquent pas en cas de cessation d’activité de l’entreprise intervenue sur ordre du juge ni en cas de licenciement collectif par suite de faillite ni en cas de concordat par abandon d’actifs.",
+          "words": 62
+        },
+        {
+          "num": "Art. 335f",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_335_f",
+          "text": "1 L’employeur qui envisage de procéder à un licenciement collectif est tenu de consulter la représentation des travailleurs ou, à défaut, les travailleurs.\n2 Il leur donne au moins la possibilité de formuler des propositions sur les moyens d’éviter les congés ou d’en limiter le nombre, ainsi que d’en atténuer les conséquences.\n3 Il est tenu de fournir à la représentation des travailleurs ou, à défaut, aux travailleurs tous les renseignements utiles à cet effet et de leur communiquer en tout cas par écrit:\na. les motifs du licenciement collectif;\nb. le nombre des travailleurs auxquels le congé doit être signifié;\nc. le nombre des travailleurs habituellement employés;\nd. la période pendant laquelle il est envisagé de donner les congés.\n4 Il transmet à l’office cantonal du travail une copie de la communication prévue à l’al. 3.",
+          "words": 137
+        },
+        {
+          "num": "Art. 335g",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_335_g",
+          "text": "1 L’employeur est tenu de notifier par écrit à l’office cantonal du travail tout projet de licenciement collectif et de transmettre à la représentation des travailleurs ou, à défaut, aux travailleurs une copie de cette notification.\n2 La notification doit contenir les résultats de consultation de la représentation des travailleurs (art. 335f) ainsi que tous les renseignements utiles concernant le projet de licenciement collectif.\n3 L’office cantonal du travail tente de trouver des solutions aux problèmes posés par le licenciement collectif projeté. La représentation des travailleurs ou, à défaut, les travailleurs peuvent lui communiquer leurs observations.\n4 Si le contrat de travail est résilié dans le cadre d’un licenciement collectif, les rapports de travail prennent fin 30 jours après la notification du projet de licenciement collectif à l’office cantonal du travail, à moins que, selon les dispositions contractuelles ou légales, le congé ne produise effet à un terme ultérieur.",
+          "words": 149
+        },
+        {
+          "num": "Art. 335h",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_335_h",
+          "text": "1 Le plan social est une convention par laquelle l’employeur et les travailleurs fixent les moyens d’éviter les licenciements, d’en limiter le nombre ou d’en atténuer les conséquences.\n2 Il ne doit pas mettre en danger l’existence de l’entreprise.",
+          "words": 39
+        },
+        {
+          "num": "Art. 335i",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_335_i",
+          "text": "1 L’employeur est tenu de mener des négociations avec les travailleurs en vue d’établir un plan social lorsqu’il remplit les critères suivants:\na. il emploie habituellement au moins 250 travailleurs;\nb. il entend résilier le contrat d’au moins 30 travailleurs dans un délai de 30 jours pour des motifs de gestion non inhérents à leur personne.\n2 Les licenciements qui sont étalés dans le temps mais dictés par les mêmes motifs sont additionnés.\n3 L’employeur négocie:\na. avec les associations de travailleurs liées par une convention collective de travail s’il est partie à cette convention;\nb. avec la représentation des travailleurs;\nc. directement avec les travailleurs, à défaut de représentation des travailleurs.\n4 Les associations de travailleurs, les représentants des travailleurs ou les travailleurs peuvent se faire assister par des experts lors des négociations. Les experts sont tenus de garder le secret envers les personnes étrangères à l’entreprise.",
+          "words": 148
+        },
+        {
+          "num": "Art. 335j",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_335_j",
+          "text": "1 Si les parties ne parviennent pas à s’accorder sur un plan social, il y a lieu de saisir un tribunal arbitral.\n2 Le tribunal arbitral arrête un plan social obligatoire.",
+          "words": 31
+        },
+        {
+          "num": "Art. 335k",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_335_k",
+          "text": "Les dispositions relatives au plan social (art. 335h à 335j) ne s’appliquent pas en cas de licenciement collectif effectué pendant une procédure de faillite ou une procédure concordataire qui aboutit à la conclusion d’un concordat.",
+          "words": 35
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-G-III",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > G. Fin des rapports de travail > III. Protection contre les congés",
+      "title": "III. Protection contre les congés",
+      "articles": [
+        {
+          "num": "Art. 336",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_336",
+          "text": "1 Le congé est abusif lorsqu’il est donné par une partie:\na. pour une raison inhérente à la personnalité de l’autre partie, à moins que cette raison n’ait un lien avec le rapport de travail ou ne porte sur un point essentiel un préjudice grave au travail dans l’entreprise;\nb. en raison de l’exercice par l’autre partie d’un droit constitutionnel, à moins que l’exercice de ce droit ne viole une obligation résultant du contrat de travail ou ne porte sur un point essentiel un préjudice grave au travail dans l’entreprise;\nc. seulement afin d’empêcher la naissance de prétentions juridiques de l’autre partie, résultant du contrat de travail;\nd. parce que l’autre partie fait valoir de bonne foi des prétentions résultant du contrat de travail;\ne. parce que l’autre partie accomplit un service obligatoire, militaire ou dans la protection civile, ou un service civil, en vertu de la législation fédérale, ou parce qu’elle accomplit une obligation légale lui incombant sans qu’elle ait demandé de l’assumer.\n2 Est également abusif le congé donné par l’employeur:\na. en raison de l’appartenance ou de la non-appartenance du travailleur à une organisation de travailleurs ou en raison de l’exercice conforme au droit d’une activité syndicale;\nb. pendant que le travailleur, représentant élu des travailleurs, est membre d’une commission d’entreprise ou d’une institution liée à l’entreprise et que l’employeur ne peut prouver qu’il avait un motif justifié de résiliation.\nc. sans respecter la procédure de consultation prévue pour les licenciements collectifs (art. 335f).\n3 Dans les cas prévus à l’al. 2, let. b, la protection du représentant des travailleurs dont le mandat a pris fin en raison d’un transfert des rapports de travail (art. 333) est maintenue jusqu’au moment où ce mandat aurait expiré si le transfert n’avait pas eu lieu.",
+          "words": 295
+        },
+        {
+          "num": "Art. 336a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_336_a",
+          "text": "1 La partie qui résilie abusivement le contrat doit verser à l’autre une indemnité.\n2 L’indemnité est fixée par le juge, compte tenu de toutes les circonstances; toutefois, elle ne peut dépasser le montant correspondant à six mois de salaire du travailleur. Sont réservés les dommages-intérêts qui pourraient être dus à un autre titre.\n3 En cas de congé abusif au sens de l’art. 336, al. 2, let. c, l’indemnité ne peut s’élever au maximum qu’au montant correspondant à deux mois de salaire du travailleur.",
+          "words": 85
+        },
+        {
+          "num": "Art. 336b",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_336_b",
+          "text": "1 La partie qui entend demander l’indemnité fondée sur les art. 336 et 336a doit faire opposition au congé par écrit auprès de l’autre partie au plus tard jusqu’à la fin du délai de congé.\n2 Si l’opposition est valable et que les parties ne s’entendent pas pour maintenir le rapport de travail, la partie qui a reçu le congé peut faire valoir sa prétention à une indemnité. Elle doit agir par voie d’action en justice dans les 180 jours à compter de la fin du contrat, sous peine de péremption.",
+          "words": 91
+        },
+        {
+          "num": "Art. 336c",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_336_c",
+          "text": "1 Après le temps d’essai, l’employeur ne peut pas résilier le contrat:\na. pendant que le travailleur accomplit un service obligatoire, militaire ou dans la protection civile, ou un service civil, en vertu de la législation fédérale, ou encore pendant les quatre semaines qui précédent et qui suivent ce service pour autant qu’il ait duré plus de onze jours;\nb. pendant une incapacité de travail totale ou partielle résultant d’une maladie ou d’un accident non imputables à la faute du travailleur, et cela, durant 30 jours au cours de la première année de service, durant 90 jours de la deuxième à la cinquième année de service et durant 180 jours à partir de la sixième année de service;\nc. pendant la grossesse et au cours des seize semaines qui suivent l’accouchement;\ncbis. avant le terme du congé de maternité prolongé conformément à l’art. 329f, al. 2;\ncter. entre le début du congé prévu à l’art. 329f, al. 3, et le dernier jour de congé pris, mais pendant trois mois au plus à compter de la fin de la période de protection prévue à la let. c;\ncquater. tant que dure le droit au congé de prise en charge visé à l’art. 329i, pour une période maximale de six mois à compter du jour où le délai-cadre commence à courir;\ncquinquies. pendant le congé prévu à l’art. 329gbis;\nd. pendant que le travailleur participe, avec l’accord de l’employeur, à un service d’aide à l’étranger ordonné par l’autorité fédérale.\n2 Le congé donné pendant une des périodes prévues à l’alinéa précédent est nul; si le congé a été donné avant l’une de ces périodes et si le délai de congé n’a pas expiré avant cette période, ce délai est suspendu et ne continue à courir qu’après la fin de la période.\n3 Lorsque les rapports de travail doivent cesser à un terme, tel que la fin d’un mois ou d’une semaine de travail, et que ce terme ne coïncide pas avec la fin du délai de congé qui a recommencé à courir, ce délai est prolongé jusqu’au prochain terme.",
+          "words": 347
+        },
+        {
+          "num": "Art. 336d",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_336_d",
+          "text": "1 Après le temps d’essai, le travailleur ne peut pas résilier le contrat si un supérieur dont il est en mesure d’assumer les fonctions ou l’employeur lui-même se trouve empêché pour les motifs indiqués à l’art. 336c, al. 1, let. a, et s’il incombe audit travailleur d’assurer le remplacement.\n2 L’art. 336c, al. 2 et 3, est applicable par analogie.",
+          "words": 60
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-G-IV",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > G. Fin des rapports de travail > IV. Résiliation immédiate",
+      "title": "IV. Résiliation immédiate",
+      "articles": [
+        {
+          "num": "Art. 337",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_337",
+          "text": "1 L’employeur et le travailleur peuvent résilier immédiatement le contrat en tout temps pour de justes motifs; la partie qui résilie immédiatement le contrat doit motiver sa décision par écrit si l’autre partie le demande.\n2 Sont notamment considérées comme de justes motifs toutes les circonstances qui, selon les règles de la bonne foi, ne permettent pas d’exiger de celui qui a donné le congé la continuation des rapports de travail.\n3 Le juge apprécie librement s’il existe de justes motifs, mais en aucun cas il ne peut considérer comme tel le fait que le travailleur a été sans sa faute empêché de travailler.",
+          "words": 104
+        },
+        {
+          "num": "Art. 337a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_337_a",
+          "text": "En cas d’insolvabilité de l’employeur, le travailleur peut résilier immédiatement le contrat, si des sûretés ne lui sont pas fournies dans un délai convenable pour garantir ses prétentions contractuelles.",
+          "words": 29
+        },
+        {
+          "num": "Art. 337b",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_337_b",
+          "text": "1 Si les justes motifs de la résiliation immédiate du contrat consistent dans son inobservation par l’une des parties, celle-ci doit réparer intégralement le dommage causé, compte tenu de toutes les prétentions découlant des rapports de travail.\n2 Dans les autres cas, le juge apprécie librement les conséquences pécuniaires de la résiliation immédiate en tenant compte de toutes les circonstances.",
+          "words": 60
+        },
+        {
+          "num": "Art. 337c",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_337_c",
+          "text": "1 Lorsque l’employeur résilie immédiatement le contrat sans justes motifs, le travailleur a droit à ce qu’il aurait gagné, si les rapports de travail avaient pris fin à l’échéance du délai de congé ou à la cassation du contrat conclu pour une durée déterminée.\n2 On impute sur ce montant ce que le travailleur a épargné par suite de la cessation du contrat de travail ainsi que le revenu qu’il a tiré d’un autre travail ou le revenu auquel il a intentionnellement renoncé.\n3 Le juge peut condamner l’employeur à verser au travailleur une indemnité dont il fixera librement le montant, compte tenu de toutes les circonstances; elle ne peut toutefois dépasser le montant correspondant à six mois de salaire du travailleur.",
+          "words": 122
+        },
+        {
+          "num": "Art. 337d",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_337_d",
+          "text": "1 Lorsque le travailleur n’entre pas en service ou abandonne son emploi abruptement sans justes motifs, l’employeur a droit à une indemnité égale au quart du salaire mensuel; il a en outre droit à la réparation du dommage supplémentaire.\n2 Le juge peut réduire l’indemnité selon sa libre appréciation si l’employeur ne subit aucun dommage ou si le dommage est inférieur à l’indemnité prévue à l’alinéa précédent.\n3 Si le droit à l’indemnité ne s’éteint pas par compensation, il doit, sous peine de péremption, être exercé par voie d’action en justice ou de poursuites dans les 30 jours à compter de la non-entrée en place ou de l’abandon de l’emploi.\n4 …",
+          "words": 112
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-G-V",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > G. Fin des rapports de travail > V. Décès du travailleur ou de l’employeur",
+      "title": "V. Décès du travailleur ou de l’employeur",
+      "articles": [
+        {
+          "num": "Art. 338",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_338",
+          "text": "1 Le contrat prend fin au décès du travailleur.\n2 Toutefois, l’employeur doit payer le salaire, à partir du jour du décès, pour un mois encore et, si les rapports de travail ont duré plus de cinq ans, pour deux mois encore, si le travailleur laisse un conjoint, un partenaire enregistré ou des enfants mineurs ou, à défaut, d’autres personnes en faveur desquelles il remplissait une obligation d’entretien.",
+          "words": 68
+        },
+        {
+          "num": "Art. 338a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_338_a",
+          "text": "1 À la mort de l’employeur, le contrat passe aux héritiers; les dispositions relatives au transfert des rapports de travail en cas de transfert de l’entreprise sont applicables par analogie.\n2 Le contrat conclu essentiellement en considération de la personne de l’employeur prend fin à son décès; toutefois, le travailleur peut réclamer une indemnité équitable pour le dommage causé par l’extinction prématurée du contrat.",
+          "words": 64
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-G-VI",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > G. Fin des rapports de travail > VI. Conséquences de la fin du contrat",
+      "title": "VI. Conséquences de la fin du contrat",
+      "articles": [
+        {
+          "num": "Art. 339",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_339",
+          "text": "1 À la fin du contrat, toutes les créances qui en découlent deviennent exigibles.\n2 Lorsque le travailleur a droit à une provision pour des affaires dont l’exécution a lieu entièrement ou partiellement après la fin du contrat, l’exigibilité peut être différée par accord écrit, mais en général pour six mois au plus; l’exigibilité ne peut pas être différée de plus d’une année s’il s’agit d’affaires donnant lieu à des prestations successives, ni de plus de deux ans s’il s’agit de contrats d’assurance ou d’affaires dont l’exécution s’étend sur plus d’une demi-année.\n3 Le droit à une participation au résultat de l’exploitation est exigible conformément à l’art. 323, al. 3.",
+          "words": 110
+        },
+        {
+          "num": "Art. 339a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_339_a",
+          "text": "1 Au moment où le contrat prend fin, les parties se rendent tout ce qu’elles se sont remis pour la durée du contrat, de même que tout ce que l’une d’elles pourrait avoir reçu de tiers pour le compte de l’autre.\n2 Le travailleur restitue notamment les véhicules à moteur et les permis de circulation, de même que les avances de salaire et de frais dans la mesure où elles excèdent ses créances.\n3 Les droits de rétention des parties sont réservés.",
+          "words": 82
+        },
+        {
+          "num": "Art. 339b",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_339_b",
+          "text": "1 Si les rapports de travail d’un travailleur âgé d’au moins 50 ans prennent fin après vingt ans ou plus, l’employeur verse au travailleur une indemnité à raison de ces longs rapports de travail.\n2 Si le travailleur meurt pendant la durée des rapports de travail, l’indemnité est versée au conjoint ou au partenaire enregistré survivant, aux enfants mineurs ou, à défaut, aux autres personnes en faveur desquelles le travailleur remplissait une obligation d’entretien.",
+          "words": 74
+        },
+        {
+          "num": "Art. 339c",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_339_c",
+          "text": "1 Le montant de l’indemnité peut être fixé par accord écrit, contrat-type de travail ou convention collective, mais ne doit pas être inférieur au montant du salaire pour deux mois.\n2 Si le montant de l’indemnité n’est pas déterminé, le juge le fixe selon sa libre appréciation, compte tenu de toutes les circonstances; l’indemnité ne doit toutefois pas dépasser le montant du salaire pour huit mois.\n3 L’indemnité peut être réduite ou supprimée si le travailleur a résilié le contrat sans justes motifs ou si l’employeur l’a résilié avec effet immédiat pour de justes motifs ou si le paiement de cette indemnité l’exposerait à la gêne.\n4 L’indemnité est due au moment où les rapports de travail prennent fin, mais l’échéance peut en être différée par un accord écrit, par un contrat-type de travail, par une convention collective ou par le juge.",
+          "words": 142
+        }
+      ]
+    }
+  ]
+}

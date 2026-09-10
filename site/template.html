@@ -1,0 +1,532 @@
+<meta charset="utf-8">
+<title>Alléger le Code</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#f6f7f9; --surface:#ffffff; --surface-2:#eef0f4;
+  --ink:#14161a; --ink-2:#4c5260; --muted:#7a808d; --hair:#dfe2e8; --hair-2:#cdd1d9;
+  --fr:#2a78d6; --ch:#e34948;
+  --keep-ink:#006300; --keep-bg:#e3f3e3;
+  --simp-ink:#8a5a00; --simp-bg:#fdf0d5;
+  --deleg-ink:#4a3aa7; --deleg-bg:#e9e6f8;
+  --drop-ink:#b32d2d; --drop-bg:#fbe3e3;
+  --add-ink:#0e7a55; --add-bg:#d9f3ea;
+  --focus:#2a78d6;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#101216; --surface:#181b21; --surface-2:#20242c;
+    --ink:#f2f3f5; --ink-2:#b8bcc6; --muted:#858b98; --hair:#2a2e37; --hair-2:#3a3f4a;
+    --fr:#3987e5; --ch:#e66767;
+    --keep-ink:#7ed77e; --keep-bg:#163a16;
+    --simp-ink:#f0c060; --simp-bg:#3d2c08;
+    --deleg-ink:#b3aaf2; --deleg-bg:#2a2450;
+    --drop-ink:#f08a8a; --drop-bg:#4a1f1f;
+    --add-ink:#6fd7b0; --add-bg:#0f3a2b;
+    --focus:#3987e5;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#101216; --surface:#181b21; --surface-2:#20242c;
+  --ink:#f2f3f5; --ink-2:#b8bcc6; --muted:#858b98; --hair:#2a2e37; --hair-2:#3a3f4a;
+  --fr:#3987e5; --ch:#e66767;
+  --keep-ink:#7ed77e; --keep-bg:#163a16;
+  --simp-ink:#f0c060; --simp-bg:#3d2c08;
+  --deleg-ink:#b3aaf2; --deleg-bg:#2a2450;
+  --drop-ink:#f08a8a; --drop-bg:#4a1f1f;
+  --add-ink:#6fd7b0; --add-bg:#0f3a2b;
+  --focus:#3987e5;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.55;font-optical-sizing:auto}
+a{color:inherit;text-decoration-color:var(--hair-2);text-underline-offset:3px}
+a:hover{text-decoration-color:currentColor}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:3px}
+.wrap{max-width:680px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.08;letter-spacing:-.01em}
+h1{font-size:clamp(40px,10vw,64px);font-weight:800}
+h2{font-size:clamp(26px,6vw,34px);font-weight:700}
+h3{font-size:20px;font-weight:700;line-height:1.2}
+h4{font-family:var(--display);font-size:16px;font-weight:700;margin:0}
+p{margin:0}
+.eyebrow{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+section{padding:56px 0 8px}
+.lede{font-size:20px;line-height:1.45;color:var(--ink-2);max-width:34em}
+.stack{display:grid;gap:14px}
+.stack-lg{display:grid;gap:28px}
+.dot{width:10px;height:10px;border-radius:50%;flex:none;display:inline-block}
+.dot.fr{background:var(--fr)}.dot.ch{background:var(--ch)}
+
+/* masthead */
+.mast{padding:40px 0 8px}
+.mast .top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:28px}
+.pill{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:6px 10px;border:1px solid var(--hair-2);border-radius:999px;color:var(--ink-2);background:var(--surface)}
+.pill b{color:var(--ink);font-weight:600}
+.mast h1{margin:0 0 18px}
+.mast .lede{margin-bottom:14px}
+.claim{font-family:var(--display);font-weight:500;font-size:15px;color:var(--muted)}
+
+/* overview */
+.duel{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--hair);border-radius:12px;overflow:hidden;background:var(--surface)}
+.duel > div{padding:18px 16px 16px}
+.duel > div + div{border-left:1px solid var(--hair)}
+.duel .who{display:flex;align-items:center;gap:8px;font-family:var(--display);font-weight:700;font-size:14px;margin-bottom:10px}
+.big{font-family:var(--display);font-weight:800;font-size:clamp(44px,12vw,72px);line-height:1;letter-spacing:-.02em}
+.big small{display:block;font-family:var(--mono);font-weight:500;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+.sub{font-family:var(--mono);font-size:13px;color:var(--ink-2);margin-top:12px;line-height:1.6}
+.sub b{color:var(--ink);font-weight:600}
+.note{border-left:3px solid var(--hair-2);padding:4px 0 4px 16px;color:var(--ink-2);font-size:16px}
+.note b{color:var(--ink)}
+
+/* topic index */
+.index{border:1px solid var(--hair);border-radius:12px;background:var(--surface);overflow:hidden}
+.index .hd{display:grid;grid-template-columns:1fr 64px 64px 52px;gap:10px;padding:10px 16px;border-bottom:1px solid var(--hair);font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.index .hd span:not(:first-child){text-align:right}
+.irow{display:grid;grid-template-columns:1fr 64px 64px 52px;gap:10px;align-items:center;padding:14px 16px;border-bottom:1px solid var(--hair);width:100%;text-align:left;background:none;border-left:0;border-right:0;border-top:0;font:inherit;color:inherit;cursor:pointer}
+.irow:last-child{border-bottom:0}
+.irow:hover{background:var(--surface-2)}
+.irow .name{display:grid;gap:6px}
+.irow .name b{font-family:var(--display);font-weight:700;font-size:16px}
+.irow .mini{display:grid;gap:3px}
+.irow .mini i{display:block;height:5px;border-radius:0 3px 3px 0;min-width:2px}
+.irow .mini i.fr{background:var(--fr)}.irow .mini i.ch{background:var(--ch)}
+.irow .v{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:14px;text-align:right}
+.irow .v.fr{color:var(--fr)}.irow .v.ch{color:var(--ch)}
+.irow .x{font-family:var(--display);font-weight:800;font-size:16px;text-align:right}
+.irow.soon{cursor:default;color:var(--muted)}
+.irow.soon:hover{background:none}
+.irow.soon .name b{color:var(--muted);font-weight:500}
+.irow.soon .v,.irow.soon .x{color:var(--muted);font-size:12px;font-family:var(--mono);font-weight:400}
+.index .ft{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;padding:10px 16px;border-top:1px solid var(--hair);background:var(--surface-2);font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.index .ft b{color:var(--ink);font-weight:600}
+
+.context{display:grid;gap:10px;padding:16px;border-radius:12px;background:var(--surface-2);font-size:15px}
+.context .row{display:grid;grid-template-columns:1fr auto auto;gap:14px;align-items:baseline}
+.context .row .k{color:var(--ink-2)}
+.context .row .v{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:14px;text-align:right}
+.context .hd{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:right}
+.context .sep{height:1px;background:var(--hair-2)}
+.context .fn{font-family:var(--mono);font-size:12px;color:var(--muted)}
+
+/* tabs */
+.tabbar{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;border-bottom:1px solid var(--hair)}
+.tabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;font-family:var(--display);font-weight:700;font-size:14px;padding:9px 14px;border-radius:999px;border:1px solid var(--hair-2);background:var(--surface);color:var(--ink-2);cursor:pointer;min-height:40px}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tab .n{font-family:var(--mono);font-weight:500;font-size:12px;opacity:.75;margin-left:6px}
+.panel{display:grid;gap:44px;padding-top:36px}
+.panel > .stack-lg{padding:0}
+.topic-head{display:grid;gap:12px}
+.topic-head .scope{display:grid;grid-template-columns:auto 1fr;gap:6px 10px;font-family:var(--mono);font-size:12px;color:var(--ink-2);line-height:1.5}
+
+/* bars */
+.bars{display:grid;gap:18px;padding:18px 16px;border:1px solid var(--hair);border-radius:12px;background:var(--surface)}
+.bar-group{display:grid;gap:6px}
+.bar-group .label{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.bar-row{display:grid;grid-template-columns:22px 1fr;align-items:center;gap:10px;height:22px}
+.bar-row .tag{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--ink-2)}
+.bar-track{position:relative;height:18px}
+.bar{height:18px;border-radius:0 4px 4px 0;min-width:2px}
+.bar.fr{background:var(--fr)}.bar.ch{background:var(--ch)}
+.bar-val{position:absolute;top:50%;transform:translateY(-50%);left:calc(var(--w) + 8px);font-family:var(--mono);font-size:13px;font-weight:500;color:var(--ink);white-space:nowrap;font-variant-numeric:tabular-nums}
+.legend{display:flex;gap:16px;font-family:var(--mono);font-size:12px;color:var(--ink-2);padding-top:4px;border-top:1px solid var(--hair);margin-top:4px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+
+/* face à face */
+.match{border:1px solid var(--hair);border-radius:12px;background:var(--surface);overflow:hidden}
+.match header{padding:16px 16px 12px;display:grid;gap:6px}
+.sides{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--hair)}
+.side{padding:14px 14px 16px;display:grid;gap:8px;align-content:start}
+.side + .side{border-left:1px solid var(--hair)}
+.side .who{display:flex;align-items:center;gap:6px;font-family:var(--display);font-weight:700;font-size:13px}
+.side .cnt{font-family:var(--display);font-weight:800;font-size:30px;line-height:1;letter-spacing:-.02em}
+.side .cnt small{font-family:var(--mono);font-weight:500;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-left:6px}
+.side .words{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.side .refs{font-family:var(--mono);font-size:12px;color:var(--ink-2);line-height:1.5}
+.side .rule{font-size:15px;line-height:1.45;color:var(--ink-2)}
+.side .rule b{color:var(--ink);font-weight:600}
+.match details{border-top:1px solid var(--hair)}
+.match summary{cursor:pointer;padding:12px 16px;font-family:var(--display);font-weight:700;font-size:14px;color:var(--ink-2);list-style:none;display:flex;justify-content:space-between;align-items:center}
+.match summary::-webkit-details-marker{display:none}
+.match summary::after{content:"+";font-family:var(--mono);font-size:18px;color:var(--muted)}
+.match details[open] summary::after{content:"−"}
+.law{padding:4px 16px 18px;display:grid;gap:16px}
+.law .art{display:grid;gap:6px}
+.law .art .n{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-family:var(--mono);font-size:12px;font-weight:600}
+.law .art .n a{color:var(--muted);font-weight:400}
+.law .art .n.fr{color:var(--fr)}.law .art .n.ch{color:var(--ch)}
+.law .art .t{font-size:15px;line-height:1.5;color:var(--ink-2);white-space:pre-line}
+.law .art .t.clamp{max-height:9.5em;overflow:hidden;position:relative}
+.law .art .t.clamp::after{content:"";position:absolute;inset:auto 0 0 0;height:3em;background:linear-gradient(transparent,var(--surface))}
+.law .more{font-family:var(--mono);font-size:12px;background:none;border:1px solid var(--hair-2);border-radius:6px;padding:4px 10px;color:var(--ink-2);cursor:pointer;justify-self:start}
+.law .none{font-size:15px;color:var(--muted);font-style:italic}
+
+/* verdict chips */
+.chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:4px 9px;border-radius:6px;white-space:nowrap}
+.chip::before{content:"";width:7px;height:7px;border-radius:2px;background:currentColor}
+.chip.keep{color:var(--keep-ink);background:var(--keep-bg)}
+.chip.simp{color:var(--simp-ink);background:var(--simp-bg)}
+.chip.deleg{color:var(--deleg-ink);background:var(--deleg-bg)}
+.chip.drop{color:var(--drop-ink);background:var(--drop-bg)}
+.chip.add{color:var(--add-ink);background:var(--add-bg)}
+.chip.deleg::before{border-radius:50%}
+.chip.drop::before{width:9px;height:2px}
+.chip.add::before{width:9px;height:9px;transform:rotate(45deg)}
+
+/* roadmap */
+.road{display:grid;gap:14px}
+.card{border:1px solid var(--hair);border-radius:12px;background:var(--surface);padding:16px;display:grid;gap:12px}
+.card .head{display:grid;gap:8px}
+.card .chips{display:flex;flex-wrap:wrap;gap:6px}
+.card .delta{display:flex;align-items:baseline;gap:8px;font-family:var(--mono);font-size:13px;color:var(--ink-2)}
+.card .delta b{font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:-.02em;color:var(--ink)}
+.card .delta .arrow{color:var(--muted)}
+.card .do{display:grid;gap:6px;font-size:15px;line-height:1.5;color:var(--ink-2)}
+.card .do b{color:var(--ink);font-weight:600}
+.card .foot{display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid var(--hair);padding-top:12px}
+.vote{display:inline-flex;align-items:center;gap:8px;font-family:var(--display);font-weight:700;font-size:14px;padding:10px 14px;border-radius:8px;border:1px solid var(--hair-2);background:var(--surface);color:var(--ink);cursor:pointer;min-height:44px}
+.vote:hover{border-color:var(--ink-2)}
+.vote[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.vote .n{font-family:var(--mono);font-weight:500;font-size:13px;opacity:.8}
+.vote-note{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.total{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:center;padding:18px;border-radius:12px;background:var(--surface-2)}
+.total .big{font-size:clamp(40px,10vw,56px)}
+.total p{font-size:15px;color:var(--ink-2)}
+.total p b{color:var(--ink)}
+
+.share{display:flex;flex-wrap:wrap;gap:8px}
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--display);font-weight:700;font-size:14px;padding:10px 14px;border-radius:8px;border:1px solid var(--hair-2);background:var(--surface);color:var(--ink);cursor:pointer;text-decoration:none;min-height:44px}
+.btn:hover{border-color:var(--ink-2)}
+.btn.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:var(--bg);font-family:var(--display);font-weight:700;font-size:14px;padding:10px 16px;border-radius:8px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:10}
+.toast.show{opacity:1}
+
+.method{display:grid;gap:12px;font-size:16px;color:var(--ink-2)}
+.method li{margin:0 0 8px}
+.method ul{margin:0;padding-left:20px}
+.method b{color:var(--ink);font-weight:600}
+.cand{border:1px solid var(--hair);border-radius:12px;background:var(--surface);padding:18px;display:grid;gap:12px}
+.cand blockquote{margin:0;padding:12px 16px;border-left:3px solid var(--fr);font-size:16px;line-height:1.5;color:var(--ink-2);background:var(--surface-2);border-radius:0 8px 8px 0}
+.sources{font-size:14px;color:var(--ink-2);display:grid;gap:8px;line-height:1.5}
+footer{padding:40px 0 60px}
+footer .eyebrow{margin-bottom:12px}
+
+@media (max-width:420px){
+  .duel{grid-template-columns:1fr}
+  .duel > div + div{border-left:0;border-top:1px solid var(--hair)}
+  .sides{grid-template-columns:1fr}
+  .side + .side{border-left:0;border-top:1px solid var(--hair)}
+  .total{grid-template-columns:1fr}
+  .index .hd,.irow{grid-template-columns:1fr 54px 54px 44px;gap:8px;padding-left:12px;padding-right:12px}
+}
+@media (prefers-reduced-motion:reduce){ .toast{transition:none} html{scroll-behavior:auto} }
+</style>
+
+<header class="mast wrap">
+  <div class="top">
+    <span class="pill"><b id="n-topics">0</b> sujets comparés</span>
+    <span class="eyebrow">Prototype · Sept. 2026</span>
+  </div>
+  <h1>Alléger le Code</h1>
+  <p class="lede">Le Code du travail français, comparé article par article au droit suisse. Et une feuille de route : ce qu’on garde, ce qu’on simplifie, ce qu’on supprime, ce qu’on ajoute.</p>
+  <p class="claim">Ce site ne juge pas si le droit français protège trop ou pas assez. Il mesure sa complexité, et propose comment obtenir le même résultat avec moins de texte.</p>
+</header>
+
+<section class="wrap stack-lg" id="ensemble">
+  <div class="stack">
+    <span class="eyebrow">Vue d’ensemble</span>
+    <h2>Deux droits, même métier</h2>
+    <p class="lede">Tout ce qu’un employeur et un salarié doivent lire pour appliquer la loi, en France et en Suisse.</p>
+  </div>
+
+  <div class="duel">
+    <div>
+      <div class="who"><span class="dot fr"></span>France</div>
+      <div class="big"><span class="num" id="g-fr-n"></span><small>articles en vigueur</small></div>
+      <p class="sub"><b class="num" id="g-fr-w"></b> mots · ≈ <b class="num" id="g-fr-p"></b> pages A4<br>Code du travail, parties législative<br>et réglementaire</p>
+    </div>
+    <div>
+      <div class="who"><span class="dot ch"></span>Suisse</div>
+      <div class="big"><span class="num" id="g-ch-n"></span><small>articles en vigueur</small></div>
+      <p class="sub"><b class="num" id="g-ch-w"></b> mots · ≈ <b class="num" id="g-ch-p"></b> pages A4<br>Code des obligations (contrat de travail)<br>+ Loi fédérale sur le travail</p>
+    </div>
+  </div>
+
+  <div class="note">
+    <p><b>Pourquoi pas « 4 000 pages contre 49 » ?</b> Parce que la Suisse n’a pas de code du travail : ses règles sont réparties entre le Code des obligations, la Loi sur le travail, cinq ordonnances et les conventions collectives. Les totaux ci-dessus donnent l’ordre de grandeur ; la vraie comparaison se fait <em>sujet par sujet</em>, texte contre texte. C’est l’objet de l’index.</p>
+  </div>
+
+  <div class="stack">
+    <h3>Index des sujets</h3>
+    <p style="font-size:15px;color:var(--ink-2)">Nombre d’articles en vigueur sur le même sujet. Touchez un sujet pour voir le détail, les textes et la feuille de route.</p>
+  </div>
+  <div class="index">
+    <div class="hd"><span>Sujet</span><span>France</span><span>Suisse</span><span>Écart</span></div>
+    <div id="index-rows"></div>
+    <div class="ft"><span>Sujets couverts : <b class="num" id="cov-fr"></b> articles FR → cible <b class="num" id="cov-target"></b></span><span><b class="num" id="cov-votes">0</b> soutiens</span></div>
+  </div>
+
+  <div class="context">
+    <div class="row"><span class="k"></span><span class="hd">articles</span><span class="hd">mots</span></div>
+    <div class="row"><span class="k"><span class="dot fr" style="vertical-align:middle;margin-right:6px"></span>Code du travail, en entier</span><span class="v" id="c-fr-n"></span><span class="v" id="c-fr-w"></span></div>
+    <p class="fn" id="c-fr-fn"></p>
+    <div class="sep"></div>
+    <div class="row"><span class="k"><span class="dot ch" style="vertical-align:middle;margin-right:6px"></span>CO, titre « Du contrat de travail »</span><span class="v" id="c-co-n"></span><span class="v" id="c-co-w"></span></div>
+    <div class="row"><span class="k"><span class="dot ch" style="vertical-align:middle;margin-right:6px"></span>Loi fédérale sur le travail (LTr)</span><span class="v" id="c-ltr-n"></span><span class="v" id="c-ltr-w"></span></div>
+    <p class="fn" id="c-fn"></p>
+  </div>
+</section>
+
+<section class="wrap" id="sujets" style="padding-top:44px">
+  <div class="tabbar"><div class="tabs" role="tablist" id="tabs"></div></div>
+  <div id="panels"></div>
+</section>
+
+<section class="wrap stack-lg" id="partager">
+  <div class="stack">
+    <span class="eyebrow">Partager</span>
+    <h2>Faites circuler les chiffres</h2>
+    <p class="lede">Un lien, un message prêt à envoyer. Les chiffres sont vérifiables à la source.</p>
+  </div>
+  <div class="share">
+    <button class="btn primary" id="copy">Copier le lien</button>
+    <a class="btn" id="sh-wa" target="_blank" rel="noopener">WhatsApp</a>
+    <a class="btn" id="sh-x" target="_blank" rel="noopener">X</a>
+    <a class="btn" id="sh-mail">E-mail</a>
+  </div>
+</section>
+
+<section class="wrap stack-lg" id="candidats">
+  <div class="stack">
+    <span class="eyebrow">2027</span>
+    <h2>Pour les candidates et candidats</h2>
+    <p class="lede">Un engagement mesurable, que n’importe quel programme peut reprendre tel quel.</p>
+  </div>
+  <div class="cand">
+    <blockquote id="pledge"></blockquote>
+    <p style="font-size:15px;color:var(--ink-2)">Le même exercice sera mené sujet par sujet jusqu’à couvrir le Code entier. Les articles supprimés, modifiés et conservés seront publiés en ligne, un par un.</p>
+    <div class="share"><button class="btn" id="copy-eng">Copier l’engagement</button></div>
+  </div>
+</section>
+
+<section class="wrap stack-lg" id="methode">
+  <div class="stack">
+    <span class="eyebrow">Méthode et limites</span>
+    <h2>Comment c’est compté</h2>
+  </div>
+  <div class="method">
+    <ul>
+      <li><b>Sources officielles uniquement.</b> France : données LEGI de la DILA (Légifrance), via le jeu de données ouvert utilisé par code.travail.gouv.fr. Suisse : Fedlex, Code des obligations (état au 1<sup>er</sup> janvier 2026) et Loi sur le travail (état au 1<sup>er</sup> septembre 2023).</li>
+      <li><b>Articles en vigueur seulement.</b> Les articles abrogés ne sont pas comptés. Un article = une unité numérotée (L1233-3, art. 335c…).</li>
+      <li><b>Mots</b> = mots du texte de l’article, hors titres et notes. <b>Pages</b> = mots ÷ 400, une convention de lecture.</li>
+      <li><b>Périmètre égal, sujet par sujet.</b> Chaque sujet indique précisément les titres et articles comptés de chaque côté. Quand une règle existe ailleurs dans le Code, la comparaison le signale au lieu de compter zéro en silence.</li>
+      <li><b>Ce que ça ne mesure pas.</b> La jurisprudence, les conventions collectives, les ordonnances suisses, la pratique. Un droit court peut être complexe par ses juges ; un droit long peut être simple à appliquer. Le nombre d’articles mesure la lisibilité de la loi, pas la qualité de la protection.</li>
+      <li><b>Les verdicts sont une proposition</b>, écrite pour être discutée, pas une expertise juridique validée. Les cibles en nombre d’articles sont des ordres de grandeur.</li>
+    </ul>
+  </div>
+</section>
+
+<footer class="wrap">
+  <span class="eyebrow">Sources</span>
+  <div class="sources">
+    <span>Code du travail — <a href="https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050">Légifrance</a> · données <a href="https://www.data.gouv.fr/datasets/legi-codes-lois-et-reglements-consolides">LEGI (data.gouv.fr)</a> via <a href="https://github.com/SocialGouv/legi-data">@socialgouv/legi-data</a></span>
+    <span>Code des obligations, RS 220 — <a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr">Fedlex</a> · Loi sur le travail, RS 822.11 — <a href="https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr">Fedlex</a></span>
+    <span>Extraction : 10 septembre 2026. Prototype ouvert à la critique : chaque chiffre est recalculable depuis les sources.</span>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script id="data" type="application/json">{{DATA}}</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const fmt = n => n.toLocaleString('fr-FR');
+  const pages = w => Math.round(w / 400);
+  const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const CHIP = {keep:'Conserver', simp:'Simplifier', deleg:'Déléguer aux branches', drop:'Supprimer', add:'Ajouter'};
+  const $ = id => document.getElementById(id);
+
+  // ---------- Overview ----------
+  const C = D.code;
+  const chN = C.ch.co_titre10.articles + C.ch.ltr.articles, chW = C.ch.co_titre10.words + C.ch.ltr.words;
+  $('g-fr-n').textContent = fmt(C.fr.articles_total); $('g-fr-w').textContent = fmt(C.fr.words_total); $('g-fr-p').textContent = fmt(pages(C.fr.words_total));
+  $('g-ch-n').textContent = fmt(chN); $('g-ch-w').textContent = fmt(chW); $('g-ch-p').textContent = fmt(pages(chW));
+  $('c-fr-n').textContent = fmt(C.fr.articles_total); $('c-fr-w').textContent = fmt(C.fr.words_total);
+  $('c-fr-fn').textContent = 'dont partie législative (L) : ' + fmt(C.fr.articles_L) + ' articles · partie réglementaire (R, D) : ' + fmt(C.fr.articles_R + C.fr.articles_D) + ' articles.';
+  $('c-co-n').textContent = fmt(C.ch.co_titre10.articles); $('c-co-w').textContent = fmt(C.ch.co_titre10.words);
+  $('c-ltr-n').textContent = fmt(C.ch.ltr.articles); $('c-ltr-w').textContent = fmt(C.ch.ltr.words);
+  $('c-fn').textContent = 'Hors ordonnances suisses (OLT 1 à 5' + (C.ch.olt1 && C.ch.olt1.articles ? ' — OLT 1 seule : ' + fmt(C.ch.olt1.articles) + ' articles, ' + fmt(C.ch.olt1.words) + ' mots' : '') + ') et hors conventions collectives des deux pays.';
+  $('n-topics').textContent = D.topics.length;
+
+  const maxFr = Math.max(...D.topics.map(t => t.fr.n));
+  $('index-rows').innerHTML = D.topics.map(t => `
+    <button class="irow" type="button" data-topic="${t.id}">
+      <span class="name"><b>${esc(t.name)}</b><span class="mini"><i class="fr" style="width:${100*t.fr.n/maxFr}%"></i><i class="ch" style="width:${100*t.ch.n/maxFr}%"></i></span></span>
+      <span class="v fr">${fmt(t.fr.n)}</span><span class="v ch">${fmt(t.ch.n)}</span><span class="x">×${Math.round(t.fr.n/Math.max(t.ch.n,1))}</span>
+    </button>`).join('') + D.upcoming.map(u => `
+    <div class="irow soon"><span class="name"><b>${esc(u)}</b></span><span class="v">—</span><span class="v">—</span><span class="x">à venir</span></div>`).join('');
+  const covFr = D.topics.reduce((s,t)=>s+t.fr.n,0), covTarget = D.topics.reduce((s,t)=>s+t.rows.reduce((a,r)=>a+r.target,0),0);
+  $('cov-fr').textContent = fmt(covFr); $('cov-target').textContent = fmt(covTarget);
+
+  // ---------- Topics: tabs + panels ----------
+  function artHtml(a, side){
+    const long = a.text.length > 700;
+    return `<div class="art">
+      <div class="n ${side}"><span>${esc(a.num)}</span><a href="${a.url}" target="_blank" rel="noopener">${side==='fr'?'Légifrance':'Fedlex'} ↗</a></div>
+      <div class="t${long?' clamp':''}">${esc(a.text)}</div>
+      ${long?'<button class="more" type="button">Lire la suite</button>':''}
+    </div>`;
+  }
+  function matchHtml(t, r){
+    return `<article class="match" id="m-${t.id}-${r.id}">
+      <header><span class="eyebrow">${esc(r.q)}</span><h3>${esc(r.title)}</h3></header>
+      <div class="sides">
+        <div class="side"><div class="who"><span class="dot fr"></span>France</div>
+          <div class="cnt"><span class="num">${fmt(r.fr.n)}</span><small>art.</small></div>
+          <div class="words num">${fmt(r.fr.w)} mots</div><div class="refs">${esc(r.fr.refs)}</div><p class="rule">${r.fr.rule}</p></div>
+        <div class="side"><div class="who"><span class="dot ch"></span>Suisse</div>
+          <div class="cnt"><span class="num">${fmt(r.ch.n)}</span><small>art.</small></div>
+          <div class="words num">${fmt(r.ch.w)} mots</div><div class="refs">${esc(r.ch.refs)}</div><p class="rule">${r.ch.rule}</p></div>
+      </div>
+      <details><summary>Lire les textes</summary><div class="law">
+        ${r.fr.arts.length ? r.fr.arts.map(a=>artHtml(a,'fr')).join('') : '<p class="none">Aucun article français dans ce périmètre.</p>'}
+        ${r.ch.arts.length ? r.ch.arts.map(a=>artHtml(a,'ch')).join('') : '<p class="none">Aucun article suisse dédié.</p>'}
+        ${r.fr.arts.length && r.fr.n > r.fr.arts.length ? `<p class="none">Extraits : ${r.fr.arts.length} articles français sur ${r.fr.n}. <a href="${r.fr.url}" target="_blank" rel="noopener">Lire le chapitre entier sur Légifrance ↗</a></p>`:''}
+      </div></details>
+    </article>`;
+  }
+  function cardHtml(t, r){
+    return `<article class="card" id="p-${t.id}-${r.id}">
+      <div class="head">
+        <div class="chips">${r.verdict.map(v=>`<span class="chip ${v}">${CHIP[v]}</span>`).join('')}</div>
+        <h3>${esc(r.title)}</h3>
+        <div class="delta"><b class="num">${fmt(r.fr.n)}</b><span class="arrow">→</span><b class="num">${fmt(r.target)}</b><span>articles · cible</span></div>
+      </div>
+      <div class="do">${r.plan.map(p=>`<p>${p}</p>`).join('')}</div>
+      <div class="foot">
+        <button class="vote" type="button" data-id="${t.id}.${r.id}" aria-pressed="false">Je soutiens <span class="n">· <span class="c">0</span></span></button>
+        <a href="#m-${t.id}-${r.id}" class="vote-note">voir les textes</a>
+      </div>
+    </article>`;
+  }
+  function panelHtml(t){
+    const target = t.rows.reduce((a,r)=>a+r.target,0);
+    const pctN = (100*t.ch.n/t.fr.n).toFixed(1), pctW = (100*t.ch.w/t.fr.w).toFixed(1);
+    return `<div class="panel" id="panel-${t.id}" role="tabpanel" hidden>
+      <div class="stack-lg">
+        <div class="topic-head">
+          <span class="eyebrow">Sujet</span>
+          <h2>${esc(t.title)}</h2>
+          <p class="lede">${t.lede}</p>
+          <div class="scope"><span class="dot fr" style="margin-top:5px"></span><span>${esc(t.fr.scope)}</span><span class="dot ch" style="margin-top:5px"></span><span>${esc(t.ch.scope)}</span></div>
+        </div>
+        <div class="duel">
+          <div><div class="who"><span class="dot fr"></span>France</div><div class="big"><span class="num">${fmt(t.fr.n)}</span><small>articles</small></div><p class="sub"><b class="num">${fmt(t.fr.w)}</b> mots · ≈ <b class="num">${fmt(pages(t.fr.w))}</b> pages A4</p></div>
+          <div><div class="who"><span class="dot ch"></span>Suisse</div><div class="big"><span class="num">${fmt(t.ch.n)}</span><small>articles</small></div><p class="sub"><b class="num">${fmt(t.ch.w)}</b> mots · ≈ <b class="num">${fmt(pages(t.ch.w))}</b> pages A4</p></div>
+        </div>
+        <div class="bars" role="img" aria-label="France ${fmt(t.fr.n)} articles et ${fmt(t.fr.w)} mots ; Suisse ${fmt(t.ch.n)} articles et ${fmt(t.ch.w)} mots">
+          <div class="bar-group"><div class="label"><span>Articles</span><span>× ${Math.round(t.fr.n/t.ch.n)}</span></div>
+            <div class="bar-row"><span class="tag">FR</span><div class="bar-track"><div class="bar fr" style="width:100%"></div><span class="bar-val" style="--w:100%">${fmt(t.fr.n)}</span></div></div>
+            <div class="bar-row"><span class="tag">CH</span><div class="bar-track"><div class="bar ch" style="width:${pctN}%"></div><span class="bar-val" style="--w:${pctN}%">${fmt(t.ch.n)}</span></div></div></div>
+          <div class="bar-group"><div class="label"><span>Mots</span><span>× ${Math.round(t.fr.w/t.ch.w)}</span></div>
+            <div class="bar-row"><span class="tag">FR</span><div class="bar-track"><div class="bar fr" style="width:100%"></div><span class="bar-val" style="--w:100%">${fmt(t.fr.w)}</span></div></div>
+            <div class="bar-row"><span class="tag">CH</span><div class="bar-track"><div class="bar ch" style="width:${pctW}%"></div><span class="bar-val" style="--w:${pctW}%">${fmt(t.ch.w)}</span></div></div></div>
+          <div class="legend"><span><span class="dot fr"></span>France</span><span><span class="dot ch"></span>Suisse</span><span style="margin-left:auto">échelle : FR = 100 %</span></div>
+        </div>
+        ${t.note ? `<div class="note"><p>${t.note}</p></div>` : ''}
+      </div>
+      <div class="stack-lg">
+        <div class="stack"><span class="eyebrow">Face à face</span><h2>Le même sujet, dans les deux droits</h2><p class="lede">${t.rows.length} questions concrètes. Pour chacune, ce que dit la France, ce que dit la Suisse, et le texte lui-même.</p></div>
+        <div class="stack">${t.rows.map(r=>matchHtml(t,r)).join('')}</div>
+      </div>
+      <div class="stack-lg">
+        <div class="stack"><span class="eyebrow">Feuille de route</span><h2>De ${fmt(t.fr.n)} à ${fmt(target)} articles</h2><p class="lede">Une proposition, question par question. Chaque verdict renvoie aux articles concernés ; chacun peut le contester, ou le soutenir.</p></div>
+        <div class="road">${t.rows.map(r=>cardHtml(t,r)).join('')}</div>
+      </div>
+    </div>`;
+  }
+  $('tabs').innerHTML = D.topics.map(t => `<button class="tab" role="tab" type="button" data-topic="${t.id}" aria-selected="false">${esc(t.name)}<span class="n">${fmt(t.fr.n)} / ${fmt(t.ch.n)}</span></button>`).join('');
+  $('panels').innerHTML = D.topics.map(panelHtml).join('');
+
+  function show(id, scroll){
+    if(!D.topics.some(t=>t.id===id)) id = D.topics[0].id;
+    document.querySelectorAll('.tab').forEach(b => b.setAttribute('aria-selected', b.dataset.topic===id ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.hidden = p.id !== 'panel-'+id);
+    if(scroll) $('sujets').scrollIntoView({block:'start'});
+    try { history.replaceState(null, '', '#sujet=' + id); } catch(e) {}
+  }
+  document.addEventListener('click', e => {
+    const b = e.target.closest('[data-topic]'); if(b){ show(b.dataset.topic, b.classList.contains('irow')); return; }
+    const m = e.target.closest('.more'); if(m){ m.previousElementSibling.classList.remove('clamp'); m.remove(); return; }
+  });
+  const h = (location.hash.match(/sujet=([\w-]+)/)||[])[1];
+  show(h || D.topics[0].id, false);
+  if(location.hash.startsWith('#m-')){ const el = document.querySelector(location.hash); if(el){ const tid = el.id.split('-')[1]; show(tid,false); el.scrollIntoView(); } }
+
+  // ---------- Votes ----------
+  const LS = 'allegerlecode.votes';
+  let mine = {};
+  try { mine = JSON.parse(localStorage.getItem(LS) || '{}'); } catch(e) {}
+  const saveMine = () => { try { localStorage.setItem(LS, JSON.stringify(mine)); } catch(e) {} };
+  let db = null, counts = {};
+  function render(){
+    let total = 0;
+    document.querySelectorAll('.vote').forEach(b => {
+      const id = b.dataset.id;
+      const n = db ? (counts[id]||0) : (mine[id] ? 1 : 0);
+      total += n;
+      b.querySelector('.c').textContent = fmt(n);
+      b.setAttribute('aria-pressed', mine[id] ? 'true' : 'false');
+    });
+    $('cov-votes').textContent = fmt(total);
+  }
+  function localMode(){ db = null; render(); }
+  render();
+  const useDb = (window.claude && typeof window.claude.use === 'function') ? window.claude.use('db') : Promise.resolve(null);
+  useDb.then(d => {
+    if(!d) return localMode();
+    db = d;
+    db.collection('votes').onSnapshot(snap => {
+      const c = {};
+      snap.docs.forEach(doc => { const p = doc.data() && doc.data().p; if(p) c[p] = (c[p]||0) + 1; });
+      counts = c; render();
+    }, () => localMode());
+  }).catch(localMode);
+  $('panels').addEventListener('click', async e => {
+    const b = e.target.closest('.vote'); if(!b) return;
+    const id = b.dataset.id;
+    if(!db){ mine[id] = mine[id] ? 0 : 1; saveMine(); render(); return; }
+    b.disabled = true;
+    try {
+      if(mine[id] && typeof mine[id] === 'string'){ await db.collection('votes').doc(mine[id]).delete(); delete mine[id]; }
+      else { const ref = await db.collection('votes').add({p:id, t:Date.now()}); mine[id] = ref.id; }
+      saveMine();
+    } catch(err){ toast('Le soutien n’a pas pu être enregistré. Réessayez.'); }
+    b.disabled = false; render();
+  });
+
+  // ---------- Pledge + share ----------
+  const first = D.topics[0];
+  $('pledge').textContent = `« Sur ${D.topics.length > 1 ? 'les ' + D.topics.length + ' sujets déjà comparés' : 'le ' + first.name.toLowerCase()}, je m’engage à ramener le Code du travail de ${fmt(covFr)} à moins de ${fmt(Math.ceil(covTarget/10)*10)} articles avant la fin du quinquennat, sans réduire les droits des salariés, en renvoyant les modalités aux conventions de branche et en fusionnant les dispositifs redondants. Les articles supprimés, modifiés et conservés seront publiés en ligne, un par un. »`;
+  const url = location.href.split('#')[0];
+  const msg = `${first.share} Une feuille de route pour alléger le Code du travail, article par article → ${url}`;
+  $('sh-wa').href = 'https://wa.me/?text=' + encodeURIComponent(msg);
+  $('sh-x').href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(msg);
+  $('sh-mail').href = 'mailto:?subject=' + encodeURIComponent('Alléger le Code du travail') + '&body=' + encodeURIComponent(msg);
+  const toastEl = $('toast'); let tt;
+  function toast(t){ toastEl.textContent = t; toastEl.classList.add('show'); clearTimeout(tt); tt = setTimeout(()=>toastEl.classList.remove('show'), 1800); }
+  async function copy(text, ok){ try { await navigator.clipboard.writeText(text); toast(ok); } catch(e){ toast('Copie impossible ici — sélectionnez le texte.'); } }
+  $('copy').addEventListener('click', () => copy(url, 'Lien copié'));
+  $('copy-eng').addEventListener('click', () => copy($('pledge').textContent.trim(), 'Engagement copié'));
+})();
+</script>

@@ -1,0 +1,249 @@
+{
+  "country": "CH",
+  "source": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr ; https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr ; consolidated HTML via https://fedlex.data.admin.ch/filestore/... (CO état 1er janvier 2026; LTr état 1er septembre 2023)",
+  "fetched_at": "2026-09-10",
+  "topic": "Durée du travail et repos",
+  "code_totals": {
+    "co_titre10": {
+      "articles": 139,
+      "words": 14230,
+      "range": "art. 319–362"
+    },
+    "ltr": {
+      "articles": 83,
+      "words": 7288
+    },
+    "co_whole": {
+      "articles": 1603,
+      "words": 120996
+    },
+    "note": "Counts are per <article> element in the Fedlex consolidated HTML (fr), including lettered sub-articles (e.g. 335a) and a handful of jointly-repealed article ranges (e.g. 'art. 226a–226d') that count as one element each. Words = whitespace-separated tokens of the plain article text (footnote markers/footnotes excluded). CO whole = art. 1–1186 (Livre cinquième du Code civil suisse), état 1er janvier 2026. LTr = RS 822.11, état 1er septembre 2023.",
+    "olt1": {
+      "articles": 86,
+      "words": 12117
+    }
+  },
+  "topic_totals": {
+    "articles": 26,
+    "words": 2791
+  },
+  "sections": [
+    {
+      "id": "ltr-chap2-sec1",
+      "path": "LTr > III. Durée du travail et repos > 1. Durée du travail",
+      "title": "1. Durée du travail",
+      "articles": [
+        {
+          "num": "Art. 9",
+          "marginal_title": "Durée maximum de la semaine de travail",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_9",
+          "text": "1 La durée maximale de la semaine de travail est de:\na. 45 heures pour les travailleurs occupés dans les en­treprises industrielles ainsi que pour le personnel de bureau, le person­nel technique et les autres employés, y compris le person­nel de vente des grandes entreprises de commerce de détail;\nb. 50 heures pour tous les autres travailleurs.\n2 ...\n3 Pour certaines catégories d’entreprises ou de travailleurs, la durée maximum de la semaine de travail peut, par ordonnance, être tempo­rai­rement prolongée de quatre heures au plus, à la condition qu’elle ne soit pas dépassée en moyenne annuelle.\n4 Pour certaines catégories d’entreprises ou de travailleurs ou pour certaines entrepri­ses, le Secrétariat d’État à l’économie (SECO) peut accorder l’autorisation de prolonger la durée maximum de la semaine de travail de quatre heures au plus, si des raisons impérieuses le justifient.\n5 Lorsque des employés de bureau, des techniciens ou d’autres employés, y compris le personnel de vente des grands établissements du commerce de détail, sont occupés dans la même entreprise ou par­tie d’entreprise avec des travailleurs pour lesquels la durée maxi­mum de la semaine de travail est plus longue, cette durée vaut pour les uns comme pour les autres.",
+          "words": 198
+        },
+        {
+          "num": "Art. 10",
+          "marginal_title": "Travail de jour et travail du soir",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_10",
+          "text": "1 Il y a travail de jour entre 6 heures et 20 heures, et travail du soir, entre 20 heures et 23 heures. Le travail de jour et le travail du soir ne sont pas soumis à autorisation. Le travail du soir peut être introduit par l’employeur après audition de la représentation des travailleurs dans l’entreprise ou, à défaut, des travailleurs concernés.\n2 Avec l’accord des représentants des travailleurs dans l’entreprise ou, à défaut, de la majorité des travailleurs concernés, le début et la fin du travail de jour et du soir de l’entreprise peuvent être fixés différem­ment entre 5 heures et 24 heures. Dans ce cas également, le travail de jour et du soir doit être compris dans un espace de dix-sept heures.\n3 Le travail de jour et du soir de chaque travailleur doit être compris dans un espace de quatorze heures, pauses et heures de travail sup­plé­mentaire incluses.",
+          "words": 151
+        },
+        {
+          "num": "Art. 11",
+          "marginal_title": "Travail compensatoire",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_11",
+          "text": "Lorsque le travail est suspendu pour un temps relativement court, soit pour cause de perturbation dans l’entreprise, soit en cas de fermeture de l’entreprise pour cause de vacances, soit entre des jours chômés, soit dans d’autres circonstances analogues, ou lorsqu’un travailleur obtient des congés à sa demande, l’employeur peut faire compen­ser le temps perdu dans un délai convenable et, à cet effet, dépasser la durée maxi­mum de la semaine de travail. Il est interdit de compenser plus de deux heures par jour et par travailleur, y compris le travail supplé­mentaire, sauf pendant les jours ou demi journées ordinairement chô­més.",
+          "words": 99
+        },
+        {
+          "num": "Art. 12",
+          "marginal_title": "Travail supplémentaire. Conditions et durée",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_12",
+          "text": "1 À titre exceptionnel, la durée maximum de la semaine de travail peut être dépassée:\na. en cas d’urgence ou de surcroît extraordinaire de travail;\nb. pour dresser un inventaire, arrêter des comptes ou procéder à une liquidation;\nc. pour prévenir ou supprimer des perturbations dans l’entreprise, si l’on ne peut attendre de l’employeur qu’il recoure à d’autres moyens.\n2 Le travail supplémentaire ne peut dépasser deux heures par tra­vail­leur et par jour, sauf les jours chômés ou en cas de nécessité, ni le nombre d’heures suivant par année civile:\na. 170 heures pour les travailleurs dont la durée maximale de la semaine de travail est de quarante-cinq heures;\nb. 140 heures pour les travailleurs dont la durée maximale de la semaine de travail est de cinquante heures.\n3 et 4 ...",
+          "words": 132
+        },
+        {
+          "num": "Art. 13",
+          "marginal_title": "Indemnité pour travail supplémentaire",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_13",
+          "text": "1 Pour le travail supplémentaire, l’employeur versera au travailleur un supplément de salaire d’au moins 25 %, qui n’est toutefois dû aux employés de bureau, aux techniciens et aux autres employés, y compris le personnel de vente des grands établissements du commerce de détail, qu’à partir de la soixante et unième heure supplémentaire accomplie dans l’année civile.\n2 Le travail supplémentaire ne donne droit à aucun supplément de salaire lorsqu’il est compensé, avec l’accord du travailleur et dans un délai convenable, par un congé de même durée.",
+          "words": 87
+        }
+      ]
+    },
+    {
+      "id": "ltr-chap2-sec2",
+      "path": "LTr > III. Durée du travail et repos > 2. Repos",
+      "title": "2. Repos",
+      "articles": [
+        {
+          "num": "Art. 15",
+          "marginal_title": "Pauses",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_15",
+          "text": "1 Le travail sera interrompu par des pauses d’au moins:\na. un quart d’heure, si la journée de travail dure plus de cinq heu­res et demie;\nb. une demi-heure, si la journée de travail dure plus de sept heu­res;\nc. une heure, si la journée de travail dure plus de neuf heures.\n2 Les pauses comptent comme travail lorsque le travailleur n’est pas autorisé à quitter sa place de travail.",
+          "words": 70
+        },
+        {
+          "num": "Art. 15a",
+          "marginal_title": "Durée du repos quotidien",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_15_a",
+          "text": "1 Le travailleur doit bénéficier d’une durée de repos quotidien d’au moins onze heures consécutives.\n2 Pour le travailleur adulte, la durée du repos peut être réduite à huit heures une fois par semaine, pour autant que la moyenne sur deux semaines atteigne onze heures.",
+          "words": 45
+        },
+        {
+          "num": "Art. 16",
+          "marginal_title": "Interdiction de travailler la nuit",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_16",
+          "text": "L’occupation des travailleurs est interdite en dehors des limites du tra­vail de jour et du travail du soir de l’entreprise fixées à l’art. 10 (tra­vail de nuit). L’art. 17 est réservé.",
+          "words": 31
+        },
+        {
+          "num": "Art. 17",
+          "marginal_title": "Dérogations à l’interdiction de travailler la nuit",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_17",
+          "text": "1 Les dérogations à l’interdiction de travailler la nuit sont soumises à autorisation.\n2 Le travail de nuit régulier ou périodique est autorisé lorsque des rai­sons techniques ou économiques le rendent indispensable.\n3 Le travail de nuit temporaire est autorisé en cas de besoin urgent dûment établi.\n4 En cas de besoin urgent dûment établi, le travail de nuit est autorisé entre 5 heures et 6 heures ainsi qu’entre 23 heures et 24 heures.\n5 Le travail de nuit régulier ou périodique est soumis à l’autorisation du SECO, le travail de nuit temporaire, à celle des autorités cantonales.\n6 Le travailleur ne peut être affecté au travail de nuit sans son consen­tement.",
+          "words": 112
+        },
+        {
+          "num": "Art. 17a",
+          "marginal_title": "Durée du travail de nuit",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_17_a",
+          "text": "1 La durée du travail de nuit du travailleur n’excédera pas neuf heures, ou dix heures, pauses incluses.\n2 Si le travailleur est occupé trois nuits au plus sur sept nuits consécu­tives, la durée du travail quotidien peut s’élever à dix heures pour autant que les conditions fixées dans l’ordonnance soient observées; toutefois, la durée du travail, pauses incluses, doit être comprise dans un espace de douze heures.",
+          "words": 68
+        },
+        {
+          "num": "Art. 17b",
+          "marginal_title": "Temps de repos supplémentaire et majoration de salaire",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_17_b",
+          "text": "1 L’employeur doit accorder une majoration de salaire de 25 % au moins au travailleur qui effectue un travail de nuit à titre temporaire.\n2 Le travailleur qui effectue un travail de nuit régulièrement ou pério­diquement a droit à une compensation en temps équivalant à 10 % de la durée de ce travail. Ce temps de repos compensatoire doit être accordé dans le délai d’une année. La compensation peut cependant être accordée sous forme de supplément salarial au travailleur dont le tra­vail régulièrement fourni au début ou à la fin du travail de nuit n’excède pas une heure.\n3 Le temps de repos compensatoire prévu à l’al. 2 ne doit pas être accordé lorsque:\na. la durée moyenne du travail par équipes dans l’entreprise n’excède pas sept heures, pauses incluses;\nb. le travailleur de nuit n’est occupé que quatre nuits par semaine (semaine de quatre jours);\nc. des temps de repos compensatoires équivalents sont accordés aux travailleurs dans un délai d’une année, par convention collective de travail ou par une application par analogie de dis­positions de droit public.\n4 Les dispositions relatives au temps de repos compensatoire au sens du l’al. 3, let. c, sont soumises à l’examen du SECO, qui se prononce sur leur équivalence avec le temps de repos compensatoire légal prévu à l’al. 2.",
+          "words": 217
+        },
+        {
+          "num": "Art. 17c",
+          "marginal_title": "Examen médical et conseils",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_17_c",
+          "text": "1 Le travailleur qui effectue un travail de nuit pendant une longue période a droit à un examen de son état de santé, de même qu’à des con­seils sur la façon de réduire ou de supprimer les problèmes de santé liés à son travail.\n2 L’ordonnance règle les modalités d’application. L’examen médical peut être déclaré obligatoire pour certaines catégories de travailleurs.\n3 Les frais occasionnés par l’examen médical et les conseils sont à la charge de l’employeur, à moins que la caisse-maladie ou une autre assurance du travailleur ne les assument.",
+          "words": 91
+        },
+        {
+          "num": "Art. 17d",
+          "marginal_title": "Inaptitude au travail de nuit",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_17_d",
+          "text": "Chaque fois que cela est réalisable, l’employeur doit affecter le tra­vailleur déclaré inapte au travail de nuit pour des raisons de santé, à un travail de jour similaire auquel il est apte.",
+          "words": 32
+        },
+        {
+          "num": "Art. 17e",
+          "marginal_title": "Mesures supplémentaires lors du travail de nuit",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_17_e",
+          "text": "1 Pour autant que les circonstances l’exigent, l’employeur qui occupe régulièrement des travailleurs la nuit doit prendre des mesures sup­plémentaires appropriées, destinées à la protection des travailleurs, notamment en ce qui concerne la sécurité sur le chemin du travail, l’organisation des transports, les possibilités de se reposer et de s’ali­men­ter, ainsi que la prise en charge des enfants.\n2 Les autorités qui les octroient peuvent assortir les autorisations por­tant sur la durée du travail de charges appropriées.",
+          "words": 77
+        },
+        {
+          "num": "Art. 18",
+          "marginal_title": "Interdiction de travailler le dimanche",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_18",
+          "text": "1 Du samedi à 23 heures au dimanche à 23 heures, il est interdit d’occuper des travailleurs. L’art. 19 est réservé.\n2 Avec l’accord des représentants des travailleurs dans l’entreprise ou, à défaut, de la majorité des travailleurs concernés, l’intervalle de 24 heures défini à l’al. 1 peut être avancé ou retardé d’une heure au plus.",
+          "words": 56
+        },
+        {
+          "num": "Art. 19",
+          "marginal_title": "Dérogations à l’interdiction de travailler le dimanche",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_19",
+          "text": "1 Les dérogations à l’interdiction de travailler le dimanche sont sou­mises à autorisation.\n2 Le travail dominical régulier ou périodique est autorisé lorsque des raisons techniques ou économiques le rendent indispensable.\n3 Le travail dominical temporaire est autorisé en cas de besoin urgent dûment établi. L’employeur accorde une majoration de salaire de 50 % au travailleur.\n4 Le travail dominical régulier ou périodique est soumis à l’auto­ri­sa­tion du SECO, le travail dominical temporaire, à celle des auto­rités cantonales.\n5 Le travailleur ne peut être affecté au travail dominical sans son con­sentement.\n6 Les cantons peuvent fixer au plus quatre dimanches par an pendant lesquels le personnel peut être employé dans les commerces sans qu’une autorisation soit nécessaire.",
+          "words": 117
+        },
+        {
+          "num": "Art. 20",
+          "marginal_title": "Dimanche libre et repos compensatoire",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_20",
+          "text": "1 Une fois toutes les deux semaines au moins, le jour de repos hebdo­madaire doit coïncider avec un dimanche complet, et suivre ou pré­céder immédiatement le temps de repos quotidien. L’art. 24 est réservé.\n2 Tout travail dominical dont la durée n’excède pas cinq heures doit être compensé par du temps libre. S’il dure plus de cinq heures, il sera compensé, pendant la semaine précédente ou suivante et immédiate­ment après le temps de repos quotidien, par un repos compensatoire d’au moins 24 heures consécutives coïncidant avec un jour de travail.\n3 L’employeur peut occuper des travailleurs temporairement pendant le repos compensatoire, si cette mesure s’avère nécessaire, soit pour empêcher la détérioration de biens, soit pour prévenir ou supprimer des perturbations dans l’entreprise; le repos compensatoire doit cependant être accordé au plus tard pendant la semaine suivante.",
+          "words": 136
+        },
+        {
+          "num": "Art. 20a",
+          "marginal_title": "Jours fériés et fêtes religieuses",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_20_a",
+          "text": "1 Le jour de la fête nationale est assimilé au dimanche. Les cantons peuvent assimiler au dimanche huit autres jours fériés par an au plus et les fixer différemment selon les régions.\n2 Le travailleur est autorisé à interrompre son travail à l’occasion de fêtes religieuses autres que celles qui sont assimilées à des jours fériés par les cantons. Il doit cependant en aviser son employeur au plus tard trois jours à l’avance. L’art. 11 est applicable.\n3 À la demande du travailleur, l’employeur lui accordera, si possible, le temps nécessaire pour assister à une fête religieuse.",
+          "words": 97
+        },
+        {
+          "num": "Art. 21",
+          "marginal_title": "Demi-journée de congé hebdomadaire",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_21",
+          "text": "1 Lorsque le travail hebdomadaire est réparti sur plus de cinq jours, l’employeur est tenu de donner au travailleur une demi-journée de congé par semaine, sauf dans les semaines comprenant un jour chômé.\n2 L’employeur peut, avec l’accord du travailleur, donner en une seule fois, pour quatre semaines au plus, les demi-journées de congé hebdo­madaire, à condition que la durée moyenne du travail hebdomadaire ne dépasse pas le maximum légal.\n3 L’art. 20, al. 3, est applicable par analogie.",
+          "words": 79
+        },
+        {
+          "num": "Art. 22",
+          "marginal_title": "Interdiction de remplacer le temps de repos par d’autres prestations",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_22",
+          "text": "Dans la mesure où la loi prescrit des temps de repos, ceux-ci ne doivent pas être remplacés par des prestations en argent ou d’autres avantages, sauf à la cessation des rapports de travail.",
+          "words": 33
+        }
+      ]
+    },
+    {
+      "id": "ltr-chap2-sec3",
+      "path": "LTr > III. Durée du travail et repos > 3. Travail continu",
+      "title": "3. Travail continu",
+      "articles": [
+        {
+          "num": "Art. 24",
+          "marginal_title": "Travail continu",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_24",
+          "text": "1 Le travail continu est soumis à autorisation.\n2 Le travail continu régulier ou périodique est autorisé lorsque des rai­sons techniques ou économiques le rendent indispensable.\n3 Le travail continu temporaire est autorisé en cas de besoin urgent dûment établi.\n4 Le travail continu régulier ou périodique est soumis à l’autorisation du SECO, le travail continu temporaire, à celle des autorités cantonales.\n5 L’ordonnance détermine, en cas de travail continu, à quelles condi­tions supplémentaires et dans quelles limites la durée maximale du travail quotidien et hebdomadaire peut être prolongée et le temps de repos réparti différemment. Ce faisant, la durée maximale du travail hebdomadaire ne doit pas, en règle générale, être dépassée sur une moyenne de seize semaines.\n6 En outre, les dispositions sur le travail de nuit et sur le travail domi­nical sont applicables au travail continu.",
+          "words": 138
+        }
+      ]
+    },
+    {
+      "id": "ltr-chap2-sec4",
+      "path": "LTr > III. Durée du travail et repos > 4. Autres dispositions",
+      "title": "4. Autres dispositions",
+      "articles": [
+        {
+          "num": "Art. 25",
+          "marginal_title": "Alternance des équipes",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_25",
+          "text": "1 Le temps de travail doit être organisé de telle sorte qu’aucun tra­vail­leur ne soit occupé plus de six semaines consécutives dans la même équipe.\n2 En cas de travail de jour ou du soir à deux équipes, le travailleur doit participer dans une proportion égale aux deux équipes et, en cas de travail de nuit, au travail de jour ou du soir et au travail de nuit.\n3 Avec l’accord des travailleurs concernés et pour autant que les char­ges et conditions fixées dans l’ordonnance soient observées, la période de six semaines peut être prolongée ou l’alternance des équipes sup­primée.",
+          "words": 100
+        },
+        {
+          "num": "Art. 26",
+          "marginal_title": "Autres dispositions protectrices",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_26",
+          "text": "1 Pour protéger les travailleurs, d’autres dispositions sur le travail sup­plémentaire, sur le travail de nuit, sur le travail dominical, sur le tra­vail par équipes et sur le travail continu peu­vent être édictées par voie d’ordonnance, dans les limites de la durée maxi­male de la semaine de travail.\n2 Pour certaines catégories d’entreprises ou de travailleurs, la durée maximum de la semaine de travail peut, par ordonnance, être réduite dans la mesure nécessaire pour protéger la santé des travailleurs.",
+          "words": 79
+        },
+        {
+          "num": "Art. 27",
+          "marginal_title": "Dispositions spéciales visant certaines catégories d’entreprises ou de travailleurs",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_27",
+          "text": "1 Certaines catégories d’entreprises ou de travailleurs peuvent être soumises par voie d’ordonnance à des dispositions spéciales rempla­çant en tout ou en partie les art. 9 à 17a, 17b, al. 1, 18 à 20, 21, 24, 25, 31 et 36, dans la mesure où leur situation particulière le rend néces­saire.\n1bis Les petites entreprises artisanales, en particulier, sont exemptées de l’autorisation obligatoire pour le travail de nuit ou le travail domini­cal, lorsque celui-ci est inhérent à leur activité.\n1ter Les magasins et entreprises de services situés dans les aéroports et dans les gares à forte fréquentation considérées comme des centres de transports publics peuvent occuper des travailleurs le dimanche.\n1quater Les magasins des stations-service qui sont situés sur les aires des au­toroutes ou le long d’axes de circulation importants fortement fréquentés par les voyageurs et dont les marchandises et les prestations répondent principalement aux besoins des voyageurs peuvent occuper des travailleurs le dimanche et la nuit.\n2 De telles dispositions peuvent être édictées notamment pour:\na. les établissements d’éducation ou d’enseignement, les œu­vres sociales, les cliniques et hôpitaux, les cabinets médicaux ainsi que les pharmacies;\nb. les hôtels, les restaurants, les cafés, les entreprises de specta­cle ainsi que les entreprises qui ravitaillent les hôtels, restau­rants et ca­fés à l’occasion de manifes­tations spéciales;\nc. les entreprises qui satisfont aux besoins du tourisme ou de la po­pulation agri­cole;\nd. les entreprises qui assurent le ravitaillement en biens facile­ment périssables;\ne. les entreprises qui traitent des produits agricoles, ainsi que les entreprises horticoles non visées par l’art. 2, al. 1, let. e;\nf. les entreprises sylvicoles;\ng. les entreprises qui assurent le ravitaillement en énergie élec­tri­que, gaz ou eau;\nh. les entreprises qui approvisionnent des véhicules en carburant ou bien les entretiennent et les réparent;\ni. les rédactions de journaux et périodiques;\nk. le personnel au sol des transports aériens;\nl. les travailleurs occupés sur des chantiers ou des carrières qui, en raison de leur situation géographique ou des conditions climati­ques ou techniques particulières, demandent une régle­mentation spéciale de la durée du travail;\nm. les personnes dont le temps de travail comprend dans une large mesure une simple présence, ou les personnes dont l’ac­tivité en­traîne de fréquents voyages ou déplacements.",
+          "words": 367
+        },
+        {
+          "num": "Art. 28",
+          "marginal_title": "Légères dérogations",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_28",
+          "text": "Dans les permis concernant la durée du travail, l’autorité peut, à titre exception­nel, apporter de minimes dérogations aux prescriptions de la loi et de l’ordonnance, lorsque l’application de ces prescriptions entraî­nerait des difficultés extraordinaires et que la majorité des tra­vailleurs intéressés ou leurs représentants dans l’entreprise consentent à ces dé­rogations.",
+          "words": 50
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-B-IV",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > B. Obligations du travailleur > IV. Heures de travail supplémentaires",
+      "title": "IV. Heures de travail supplémentaires",
+      "articles": [
+        {
+          "num": "Art. 321c",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_321_c",
+          "text": "1 Si les circonstances exigent des heures de travail plus nombreuses que ne le prévoit le contrat ou l’usage, un contrat-type de travail ou une convention collective, le travailleur est tenu d’exécuter ce travail supplémentaire dans la mesure où il peut s’en charger et où les règles de la bonne foi permettent de le lui demander.\n2 L’employeur peut, avec l’accord du travailleur, compenser les heures de travail supplémentaires par un congé d’une durée au moins égale, qui doit être accordé au cours d’une période appropriée.\n3 L’employeur est tenu de rétribuer les heures de travail supplémentaires qui ne sont pas compensées par un congé en versant le salaire normal majoré d’un quart au moins, sauf clause contraire d’un accord écrit, d’un contrat-type de travail ou d’une convention collective.",
+          "words": 129
+        }
+      ]
+    }
+  ]
+}
