@@ -1,0 +1,3 @@
+SELECT ?s ?p WHERE {
+  ?s ?p <https://fedlex.data.admin.ch/eli/cc/27/317_321_377> .
+} LIMIT 50

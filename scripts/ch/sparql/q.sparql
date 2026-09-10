@@ -1,0 +1,10 @@
+PREFIX jolux: <http://data.legilux.public.lu/resource/ontology/jolux#>
+SELECT ?fileUrl ?format WHERE {
+  <https://fedlex.data.admin.ch/eli/cc/27/317_321_377> jolux:isMemberOf ?consolidation .
+  ?consolidation a jolux:Consolidation .
+  ?consolidation jolux:isRealizedBy ?expr .
+  ?expr jolux:language <http://publications.europa.eu/resource/authority/language/FRA> .
+  ?expr jolux:isEmbodiedBy ?manifestation .
+  ?manifestation jolux:isExemplifiedBy ?fileUrl .
+  ?manifestation jolux:format ?format .
+} LIMIT 50
