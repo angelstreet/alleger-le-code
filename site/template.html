@@ -1,5 +1,18 @@
 <meta charset="utf-8">
 <title>Code du travail simplifié</title>
+<meta name="description" content="Mêmes droits, moins de texte. Le Code du travail français comparé au droit suisse sur neuf sujets, et réécrit article par article : 2 914 articles aujourd’hui, 346 proposés.">
+<link rel="canonical" href="https://codedutravailsimplifie.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Code du travail simplifié — mêmes droits, moins de texte">
+<meta property="og:description" content="Sur neuf sujets, le Code du travail fait 2 914 articles ; le droit suisse, 181. Notre proposition : 346 articles, lisibles sans juriste, chaque article tracé.">
+<meta property="og:url" content="https://codedutravailsimplifie.com/">
+<meta property="og:image" content="https://codedutravailsimplifie.com/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Code du travail simplifié — mêmes droits, moins de texte">
+<meta name="twitter:description" content="2 914 articles aujourd’hui, 181 en Suisse à périmètre égal, 346 proposés. Comparez, lisez, soutenez.">
+<meta name="twitter:image" content="https://codedutravailsimplifie.com/og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
@@ -755,7 +768,7 @@ footer .eyebrow{margin-bottom:12px}
   // ---------- Pledge + share ----------
   const first = D.topics[0];
   $('pledge').textContent = `« Sur ${D.topics.length > 1 ? 'les ' + D.topics.length + ' sujets déjà comparés' : 'le ' + first.name.toLowerCase()}, je m’engage à ramener le Code du travail de ${fmt(covFr)} à moins de ${fmt(Math.ceil(covTarget/10)*10)} articles avant la fin du quinquennat, sans réduire les droits des salariés, en renvoyant les modalités aux conventions de branche et en fusionnant les dispositifs redondants. Les articles supprimés, modifiés et conservés seront publiés en ligne, un par un. »`;
-  const url = location.href.split('#')[0];
+  const url = /codedutravailsimplifie\.com$/.test(location.hostname) || location.protocol === 'file:' ? 'https://codedutravailsimplifie.com/' : location.href.split('#')[0];
   const msg = `${first.share} Mêmes droits, moins de texte : le Code du travail simplifié, article par article → ${url}`;
   $('sh-wa').href = 'https://wa.me/?text=' + encodeURIComponent(msg);
   $('sh-x').href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(msg);

@@ -821,6 +821,10 @@ if chrome and os.environ.get('ALC_PDF', '1') != '0':
     url = 'file://' + urllib.parse.quote(str(root / 'site/index.html')) + '?print=1'
     r = subprocess.run([chrome, '--headless=new', '--disable-gpu', '--no-pdf-header-footer', '--virtual-time-budget=8000',
                         '--run-all-compositor-stages-before-draw', f'--print-to-pdf={pdf}', url], capture_output=True, text=True, timeout=180)
+    og = root / 'site/og.png'
+    subprocess.run([chrome, '--headless=new', '--disable-gpu', '--hide-scrollbars', '--window-size=1200,630', '--virtual-time-budget=6000',
+                    f'--screenshot={og}', 'file://' + urllib.parse.quote(str(root / 'site/og.html'))], capture_output=True, text=True, timeout=120)
+    print('og.png', og.stat().st_size // 1024, 'KB' if og.exists() else 'missing')
     if pdf.exists() and pdf.stat().st_size > 10000:
         print('pdf', pdf.stat().st_size // 1024, 'KB')
     else:
