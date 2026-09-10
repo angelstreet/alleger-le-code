@@ -160,7 +160,7 @@ section{padding:56px 0 8px}
 .tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .tab .n{font-family:var(--mono);font-weight:500;font-size:11px;opacity:.75;margin-left:6px}
 .tab .k{font-family:var(--mono);font-weight:600;font-size:11px;opacity:.7;margin-right:6px}
-.perma{font-family:var(--mono);font-size:13px;line-height:1;background:none;border:0;color:var(--muted);cursor:pointer;padding:2px 6px;border-radius:4px}
+.perma{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;line-height:1;background:none;border:1px solid var(--hair);color:var(--muted);cursor:pointer;padding:4px 7px;border-radius:5px}
 .perma:hover{color:var(--ink);background:var(--surface-2)}
 .ref{display:flex;justify-content:space-between;align-items:center;gap:8px}
 @media (max-width:1099px){ .tab .n{display:none} }
@@ -416,7 +416,7 @@ footer .eyebrow{margin-bottom:12px}
   <div class="stack">
     <span class="eyebrow">Le Code allégé</span>
     <h2>La version proposée, à lire</h2>
-    <p class="lede">Le résultat des objectifs : les articles qui remplaceraient les articles actuels, écrits pour être compris sans juriste. Chaque article dit ce qu’il remplace.</p>
+    <p class="lede">Le résultat des objectifs : les articles qui remplaceraient les articles actuels, écrits pour être compris sans juriste. Chaque article dit ce qu’il remplace ; le bouton « Lien » copie son adresse directe, pour y revenir ou le partager.</p>
     <p class="note" id="allege-status"></p>
   </div>
   <div class="ahead"><span id="allege-current"></span><button class="btn" id="allege-all" type="button">Afficher les neuf sujets</button></div>
@@ -539,7 +539,7 @@ footer .eyebrow{margin-bottom:12px}
   function matchHtml(t, r){
     const qn = t.rows.indexOf(r) + 1;
     return `<article class="match" id="m-${t.id}-${r.id}">
-      <header><span class="eyebrow ref"><span>Sujet ${tnum(t)} · Question ${qn}</span><button class="perma" type="button" data-link="#m-${t.id}-${r.id}" title="Copier le lien">¶ ${tnum(t)}.${qn}</button></span><h3>${esc(r.title)}</h3></header>
+      <header><span class="eyebrow ref"><span>Sujet ${tnum(t)} · Question ${qn}</span><button class="perma" type="button" data-link="#m-${t.id}-${r.id}" title="Copier le lien direct de cette question">Lien ${tnum(t)}.${qn}</button></span><h3>${esc(r.title)}</h3></header>
       <div class="sides">
         <div class="side"><div class="who"><span class="dot fr"></span>France</div>
           <div class="cnt"><span class="num">${fmt(r.fr.n)}</span><small>art.</small></div>
@@ -558,7 +558,7 @@ footer .eyebrow{margin-bottom:12px}
   function cardHtml(t, r){
     return `<article class="card" id="p-${t.id}-${r.id}">
       <div class="head">
-        <span class="eyebrow ref"><span>Sujet ${tnum(t)} · Proposition ${t.rows.indexOf(r)+1}</span><button class="perma" type="button" data-link="#p-${t.id}-${r.id}" title="Copier le lien">¶ ${tnum(t)}.${t.rows.indexOf(r)+1}</button></span>
+        <span class="eyebrow ref"><span>Sujet ${tnum(t)} · Proposition ${t.rows.indexOf(r)+1}</span><button class="perma" type="button" data-link="#p-${t.id}-${r.id}" title="Copier le lien direct de cette proposition">Lien ${tnum(t)}.${t.rows.indexOf(r)+1}</button></span>
         <div class="chips">${r.verdict.map(v=>`<span class="chip ${v}">${CHIP[v]}</span>`).join('')}</div>
         <h3>${esc(r.title)}</h3>
         <div class="delta"><b class="num">${fmt(r.fr.n)}</b><span class="arrow">→</span><b class="num">${fmt(r.target)}</b><span>articles · cible</span></div>
@@ -658,7 +658,7 @@ footer .eyebrow{margin-bottom:12px}
       const arts = d.articles.map(a => {
         const head = a.row !== lastRow ? `<div class="part">${esc(d.rows[a.row] || a.row)}</div>` : ''; lastRow = a.row;
         return head + `<article class="cart" id="a-${t.id}-${a.n}">
-          <div class="h"><span class="n">Art. ${a.n}</span><span class="t">${esc(a.title)}</span><button class="perma" type="button" data-link="#a-${t.id}-${a.n}" title="Copier le lien" style="margin-left:auto">¶</button></div>
+          <div class="h"><span class="n">Art. ${a.n}</span><span class="t">${esc(a.title)}</span><button class="perma" type="button" data-link="#a-${t.id}-${a.n}" title="Copier le lien direct de cet article" style="margin-left:auto">Lien</button></div>
           <div class="x">${esc(a.text)}</div>
           <div class="r"><b>Remplace</b> ${a.replaces.map(r=>`<a href="${r.url}" target="_blank" rel="noopener">${esc(r.num)}</a>`).join(', ') || '—'}${a.note ? ' · ' + esc(a.note) : ''}</div>
         </article>`;
