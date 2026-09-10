@@ -45,7 +45,7 @@
   --focus:#3987e5;
 }
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:150px}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.55;font-optical-sizing:auto}
 a{color:inherit;text-decoration-color:var(--hair-2);text-underline-offset:3px}
 a:hover{text-decoration-color:currentColor}
@@ -73,6 +73,17 @@ section{padding:56px 0 8px}
 .duel.mini .cta:hover{background:var(--hair)}
 @media (max-width:560px){ .duel.mini{grid-template-columns:1fr 1fr} .duel.mini .cta{grid-column:1 / -1;border-left:0;border-top:1px solid var(--hair);justify-content:center} }
 @media (max-width:420px){ .duel.mini{grid-template-columns:1fr 1fr} .duel.mini > div + div{border-top:0;border-left:1px solid var(--hair)} }
+
+/* site bar */
+.sitebar{position:sticky;top:0;z-index:7;background:var(--bg);border-bottom:1px solid var(--hair);height:44px}
+.sitebar .wrap{display:flex;align-items:center;gap:18px;height:44px}
+.brand{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2);text-decoration:none;white-space:nowrap}
+.sections{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;margin-left:auto}
+.sections::-webkit-scrollbar{display:none}
+.sections a{font-family:var(--display);font-weight:700;font-size:13px;color:var(--ink-2);text-decoration:none;padding:6px 10px;border-radius:6px;white-space:nowrap}
+.sections a:hover{color:var(--ink);background:var(--surface-2)}
+.sections a.on{color:var(--ink);background:var(--surface-2)}
+@media (max-width:560px){ .brand{display:none} .sections{margin-left:0} .sections a{font-size:12px;padding:6px 8px} }
 
 /* masthead */
 .mast{padding:40px 0 8px}
@@ -126,7 +137,7 @@ section{padding:56px 0 8px}
 .context .fn{font-family:var(--mono);font-size:12px;color:var(--muted)}
 
 /* tabs */
-.topnav{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--hair);margin-top:24px}
+.topnav{position:sticky;top:44px;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--hair);margin-top:24px}
 .tab.home{background:var(--surface-2);border-color:var(--hair)}
 .tabs{display:flex;flex-wrap:wrap;gap:6px}
 .tab{flex:none;font-family:var(--display);font-weight:700;font-size:13px;padding:7px 12px;border-radius:999px;border:1px solid var(--hair-2);background:var(--surface);color:var(--ink-2);cursor:pointer;min-height:36px}
@@ -286,13 +297,13 @@ footer .eyebrow{margin-bottom:12px}
   .method{columns:2;column-gap:40px}
   .method li{break-inside:avoid}
 }
-.print-mode .tabbar,.print-mode .share,.print-mode .vote,.print-mode .vote-note,.print-mode #pdf,.print-mode #pdf-top{display:none!important}
+.print-mode .sitebar,.print-mode .tabbar,.print-mode .share,.print-mode .vote,.print-mode .vote-note,.print-mode #pdf,.print-mode #pdf-top{display:none!important}
 .print-mode .panel{padding-top:24px}
 @media print{
   body{background:#fff;color:#000;font-size:11pt}
   @page{margin:16mm 14mm}
   .band{background:#fff;box-shadow:none}
-  .tabbar,.share,.vote,.vote-note,.toast,#pdf,#pdf-top,.more{display:none!important}
+  .sitebar,.topnav,.tabbar,.share,.vote,.vote-note,.toast,#pdf,#pdf-top,.more{display:none!important}
   .panel[hidden]{display:grid!important}
   #code-allege[hidden],#top-allege[hidden]{display:none!important}
   .panel{page-break-before:always;padding-top:0}
@@ -306,7 +317,11 @@ footer .eyebrow{margin-bottom:12px}
 
 </style>
 
-<header class="mast wrap">
+<div class="sitebar"><div class="wrap"><a class="brand" href="#top">Alléger le Code</a><nav class="sections" aria-label="Sections">
+  <a href="#ensemble" data-sec="ensemble">Ensemble</a><a href="#sujets" data-sec="sujets">Comparer</a><a href="#sujets" data-sec="road" data-road="1">Feuille de route</a><a href="#code-allege" data-sec="code-allege">Code allégé</a><a href="#partager" data-sec="partager">Soutenir</a><a href="#methode" data-sec="methode">Méthode</a>
+</nav></div></div>
+
+<header class="mast wrap" id="top">
   <div class="top">
     <span class="pill">Alléger le Code · <b id="n-topics">0</b> sujets comparés</span>
     <button class="pill" id="pdf-top" type="button" style="cursor:pointer">Télécharger · PDF</button>
@@ -567,6 +582,7 @@ footer .eyebrow{margin-bottom:12px}
     try { history.replaceState(null, '', '#sujet=' + id); } catch(e) {}
   }
   document.addEventListener('click', e => {
+    const rd = e.target.closest('[data-road]'); if(rd){ e.preventDefault(); const el = document.querySelector('#panels .panel:not([hidden]) .road'); if(el) el.parentElement.scrollIntoView({block:'start'}); return; }
     const g = e.target.closest('[data-goto]'); if(g){ $(g.dataset.goto).scrollIntoView({block:'start'}); return; }
     const b = e.target.closest('[data-topic]'); if(b){
       const above = window.scrollY + 120 < $('sujets').offsetTop;
@@ -631,6 +647,16 @@ footer .eyebrow{margin-bottom:12px}
     document.querySelectorAll('.panel[hidden]').forEach(p => p.hidden = false);
     document.querySelectorAll('.law .art .t.clamp').forEach(x => x.classList.remove('clamp'));
     document.querySelectorAll('.more').forEach(b => b.remove());
+  }
+
+  // ---------- Active section in the site bar ----------
+  const secLinks = [...document.querySelectorAll('.sections a[data-sec]')];
+  const secEls = ['ensemble','sujets','code-allege','partager','methode'].map(id => $(id)).filter(Boolean);
+  if('IntersectionObserver' in window){
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(en => { if(en.isIntersecting){ secLinks.forEach(a => a.classList.toggle('on', a.dataset.sec === en.target.id)); } });
+    }, {rootMargin: '-45% 0px -50% 0px'});
+    secEls.forEach(s => io.observe(s));
   }
 
   // ---------- Votes ----------
