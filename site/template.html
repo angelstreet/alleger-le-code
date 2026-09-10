@@ -61,8 +61,9 @@ p{margin:0}
 .num{font-family:var(--mono);font-variant-numeric:tabular-nums}
 section{padding:56px 0 8px}
 .lede{font-size:20px;line-height:1.45;color:var(--ink-2);max-width:34em}
-.stack{display:grid;gap:14px}
-.stack-lg{display:grid;gap:28px}
+.stack{display:grid;gap:14px;grid-template-columns:minmax(0,1fr)}
+.stack-lg{display:grid;gap:28px;grid-template-columns:minmax(0,1fr)}
+.panel{grid-template-columns:minmax(0,1fr)}
 .dot{width:10px;height:10px;border-radius:50%;flex:none;display:inline-block}
 .dot.fr{background:var(--fr)}.dot.ch{background:var(--ch)}.dot.al{background:var(--keep-ink)}
 .duel.mini{margin:18px 0 6px;grid-template-columns:1fr 1fr auto;align-items:stretch}
@@ -125,12 +126,13 @@ section{padding:56px 0 8px}
 .context .fn{font-family:var(--mono);font-size:12px;color:var(--muted)}
 
 /* tabs */
-.tabbar{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;border-bottom:1px solid var(--hair)}
+.topnav{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--hair);margin-top:24px}
+.tab.home{background:var(--surface-2);border-color:var(--hair)}
 .tabs{display:flex;flex-wrap:wrap;gap:6px}
 .tab{flex:none;font-family:var(--display);font-weight:700;font-size:13px;padding:7px 12px;border-radius:999px;border:1px solid var(--hair-2);background:var(--surface);color:var(--ink-2);cursor:pointer;min-height:36px}
 .tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .tab .n{font-family:var(--mono);font-weight:500;font-size:11px;opacity:.75;margin-left:6px}
-@media (max-width:480px){ .tab{font-size:12px;padding:6px 10px;min-height:32px} .tab .n{display:none} .tabbar{padding:8px 0} }
+@media (max-width:480px){ .tab{font-size:12px;padding:6px 10px;min-height:32px} .tab .n{display:none} .topnav{padding:6px 0} }
 .panel{display:grid;gap:44px;padding-top:36px}
 .panel > .stack-lg{padding:0}
 .topic-head{display:grid;gap:12px}
@@ -179,6 +181,11 @@ section{padding:56px 0 8px}
 .law .none{font-size:15px;color:var(--muted);font-style:italic}
 
 /* code allégé */
+.band{position:relative;margin-top:64px;padding:8px 20px 40px;background:var(--surface-2);box-shadow:0 0 0 100vmax var(--surface-2);clip-path:inset(0 -100vmax)}
+.divider{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:14px;margin:0 0 36px;transform:translateY(-32px)}
+.divider::before,.divider::after{content:"";height:3px;background:var(--ink)}
+.divider span{font-family:var(--display);font-weight:800;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);padding:6px 12px;border:3px solid var(--ink);border-radius:999px;background:var(--bg)}
+.band .code,.band .card,.band .match{background:var(--surface)}
 .code{border:1px solid var(--hair);border-radius:12px;background:var(--surface);padding:4px 18px 10px}
 .code .part{font-family:var(--display);font-weight:700;font-size:15px;color:var(--ink-2);padding:22px 0 6px;border-bottom:1px solid var(--hair);margin-bottom:6px}
 .code .cart{padding:16px 0;border-bottom:1px solid var(--hair);display:grid;gap:8px}
@@ -191,10 +198,15 @@ section{padding:56px 0 8px}
 .code .cart .r a{color:var(--ink-2)}
 .code .cart .r b{font-weight:500;color:var(--muted)}
 .removed{display:grid;gap:8px;font-size:15px;color:var(--ink-2)}
-.removed div{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:baseline}
-.removed .n{font-family:var(--mono);font-size:12px;color:var(--drop-ink);white-space:nowrap}
+.removed div{display:grid;gap:4px;padding:10px 0;border-top:1px solid var(--hair)}
+.removed div:first-child{border-top:0;padding-top:0}
+.removed .n{font-family:var(--mono);font-size:12px;color:var(--drop-ink);line-height:1.6;overflow-wrap:anywhere}
 .astat{display:flex;flex-wrap:wrap;gap:14px;font-family:var(--mono);font-size:12px;color:var(--ink-2)}
 .astat b{color:var(--ink);font-weight:600}
+
+.ahead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:15px}
+.ahead .n{font-family:var(--mono);font-weight:500;color:var(--ink-2)}
+.ptitle{font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:-.01em;margin:0}
 
 /* verdict chips */
 .chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:4px 9px;border-radius:6px;white-space:nowrap}
@@ -262,6 +274,7 @@ footer .eyebrow{margin-bottom:12px}
 @media print{
   body{background:#fff;color:#000;font-size:11pt}
   @page{margin:16mm 14mm}
+  .band{background:#fff;box-shadow:none}
   .tabbar,.share,.vote,.vote-note,.toast,#pdf,#pdf-top,.more{display:none!important}
   .panel[hidden]{display:grid!important}
   #code-allege[hidden],#top-allege[hidden]{display:none!important}
@@ -291,6 +304,8 @@ footer .eyebrow{margin-bottom:12px}
   </div>
   <p class="claim" style="margin-top:8px">Indépendant et apolitique. Réalisé par un citoyen avec l’IA Claude (Anthropic), sans parti ni financement. Données, code et méthode ouverts.</p>
 </header>
+
+<nav class="topnav" aria-label="Sujets"><div class="wrap"><div class="tabs" role="tablist" id="tabs"></div></div></nav>
 
 <section class="wrap stack-lg" id="ensemble">
   <div class="stack">
@@ -337,19 +352,19 @@ footer .eyebrow{margin-bottom:12px}
   </div>
 </section>
 
-<section class="wrap" id="sujets" style="padding-top:44px">
-  <div class="tabbar"><div class="tabs" role="tablist" id="tabs"></div></div>
+<section class="wrap" id="sujets" style="padding-top:8px">
   <div id="panels"></div>
 </section>
 
-<section class="wrap stack-lg" id="code-allege" hidden>
+<section class="wrap stack-lg band" id="code-allege" hidden>
+  <div class="divider" aria-hidden="true"><span>Notre version</span></div>
   <div class="stack">
     <span class="eyebrow">Le Code allégé</span>
     <h2>La version proposée, à lire</h2>
     <p class="lede">Le résultat de la feuille de route : les articles qui remplaceraient les articles actuels, écrits pour être compris sans juriste. Chaque article dit ce qu’il remplace.</p>
     <p class="note" id="allege-status"></p>
   </div>
-  <div class="tabs" role="tablist" id="allege-tabs"></div>
+  <div class="ahead"><span id="allege-current"></span><button class="btn" id="allege-all" type="button">Afficher les neuf sujets</button></div>
   <div id="allege-panels"></div>
 </section>
 
@@ -520,18 +535,25 @@ footer .eyebrow{margin-bottom:12px}
       </div>
     </div>`;
   }
-  $('tabs').innerHTML = D.topics.map(t => `<button class="tab" role="tab" type="button" data-topic="${t.id}" aria-selected="false">${esc(t.name)}<span class="n">${fmt(t.fr.n)} / ${fmt(t.ch.n)}</span></button>`).join('');
+  $('tabs').innerHTML = `<button class="tab home" type="button" data-goto="ensemble">Ensemble</button>` + D.topics.map(t => `<button class="tab" role="tab" type="button" data-topic="${t.id}" aria-selected="false">${esc(t.name)}<span class="n">${fmt(t.fr.n)} / ${fmt(t.ch.n)}</span></button>`).join('');
   $('panels').innerHTML = D.topics.map(panelHtml).join('');
 
+  let current = D.topics[0].id;
+  const hooks = [];
   function show(id, scroll){
     if(!D.topics.some(t=>t.id===id)) id = D.topics[0].id;
-    document.querySelectorAll('.tab').forEach(b => b.setAttribute('aria-selected', b.dataset.topic===id ? 'true':'false'));
-    document.querySelectorAll('.panel').forEach(p => p.hidden = p.id !== 'panel-'+id);
+    current = id;
+    document.querySelectorAll('[data-topic].tab').forEach(b => b.setAttribute('aria-selected', b.dataset.topic===id ? 'true':'false'));
+    document.querySelectorAll('#panels .panel').forEach(p => p.hidden = p.id !== 'panel-'+id);
+    hooks.forEach(f => f(id));
     if(scroll) $('sujets').scrollIntoView({block:'start'});
     try { history.replaceState(null, '', '#sujet=' + id); } catch(e) {}
   }
   document.addEventListener('click', e => {
-    const b = e.target.closest('[data-topic]'); if(b){ show(b.dataset.topic, b.classList.contains('irow')); return; }
+    const g = e.target.closest('[data-goto]'); if(g){ $(g.dataset.goto).scrollIntoView({block:'start'}); return; }
+    const b = e.target.closest('[data-topic]'); if(b){
+      const above = window.scrollY + 120 < $('sujets').offsetTop;
+      show(b.dataset.topic, b.classList.contains('irow') || above); return; }
     const m = e.target.closest('.more'); if(m){ m.previousElementSibling.classList.remove('clamp'); m.remove(); return; }
   });
   const h = (location.hash.match(/sujet=([\w-]+)/)||[])[1];
@@ -548,7 +570,7 @@ footer .eyebrow{margin-bottom:12px}
     $('ta-cur-n').textContent = fmt(curN); $('ta-cur-w').textContent = fmt(curW); $('ta-scope').textContent = aTopics.length + ' sujets comparés';
     $('ta-new-n').textContent = fmt(newN); $('ta-new-w').textContent = fmt(newW); $('ta-pct').textContent = '−' + Math.round(100 - 100*newW/curW) + ' %';
     $('allege-status').innerHTML = '<b>Statut : ' + esc(A[aTopics[0].id].status) + '.</b> Sujets rédigés : ' + aTopics.map(t=>esc(t.name)).join(', ') + '. Les autres suivent, sujet par sujet.';
-    $('allege-tabs').innerHTML = aTopics.map(t => `<button class="tab" role="tab" type="button" data-allege="${t.id}" aria-selected="false">${esc(t.name)}<span class="n">${A[t.id].articles.length} art.</span></button>`).join('');
+
     $('allege-panels').innerHTML = aTopics.map(t => {
       const d = A[t.id]; let lastRow = null;
       const arts = d.articles.map(a => {
@@ -563,19 +585,25 @@ footer .eyebrow{margin-bottom:12px}
       const c = d.counts || {};
       return `<div class="panel" id="apanel-${t.id}" role="tabpanel" hidden>
         <div class="stack-lg">
+          <h3 class="ptitle">${esc(t.name)}</h3>
           <div class="astat"><span><b>${fmt(c.current_total || t.fr.n)}</b> articles aujourd’hui</span><span>→</span><span><b>${fmt(d.articles.length)}</b> articles proposés</span><span><b>${fmt(c.replaces_total || 0)}</b> remplacés</span><span><b>${fmt(c.removed_total || 0)}</b> supprimés sans successeur</span></div>
           <div class="code">${arts}</div>
           ${rem ? `<div class="stack"><h3>Articles supprimés sans successeur</h3><div class="removed">${rem}</div></div>` : ''}
         </div>
       </div>`;
     }).join('');
+    let allMode = false;
     function showA(id){
-      document.querySelectorAll('[data-allege]').forEach(b => b.setAttribute('aria-selected', b.dataset.allege===id ? 'true':'false'));
-      document.querySelectorAll('[id^="apanel-"]').forEach(p => p.hidden = p.id !== 'apanel-'+id);
+      if(!A[id]) id = aTopics[0].id;
+      document.querySelectorAll('[id^="apanel-"]').forEach(p => p.hidden = allMode ? false : p.id !== 'apanel-'+id);
+      const t = D.topics.find(x=>x.id===id);
+      $('allege-current').innerHTML = allMode ? `Les ${aTopics.length} sujets, à la suite <span class="n">· ${fmt(newN)} articles</span>` : `Sujet affiché : ${esc(t.name)} <span class="n">· ${fmt(t.fr.n)} → ${fmt(A[id].articles.length)} articles</span>`;
+      $('allege-all').textContent = allMode ? 'Afficher un seul sujet' : `Afficher les ${aTopics.length} sujets`;
     }
-    document.addEventListener('click', e => { const b = e.target.closest('[data-allege]'); if(b) showA(b.dataset.allege); });
-    showA(aTopics[0].id);
-    if(location.hash.startsWith('#a-')){ const el = document.querySelector(location.hash); if(el){ showA(el.id.split('-')[1]); el.scrollIntoView(); } }
+    hooks.push(showA);
+    $('allege-all').addEventListener('click', () => { allMode = !allMode; showA(current); });
+    showA(current);
+    if(location.hash.startsWith('#a-')){ const el = document.querySelector(location.hash); if(el){ show(el.id.split('-')[1], false); el.scrollIntoView(); } }
   }
 
   // ---------- Print mode (?print=1, used by the build to generate the PDF) ----------
