@@ -795,7 +795,8 @@ footer .eyebrow{margin-bottom:12px}
   const first = D.topics[0];
   $('pledge').textContent = `« Sur ${D.topics.length > 1 ? 'les ' + D.topics.length + ' sujets déjà comparés' : 'le ' + first.name.toLowerCase()}, je m’engage à ramener le Code du travail de ${fmt(covFr)} à moins de ${fmt(Math.ceil(covTarget/10)*10)} articles avant la fin du quinquennat, sans réduire les droits des salariés, en renvoyant les modalités aux conventions de branche et en fusionnant les dispositifs redondants. Les articles supprimés, modifiés et conservés seront publiés en ligne, un par un. »`;
   const url = /codedutravailsimplifie\.com$/.test(location.hostname) || location.protocol === 'file:' ? 'https://www.codedutravailsimplifie.com/' : location.href.split('#')[0];
-  const msg = `${first.share}  ${url}`;
+  const gN = D.topics.reduce((s,t)=>s+t.fr.n,0), gC = D.topics.reduce((s,t)=>s+t.ch.n,0), gA = Object.values(D.allege||{}).reduce((s,d)=>s+d.articles.length,0);
+  const msg = `Mêmes droits, moins de texte. Sur ${D.topics.length} sujets, le Code du travail fait ${fmt(gN)} articles ; le droit suisse, ${fmt(gC)}. Notre proposition : ${fmt(gA)} articles, lisibles sans juriste → ${url}`;
   const setAll = (cls, href) => document.querySelectorAll('.' + cls).forEach(a => a.href = href);
   setAll('sh-wa', 'https://wa.me/?text=' + encodeURIComponent(msg));
   setAll('sh-x', 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(msg));
