@@ -230,16 +230,30 @@ footer .eyebrow{margin-bottom:12px}
   .index .hd,.irow{grid-template-columns:1fr 54px 54px 44px;gap:8px;padding-left:12px;padding-right:12px}
 }
 @media (prefers-reduced-motion:reduce){ .toast{transition:none} html{scroll-behavior:auto} }
+@media print{
+  body{background:#fff;color:#000;font-size:11pt}
+  .tabbar,.share,.vote,.vote-note,.toast,#pdf,#pdf-top,.more{display:none!important}
+  .panel[hidden]{display:grid!important}
+  .panel{page-break-before:always;padding-top:0}
+  .match,.card,.duel,.bars,.index,.context{break-inside:avoid;border-color:#bbb}
+  .law .art .t.clamp{max-height:none}
+  .law .art .t.clamp::after{display:none}
+  a{text-decoration:none;color:inherit}
+  .law .art .n a::after{content:" " attr(href);font-weight:400;font-size:9pt;color:#555}
+  section{padding:24px 0 0}
+}
+
 </style>
 
 <header class="mast wrap">
   <div class="top">
     <span class="pill"><b id="n-topics">0</b> sujets comparés</span>
-    <span class="eyebrow">Prototype · Sept. 2026</span>
+    <button class="pill" id="pdf-top" type="button" style="cursor:pointer">Télécharger · PDF</button>
   </div>
   <h1>Alléger le Code</h1>
   <p class="lede">Le Code du travail français, comparé article par article au droit suisse. Et une feuille de route : ce qu’on garde, ce qu’on simplifie, ce qu’on supprime, ce qu’on ajoute.</p>
   <p class="claim">Ce site ne juge pas si le droit français protège trop ou pas assez. Il mesure sa complexité, et propose comment obtenir le même résultat avec moins de texte.</p>
+  <p class="claim" style="margin-top:8px">Indépendant et apolitique. Réalisé par un citoyen avec l’IA Claude (Anthropic), sans parti ni financement. Données, code et méthode ouverts.</p>
 </header>
 
 <section class="wrap stack-lg" id="ensemble">
@@ -303,7 +317,9 @@ footer .eyebrow{margin-bottom:12px}
     <a class="btn" id="sh-wa" target="_blank" rel="noopener">WhatsApp</a>
     <a class="btn" id="sh-x" target="_blank" rel="noopener">X</a>
     <a class="btn" id="sh-mail">E-mail</a>
+    <button class="btn" id="pdf" type="button">Télécharger en PDF</button>
   </div>
+  <p style="font-size:14px;color:var(--muted)">Le PDF contient tous les sujets, tous les textes dépliés — pour lire hors ligne ou imprimer.</p>
 </section>
 
 <section class="wrap stack-lg" id="candidats">
@@ -331,6 +347,7 @@ footer .eyebrow{margin-bottom:12px}
       <li><b>Mots</b> = mots du texte de l’article, hors titres et notes. <b>Pages</b> = mots ÷ 400, une convention de lecture.</li>
       <li><b>Périmètre égal, sujet par sujet.</b> Chaque sujet indique précisément les titres et articles comptés de chaque côté. Quand une règle existe ailleurs dans le Code, la comparaison le signale au lieu de compter zéro en silence.</li>
       <li><b>Ce que ça ne mesure pas.</b> La jurisprudence, les conventions collectives, les ordonnances suisses, la pratique. Un droit court peut être complexe par ses juges ; un droit long peut être simple à appliquer. Le nombre d’articles mesure la lisibilité de la loi, pas la qualité de la protection.</li>
+      <li><b>Qui l’a fait.</b> Un citoyen, avec l’IA Claude (Anthropic) qui a extrait les données, calculé les comptes et rédigé les propositions sous sa direction. Aucun parti, syndicat, organisation patronale ni financement. Le dépôt de code et les données sont publics.</li>
       <li><b>Les verdicts sont une proposition</b>, écrite pour être discutée, pas une expertise juridique validée. Les cibles en nombre d’articles sont des ordres de grandeur.</li>
     </ul>
   </div>
@@ -346,6 +363,7 @@ footer .eyebrow{margin-bottom:12px}
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
+<script>window.ALC_SUPABASE = {{SUPABASE}};</script>
 <script id="data" type="application/json">{{DATA}}</script>
 <script>
 (function(){
@@ -393,10 +411,10 @@ footer .eyebrow{margin-bottom:12px}
       <div class="sides">
         <div class="side"><div class="who"><span class="dot fr"></span>France</div>
           <div class="cnt"><span class="num">${fmt(r.fr.n)}</span><small>art.</small></div>
-          <div class="words num">${fmt(r.fr.w)} mots</div><div class="refs">${esc(r.fr.refs)}</div><p class="rule">${r.fr.rule}</p></div>
+          <div class="words num">${fmt(r.fr.w)} mots</div><div class="refs"><a href="${r.fr.url}" target="_blank" rel="noopener">${esc(r.fr.refs)} ↗</a></div><p class="rule">${r.fr.rule}</p></div>
         <div class="side"><div class="who"><span class="dot ch"></span>Suisse</div>
           <div class="cnt"><span class="num">${fmt(r.ch.n)}</span><small>art.</small></div>
-          <div class="words num">${fmt(r.ch.w)} mots</div><div class="refs">${esc(r.ch.refs)}</div><p class="rule">${r.ch.rule}</p></div>
+          <div class="words num">${fmt(r.ch.w)} mots</div><div class="refs"><a href="${r.ch.url}" target="_blank" rel="noopener">${esc(r.ch.refs)} ↗</a></div><p class="rule">${r.ch.rule}</p></div>
       </div>
       <details><summary>Lire les textes</summary><div class="law">
         ${r.fr.arts.length ? r.fr.arts.map(a=>artHtml(a,'fr')).join('') : '<p class="none">Aucun article français dans ce périmètre.</p>'}
@@ -428,7 +446,7 @@ footer .eyebrow{margin-bottom:12px}
           <span class="eyebrow">Sujet</span>
           <h2>${esc(t.title)}</h2>
           <p class="lede">${t.lede}</p>
-          <div class="scope"><span class="dot fr" style="margin-top:5px"></span><span>${esc(t.fr.scope)}</span><span class="dot ch" style="margin-top:5px"></span><span>${esc(t.ch.scope)}</span></div>
+          <div class="scope"><span class="dot fr" style="margin-top:5px"></span><span><a href="${t.fr.url}" target="_blank" rel="noopener">${esc(t.fr.scope)} ↗</a></span><span class="dot ch" style="margin-top:5px"></span><span><a href="${t.ch.url}" target="_blank" rel="noopener">${esc(t.ch.scope)} ↗</a></span></div>
         </div>
         <div class="duel">
           <div><div class="who"><span class="dot fr"></span>France</div><div class="big"><span class="num">${fmt(t.fr.n)}</span><small>articles</small></div><p class="sub"><b class="num">${fmt(t.fr.w)}</b> mots · ≈ <b class="num">${fmt(pages(t.fr.w))}</b> pages A4</p></div>
@@ -478,39 +496,65 @@ footer .eyebrow{margin-bottom:12px}
   let mine = {};
   try { mine = JSON.parse(localStorage.getItem(LS) || '{}'); } catch(e) {}
   const saveMine = () => { try { localStorage.setItem(LS, JSON.stringify(mine)); } catch(e) {} };
-  let db = null, counts = {};
+  // Three backends, in order of preference: Supabase (public site), the artifact db (claude.ai), local only.
+  let backend = null, counts = {};
   function render(){
     let total = 0;
     document.querySelectorAll('.vote').forEach(b => {
       const id = b.dataset.id;
-      const n = db ? (counts[id]||0) : (mine[id] ? 1 : 0);
+      const n = backend ? (counts[id]||0) : (mine[id] ? 1 : 0);
       total += n;
       b.querySelector('.c').textContent = fmt(n);
       b.setAttribute('aria-pressed', mine[id] ? 'true' : 'false');
     });
     $('cov-votes').textContent = fmt(total);
   }
-  function localMode(){ db = null; render(); }
   render();
-  const useDb = (window.claude && typeof window.claude.use === 'function') ? window.claude.use('db') : Promise.resolve(null);
-  useDb.then(d => {
-    if(!d) return localMode();
-    db = d;
-    db.collection('votes').onSnapshot(snap => {
-      const c = {};
-      snap.docs.forEach(doc => { const p = doc.data() && doc.data().p; if(p) c[p] = (c[p]||0) + 1; });
-      counts = c; render();
-    }, () => localMode());
-  }).catch(localMode);
+
+  const SB = window.ALC_SUPABASE && window.ALC_SUPABASE.url && window.ALC_SUPABASE.key ? window.ALC_SUPABASE : null;
+  if(SB){
+    const LSC = 'allegerlecode.client';
+    let client = '';
+    try { client = localStorage.getItem(LSC) || ''; } catch(e) {}
+    if(!client){ client = crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + Math.random().toString(16).slice(2); try { localStorage.setItem(LSC, client); } catch(e) {} }
+    const H = {apikey: SB.key, Authorization: 'Bearer ' + SB.key, 'Content-Type': 'application/json'};
+    const refresh = () => fetch(SB.url + '/rest/v1/vote_counts?select=proposal,n', {headers: H})
+      .then(r => r.ok ? r.json() : Promise.reject(r.status))
+      .then(rows => { const c = {}; rows.forEach(x => c[x.proposal] = x.n); counts = c; render(); });
+    backend = {
+      vote: id => fetch(SB.url + '/rest/v1/votes', {method:'POST', headers:{...H, Prefer:'return=minimal'}, body: JSON.stringify({proposal:id, client})}).then(r => { if(!r.ok) throw r.status; }),
+      unvote: id => fetch(SB.url + '/rest/v1/rpc/unvote', {method:'POST', headers:H, body: JSON.stringify({p_client:client, p_proposal:id})}).then(r => { if(!r.ok) throw r.status; }),
+      refresh
+    };
+    refresh().catch(() => { backend = null; render(); });
+    setInterval(() => { if(backend) refresh().catch(()=>{}); }, 30000);
+  } else {
+    const useDb = (window.claude && typeof window.claude.use === 'function') ? window.claude.use('db') : Promise.resolve(null);
+    useDb.then(db => {
+      if(!db) return;
+      backend = {
+        vote: async id => { const ref = await db.collection('votes').add({p:id, t:Date.now()}); mine[id] = ref.id; },
+        unvote: async id => { if(typeof mine[id] === 'string') await db.collection('votes').doc(mine[id]).delete(); },
+        refresh: () => Promise.resolve()
+      };
+      db.collection('votes').onSnapshot(snap => {
+        const c = {};
+        snap.docs.forEach(doc => { const p = doc.data() && doc.data().p; if(p) c[p] = (c[p]||0) + 1; });
+        counts = c; render();
+      }, () => { backend = null; render(); });
+    }).catch(() => {});
+  }
+
   $('panels').addEventListener('click', async e => {
     const b = e.target.closest('.vote'); if(!b) return;
     const id = b.dataset.id;
-    if(!db){ mine[id] = mine[id] ? 0 : 1; saveMine(); render(); return; }
+    if(!backend){ mine[id] = mine[id] ? 0 : 1; saveMine(); render(); return; }
     b.disabled = true;
     try {
-      if(mine[id] && typeof mine[id] === 'string'){ await db.collection('votes').doc(mine[id]).delete(); delete mine[id]; }
-      else { const ref = await db.collection('votes').add({p:id, t:Date.now()}); mine[id] = ref.id; }
+      if(mine[id]){ await backend.unvote(id); delete mine[id]; }
+      else { await backend.vote(id); if(!mine[id]) mine[id] = 1; }
       saveMine();
+      await backend.refresh();
     } catch(err){ toast('Le soutien n’a pas pu être enregistré. Réessayez.'); }
     b.disabled = false; render();
   });
@@ -528,5 +572,17 @@ footer .eyebrow{margin-bottom:12px}
   async function copy(text, ok){ try { await navigator.clipboard.writeText(text); toast(ok); } catch(e){ toast('Copie impossible ici — sélectionnez le texte.'); } }
   $('copy').addEventListener('click', () => copy(url, 'Lien copié'));
   $('copy-eng').addEventListener('click', () => copy($('pledge').textContent.trim(), 'Engagement copié'));
+  // PDF: open everything, print, restore
+  function printAll(){
+    const opened = [...document.querySelectorAll('details:not([open])')]; opened.forEach(d => d.open = true);
+    const hidden = [...document.querySelectorAll('.panel[hidden]')]; hidden.forEach(p => p.hidden = false);
+    document.querySelectorAll('.law .art .t.clamp').forEach(t => t.classList.add('was-clamp')); document.querySelectorAll('.was-clamp').forEach(t => t.classList.remove('clamp'));
+    const restore = () => { opened.forEach(d => d.open = false); hidden.forEach(p => p.hidden = true); document.querySelectorAll('.was-clamp').forEach(t => { t.classList.add('clamp'); t.classList.remove('was-clamp'); }); window.removeEventListener('afterprint', restore); };
+    window.addEventListener('afterprint', restore);
+    setTimeout(() => window.print(), 50);
+  }
+  $('pdf').addEventListener('click', printAll);
+  $('pdf-top').addEventListener('click', printAll);
+
 })();
 </script>

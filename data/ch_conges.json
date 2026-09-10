@@ -1,0 +1,214 @@
+{
+  "country": "CH",
+  "source": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr ; https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr ; consolidated HTML via https://fedlex.data.admin.ch/filestore/... (CO état 1er janvier 2026; LTr état 1er septembre 2023)",
+  "fetched_at": "2026-09-10",
+  "topic": "Congés, vacances, maternité et paternité",
+  "code_totals": {
+    "co_titre10": {
+      "articles": 139,
+      "words": 14230,
+      "range": "art. 319–362"
+    },
+    "ltr": {
+      "articles": 83,
+      "words": 7288
+    },
+    "co_whole": {
+      "articles": 1603,
+      "words": 120996
+    },
+    "note": "Counts are per <article> element in the Fedlex consolidated HTML (fr), including lettered sub-articles (e.g. 335a) and a handful of jointly-repealed article ranges (e.g. 'art. 226a–226d') that count as one element each. Words = whitespace-separated tokens of the plain article text (footnote markers/footnotes excluded). CO whole = art. 1–1186 (Livre cinquième du Code civil suisse), état 1er janvier 2026. LTr = RS 822.11, état 1er septembre 2023.",
+    "olt1": {
+      "articles": 86,
+      "words": 12117
+    }
+  },
+  "topic_totals": {
+    "articles": 17,
+    "words": 1810
+  },
+  "sections": [
+    {
+      "id": "co-tit10-chap1-C-VIII-1",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > VIII. Congés et vacances > 1. Congés hebdomadaire et usuels",
+      "title": "1. Congés hebdomadaire et usuels",
+      "articles": [
+        {
+          "num": "Art. 329",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_329",
+          "text": "1 L’employeur accorde au travailleur un jour de congé par semaine, en règle générale le dimanche ou, si les circonstances ne le permettent pas, un jour ouvrable entier.\n2 Il peut exceptionnellement grouper les jours de congé auxquels le travailleur peut prétendre ou accorder deux demi-jours au lieu d’un jour complet, si des conditions particulières le justifient et si le travailleur y consent.\n3 Il accorde au surplus au travailleur les heures et jours de congé usuels et, une fois le contrat dénoncé, le temps nécessaire pour chercher un autre emploi.\n4 Les parties tiennent équitablement compte des intérêts de l’employeur et du travailleur pour fixer les heures et jours de congé.",
+          "words": 112
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-VIII-2",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > VIII. Congés et vacances > 2. Vacances",
+      "title": "2. Vacances",
+      "articles": [
+        {
+          "num": "Art. 329a",
+          "marginal_title": "Durée",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_329_a",
+          "text": "1 L’employeur accorde au travailleur, chaque année de service, quatre semaines de vacances au moins et cinq semaines au moins aux travailleurs jusqu’à l’âge de 20 ans révolus.\n2 …\n3 Les vacances sont fixées proportionnellement à la durée des rapports de travail lorsque l’année de service n’est pas complète.",
+          "words": 50
+        },
+        {
+          "num": "Art. 329b",
+          "marginal_title": "Réduction",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_329_b",
+          "text": "1 Lorsqu’au cours d’une année de service, le travailleur est, par sa propre faute, empêché de travailler pendant plus d’un mois au total, l’employeur peut réduire la durée de ses vacances d’un douzième par mois complet d’absence.\n2 Si la durée de l’empêchement n’est pas supérieure à un mois au cours d’une année de service, et si elle est provoquée, sans qu’il y ait faute de sa part, par des causes inhérentes à la personne du travailleur, telles que maladie, accident, accomplissement d’une obligation légale, exercice d’une fonction publique ou prise d’un congé-jeunesse, l’employeur n’a pas le droit de réduire la durée des vacances.\n3 L’employeur ne peut pas réduire la durée des vacances si:\na. une travailleuse, en raison d’une grossesse, est empêchée de travailler pendant deux mois au plus;\nb. une travailleuse a pris un congé de maternité au sens de l’art. 329f;\nc. un travailleur a pris le congé de l’autre parent au sens de l’art. 329g ou le congé en cas de décès de la mère au sens de l’art. 329gbis;\nd. un travailleur a bénéficié d’un congé de prise en charge au sens de l’art. 329i;\ne. une travailleuse ou un travailleur a pris un congé d’adoption au sens de l’art. 329j.\n4 Un contrat-type de travail ou une convention collective peut déroger aux al. 2 et 3, à la condition d’offrir, dans l’ensemble, une réglementation au moins équivalente pour les travailleurs.",
+          "words": 237
+        },
+        {
+          "num": "Art. 329c",
+          "marginal_title": "Continuité et date",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_329_c",
+          "text": "1 En règle générale, les vacances sont accordées pendant l’année de service correspondante; elles comprennent au moins deux semaines consécutives.\n2 L’employeur fixe la date des vacances en tenant compte des désirs du travailleur dans la mesure compatible avec les intérêts de l’entreprise ou du ménage.",
+          "words": 46
+        },
+        {
+          "num": "Art. 329d",
+          "marginal_title": "Salaire",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_329_d",
+          "text": "1 L’employeur verse au travailleur le salaire total afférent aux vacances et une indemnité équitable en compensation du salaire en nature.\n2 Tant que durent les rapports de travail, les vacances ne peuvent pas être remplacées par des prestations en argent ou d’autres avantages.\n3 Si, pendant les vacances, le travailleur exécute un travail rémunéré pour un tiers au mépris des intérêts légitimes de l’employeur, celui-ci peut lui refuser le salaire afférent aux vacances ou en exiger le remboursement s’il l’a déjà versé.",
+          "words": 83
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-VIII-3",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > VIII. Congés et vacances > 3. Congé pour les activités de jeunesse extra-scolaires",
+      "title": "3. Congé pour les activités de jeunesse extra-scolaires",
+      "articles": [
+        {
+          "num": "Art. 329e",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_329_e",
+          "text": "1 Chaque année de service, l’employeur accorde au travailleur jusqu’à l’âge de 30 ans révolus un congé-jeunesse représentant au plus et en tout une semaine de travail, lorsque ce dernier se livre bénévolement à des activités de jeunesse extra-scolaires pour le compte d’une organisation du domaine culturel ou social, en y exerçant des fonctions de direction, d’encadrement ou de conseil, ou qu’il suit la formation et la formation continue nécessaires à l’exercice de ces activités.\n2 Le travailleur n’a pas droit à un salaire pendant le congé-jeunesse. Un accord, un contrat-type de travail ou une convention collective peuvent déroger à cette règle, au profit du travailleur.\n3 L’employeur et le travailleur conviennent des dates et de la durée du congé-jeunesse en tenant compte des intérêts de chacun. S’ils ne peuvent se mettre d’accord, le congé-jeunesse sera accordé à condition que le travailleur ait annoncé à l’employeur son intention de faire valoir son droit deux mois avant le début du congé. Les jours du congé-jeunesse que le travailleur n’a pas pris à la fin de l’année civile ne peuvent être reportés sur l’année suivante.\n4 À la demande de l’employeur, le travailleur apportera la preuve des tâches et des fonctions qui lui ont été attribuées dans le cadre des activités de jeunesse extra-scolaires.",
+          "words": 212
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-VIII-4",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > VIII. Congés et vacances > 4. Congé de maternité",
+      "title": "4. Congé de maternité",
+      "articles": [
+        {
+          "num": "Art. 329f",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_329_f",
+          "text": "1 En cas de maternité, la travailleuse a droit, après l’accouchement, à un congé d’au moins 14 semaines.\n2 En cas d’hospitalisation du nouveau-né, le congé est prolongé d’une durée équivalente à la prolongation de la durée du versement de l’allocation de maternité.\n3 En cas de décès de l’autre parent durant les six mois qui suivent la naissance de l’enfant, la travailleuse a droit à deux semaines de congé supplémentaires; celles-ci peuvent être prises sous la forme de semaines ou de journées dans un délai-cadre de six mois à compter du jour suivant le décès.",
+          "words": 96
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-VIII-5",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > VIII. Congés et vacances > 5. Congé de l’autre parent",
+      "title": "5. Congé de l’autre parent",
+      "articles": [
+        {
+          "num": "Art. 329g",
+          "marginal_title": "En général",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_329_g",
+          "text": "1 Ont droit au congé de l’autre parent de deux semaines:\na. le travailleur, s’il est le père légal au moment de la naissance de l’enfant ou s’il le devient au cours des six mois qui suivent;\nb. la travailleuse, si elle est l’autre parent légal au moment de la naissance de l’enfant.\n2 Le congé doit être pris dans les six mois qui suivent la naissance de l’enfant. Ce délai est suspendu pendant le congé au sens de l’art. 329gbis.\n3 Le congé peut être pris sous la forme de semaines ou de journées.",
+          "words": 95
+        },
+        {
+          "num": "Art. 329gbis",
+          "marginal_title": "En cas de décès de la mère",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_329_g_bis",
+          "text": "1 En cas de décès de la mère le jour de l’accouchement ou durant les 14 semaines qui suivent, l’autre parent a droit à un congé de 14 semaines à prendre de manière ininterrompue à compter du jour qui suit le décès.\n2 L’autre parent a droit au congé lorsque le lien de filiation est établi au jour du décès ou durant les 14 semaines qui suivent.\n3 En cas d’hospitalisation du nouveau-né selon l’art. 329f, al. 2, le congé prévu à l’al. 1 est prolongé d’une durée équivalente à celle de l’hospitalisation, mais de huit semaines au plus.",
+          "words": 99
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-VIII-6",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > VIII. Congés et vacances > 6. Congé pour la prise en charge de proches",
+      "title": "6. Congé pour la prise en charge de proches",
+      "articles": [
+        {
+          "num": "Art. 329h",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_329_h",
+          "text": "Le travailleur a droit à un congé payé pour la prise en charge d’un membre de la famille ou du partenaire atteint dans sa santé; le congé est limité au temps nécessaire à la prise en charge, mais ne doit pas dépasser trois jours par cas et dix jours par an au total.",
+          "words": 53
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-VIII-7",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > VIII. Congés et vacances > 7. Congé pour la prise en charge d’un enfant gravement atteint dans sa santé en raison d’une maladie ou d’un accident",
+      "title": "7. Congé pour la prise en charge d’un enfant gravement atteint dans sa santé en raison d’une maladie ou d’un accident",
+      "articles": [
+        {
+          "num": "Art. 329i",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_329_i",
+          "text": "1 Si le travailleur a droit à une allocation de prise en charge au sens des art. 16n à 16s LAPG parce que son enfant est gravement atteint dans sa santé en raison d’une maladie ou d’un accident, il a droit à un congé de prise en charge de quatorze semaines au plus.\n2 Le congé de prise en charge doit être pris dans un délai-cadre de 18 mois. Le délai-cadre commence à courir le jour pour lequel la première indemnité journalière est versée.\n3 Si les deux parents travaillent, chacun a droit à un congé de prise en charge de sept semaines au plus. Ils peuvent convenir de se partager le congé de manière différente.\n4 Le congé peut être pris en une fois ou sous la forme de journées.\n5 L’employeur est informé sans délai des modalités selon lesquelles le congé est pris et de tout changement.",
+          "words": 149
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-VIII-8",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > VIII. Congés et vacances > 8. Congé d’adoption",
+      "title": "8. Congé d’adoption",
+      "articles": [
+        {
+          "num": "Art. 329j",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_329_j",
+          "text": "1 Toute travailleuse ou tout travailleur qui accueille un enfant en vue d’une adoption a droit à un congé d’adoption de deux semaines pour autant que les conditions visées à l’art. 16t LAPG soient remplies.\n2 Le congé d’adoption doit être pris pendant la première année qui suit l’accueil de l’enfant.\n3 Il peut être pris par un seul parent ou partagé entre les deux. Les deux parents ne peuvent pas prendre le congé simultanément.\n4 Le congé d’adoption peut être pris sous la forme de journées ou de semaines.",
+          "words": 90
+        }
+      ]
+    },
+    {
+      "id": "ltr-protection-speciale",
+      "path": "LTr > Protection spéciale",
+      "title": "Protection spéciale",
+      "articles": [
+        {
+          "num": "Art. 35",
+          "marginal_title": "Protection de la santé durant la maternité",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_35",
+          "text": "1 L’employeur doit occuper les femmes enceintes et les mères qui allaitent de telle sorte que leur santé et la santé de l’enfant ne soient pas compromises et aménager leurs conditions de travail en consé­quence.\n2 L’ordonnance peut interdire, pour des raisons de santé, l’occupation des femmes enceintes et des mères qui allaitent à des travaux pénibles ou dangereux, ou l’assortir de conditions particulières.\n3 Les femmes enceintes et les mères qui allaitent qui ne peuvent être occupées à certains travaux en vertu de l’al. 2 ont droit à 80 % de leur salaire, y compris une indemnité équitable pour la perte du salaire en nature, lorsqu’aucun travail équivalent ne peut leur être proposé.",
+          "words": 114
+        },
+        {
+          "num": "Art. 35a",
+          "marginal_title": "Occupation durant la maternité",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_35_a",
+          "text": "1 Les femmes enceintes et les mères qui allaitent ne peuvent être occu­pées sans leur consentement.\n2 Sur simple avis, les femmes enceintes peuvent se dispenser d’aller au travail ou le quitter. Les mères qui allaitent peuvent disposer du temps nécessaire à l’allaitement.\n3 Les accouchées ne peuvent être occupées durant les huit semaines qui suivent l’accouchement; ensuite, et jusqu’à la seizième semaine, elles ne peuvent l’être que si elles y consentent.\n4 Durant les huit semaines qui précèdent l’accouchement, les femmes enceintes ne peuvent être occupées entre 20 heures et 6 heures.",
+          "words": 93
+        },
+        {
+          "num": "Art. 35b",
+          "marginal_title": "Déplacement de l’horaire et paiement du salaire durant la maternité",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_35_b",
+          "text": "1 Chaque fois que cela est réalisable, l’employeur est tenu de proposer aux femmes enceintes qui accomplissent un travail entre 20 heures et 6 heures un travail équivalent entre 6 heures et 20 heures. Cette obli­gation vaut également pour la période entre la huitième et la seizième semaine après l’accouchement.\n2 Lorsqu’aucun travail équivalent ne peut leur être proposé, les fem­mes occupées entre 20 heures et 6 heures pendant les périodes fixées à l’al. 1 ont droit à 80 % de leur salaire calculé sans d’éventuelles majo­rations pour le travail de nuit, y compris une indemnité équitable pour la perte du salaire en nature.",
+          "words": 104
+        },
+        {
+          "num": "Art. 36",
+          "marginal_title": "Travailleurs ayant des responsabilités familiales",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_36",
+          "text": "1 Lorsqu’il fixe les heures de travail et de repos, l’employeur doit tenir compte notamment des responsabilités familiales des travailleurs. Sont réputées responsabilités familiales l’éducation des enfants jusqu’à l’âge de quinze ans ainsi que la prise en charge de membres de la parenté ou de proches exigeant des soins.\n2 Ces travailleurs ne peuvent être affectés à un travail supplémentaire sans leur consentement. À leur demande, une pause de midi d’au moins une heure et demie doit leur être accordée.\n3 L’employeur doit, sur présentation d’un certificat médical, accorder aux travailleurs un congé pour la prise en charge d’un membre de la famille ou du partenaire atteint dans sa santé; le congé est limité au temps nécessaire à la prise en charge mais ne doit pas dépasser trois jours par cas.\n4 En dehors de la prise en charge des enfants, le congé ne doit pas dépasser dix jours par an.",
+          "words": 151
+        },
+        {
+          "num": "Art. 36a",
+          "marginal_title": "Autres catégories de travailleurs",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_36_a",
+          "text": "L’ordonnance peut interdire, pour des raisons de santé, l’occupation d’autres catégories de travailleurs à des travaux pénibles ou dange­reux, ou la faire dépendre de conditions particulières.",
+          "words": 26
+        }
+      ]
+    }
+  ]
+}

@@ -23,6 +23,18 @@ class Topic:
                 n += 1; w += a['words']
         return n, w
 
+    def fr_match(self, prefixes, path_re=None, exclude_re=None):
+        """Count articles by number prefix, optionally restricted by a regex on the section path."""
+        n = w = 0
+        for s in self.fr['sections']:
+            if path_re and not re.search(path_re, s['path']): continue
+            if exclude_re and re.search(exclude_re, s['path']): continue
+            for a in s['articles']:
+                m = re.match(r'[LRD]\*?(\d{4})', a['num'])
+                if m and m.group(1) in prefixes:
+                    n += 1; w += a['words']
+        return n, w
+
     def chapter_url(self, ch):
         for s in self.fr['sections']:
             if s['part'] == 'L' and any(re.match(r'L' + ch, a['num']) for a in s['articles']):
@@ -42,13 +54,15 @@ class Topic:
         return out, len(out), sum(self.ch_arts[n]['words'] for n in nums if n in self.ch_arts)
 
     def row(self, id, q, title, fr_ch, fr_refs, fr_rule, fr_key, ch_nums, ch_refs, ch_rule, verdict, target, plan, fr_url=None):
-        n, w = self.fr_chapter(*fr_ch) if fr_ch else (0, 0)
+        if isinstance(fr_ch, tuple): n, w = fr_ch; fr_ch = None
+        else: n, w = self.fr_chapter(*fr_ch) if fr_ch else (0, 0)
         arts, cn, cw = self.ch_sel(ch_nums) if ch_nums else ([], 0, 0)
         self.rows.append({
             'id': id, 'q': q, 'title': title,
             'fr': {'n': n, 'w': w, 'refs': fr_refs, 'rule': fr_rule, 'arts': self.fr_sel(fr_key),
                    'url': fr_url or (self.chapter_url(fr_ch[0]) if fr_ch else CODE_URL)},
-            'ch': {'n': cn, 'w': cw, 'refs': ch_refs, 'rule': ch_rule, 'arts': arts},
+            'ch': {'n': cn, 'w': cw, 'refs': ch_refs, 'rule': ch_rule, 'arts': arts,
+                   'url': arts[0]['url'] if arts else 'https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr'},
             'verdict': verdict, 'target': target, 'plan': plan,
         })
 
@@ -63,8 +77,8 @@ class Topic:
     def out(self):
         ft, ct = self.fr['topic_totals'], self.ch['topic_totals']
         return {'id': self.id, 'name': self.name, 'title': self.title, 'lede': self.lede, 'share': self.share,
-                'fr': {'n': ft['articles_total'], 'w': ft['words_total'], 'scope': self.fr_scope},
-                'ch': {'n': ct['articles'], 'w': ct['words'], 'scope': self.ch_scope},
+                'fr': {'n': ft['articles_total'], 'w': ft['words_total'], 'scope': self.fr_scope, 'url': self.fr['sections'][0]['url'] if 'url' in self.fr['sections'][0] else LEGI + self.fr['sections'][0]['id'] + '/'},
+                'ch': {'n': ct['articles'], 'w': ct['words'], 'scope': self.ch_scope, 'url': self.ch['sections'][0]['articles'][0]['url']},
                 'note': self.note, 'rows': self.rows}
 
 
@@ -247,6 +261,100 @@ if (root / 'data/ch_temps_travail.json').exists():
     t2.check()
     topics.append(t2)
 
+# ---------------------------------------------------------------- Topic 3
+if (root / 'data/ch_conges.json').exists():
+    t3 = Topic('conges', 'Congés', 'Congés payés, congés spéciaux, maternité et paternité',
+               'Tous les jours où l’on ne travaille pas tout en restant salarié : vacances, événements de la vie, naissance, engagement, projets.',
+               'Congés et vacances : {fr} articles de loi en France, {ch} en Suisse.',
+               'fr_conges.json', 'ch_conges.json',
+               'Code du travail, 3e partie, Livre Ier, Titres IV « Congés payés et autres congés » et V « Compte épargne-temps » (L3141 à L3154) + Livre II, Titre II, Chapitre V « Maternité, paternité, adoption » (L1225), parties L, R et D',
+               'Code des obligations art. 329 à 329j « Jours de congé, vacances et congés » + Loi sur le travail art. 35 à 36 (grossesse, maternité, obligations familiales)',
+               note='<b>Lire la générosité à part.</b> La Suisse accorde 4 semaines de vacances (5 avant 20 ans), 14 semaines de maternité et 2 semaines à l’autre parent — moins qu’en France. Ce sujet compare la lisibilité des textes, pas les droits : la feuille de route conserve les durées françaises.')
+    t3.share = t3.share.format(fr=t3.fr['topic_totals']['articles_total'], ch=t3.ch['topic_totals']['articles'])
+    S = lambda k: t3.fr_match(['3142'], path_re=r'> Section %d :' % k)
+
+    t3.row('payes', 'Question 1', 'Congés payés',
+        ['3141'], 'L3141-1 → L3141-33, R3141, D3141',
+        '<b>2,5 jours ouvrables par mois</b>, soit 5 semaines. Période de référence, décompte en jours ouvrables, fractionnement et jours supplémentaires, ordre des départs, indemnité de congés, caisses de congés payés du bâtiment. Chaque règle en trois couches depuis 2016.',
+        ['L3141-3', 'L3141-13'],
+        ['329a', '329b', '329c', '329d'], 'CO art. 329a à 329d',
+        '<b>4 semaines</b> par an (5 avant 20 ans), au prorata, deux semaines consécutives au moins, date fixée par l’employeur en tenant compte des vœux, salaire maintenu, remplacement en argent interdit.',
+        ['keep'], 10,
+        ['<b>On garde</b> : les 5 semaines, l’indemnité de congés, le droit à deux semaines consécutives.',
+         '<b>On simplifie</b> : le décompte en jours ouvrés plutôt qu’ouvrables (fin des calculs de samedis), les règles de fractionnement renvoyées aux branches, les caisses de congés payés vers la convention du bâtiment.'])
+
+    t3.row('famille', 'Question 2', 'Événements familiaux, proches aidants, sabbatique',
+        S(1), 'L3142-1 → L3142-35, R3142, D3142 (section 1)',
+        '<b>Mariage, naissance, décès</b> (jours fixés par la loi), congé de solidarité familiale, congé de proche aidant (indemnisé), congé sabbatique : chacun avec ses conditions d’ancienneté, délais de prévenance, report, retour.',
+        ['L3142-1', 'L3142-16'],
+        ['329', '329h', '329i'], 'CO art. 329, 329h, 329i',
+        '<b>Les heures et jours de congé usuels</b> sont accordés (art. 329) ; congé payé de 3 jours par cas et 10 par an pour un proche malade (329h) ; 14 semaines pour un enfant gravement atteint (329i).',
+        ['simp'], 6,
+        ['<b>On garde</b> : les durées légales pour les événements familiaux et le congé de proche aidant indemnisé.',
+         '<b>On simplifie</b> : un article pour les événements familiaux, un pour l’aide à un proche, un pour le sabbatique ; les conditions d’ancienneté et de prévenance renvoyées aux branches.'])
+
+    t3.row('engagement', 'Question 3', 'Congés pour engagement associatif, politique, militant',
+        S(2), 'L3142-36 → L3142-103, R3142, D3142 (section 2)',
+        '<b>Quinze congés distincts</b> : formation de cadres de jeunesse, mutualiste, représentation, solidarité internationale, catastrophe naturelle, réserviste, sapeur-pompier, juré, élu local, candidat, formation syndicale… chacun avec ses articles de loi et ses décrets.',
+        ['L3142-54', 'L3142-60'],
+        ['329e'], 'CO art. 329e',
+        '<b>Un seul congé</b> pour les activités de jeunesse extrascolaires : 5 jours par an, non payés, jusqu’à 30 ans. Le reste relève du contrat ou de la convention collective.',
+        ['simp', 'deleg'], 6,
+        ['<b>On garde</b> : le principe d’un droit à s’absenter pour un engagement d’intérêt général.',
+         '<b>On simplifie</b> : un régime unique « congé d’engagement » — un article de principe, une liste des engagements ouvrant droit fixée par décret, les durées et le maintien du salaire par branche.',
+         '<b>On supprime</b> : 118 articles qui répètent la même mécanique quinze fois.'])
+
+    t3.row('projet', 'Question 4', 'Créer une entreprise, enseigner, chercher',
+        tuple(map(sum, zip(S(3), S(4), t3.fr_match(['3142'], exclude_re=r'> Section \d')))),
+        'L3142-105 → L3142-131, D3142 (sections 3 et 4)',
+        '<b>Congé ou temps partiel</b> pour créer ou reprendre une entreprise, congé d’enseignement ou de recherche : un an, prolongeable, avec réintégration garantie.',
+        ['L3142-105'],
+        [], 'Aucun article',
+        '<b>Rien de spécifique</b> : un tel congé se négocie dans le contrat ou la convention collective.',
+        ['deleg'], 4,
+        ['<b>On délègue aux branches et aux entreprises</b> : la loi ne garde que le principe d’un congé non rémunéré avec droit au retour ; durées et conditions par accord.'])
+
+    t3.row('maternite', 'Question 5', 'Grossesse et congé de maternité',
+        t3.fr_match(['1225'], path_re=r'> Section 1 :'), 'L1225-1 → L1225-34, R1225, D1225 (section 1)',
+        '<b>16 semaines</b> (plus selon le rang de l’enfant et les naissances multiples), protection contre le licenciement, affectation temporaire, autorisations d’absence pour examens, allaitement, garantie de rémunération au retour.',
+        ['L1225-17', 'L1225-4'],
+        ['329f', '35', '35a', '35b'], 'CO art. 329f ; LTr art. 35 à 35b',
+        '<b>14 semaines</b> après l’accouchement (prolongées si le nouveau-né est hospitalisé), interdiction de travailler 8 semaines après la naissance, aménagement du poste, temps d’allaitement rémunéré.',
+        ['keep'], 10,
+        ['<b>On garde</b> : les 16 semaines, la protection contre le licenciement, l’allaitement, la garantie de rémunération.',
+         '<b>On simplifie</b> : un chapitre lisible en une page ; les cas particuliers (naissances multiples, décès de la mère) en un article.'])
+
+    t3.row('parents', 'Question 6', 'Paternité, adoption, congé parental',
+        t3.fr_match(['1225'], exclude_re=r'> Section 1 :'), 'L1225-35 → L1225-72, R1225, D1225 (sections 2 à 5)',
+        '<b>25 jours</b> de paternité, congé d’adoption, congé parental d’éducation jusqu’aux 3 ans de l’enfant, congé pour enfant malade, congé de présence parentale : cinq régimes, chacun avec sa demande, son retour, sa protection.',
+        ['L1225-35', 'L1225-47'],
+        ['329g', '329gbis', '329j', '36', '36a'], 'CO art. 329g, 329g bis, 329j ; LTr art. 36, 36a',
+        '<b>2 semaines</b> pour l’autre parent (le reste du congé de maternité s’il y a décès de la mère), 2 semaines d’adoption, et un article sur les responsabilités familiales : horaires adaptés, pause de midi, jusqu’à 3 jours pour un enfant malade.',
+        ['keep'], 10,
+        ['<b>On garde</b> : toutes les durées, y compris le congé parental d’éducation qui n’existe pas en Suisse.',
+         '<b>On simplifie</b> : les mécaniques communes (demande, protection, retour, ancienneté) écrites une fois pour les cinq congés.'])
+
+    t3.row('cet', 'Question 7', 'Compte épargne-temps',
+        ['3151', '3152', '3153', '3154'], 'L3151-1 → L3153-2, D3154',
+        '<b>Épargner des jours</b> de repos ou de rémunération pour les utiliser plus tard, par accord collectif ; garantie des droits, liquidation.',
+        ['L3151-2'],
+        [], 'Aucun article',
+        '<b>Rien de spécifique</b> : le CO permet de reporter des vacances dans certaines limites ; le reste est conventionnel.',
+        ['keep'], 3,
+        ['<b>On garde</b> : un outil français utile, en trois articles au lieu de seize.'])
+
+    t3.row('penal3', 'Question 8', 'Sanctions pénales',
+        ['3143'], 'R3143-1 → R3143-3',
+        '<b>Contraventions</b> pour non-respect des congés payés et des congés spéciaux.',
+        [],
+        [], 'Aucune disposition pénale',
+        '<b>Aucune</b> : le salarié fait valoir son droit ; l’inspection dispose des sanctions générales de la LTr.',
+        ['drop'], 0,
+        ['<b>On supprime</b> : rattaché à l’article général de sanctions, comme pour les autres sujets.'])
+
+    t3.check()
+    topics.append(t3)
+
 # ---------------------------------------------------------------- Output
 fr_code = t1.fr['code_totals']
 data = {
@@ -255,13 +363,16 @@ data = {
         'ch': {k: t1.ch['code_totals'].get(k) for k in ('co_titre10', 'ltr', 'co_whole')},
     },
     'topics': [t.out() for t in topics],
-    'upcoming': ['Congés payés et autres congés', 'Santé et sécurité au travail', 'Représentation du personnel', 'Salaire et salaire minimum', 'Formation du contrat, CDD, intérim', 'Apprentissage et formation'],
+    'upcoming': ['Santé et sécurité au travail', 'Représentation du personnel', 'Salaire et salaire minimum', 'Formation du contrat, CDD, intérim', 'Apprentissage et formation'],
 }
 if len(topics) > 1:
     data['code']['ch']['olt1'] = topics[1].ch['code_totals'].get('olt1')
 
 payload = json.dumps(data, ensure_ascii=False).replace('</', '<\\/')
+import os
+sb = {'url': os.environ.get('SUPABASE_URL', ''), 'key': os.environ.get('SUPABASE_ANON_KEY', '')}
+supabase = json.dumps(sb) if sb['url'] and sb['key'] else 'null'
 tpl = open(root / 'site/template.html', encoding='utf-8').read()
-out = tpl.replace('{{DATA}}', payload)
+out = tpl.replace('{{DATA}}', payload).replace('{{SUPABASE}}', supabase)
 open(root / 'site/index.html', 'w', encoding='utf-8').write(out)
 print('wrote', len(out), 'bytes;', len(topics), 'topics')
