@@ -1,18 +1,18 @@
 <meta charset="utf-8">
 <title>Code du travail simplifié</title>
 <meta name="description" content="Mêmes droits, moins de texte. Le Code du travail français comparé au droit suisse sur neuf sujets, et réécrit article par article : 2 914 articles aujourd’hui, 346 proposés.">
-<link rel="canonical" href="https://codedutravailsimplifie.com/">
+<link rel="canonical" href="https://www.codedutravailsimplifie.com/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Code du travail simplifié — mêmes droits, moins de texte">
 <meta property="og:description" content="Sur neuf sujets, le Code du travail fait 2 914 articles ; le droit suisse, 181. Notre proposition : 346 articles, lisibles sans juriste, chaque article tracé.">
-<meta property="og:url" content="https://codedutravailsimplifie.com/">
-<meta property="og:image" content="https://codedutravailsimplifie.com/og.png">
+<meta property="og:url" content="https://www.codedutravailsimplifie.com/">
+<meta property="og:image" content="https://www.codedutravailsimplifie.com/og.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:locale" content="fr_FR">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Code du travail simplifié — mêmes droits, moins de texte">
 <meta name="twitter:description" content="2 914 articles aujourd’hui, 181 en Suisse à périmètre égal, 346 proposés. Comparez, lisez, soutenez.">
-<meta name="twitter:image" content="https://codedutravailsimplifie.com/og.png">
+<meta name="twitter:image" content="https://www.codedutravailsimplifie.com/og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
@@ -483,6 +483,7 @@ footer .eyebrow{margin-bottom:12px}
 <script id="data" type="application/json">{{DATA}}</script>
 <script>
 (function(){
+  const INITIAL_HASH = location.hash;
   const D = JSON.parse(document.getElementById('data').textContent);
   const fmt = n => n.toLocaleString('fr-FR');
   const pages = w => Math.round(w / 400);
@@ -562,7 +563,7 @@ footer .eyebrow{margin-bottom:12px}
     return `<div class="panel" id="panel-${t.id}" role="tabpanel" hidden>
       <div class="stack-lg hero">
         <div class="topic-head">
-          <span class="eyebrow">Sujet ${tnum(t)} sur ${D.topics.length}</span>
+          <span class="eyebrow">Sujet ${tnum(t)} sur ${D.topics.length} — ${esc(t.name)}</span>
           <h2>${esc(t.title)}</h2>
           <p class="lede">${t.lede}</p>
           <div class="scope"><span class="dot fr" style="margin-top:5px"></span><span><a href="${t.fr.url}" target="_blank" rel="noopener">${esc(t.fr.scope)} ↗</a></span><span class="dot ch" style="margin-top:5px"></span><span><a href="${t.ch.url}" target="_blank" rel="noopener">${esc(t.ch.scope)} ↗</a></span></div>
@@ -598,7 +599,8 @@ footer .eyebrow{margin-bottom:12px}
   let current = D.topics[0].id;
   const hooks = [];
   let navLock = 0;
-  const jump = el => { navLock = Date.now() + 1500; el.scrollIntoView({block:'start', behavior:'instant'}); };
+  const setHash = x => { try { history.replaceState(null, '', x); } catch(e) {} };
+  const jump = (el, extra) => { navLock = Date.now() + 1500; const a = document.querySelector('.sitebar'), b = document.querySelector('.topnav'); const sticky = (a ? a.offsetHeight : 0) + (b ? b.offsetHeight : 0); window.scrollTo({top: el.getBoundingClientRect().top + window.scrollY - sticky - (extra == null ? 32 : extra), behavior:'instant'}); };
   const jumpHome = () => { navLock = Date.now() + 1500; const mast = $('top'), bar = document.querySelector('.sitebar'); window.scrollTo({top: mast.offsetTop + mast.offsetHeight - (bar ? bar.offsetHeight : 0), behavior:'instant'}); };
   function setHome(on){ const home = document.querySelector('.tab.home'); if(home) home.setAttribute('aria-selected', on ? 'true':'false'); document.querySelectorAll('[data-topic].tab').forEach(b => b.setAttribute('aria-selected', (!on && b.dataset.topic===current) ? 'true':'false')); }
   function show(id, scroll){
@@ -608,22 +610,22 @@ footer .eyebrow{margin-bottom:12px}
     const home = document.querySelector('.tab.home'); if(home) home.setAttribute('aria-selected','false');
     document.querySelectorAll('#panels .panel').forEach(p => p.hidden = p.id !== 'panel-'+id);
     hooks.forEach(f => f(id));
-    if(scroll) jump($('sujets'));
+    if(scroll) jump($('sujets'), 0);
     try { history.replaceState(null, '', '#sujet=' + id); } catch(e) {}
   }
   document.addEventListener('click', e => {
-    const rd = e.target.closest('[data-road]'); if(rd){ e.preventDefault(); const el = document.querySelector('#panels .panel:not([hidden]) .road'); if(el){ setHome(false); jump(el.parentElement); } return; }
-    const sl = e.target.closest('.sections a[href^="#"]:not([data-road])'); if(sl){ const el = document.querySelector(sl.getAttribute('href')); if(el){ e.preventDefault(); setHome(sl.dataset.sec==='ensemble'); if(sl.dataset.sec==='ensemble') jumpHome(); else jump(el); } return; }
-    const g = e.target.closest('[data-goto]'); if(g){ setHome(true); jumpHome(); return; }
+    const rd = e.target.closest('[data-road]'); if(rd){ e.preventDefault(); const el = document.querySelector('#panels .panel:not([hidden]) .road'); if(el){ setHome(false); jump(el.parentElement); setHash('#objectif=' + current); } return; }
+    const sl = e.target.closest('.sections a[href^="#"]:not([data-road])'); if(sl){ const el = document.querySelector(sl.getAttribute('href')); if(el){ e.preventDefault(); setHome(sl.dataset.sec==='ensemble'); if(sl.dataset.sec==='ensemble'){ jumpHome(); setHash('#ensemble'); } else { jump(el, sl.dataset.sec==='sujets' ? 0 : 32); setHash(sl.dataset.sec==='sujets' ? '#sujet=' + current : '#' + el.id); } } return; }
+    const g = e.target.closest('[data-goto]'); if(g){ setHome(true); jumpHome(); setHash('#ensemble'); return; }
     const b = e.target.closest('[data-topic]'); if(b){
       const above = window.scrollY + 120 < $('sujets').offsetTop;
       show(b.dataset.topic, b.classList.contains('irow') || above); return; }
     const m = e.target.closest('.more'); if(m){ m.previousElementSibling.classList.remove('clamp'); m.remove(); return; }
     const pl = e.target.closest('.perma'); if(pl){ const link = location.href.split('#')[0] + pl.dataset.link; (window.__copy || copy)(link, 'Lien copié — ' + pl.dataset.link.slice(1)); return; }
   });
-  const h = (location.hash.match(/sujet=([\w-]+)/)||[])[1];
+  const h = (INITIAL_HASH.match(/(?:sujet|objectif)=([\w-]+)/)||[])[1];
   show(h || D.topics[0].id, false);
-  if(/^#(m|p)-/.test(location.hash)){ const el = document.querySelector(location.hash); if(el){ const tid = el.id.split('-')[1]; show(tid,false); setTimeout(() => el.scrollIntoView(), 50); } }
+  if(/^#(m|p)-/.test(INITIAL_HASH)){ const el = document.querySelector(INITIAL_HASH); if(el){ const tid = el.id.split('-')[1]; show(tid,false); setTimeout(() => el.scrollIntoView(), 50); } }
 
   // ---------- Code allégé ----------
   const A = D.allege || {};
@@ -668,7 +670,7 @@ footer .eyebrow{margin-bottom:12px}
     hooks.push(showA);
     $('allege-all').addEventListener('click', () => { allMode = !allMode; showA(current); });
     showA(current);
-    if(location.hash.startsWith('#a-')){ const el = document.querySelector(location.hash); if(el){ show(el.id.split('-')[1], false); el.scrollIntoView(); } }
+    if(INITIAL_HASH.startsWith('#a-')){ const el = document.querySelector(INITIAL_HASH); if(el){ show(el.id.split('-')[1], false); el.scrollIntoView(); } }
   }
 
   // ---------- Print mode (?print=1, used by the build to generate the PDF) ----------
@@ -685,6 +687,15 @@ footer .eyebrow{margin-bottom:12px}
   function stickyH(){ const a = document.querySelector('.sitebar'), b = document.querySelector('.topnav'); return (a ? a.offsetHeight : 0) + (b ? b.offsetHeight : 0); }
   function setOffset(){ document.documentElement.style.scrollPaddingTop = (stickyH() + 32) + 'px'; }
   setOffset(); window.addEventListener('resize', setOffset); window.addEventListener('load', setOffset);
+  (function(){
+    const hs = INITIAL_HASH;
+    const ob = hs.match(/^#objectif=([\w-]+)/);
+    setTimeout(() => {
+      if(ob){ show(ob[1], false); const el = document.querySelector('#panels .panel:not([hidden]) .road'); if(el) jump(el.parentElement); setHash('#objectif=' + current); }
+      else if(hs === '#ensemble'){ setHome(true); jumpHome(); }
+      else if(/^#(code-allege|partager|methode|candidats|sujets)$/.test(hs)){ const el = document.querySelector(hs); if(el) jump(el); }
+    }, 60);
+  })();
 
   // ---------- Active section in the site bar ----------
   const secLinks = [...document.querySelectorAll('.sections a[data-sec]')];
@@ -768,7 +779,7 @@ footer .eyebrow{margin-bottom:12px}
   // ---------- Pledge + share ----------
   const first = D.topics[0];
   $('pledge').textContent = `« Sur ${D.topics.length > 1 ? 'les ' + D.topics.length + ' sujets déjà comparés' : 'le ' + first.name.toLowerCase()}, je m’engage à ramener le Code du travail de ${fmt(covFr)} à moins de ${fmt(Math.ceil(covTarget/10)*10)} articles avant la fin du quinquennat, sans réduire les droits des salariés, en renvoyant les modalités aux conventions de branche et en fusionnant les dispositifs redondants. Les articles supprimés, modifiés et conservés seront publiés en ligne, un par un. »`;
-  const url = /codedutravailsimplifie\.com$/.test(location.hostname) || location.protocol === 'file:' ? 'https://codedutravailsimplifie.com/' : location.href.split('#')[0];
+  const url = /codedutravailsimplifie\.com$/.test(location.hostname) || location.protocol === 'file:' ? 'https://www.codedutravailsimplifie.com/' : location.href.split('#')[0];
   const msg = `${first.share} Mêmes droits, moins de texte : le Code du travail simplifié, article par article → ${url}`;
   $('sh-wa').href = 'https://wa.me/?text=' + encodeURIComponent(msg);
   $('sh-x').href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(msg);
