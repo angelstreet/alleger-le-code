@@ -600,6 +600,7 @@ footer .eyebrow{margin-bottom:12px}
   const hooks = [];
   let navLock = 0;
   const setHash = x => { try { history.replaceState(null, '', x); } catch(e) {} };
+  const setSec = k => document.querySelectorAll('.sections a[data-sec]').forEach(a => a.classList.toggle('on', a.dataset.sec === k));
   const jump = (el, extra) => { navLock = Date.now() + 1500; const a = document.querySelector('.sitebar'), b = document.querySelector('.topnav'); const sticky = (a ? a.offsetHeight : 0) + (b ? b.offsetHeight : 0); window.scrollTo({top: el.getBoundingClientRect().top + window.scrollY - sticky - (extra == null ? 32 : extra), behavior:'instant'}); };
   const jumpHome = () => { navLock = Date.now() + 1500; const mast = $('top'), bar = document.querySelector('.sitebar'); window.scrollTo({top: mast.offsetTop + mast.offsetHeight - (bar ? bar.offsetHeight : 0), behavior:'instant'}); };
   function setHome(on){ const home = document.querySelector('.tab.home'); if(home) home.setAttribute('aria-selected', on ? 'true':'false'); document.querySelectorAll('[data-topic].tab').forEach(b => b.setAttribute('aria-selected', (!on && b.dataset.topic===current) ? 'true':'false')); }
@@ -614,11 +615,12 @@ footer .eyebrow{margin-bottom:12px}
     try { history.replaceState(null, '', '#sujet=' + id); } catch(e) {}
   }
   document.addEventListener('click', e => {
-    const rd = e.target.closest('[data-road]'); if(rd){ e.preventDefault(); const el = document.querySelector('#panels .panel:not([hidden]) .road'); if(el){ setHome(false); jump(el.parentElement); setHash('#objectif=' + current); } return; }
-    const sl = e.target.closest('.sections a[href^="#"]:not([data-road])'); if(sl){ const el = document.querySelector(sl.getAttribute('href')); if(el){ e.preventDefault(); setHome(sl.dataset.sec==='ensemble'); if(sl.dataset.sec==='ensemble'){ jumpHome(); setHash('#ensemble'); } else { jump(el, sl.dataset.sec==='sujets' ? 0 : 32); setHash(sl.dataset.sec==='sujets' ? '#sujet=' + current : '#' + el.id); } } return; }
-    const g = e.target.closest('[data-goto]'); if(g){ setHome(true); jumpHome(); setHash('#ensemble'); return; }
+    const rd = e.target.closest('[data-road]'); if(rd){ e.preventDefault(); const el = document.querySelector('#panels .panel:not([hidden]) .road'); if(el){ setHome(false); jump(el.parentElement); setHash('#objectif=' + current); setSec('road'); } return; }
+    const sl = e.target.closest('.sections a[href^="#"]:not([data-road])'); if(sl){ const el = document.querySelector(sl.getAttribute('href')); if(el){ e.preventDefault(); setHome(sl.dataset.sec==='ensemble'); setSec(sl.dataset.sec); if(sl.dataset.sec==='ensemble'){ jumpHome(); setHash('#ensemble'); } else { jump(el, sl.dataset.sec==='sujets' ? 0 : 32); setHash(sl.dataset.sec==='sujets' ? '#sujet=' + current : '#' + el.id); } } return; }
+    const g = e.target.closest('[data-goto]'); if(g){ setHome(true); setSec('ensemble'); jumpHome(); setHash('#ensemble'); return; }
     const b = e.target.closest('[data-topic]'); if(b){
       const above = window.scrollY + 120 < $('sujets').offsetTop;
+      if(b.classList.contains('irow') || above) setSec('sujets');
       show(b.dataset.topic, b.classList.contains('irow') || above); return; }
     const m = e.target.closest('.more'); if(m){ m.previousElementSibling.classList.remove('clamp'); m.remove(); return; }
     const pl = e.target.closest('.perma'); if(pl){ const link = location.href.split('#')[0] + pl.dataset.link; (window.__copy || copy)(link, 'Lien copié — ' + pl.dataset.link.slice(1)); return; }
