@@ -269,6 +269,23 @@ footer .eyebrow{margin-bottom:12px}
   .index .hd,.irow{grid-template-columns:1fr 54px 54px 44px;gap:8px;padding-left:12px;padding-right:12px}
 }
 @media (prefers-reduced-motion:reduce){ .toast{transition:none} html{scroll-behavior:auto} }
+/* desktop: wider container, two columns where reading benefits */
+@media (min-width:1100px){
+  .wrap{max-width:1160px}
+  .mast .lede,.mast .claim{max-width:40em}
+  #ensemble{grid-template-columns:1fr 1fr;column-gap:32px}
+  #ensemble > .stack,#ensemble > .index{grid-column:1 / -1}
+  .panel > .stack-lg.hero{grid-template-columns:1fr 1fr;column-gap:32px}
+  .panel > .stack-lg.hero > .topic-head,.panel > .stack-lg.hero > .note{grid-column:1 / -1}
+  .grid2{grid-template-columns:1fr 1fr;column-gap:24px;align-items:start}
+  .road{grid-template-columns:1fr 1fr;column-gap:24px;align-items:start}
+  .code{columns:2;column-gap:40px}
+  .code .part{column-span:all}
+  .code .cart{break-inside:avoid}
+  #code-allege > .stack .lede,#partager .lede,#candidats .lede,#methode .lede{max-width:40em}
+  .method{columns:2;column-gap:40px}
+  .method li{break-inside:avoid}
+}
 .print-mode .tabbar,.print-mode .share,.print-mode .vote,.print-mode .vote-note,.print-mode #pdf,.print-mode #pdf-top{display:none!important}
 .print-mode .panel{padding-top:24px}
 @media print{
@@ -503,7 +520,7 @@ footer .eyebrow{margin-bottom:12px}
     const target = t.rows.reduce((a,r)=>a+r.target,0);
     const pctN = (100*t.ch.n/t.fr.n).toFixed(1), pctW = (100*t.ch.w/t.fr.w).toFixed(1);
     return `<div class="panel" id="panel-${t.id}" role="tabpanel" hidden>
-      <div class="stack-lg">
+      <div class="stack-lg hero">
         <div class="topic-head">
           <span class="eyebrow">Sujet</span>
           <h2>${esc(t.title)}</h2>
@@ -527,7 +544,7 @@ footer .eyebrow{margin-bottom:12px}
       </div>
       <div class="stack-lg">
         <div class="stack"><span class="eyebrow">Face à face</span><h2>Le même sujet, dans les deux droits</h2><p class="lede">${t.rows.length} questions concrètes. Pour chacune, ce que dit la France, ce que dit la Suisse, et le texte lui-même.</p></div>
-        <div class="stack">${t.rows.map(r=>matchHtml(t,r)).join('')}</div>
+        <div class="stack grid2">${t.rows.map(r=>matchHtml(t,r)).join('')}</div>
       </div>
       <div class="stack-lg">
         <div class="stack"><span class="eyebrow">Feuille de route</span><h2>De ${fmt(t.fr.n)} à ${fmt(target)} articles</h2><p class="lede">Une proposition, question par question. Chaque verdict renvoie aux articles concernés ; chacun peut le contester, ou le soutenir.</p></div>
