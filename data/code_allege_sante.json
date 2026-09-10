@@ -1,0 +1,403 @@
+{
+  "topic": "sante",
+  "title": "Santé et sécurité : principes et obligations",
+  "status": "brouillon — à relire par des juristes",
+  "generated_at": "2026-09-10",
+  "articles": [
+    {
+      "n": 1,
+      "row": "principes",
+      "title": "Champ d'application",
+      "text": "1. Les règles de ce livre protègent les travailleurs employés par un employeur de droit privé, y compris les salariés temporaires, les stagiaires et toute personne placée sous l'autorité de l'employeur.\n2. Elles s'appliquent aussi à certains établissements publics à caractère industriel, administratif ou hospitalier, lorsqu'ils emploient du personnel dans des conditions comparables à celles du droit privé.\n3. Un décret adapte ces règles pour les établissements d'enseignement technique ou professionnel accueillant des jeunes en formation, ainsi que pour les mines, carrières et leurs dépendances, sans réduire les garanties dont bénéficient les travailleurs.",
+      "replaces": [
+        "L4111-1",
+        "L4111-2",
+        "L4111-3",
+        "L4111-4",
+        "L4111-5"
+      ],
+      "note": ""
+    },
+    {
+      "n": 2,
+      "row": "principes",
+      "title": "Obligation générale de sécurité",
+      "text": "1. L'employeur prend les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs.\n2. Ces mesures comprennent la prévention des risques professionnels, l'information et la formation des travailleurs, et une organisation et des moyens adaptés.\n3. L'employeur adapte ces mesures aux changements de circonstances, pour améliorer continuellement les situations de travail.\n4. Un décret en Conseil d'État précise les mesures générales de santé et de sécurité, ainsi que les prescriptions propres à certaines professions, certains modes de travail ou certains risques.",
+      "replaces": [
+        "L4121-1",
+        "L4111-6"
+      ],
+      "note": ""
+    },
+    {
+      "n": 3,
+      "row": "principes",
+      "title": "Neuf principes généraux de prévention",
+      "text": "1. L'employeur agit selon les principes suivants : éviter les risques ; évaluer ceux qui ne peuvent l'être ; les combattre à la source ; adapter le travail à l'homme, notamment dans la conception des postes et le choix des équipements.\n2. Il tient compte de l'évolution de la technique, remplace ce qui est dangereux par ce qui l'est moins, et planifie la prévention en intégrant la technique, l'organisation et les conditions de travail, ainsi que les relations sociales, y compris les risques de harcèlement.\n3. Il privilégie la protection collective sur la protection individuelle, et donne aux travailleurs des instructions appropriées.",
+      "replaces": [
+        "L4121-2"
+      ],
+      "note": ""
+    },
+    {
+      "n": 4,
+      "row": "principes",
+      "title": "Évaluation des risques et document unique",
+      "text": "1. L'employeur évalue les risques pour la santé et la sécurité des travailleurs, y compris dans le choix des équipements, l'aménagement des lieux de travail et l'organisation du travail.\n2. Il consigne cette évaluation dans un document unique, mis à jour régulièrement, et tenu à la disposition des travailleurs, des anciens travailleurs et de toute personne justifiant d'un intérêt à y accéder.\n3. Le comité social et économique, s'il existe, et le service de prévention et de santé au travail contribuent à cette évaluation et sont consultés sur le document.\n4. Dans les entreprises d'au moins cinquante salariés, l'évaluation débouche sur un programme annuel de prévention ; dans les autres, sur une liste d'actions de prévention consignée dans le document.\n5. Un décret précise la durée de conservation du document unique, qui ne peut être inférieure à quarante ans, ainsi que ses modalités de dépôt et de mise à disposition.",
+      "replaces": [
+        "L4121-3",
+        "L4121-3-1",
+        "R4121-1",
+        "R4121-1-1",
+        "R4121-2",
+        "R4121-3",
+        "R4121-4",
+        "R4121-5"
+      ],
+      "note": ""
+    },
+    {
+      "n": 5,
+      "row": "principes",
+      "title": "Obligations du travailleur",
+      "text": "1. Chaque travailleur prend soin, selon sa formation et ses possibilités, de sa santé et de sa sécurité, ainsi que de celles des autres personnes concernées par ses actes ou ses omissions au travail.\n2. Il suit les instructions de l'employeur sur l'utilisation des équipements de travail, des moyens de protection et des produits dangereux, sans que cela réduise la responsabilité de l'employeur.\n3. L'employeur tient compte des capacités de chacun avant de lui confier une tâche.\n4. Les mesures de santé et de sécurité ne peuvent entraîner aucune charge financière pour les travailleurs.",
+      "replaces": [
+        "L4122-1",
+        "L4122-2",
+        "L4121-4"
+      ],
+      "note": ""
+    },
+    {
+      "n": 6,
+      "row": "principes",
+      "title": "Coactivité entre entreprises",
+      "text": "1. Lorsque les travailleurs de plusieurs entreprises sont présents sur un même lieu de travail, leurs employeurs coopèrent à la mise en œuvre des règles de santé et de sécurité.",
+      "replaces": [
+        "L4121-5"
+      ],
+      "note": ""
+    },
+    {
+      "n": 7,
+      "row": "alerte",
+      "title": "Droit de retrait",
+      "text": "1. Le travailleur qui a un motif raisonnable de penser qu'une situation de travail présente un danger grave et imminent pour sa vie ou sa santé peut se retirer de cette situation.\n2. Il alerte immédiatement l'employeur de ce danger, ainsi que de toute défectuosité qu'il constate dans les systèmes de protection.\n3. L'employeur ne peut lui demander de reprendre son activité tant que ce danger persiste, et prend les mesures nécessaires pour permettre aux travailleurs de se mettre en sécurité en quittant immédiatement le lieu de travail.\n4. Le droit de retrait s'exerce sans créer, pour autrui, une nouvelle situation de danger grave et imminent.\n5. Un décret précise les modalités de consignation écrite de l'alerte.",
+      "replaces": [
+        "L4131-1",
+        "L4132-1",
+        "L4132-5",
+        "D4132-1",
+        "D4132-2"
+      ],
+      "note": ""
+    },
+    {
+      "n": 8,
+      "row": "alerte",
+      "title": "Alerte du représentant du personnel et absence de sanction",
+      "text": "1. Le représentant du personnel qui constate une cause de danger grave et imminent, notamment par l'intermédiaire d'un travailleur, en alerte immédiatement l'employeur et consigne son avis par écrit.\n2. L'employeur enquête aussitôt avec lui et prend les mesures nécessaires pour remédier au danger.\n3. En cas de désaccord sur la réalité du danger ou sur la façon d'y remédier, le comité social et économique est réuni d'urgence, dans les vingt-quatre heures ; à défaut d'accord, l'inspecteur du travail est saisi.\n4. Aucune sanction ni retenue de salaire ne peut frapper un travailleur ou un groupe de travailleurs qui se sont retirés d'une situation de danger grave et imminent.\n5. Avoir signalé un risque avant qu'il ne se réalise vaut, pour la victime d'un accident du travail ou d'une maladie professionnelle, faute inexcusable de l'employeur.",
+      "replaces": [
+        "L4131-2",
+        "L4131-3",
+        "L4131-4",
+        "L4132-2",
+        "L4132-3",
+        "L4132-4"
+      ],
+      "note": ""
+    },
+    {
+      "n": 9,
+      "row": "alerte",
+      "title": "Alerte en matière de santé publique et d'environnement",
+      "text": "1. Le travailleur qui estime de bonne foi que les produits ou procédés utilisés par l'établissement font peser un risque grave sur la santé publique ou l'environnement en alerte immédiatement l'employeur.\n2. Le représentant du personnel qui fait le même constat, notamment par l'intermédiaire d'un travailleur, alerte aussi l'employeur ; celui-ci examine la situation avec lui.\n3. L'alerte est consignée par écrit ; l'employeur informe son auteur de la suite qu'il y réserve, et le comité social et économique est informé de ces alertes.\n4. L'auteur d'une alerte de bonne foi ne peut faire l'objet d'aucune mesure de représailles.\n5. Un décret précise les modalités de consignation de l'alerte.",
+      "replaces": [
+        "L4133-1",
+        "L4133-2",
+        "L4133-3",
+        "L4133-4",
+        "D4133-1",
+        "D4133-2",
+        "D4133-3"
+      ],
+      "note": ""
+    },
+    {
+      "n": 10,
+      "row": "formation",
+      "title": "Information sur les risques",
+      "text": "1. L'employeur informe les travailleurs des risques pour leur santé et leur sécurité, et des mesures prises pour y remédier.\n2. Il les informe de même des risques que les produits ou procédés de l'établissement peuvent faire peser sur la santé publique ou l'environnement, et des mesures prises pour y remédier.",
+      "replaces": [
+        "L4141-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 11,
+      "row": "formation",
+      "title": "Formation à la sécurité aux moments clés",
+      "text": "1. L'employeur organise une formation pratique et appropriée à la sécurité pour les travailleurs qu'il embauche, ceux qui changent de poste ou de technique, et les salariés temporaires.\n2. À la demande du médecin du travail, il forme aussi les travailleurs qui reprennent leur activité après un arrêt d'au moins vingt et un jours.\n3. Cette formation est répétée périodiquement ; son étendue varie selon la taille de l'établissement, la nature de l'activité, les risques constatés et le type d'emploi.\n4. Le financement de cette formation est à la charge de l'employeur.\n5. Toute modification du poste pour des raisons de sécurité qui réduirait la productivité est suivie d'une période d'adaptation d'au moins deux semaines, pendant laquelle aucune rémunération au rendement n'est appliquée.",
+      "replaces": [
+        "L4141-2",
+        "L4141-3",
+        "L4141-4",
+        "L4142-4"
+      ],
+      "note": ""
+    },
+    {
+      "n": 12,
+      "row": "formation",
+      "title": "Formation renforcée et consultation du personnel",
+      "text": "1. Les salariés en contrat à durée déterminée ou temporaires affectés à des postes à risques particuliers bénéficient d'une formation renforcée à la sécurité, financée par l'entreprise qui les emploie effectivement.\n2. Selon les risques constatés, l'employeur conduit des actions de formation particulières, le cas échéant avec le concours d'organismes de prévention ; dans les établissements exposés à un risque industriel majeur, il forme aussi les entreprises extérieures qu'il accueille.\n3. Le comité social et économique est consulté sur les programmes de formation et veille à leur mise en œuvre effective.",
+      "replaces": [
+        "L4142-1",
+        "L4142-2",
+        "L4142-3",
+        "L4143-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 13,
+      "row": "formation",
+      "title": "Décret d'application",
+      "text": "1. Un décret précise le contenu de la formation à la sécurité, notamment les règles de circulation, les conditions d'exécution du travail et la conduite à tenir en cas d'accident.\n2. Il précise aussi les modalités de consultation du comité social et économique sur les programmes de formation.",
+      "replaces": [
+        "R4141-1",
+        "R4141-2",
+        "R4141-3",
+        "R4141-3-1",
+        "R4141-4",
+        "R4141-5",
+        "R4141-6",
+        "R4141-7",
+        "R4141-8",
+        "R4141-9",
+        "R4141-10",
+        "R4141-11",
+        "R4141-12",
+        "R4141-13",
+        "R4141-14",
+        "R4141-15",
+        "R4141-16",
+        "R4141-17",
+        "R4141-18",
+        "R4141-19",
+        "R4141-20",
+        "R4143-1",
+        "R4143-2"
+      ],
+      "note": ""
+    },
+    {
+      "n": 14,
+      "row": "categories",
+      "title": "Champ d'application",
+      "text": "1. Les règles de ce titre protègent les femmes enceintes, venant d'accoucher ou allaitant, les jeunes travailleurs, et les salariés en contrat à durée déterminée ou temporaires.\n2. Elles s'appliquent aussi à certains établissements publics, aux mines et carrières, et aux entreprises de transport dont le personnel est régi par un statut particulier.",
+      "replaces": [
+        "L4151-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 15,
+      "row": "categories",
+      "title": "Femmes enceintes, venant d'accoucher ou allaitant : travaux interdits",
+      "text": "1. Il est interdit d'employer une femme enceinte, venant d'accoucher ou allaitant à des travaux qui, en raison de son état, présentent des risques pour sa santé ou sa sécurité.\n2. Un décret précise la liste de ces travaux et risques.",
+      "replaces": [
+        "L4152-1"
+      ],
+      "note": ""
+    },
+    {
+      "n": 16,
+      "row": "categories",
+      "title": "Femmes enceintes : reclassement et surveillance médicale",
+      "text": "1. Lorsqu'une salariée enceinte, venant d'accoucher ou allaitant occupe un poste l'exposant à des risques déterminés par décret, l'employeur lui propose un autre emploi compatible avec son état de santé.\n2. Un décret précise la surveillance médicale renforcée dont bénéficient ces salariées.",
+      "replaces": [
+        "L4152-2"
+      ],
+      "note": ""
+    },
+    {
+      "n": 17,
+      "row": "categories",
+      "title": "Âge minimum et dérogations pour les stages",
+      "text": "1. Il est interdit d'employer un travailleur de moins de seize ans, sauf s'il est apprenti dès quinze ans, ou s'il effectue, dans le cadre de sa scolarité, une visite d'information ou une période d'observation ou de formation en milieu professionnel.\n2. Une convention est alors passée entre l'établissement d'enseignement et l'entreprise ; elle ne peut être conclue si les services de contrôle ont établi que les conditions de travail y portent atteinte à la sécurité, à la santé ou à l'intégrité des personnes présentes.\n3. Un mineur de plus de quatorze ans peut, pendant les vacances scolaires, exercer des travaux adaptés à son âge, à condition de bénéficier d'un repos effectif d'au moins la moitié de la période de congés.",
+      "replaces": [
+        "L4153-1",
+        "L4153-2",
+        "L4153-3"
+      ],
+      "note": ""
+    },
+    {
+      "n": 18,
+      "row": "categories",
+      "title": "Contrôle médical du jeune travailleur et exception familiale",
+      "text": "1. L'inspecteur du travail peut à tout moment faire examiner un jeune travailleur d'au moins quinze ans pour vérifier que le travail confié n'excède pas ses forces, et exiger son renvoi de l'établissement si tel est le cas.\n2. Les règles sur l'âge d'admission ne s'appliquent pas dans les établissements où ne travaillent que des membres de la famille sous l'autorité d'un parent ou d'un tuteur, pour des travaux occasionnels ou de courte durée qui ne présentent pas de risque pour leur santé ou leur sécurité.\n3. Un décret fixe la liste de ces travaux familiaux autorisés.",
+      "replaces": [
+        "L4153-4",
+        "L4153-5"
+      ],
+      "note": ""
+    },
+    {
+      "n": 19,
+      "row": "categories",
+      "title": "Travaux interdits ou réglementés pour les jeunes",
+      "text": "1. Il est interdit d'employer un travailleur de moins de dix-huit ans à des travaux qui l'exposent à des risques pour sa santé, sa sécurité, sa moralité, ou qui excèdent ses forces.\n2. Par dérogation, il peut être employé à certains de ces travaux, sous des conditions déterminées par décret.\n3. Un décret fixe aussi la liste des débits de boissons et autres établissements où l'emploi d'un mineur est interdit ou encadré, sauf pour les mineurs en formation professionnelle qualifiante.",
+      "replaces": [
+        "L4153-6",
+        "L4153-8",
+        "L4153-9"
+      ],
+      "note": ""
+    },
+    {
+      "n": 20,
+      "row": "categories",
+      "title": "Salariés en contrat à durée déterminée et salariés temporaires",
+      "text": "1. Il est interdit de recourir à un salarié en contrat à durée déterminée ou à un salarié temporaire pour des travaux particulièrement dangereux figurant sur une liste fixée par décret ; l'autorité administrative peut exceptionnellement autoriser une dérogation.\n2. Les salariés affectés à des postes à risques particuliers bénéficient d'un accueil, d'une information et d'une formation renforcée, adaptés à l'entreprise qui les emploie effectivement.\n3. À défaut, l'employeur qui les a affectés à un tel poste est présumé responsable, en cas d'accident du travail ou de maladie professionnelle, d'une faute inexcusable.\n4. Pour des travaux urgents nécessités par des mesures de sécurité, le salarié temporaire déjà qualifié reçoit toutes les informations nécessaires sur les particularités de l'entreprise et de son environnement.",
+      "replaces": [
+        "L4154-1",
+        "L4154-2",
+        "L4154-3",
+        "L4154-4"
+      ],
+      "note": ""
+    },
+    {
+      "n": 21,
+      "row": "categories",
+      "title": "Décret d'application et rôle des branches",
+      "text": "1. Un décret fixe, pour chaque catégorie de travailleurs protégée par ce titre, la liste des travaux interdits ou réglementés, ainsi que les conditions de la surveillance médicale renforcée qui l'accompagne.\n2. Il fixe aussi les conditions et la procédure des dérogations, notamment pour les jeunes en formation professionnelle.\n3. Un accord de branche peut préciser les modalités pratiques de ces dérogations et de cette surveillance, sans réduire les protections prévues par le décret.",
+      "replaces": [
+        "R4152-2",
+        "D4152-3",
+        "D4152-4",
+        "D4152-5",
+        "D4152-6",
+        "D4152-7",
+        "R4152-7-1",
+        "D4152-8",
+        "D4152-9",
+        "D4152-10",
+        "D4152-11",
+        "D4152-12",
+        "R4152-13",
+        "R4152-14",
+        "R4152-15",
+        "R4152-16",
+        "R4152-17",
+        "R4152-18",
+        "R4152-19",
+        "R4152-20",
+        "R4152-21",
+        "R4152-22",
+        "R4152-23",
+        "R4152-24",
+        "R4152-25",
+        "R4152-26",
+        "R4152-27",
+        "R4152-28",
+        "D4152-29",
+        "D4153-1",
+        "D4153-2",
+        "D4153-3",
+        "D4153-4",
+        "D4153-5",
+        "R4153-6",
+        "D4153-7",
+        "R4153-8",
+        "R4153-9",
+        "R4153-10",
+        "R4153-11",
+        "R4153-12",
+        "D4153-13",
+        "D4153-14",
+        "D4153-15",
+        "D4153-16",
+        "D4153-17",
+        "D4153-18",
+        "D4153-19",
+        "D4153-20",
+        "D4153-21",
+        "D4153-22",
+        "R4153-22-1",
+        "D4153-23",
+        "D4153-24",
+        "D4153-25",
+        "D4153-26",
+        "D4153-27",
+        "D4153-28",
+        "D4153-29",
+        "D4153-30",
+        "D4153-31",
+        "D4153-32",
+        "D4153-33",
+        "D4153-34",
+        "D4153-35",
+        "D4153-36",
+        "D4153-37",
+        "R4153-38",
+        "R4153-39",
+        "R4153-40",
+        "R4153-41",
+        "R4153-42",
+        "R4153-43",
+        "R4153-44",
+        "R4153-45",
+        "R4153-49",
+        "R4153-50",
+        "R4153-51",
+        "R4153-52",
+        "D4154-1",
+        "D4154-2",
+        "D4154-3",
+        "D4154-4",
+        "R4154-5",
+        "D4154-6"
+      ],
+      "note": ""
+    }
+  ],
+  "removed": [
+    {
+      "nums": "L4141-5",
+      "reason": "Passeport de prévention supprimé : outil administratif numérique de gestion des attestations de formation, sans effet sur l'obligation de former elle-même, maintenue à l'article 11."
+    },
+    {
+      "nums": "L4142-3-1",
+      "reason": "Formation à l'accueil des personnes handicapées dans les établissements recevant du public : relève de l'accessibilité aux usagers et clients, pas de la prévention des risques professionnels."
+    },
+    {
+      "nums": "L4153-7",
+      "reason": "Disposition obsolète sur le placement d'enfants sous la conduite de vagabonds ou de mendiants : sans lien avec la santé-sécurité au travail, déjà couverte par la protection de l'enfance du code civil et du code pénal."
+    },
+    {
+      "nums": "L4161-1, L4162-1 → L4162-5, L4163-1 → L4163-22 (y compris L4163-2-1 et L4163-8-1 → L4163-8-5)",
+      "reason": "Compte professionnel de prévention (facteurs de risques, accords de branche, financement, contentieux) : transféré au Code de la sécurité sociale (cotisations, points, retraite), sans changement de fond."
+    },
+    {
+      "nums": "D4161-1, D4162-1 → D4162-3, R4162-4 → R4162-8",
+      "reason": "Transféré au Code de la sécurité sociale (cotisations, points, retraite), sans changement de fond."
+    },
+    {
+      "nums": "R4163-1, D4163-2 → D4163-6, R4163-7 → R4163-13, D4163-13-1, R4163-14 → R4163-17, R4163-19 → R4163-22",
+      "reason": "Transféré au Code de la sécurité sociale (cotisations, points, retraite), sans changement de fond."
+    },
+    {
+      "nums": "D4163-25 → D4163-29, R4163-30, D4163-30-1 → D4163-30-5, D4163-31, D4163-32, R4163-33 → R4163-45, D4163-46 → D4163-48",
+      "reason": "Transféré au Code de la sécurité sociale (cotisations, points, retraite), sans changement de fond."
+    }
+  ],
+  "counts": {
+    "articles": 21,
+    "replaces_total": 170,
+    "removed_total": 97,
+    "current_total": 267
+  }
+}

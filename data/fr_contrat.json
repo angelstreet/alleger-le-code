@@ -1,0 +1,1247 @@
+{
+  "country": "FR",
+  "source": "https://registry.npmjs.org/@socialgouv/legi-data (npm package @socialgouv/legi-data, data/LEGITEXT000006072050.json - Code du travail, sourced from DILA/Legifrance LEGI open data); article permalinks on https://www.legifrance.gouv.fr/codes/article_lc/",
+  "fetched_at": "2026-09-10T09:37:55Z",
+  "topic": "Contrat de travail : formation, exécution, maladie, transfert",
+  "code_totals": {
+    "articles_L": 4393,
+    "articles_R": 5547,
+    "articles_D": 1529,
+    "articles_total": 11477,
+    "words_total": 1047518,
+    "note": "Computed over the entire Code du travail (LEGITEXT000006072050) tree from the @socialgouv/legi-data dataset, counting only articles with etat == 'VIGUEUR' (currently in force), across Partie législative, Partie réglementaire, and their 'ancienne' (superseded) subtrees if any in-force articles remain there. Word count = whitespace-split tokens of the HTML-stripped article text."
+  },
+  "topic_totals": {
+    "articles_L": 88,
+    "articles_R": 38,
+    "articles_D": 22,
+    "articles_total": 148,
+    "words_total": 12491
+  },
+  "sections": [
+    {
+      "id": "LEGISCTA000006189414",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail",
+      "title": "Section 1 : Dispositions générales.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1221-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900839",
+          "text": "Le contrat de travail est soumis aux règles du droit commun. Il peut être établi selon les formes que les parties contractantes décident d'adopter.",
+          "words": 24
+        },
+        {
+          "num": "L1221-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019071087",
+          "text": "Le contrat de travail à durée indéterminée est la forme normale et générale de la relation de travail.\n\nToutefois, le contrat de travail peut comporter un terme fixé avec précision dès sa conclusion ou résultant de la réalisation de l'objet pour lequel il est conclu dans les cas et dans les conditions mentionnés au titre IV relatif au contrat de travail à durée déterminée.",
+          "words": 64
+        },
+        {
+          "num": "L1221-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900842",
+          "text": "Le contrat de travail établi par écrit est rédigé en français.\n\nLorsque l'emploi qui fait l'objet du contrat ne peut être désigné que par un terme étranger sans correspondant en français, le contrat de travail comporte une explication en français du terme étranger.\n\nLorsque le salarié est étranger et le contrat constaté par écrit, une traduction du contrat est rédigée, à la demande du salarié, dans la langue de ce dernier. Les deux textes font également foi en justice. En cas de discordance entre les deux textes, seul le texte rédigé dans la langue du salarié étranger peut être invoqué contre ce dernier.\n\nL'employeur ne peut se prévaloir à l'encontre du salarié auquel elles feraient grief des clauses d'un contrat de travail conclu en méconnaissance du présent article.",
+          "words": 128
+        },
+        {
+          "num": "L1221-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900843",
+          "text": "Les procédures d'enchères électroniques inversées étant interdites en matière de fixation du salaire, tout contrat de travail stipulant un salaire fixé à l'issue d'une telle procédure est nul de plein droit.",
+          "words": 31
+        },
+        {
+          "num": "L1221-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900844",
+          "text": "Toute clause attributive de juridiction incluse dans un contrat de travail est nulle et de nul effet.",
+          "words": 17
+        },
+        {
+          "num": "L1221-5-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047285930",
+          "text": "L'employeur remet au salarié un ou plusieurs documents écrits contenant les informations principales relatives à la relation de travail.\n\nUn salarié qui n'a pas reçu les informations mentionnées au premier alinéa ne peut saisir le juge compétent afin de les obtenir qu'après avoir mis en demeure son employeur de lui communiquer les documents requis ou, le cas échéant, de compléter les documents remis.\n\nUn décret en Conseil d'Etat fixe les modalités d'application du présent article, notamment la liste des informations devant figurer dans les documents mentionnés au premier alinéa.",
+          "words": 89
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189415",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail",
+      "title": "Section 2 : Recrutement.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1221-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900845",
+          "text": "Les informations demandées, sous quelque forme que ce soit, au candidat à un emploi ne peuvent avoir comme finalité que d'apprécier sa capacité à occuper l'emploi proposé ou ses aptitudes professionnelles.\n\nCes informations doivent présenter un lien direct et nécessaire avec l'emploi proposé ou avec l'évaluation des aptitudes professionnelles.\n\nLe candidat est tenu de répondre de bonne foi à ces demandes d'informations.",
+          "words": 62
+        },
+        {
+          "num": "L1221-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031087398",
+          "text": "Les informations mentionnées à l'article L. 1221-6 et communiquées par écrit par le candidat à un emploi peuvent être examinées dans des conditions préservant son anonymat.\n\nLes modalités d'application du présent article sont déterminées par décret en Conseil d'Etat.",
+          "words": 39
+        },
+        {
+          "num": "L1221-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900847",
+          "text": "Le candidat à un emploi est expressément informé, préalablement à leur mise en oeuvre, des méthodes et techniques d'aide au recrutement utilisées à son égard.\n\nLes résultats obtenus sont confidentiels.\n\nLes méthodes et techniques d'aide au recrutement ou d'évaluation des candidats à un emploi doivent être pertinentes au regard de la finalité poursuivie.",
+          "words": 53
+        },
+        {
+          "num": "L1221-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900848",
+          "text": "Aucune information concernant personnellement un candidat à un emploi ne peut être collectée par un dispositif qui n'a pas été porté préalablement à sa connaissance.",
+          "words": 25
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195587",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 3 : Formalités à l'embauche et à l'emploi",
+      "title": "Sous-section 1 : Déclaration préalable à l'embauche.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1221-10",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900849",
+          "text": "L'embauche d'un salarié ne peut intervenir qu'après déclaration nominative accomplie par l'employeur auprès des organismes de protection sociale désignés à cet effet.\n\nL'employeur accomplit cette déclaration dans tous les lieux de travail où sont employés des salariés.",
+          "words": 37
+        },
+        {
+          "num": "L1221-11",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900850",
+          "text": "Le non-respect de l'obligation de déclaration préalable à l'embauche, constaté par les agents mentionnés à l'article L. 8271-7, entraîne une pénalité dont le montant est égal à trois cents fois le taux horaire du minimum garanti prévu à l'article L. 3231-12.",
+          "words": 41
+        },
+        {
+          "num": "L1221-12",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900851",
+          "text": "Un décret en Conseil d'Etat détermine :\n\n1° Les conditions dans lesquelles la déclaration préalable à l'embauche est réalisée ;\n\n2° Les modalités de recouvrement de la pénalité prévue à l'article L. 1221-11.",
+          "words": 33
+        },
+        {
+          "num": "L1221-12-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028393578",
+          "text": "Sont tenus d'adresser les déclarations préalables à l'embauche par voie électronique :\n\n1° Les employeurs dont le personnel relève du régime général de sécurité sociale, autres que les particuliers employant un salarié à leur service, et dont le nombre de déclarations préalables à l'embauche accomplies au cours de l'année civile précédente excède un seuil fixé par décret ;\n\n2° Les employeurs dont le personnel relève du régime de protection sociale agricole et dont le nombre de déclarations préalables à l'embauche accomplies au cours de l'année civile précédente excède un seuil fixé par décret.\n\nLe non-respect de cette obligation entraîne l'application d'une pénalité, fixée par décret, dans la limite de 0,5 % du plafond mensuel de la sécurité sociale par salarié, recouvrée et contrôlée selon les règles, garanties et sanctions relatives au recouvrement des cotisations de sécurité sociale. Les pénalités dues au titre d'une année civile sont versées au plus tard à la première date d'exigibilité des cotisations de sécurité sociale de l'année suivante.",
+          "words": 163
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195588",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 3 : Formalités à l'embauche et à l'emploi",
+      "title": "Sous-section 2 : Registre unique du personnel.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1221-13",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033971569",
+          "text": "Un registre unique du personnel est tenu dans tout établissement où sont employés des salariés.\n\nLes noms et prénoms de tous les salariés sont inscrits dans l'ordre des embauches. Ces mentions sont portées sur le registre au moment de l'embauche et de façon indélébile.\n\nLes nom et prénoms des stagiaires et des personnes volontaires en service civique au sens de l'article L. 120-1 du code du service national accueillis dans l'établissement sont inscrits dans l'ordre d'arrivée, dans une partie spécifique du registre unique du personnel.\n\nLes indications complémentaires à mentionner sur ce registre, soit pour l'ensemble des salariés, soit pour certaines catégories seulement, soit pour les stagiaires et les personnes volontaires en service civique mentionnés au troisième alinéa, sont définies par voie réglementaire.",
+          "words": 123
+        },
+        {
+          "num": "L1221-14",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900853",
+          "text": "Il peut être dérogé à la tenue du registre unique du personnel, pour tenir compte du recours à d'autres moyens, notamment informatiques, dans les conditions prévues à l'article L. 8113-6.",
+          "words": 30
+        },
+        {
+          "num": "L1221-15",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035653242",
+          "text": "Le registre unique du personnel est tenu à la disposition du comité social et économique et des fonctionnaires et agents chargés de veiller à l'application du présent code et du code de la sécurité sociale.",
+          "words": 35
+        },
+        {
+          "num": "L1221-15-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029230933",
+          "text": "La déclaration mentionnée au I de l'article L. 1262-2-1 est annexée au registre unique du personnel de l'entreprise qui accueille les salariés détachés.",
+          "words": 23
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195589",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 3 : Formalités à l'embauche et à l'emploi",
+      "title": "Sous-section 3 : Autres formalités.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1221-16",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900855",
+          "text": "Dans certains établissements ou professions, définis par voie réglementaire, l'employeur informe le service public de l'emploi de toute embauche ou rupture du contrat de travail.",
+          "words": 25
+        },
+        {
+          "num": "L1221-17",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900857",
+          "text": "Outre la déclaration préalable à l'embauche prévue à l'article L. 1221-10, une déclaration préalable est effectuée :\n\n1° Lorsqu'un établissement, ayant cessé d'employer du personnel pendant six mois au moins, se propose d'en employer à nouveau ;\n\n2° Lorsqu'un établissement employant du personnel change d'exploitant ;\n\n3° Lorsqu'un établissement employant du personnel est transféré dans un autre emplacement ou s'il fait l'objet d'extension ou de transformation entraînant une modification dans les activités industrielles et commerciales.",
+          "words": 75
+        },
+        {
+          "num": "L1221-18",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037064963",
+          "text": "Tout employeur de personnel salarié ou assimilé est tenu d'adresser à l'organisme chargé du recouvrement des cotisations et contributions sociales dont il relève, au plus tard le 31 janvier de chaque année, une déclaration indiquant le nombre de salariés partis en préretraite ou placés en cessation anticipée d'activité au cours de l'année civile précédente, leur âge et le montant de l'avantage qui leur est alloué. Cette déclaration indique également le nombre de mises à la retraite d'office à l'initiative de l'employeur intervenant dans les conditions des articles L. 1237-5 à L. 1237-10 et le nombre de salariés âgés de cinquante-cinq ans et plus licenciés ou ayant bénéficié de la rupture conventionnelle mentionnée à l'article L. 1237-11 au cours de l'année civile précédant la déclaration.\n\nLe défaut de production, dans les délais prescrits, de cette déclaration entraîne une pénalité dont le montant est égal à six cents fois le taux horaire du salaire minimum de croissance. Cette pénalité est recouvrée par l'organisme chargé du recouvrement des cotisations et contributions sociales dont relève l'employeur. Son produit est affecté à la Caisse nationale d'assurance vieillesse .\n\nLe modèle de déclaration est fixé par arrêté conjoint du ministre chargé de la sécurité sociale et du ministre chargé de l'emploi.\n\nL'obligation de déclaration mentionnée au premier alinéa ne s'applique qu'aux employeurs dont au moins un salarié ou assimilé est parti en préretraite ou a été placé en cessation anticipée d'activité ou a été mis en retraite à l'initiative de l'employeur au cours de l'année civile précédente ainsi qu'aux employeurs dont au moins un salarié âgé de cinquante-cinq ans ou plus a été licencié ou a bénéficié de la rupture conventionnelle mentionnée à l'article L. 1237-11 au cours de l'année civile précédente.",
+          "words": 286
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000019071115",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail",
+      "title": "Section 4 : Période d'essai.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1221-19",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019071113",
+          "text": "Le contrat de travail à durée indéterminée peut comporter une période d'essai dont la durée maximale est :\n\n1° Pour les ouvriers et les employés, de deux mois ;\n\n2° Pour les agents de maîtrise et les techniciens, de trois mois ;\n\n3° Pour les cadres, de quatre mois.",
+          "words": 49
+        },
+        {
+          "num": "L1221-20",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019071111",
+          "text": "La période d'essai permet à l'employeur d'évaluer les compétences du salarié dans son travail, notamment au regard de son expérience, et au salarié d'apprécier si les fonctions occupées lui conviennent.",
+          "words": 30
+        },
+        {
+          "num": "L1221-21",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019071109",
+          "text": "La période d'essai peut être renouvelée une fois si un accord de branche étendu le prévoit. Cet accord fixe les conditions et les durées de renouvellement.\n\nLa durée de la période d'essai, renouvellement compris, ne peut pas dépasser :\n\n1° Quatre mois pour les ouvriers et employés ;\n\n2° Six mois pour les agents de maîtrise et techniciens ;\n\n3° Huit mois pour les cadres.",
+          "words": 65
+        },
+        {
+          "num": "L1221-22",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047293356",
+          "text": "Les durées des périodes d'essai fixées par les articles L. 1221-19 et L. 1221-21 ont un caractère impératif, à l'exception :\n\n-de durées plus courtes fixées par des accords collectifs conclus après la date de publication de la loi n° 2008-596 du 25 juin 2008 précitée ;\n\n-de durées plus courtes fixées dans la lettre d'engagement ou le contrat de travail.",
+          "words": 61
+        },
+        {
+          "num": "L1221-23",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019071102",
+          "text": "La période d'essai et la possibilité de la renouveler ne se présument pas. Elles sont expressément stipulées dans la lettre d'engagement ou le contrat de travail.",
+          "words": 26
+        },
+        {
+          "num": "L1221-24",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029236224",
+          "text": "En cas d'embauche dans l'entreprise dans les trois mois suivant l'issue du stage intégré à un cursus pédagogique réalisé lors de la dernière année d'études, la durée de ce stage est déduite de la période d'essai, sans que cela ait pour effet de réduire cette dernière de plus de la moitié, sauf accord collectif prévoyant des stipulations plus favorables. Lorsque cette embauche est effectuée dans un emploi en correspondance avec les activités qui avaient été confiées au stagiaire, la durée du stage est déduite intégralement de la période d'essai.\n\nLorsque le stagiaire est embauché par l'entreprise à l'issue d'un stage d'une durée supérieure à deux mois, au sens de l'article L. 124-6 du code de l'éducation, la durée de ce stage est prise en compte pour l'ouverture et le calcul des droits liés à l'ancienneté.",
+          "words": 135
+        },
+        {
+          "num": "L1221-25",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029144958",
+          "text": "Lorsqu'il est mis fin, par l'employeur, au contrat en cours ou au terme de la période d'essai définie aux articles L. 1221-19 à L. 1221-24 ou à l'article L. 1242-10 pour les contrats stipulant une période d'essai d'au moins une semaine, le salarié est prévenu dans un délai qui ne peut être inférieur à :\n\n1° Vingt-quatre heures en deçà de huit jours de présence ;\n\n2° Quarante-huit heures entre huit jours et un mois de présence ;\n\n3° Deux semaines après un mois de présence ;\n\n4° Un mois après trois mois de présence.\n\nLa période d'essai, renouvellement inclus, ne peut être prolongée du fait de la durée du délai de prévenance.\n\nLorsque le délai de prévenance n'a pas été respecté, son inexécution ouvre droit pour le salarié, sauf s'il a commis une faute grave, à une indemnité compensatrice. Cette indemnité est égale au montant des salaires et avantages que le salarié aurait perçus s'il avait accompli son travail jusqu'à l'expiration du délai de prévenance, indemnité compensatrice de congés payés comprise.",
+          "words": 172
+        },
+        {
+          "num": "L1221-26",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019071093",
+          "text": "Lorsqu'il est mis fin à la période d'essai par le salarié, celui-ci respecte un délai de prévenance de quarante-huit heures. Ce délai est ramené à vingt-quatre heures si la durée de présence du salarié dans l'entreprise est inférieure à huit jours.",
+          "words": 41
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189417",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre II : Exécution et modification du contrat de travail",
+      "title": "Section 1 : Exécution du contrat de travail.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1222-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900858",
+          "text": "Le contrat de travail est exécuté de bonne foi.",
+          "words": 9
+        },
+        {
+          "num": "L1222-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900859",
+          "text": "Les informations demandées, sous quelque forme que ce soit, à un salarié ne peuvent avoir comme finalité que d'apprécier ses aptitudes professionnelles.\n\nCes informations doivent présenter un lien direct et nécessaire avec l'évaluation de ses aptitudes.\n\nLe salarié est tenu de répondre de bonne foi à ces demandes d'informations.",
+          "words": 49
+        },
+        {
+          "num": "L1222-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900860",
+          "text": "Le salarié est expressément informé, préalablement à leur mise en oeuvre, des méthodes et techniques d'évaluation professionnelles mises en oeuvre à son égard.\n\nLes résultats obtenus sont confidentiels.\n\nLes méthodes et techniques d'évaluation des salariés doivent être pertinentes au regard de la finalité poursuivie.",
+          "words": 44
+        },
+        {
+          "num": "L1222-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900861",
+          "text": "Aucune information concernant personnellement un salarié ne peut être collectée par un dispositif qui n'a pas été porté préalablement à sa connaissance.",
+          "words": 22
+        },
+        {
+          "num": "L1222-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033022371",
+          "text": "L'employeur ne peut opposer aucune clause d'exclusivité pendant une durée d'un an au salarié qui crée ou reprend une entreprise, même en présence de stipulation contractuelle ou conventionnelle contraire. Toutefois, cette interdiction ne s'applique pas à la clause d'exclusivité prévue par l'article L. 7313-6 pour les voyageurs, représentants ou placiers.\n\nLorsqu'un congé pour la création ou la reprise d'entreprise est prolongé dans les conditions prévues aux articles L. 3142-111, L. 3142-117 et L. 3142-119, les dispositions du premier alinéa s'appliquent jusqu'au terme de la prolongation.\n\nLe salarié reste soumis à l'obligation de loyauté à l'égard de son employeur.",
+          "words": 98
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189418",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre II : Exécution et modification du contrat de travail",
+      "title": "Section 2 : Modification du contrat de travail pour motif économique.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1222-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028724382",
+          "text": "Lorsque l'employeur envisage la modification d'un élément essentiel du contrat de travail pour l'un des motifs économiques énoncés à l'article L. 1233-3, il en fait la proposition au salarié par lettre recommandée avec avis de réception.\n\nLa lettre de notification informe le salarié qu'il dispose d'un mois à compter de sa réception pour faire connaître son refus. Le délai est de quinze jours si l'entreprise est en redressement judiciaire ou en liquidation judiciaire.\n\nA défaut de réponse dans le délai d'un mois, ou de quinze jours si l'entreprise est en redressement judiciaire ou en liquidation judiciaire, le salarié est réputé avoir accepté la modification proposée.",
+          "words": 105
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000025558058",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre II : Exécution et modification du contrat de travail",
+      "title": "Section 4 : Télétravail",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1222-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047864720",
+          "text": "I.-Sans préjudice de l'application, s'il y a lieu, des dispositions du présent code protégeant les travailleurs à domicile, le télétravail désigne toute forme d'organisation du travail dans laquelle un travail qui aurait également pu être exécuté dans les locaux de l'employeur est effectué par un salarié hors de ces locaux de façon volontaire en utilisant les technologies de l'information et de la communication.\n\nEst qualifié de télétravailleur au sens de la présente section tout salarié de l'entreprise qui effectue, soit dès l'embauche, soit ultérieurement, du télétravail tel que défini au premier alinéa du présent I.\n\nLe télétravail est mis en place dans le cadre d'un accord collectif ou, à défaut, dans le cadre d'une charte élaborée par l'employeur après avis du comité social et économique, s'il existe.\n\nEn l'absence d'accord collectif ou de charte, lorsque le salarié et l'employeur conviennent de recourir au télétravail, ils formalisent leur accord par tout moyen. Lorsque la demande de recours au télétravail est formulée par un travailleur handicapé mentionné à l'article L. 5212-13 ou un salarié aidant d'un enfant, d'un parent ou d'un proche, l'employeur motive, le cas échéant, sa décision de refus.\n\nII.-L'accord collectif applicable ou, à défaut, la charte élaborée par l'employeur précise :\n\n1° Les conditions de passage en télétravail, en particulier en cas d'épisode de pollution mentionné à l'article L. 223-1 du code de l'environnement, et les conditions de retour à une exécution du contrat de travail sans télétravail ;\n\n2° Les modalités d'acceptation par le salarié des conditions de mise en œuvre du télétravail ;\n\n3° Les modalités de contrôle du temps de travail ou de régulation de la charge de travail ;\n\n4° La détermination des plages horaires durant lesquelles l'employeur peut habituellement contacter le salarié en télétravail ;\n\n5° Les modalités d'accès des travailleurs handicapés à une organisation en télétravail, en application des mesures prévues à l'article L. 5213-6 ;\n\n6° Les modalités d'accès des salariées enceintes à une organisation en télétravail ;\n\n7° Les modalités d'accès des salariés aidants d'un enfant, d'un parent ou d'un proche à une organisation en télétravail.\n\nIII.-Le télétravailleur a les mêmes droits que le salarié qui exécute son travail dans les locaux de l'entreprise.\n\nL'employeur qui refuse d'accorder le bénéfice du télétravail à un salarié qui occupe un poste éligible à un mode d'organisation en télétravail dans les conditions prévues par accord collectif ou, à défaut, par la charte, motive sa réponse.\n\nLe refus d'accepter un poste de télétravailleur n'est pas un motif de rupture du contrat de travail.\n\nL'accident survenu sur le lieu où est exercé le télétravail pendant l'exercice de l'activité professionnelle du télétravailleur est présumé être un accident de travail au sens de l'article L. 411-1 du code de la sécurité sociale.",
+          "words": 454
+        },
+        {
+          "num": "L1222-10",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035643958",
+          "text": "Outre ses obligations de droit commun vis-à-vis de ses salariés, l'employeur est tenu à l'égard du salarié en télétravail :\n\n1° D'informer le salarié de toute restriction à l'usage d'équipements ou outils informatiques ou de services de communication électronique et des sanctions en cas de non-respect de telles restrictions ;\n\n2° De lui donner priorité pour occuper ou reprendre un poste sans télétravail qui correspond à ses qualifications et compétences professionnelles et de porter à sa connaissance la disponibilité de tout poste de cette nature ;\n\n3° D'organiser chaque année un entretien qui porte notamment sur les conditions d'activité du salarié et sa charge de travail.",
+          "words": 106
+        },
+        {
+          "num": "L1222-11",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035643952",
+          "text": "En cas de circonstances exceptionnelles, notamment de menace d'épidémie, ou en cas de force majeure, la mise en œuvre du télétravail peut être considérée comme un aménagement du poste de travail rendu nécessaire pour permettre la continuité de l'activité de l'entreprise et garantir la protection des salariés.",
+          "words": 47
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000027548895",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre II : Exécution et modification du contrat de travail",
+      "title": "Section 5 :  Mobilité volontaire sécurisée",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1222-12",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038951495",
+          "text": "Dans les entreprises et les groupes d'entreprises, au sens de l'article L. 2331-1, d'au moins trois cents salariés, tout salarié justifiant d'une ancienneté minimale de vingt-quatre mois, consécutifs ou non, peut, avec l'accord de son employeur, bénéficier d'une période de mobilité volontaire sécurisée afin d'exercer une activité dans une autre entreprise, au cours de laquelle l'exécution de son contrat de travail est suspendue.\n\nSi l'employeur oppose deux refus successifs à la demande de mobilité, l'accès au congé spécifique mentionné à l'article L. 6323-17-1 est de droit pour le salarié, sans que puissent lui être opposées la durée d'ancienneté mentionnée à l'article L. 6323-17-1 ou les dispositions définies par décret en Conseil d'Etat.",
+          "words": 112
+        },
+        {
+          "num": "L1222-13",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027548900",
+          "text": "La période de mobilité volontaire sécurisée est prévue par un avenant au contrat de travail, qui détermine l'objet, la durée, la date de prise d'effet et le terme de la période de mobilité, ainsi que le délai dans lequel le salarié informe par écrit l'employeur de son choix éventuel de ne pas réintégrer l'entreprise.\n\nIl prévoit également les situations et modalités d'un retour anticipé du salarié, qui intervient dans un délai raisonnable et qui reste dans tous les cas possible à tout moment avec l'accord de l'employeur.",
+          "words": 87
+        },
+        {
+          "num": "L1222-14",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028698016",
+          "text": "A son retour dans l'entreprise d'origine, le salarié retrouve de plein droit son précédent emploi ou un emploi similaire, assorti d'une qualification et d'une rémunération au moins équivalentes ainsi que du maintien à titre personnel de sa classification. Il bénéficie de l'entretien professionnel mentionné au I de l'article L. 6315-1.",
+          "words": 50
+        },
+        {
+          "num": "L1222-15",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027548904",
+          "text": "Lorsque le salarié choisit de ne pas réintégrer son entreprise d'origine au cours ou au terme de la période de mobilité, le contrat de travail qui le lie à son employeur est rompu. Cette rupture constitue une démission qui n'est soumise à aucun préavis autre que celui prévu par l'avenant mentionné à l'article L. 1222-13.",
+          "words": 55
+        },
+        {
+          "num": "L1222-16",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035652949",
+          "text": "L'employeur communique semestriellement au comité social et économique la liste des demandes de période de mobilité volontaire sécurisée avec l'indication de la suite qui leur a été donnée.",
+          "words": 28
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189421",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre III : Formation et exécution de certains types de contrats",
+      "title": "Section 2 : Contrat de mission à l'exportation.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1223-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900872",
+          "text": "Un accord collectif de branche ou d'entreprise détermine les contrats de travail conclus pour la réalisation d'une mission à l'exportation accomplie en majeure partie hors du territoire national, dont la rupture à l'initiative de l'employeur à la fin de la mission n'est pas soumise aux dispositions relatives au licenciement économique.",
+          "words": 50
+        },
+        {
+          "num": "L1223-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900873",
+          "text": "L'accord collectif de branche ou d'entreprise prévoyant la mise en place du contrat de mission à l'exportation fixe notamment :\n\n1° Les catégories de salariés concernés ;\n\n2° La nature des missions à l'exportation concernées ainsi que leur durée minimale, qui ne peut pas être inférieure à six mois ;\n\n3° Les contreparties en termes de rémunération et d'indemnité de licenciement accordées aux salariés, sans que cette indemnité puisse être inférieure au montant de l'indemnité légale de licenciement attribué à due proportion du temps sans condition d'ancienneté et quel que soit l'effectif de l'entreprise ;\n\n4° Les garanties en termes de formation pour les salariés concernés ;\n\n5° Les mesures indispensables au reclassement des salariés.\n\nS'il s'agit d'un accord collectif de branche, il fixe également la taille et le type d'entreprises concernées.",
+          "words": 132
+        },
+        {
+          "num": "L1223-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900874",
+          "text": "Les dispositions en matière de protection sociale de la branche ou de l'entreprise sont applicables au bénéficiaire du contrat de mission à l'exportation.",
+          "words": 23
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000035639124",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre III : Formation et exécution de certains types de contrats",
+      "title": "Section 3 : Contrat de chantier ou d'opération",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1223-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035639131",
+          "text": "Une convention ou un accord collectif de branche étendu fixe les conditions dans lesquelles il est possible de recourir à un contrat conclu pour la durée d'un chantier ou d'une opération.\n\nA défaut d'un tel accord, ce contrat peut être conclu dans les secteurs où son usage est habituel et conforme à l'exercice régulier de la profession qui y recourt au 1er janvier 2017.\n\nCe contrat est conclu pour une durée indéterminée.",
+          "words": 72
+        },
+        {
+          "num": "L1223-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036261894",
+          "text": "La convention ou l'accord collectif prévu à l'article L. 1223-8 fixe :\n\n1° La taille des entreprises concernées ;\n\n2° Les activités concernées ;\n\n3° Les mesures d'information du salarié sur la nature de son contrat ;\n\n4° Les contreparties en termes de rémunération et d'indemnité de licenciement accordées aux salariés ;\n\n5° Les garanties en termes de formation pour les salariés concernés ;\n\n6° Les modalités adaptées de rupture de ce contrat dans l'hypothèse où le chantier ou l'opération pour lequel ce contrat a été conclu ne peut pas se réaliser ou se termine de manière anticipée.",
+          "words": 98
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006177853",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail",
+      "title": "Chapitre IV : Transfert du contrat de travail.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1224-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900875",
+          "text": "Lorsque survient une modification dans la situation juridique de l'employeur, notamment par succession, vente, fusion, transformation du fonds, mise en société de l'entreprise, tous les contrats de travail en cours au jour de la modification subsistent entre le nouvel employeur et le personnel de l'entreprise.",
+          "words": 45
+        },
+        {
+          "num": "L1224-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900876",
+          "text": "Le nouvel employeur est tenu, à l'égard des salariés dont les contrats de travail subsistent, aux obligations qui incombaient à l'ancien employeur à la date de la modification, sauf dans les cas suivants :\n\n1° Procédure de sauvegarde, de redressement ou de liquidation judiciaire ;\n\n2° Substitution d'employeurs intervenue sans qu'il y ait eu de convention entre ceux-ci.\n\nLe premier employeur rembourse les sommes acquittées par le nouvel employeur, dues à la date de la modification, sauf s'il a été tenu compte de la charge résultant de ces obligations dans la convention intervenue entre eux.",
+          "words": 95
+        },
+        {
+          "num": "L1224-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032442327",
+          "text": "Lorsque l'activité d'une entité économique employant des salariés de droit privé est, par transfert de cette entité, reprise par une personne publique dans le cadre d'un service public administratif, il appartient à cette personne publique de proposer à ces salariés un contrat de droit public, à durée déterminée ou indéterminée selon la nature du contrat dont ils sont titulaires.\n\nSauf disposition légale ou conditions générales de rémunération et d'emploi des agents non titulaires de la personne publique contraires, le contrat qu'elle propose reprend les clauses substantielles du contrat dont les salariés sont titulaires, en particulier celles qui concernent la rémunération.\n\nLes services accomplis au sein de l'entité économique d'origine sont assimilés à des services accomplis au sein de la personne publique d'accueil.\n\nEn cas de refus des salariés d'accepter le contrat proposé, leur contrat prend fin de plein droit. La personne publique applique les dispositions relatives aux agents licenciés prévues par le droit du travail et par leur contrat.",
+          "words": 159
+        },
+        {
+          "num": "L1224-3-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020959339",
+          "text": "Sous réserve de l'application de dispositions législatives ou réglementaires spéciales, lorsque l'activité d'une personne morale de droit public employant des agents non titulaires de droit public est reprise par une personne morale de droit privé ou par un organisme de droit public gérant un service public industriel et commercial, cette personne morale ou cet organisme propose à ces agents un contrat régi par le présent code.\n\nLe contrat proposé reprend les clauses substantielles du contrat dont les agents sont titulaires, en particulier celles qui concernent la rémunération.\n\nEn cas de refus des agents d'accepter le contrat proposé, leur contrat prend fin de plein droit. La personne morale ou l'organisme qui reprend l'activité applique les dispositions de droit public relatives aux agents licenciés.",
+          "words": 122
+        },
+        {
+          "num": "L1224-3-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035644107",
+          "text": "Lorsqu'un accord de branche étendu prévoit et organise la poursuite des contrats de travail en cas de succession d'entreprises dans l'exécution d'un marché, les salariés du nouveau prestataire ne peuvent invoquer utilement les différences de rémunération résultant d'avantages obtenus, avant le changement de prestataire, par les salariés dont les contrats de travail ont été poursuivis.",
+          "words": 55
+        },
+        {
+          "num": "L1224-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900878",
+          "text": "Un décret en Conseil d'Etat détermine les modalités d'application des articles L. 1224-1 et L. 1224-2.",
+          "words": 16
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189428",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre VI : Maladie, accident et inaptitude médicale",
+      "title": "Section 1 : Absences pour maladie ou accident.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1226-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054331868",
+          "text": "Tout salarié ayant une année d'ancienneté dans l'entreprise bénéficie, en cas d'absence au travail justifiée par l'incapacité résultant de maladie ou d'accident constaté par certificat médical et contre-visite s'il y a lieu, d'une indemnité complémentaire à l'allocation journalière prévue à l'article L. 321-1 du code de la sécurité sociale, à condition :\n\n1° D'avoir justifié dans les quarante-huit heures de cette incapacité, sauf si le salarié fait partie des personnes mentionnées à l'article L. 169-1 du même code ;\n\n2° D'être pris en charge par la sécurité sociale ;\n\n3° D'être soigné sur le territoire français ou dans l'un des autres Etats membres de la Communauté européenne ou dans l'un des autres Etats partie à l'accord sur l'Espace économique européen.\n\nCes dispositions ne s'appliquent pas aux salariés travaillant à domicile, aux salariés saisonniers, aux salariés intermittents et aux salariés temporaires.\n\nCes dispositions ne s'appliquent pas en cas de fraude avérée du salarié afin d'obtenir le versement des indemnités journalières mentionnées à l'article L. 321-1 dudit code ou au 2° de l'article L. 431-1 du même code dont l'employeur a été informé en application du VI de l'article L. 114-9 du même code.\n\nUn décret en Conseil d'Etat détermine les formes et conditions de la contre-visite mentionnée au premier alinéa du présent article.\n\nLe taux, les délais et les modalités de calcul de l'indemnité complémentaire sont déterminés par voie réglementaire.",
+          "words": 229
+        },
+        {
+          "num": "L1226-1-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042685559",
+          "text": "Lorsque la protection de la santé publique le justifie, en cas de risque sanitaire grave et exceptionnel, tel que prévu à l'article L. 16-10-1 du code de la sécurité sociale, notamment d'épidémie, nécessitant l'adoption en urgence de conditions adaptées pour le versement de l'indemnité complémentaire prévue à l'article L. 1226-1 du présent code, dérogatoires au droit commun, celles-ci peuvent être prévues par décret, pour une durée limitée qui ne peut excéder un an.\n\nDans les conditions et limites fixées par ce décret, les dérogations mises en œuvre en application du premier alinéa du présent article peuvent porter sur :\n\n1° La condition d'ancienneté prévue au premier alinéa de l'article L. 1226-1 ;\n\n2° Le motif d'absence au travail prévu au même premier alinéa ;\n\n3° Les conditions prévues aux 1° et 3° du même article L. 1226-1 ;\n\n4° L'exclusion des catégories de salariés mentionnées au cinquième alinéa dudit article L. 1226-1 ;\n\n5° Les taux de l'indemnité complémentaire prévus par le décret pris pour l'application du dernier alinéa du même article L. 1226-1 ;\n\n6° Les délais fixés par le même décret ;\n\n7° Les modalités de calcul de l'indemnité complémentaire prévues par le même décret.\n\nLe décret mentionné au premier alinéa du présent article détermine la durée et les conditions de mise en œuvre des dérogations et peut leur conférer une portée rétroactive, dans la limite d'un mois avant la date de sa publication.",
+          "words": 236
+        },
+        {
+          "num": "L1226-1-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042682021",
+          "text": "Le contrat de travail d'un salarié atteint d'une maladie ou victime d'un accident non professionnel demeure suspendu pendant les périodes au cours desquelles il suit les actions mentionnées à l'article L. 323-3-1 du code de la sécurité sociale dans les conditions prévues à ce même article.",
+          "words": 46
+        },
+        {
+          "num": "L1226-1-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043891119",
+          "text": "Lorsque la durée de l'absence au travail du salarié justifiée par l'incapacité résultant de maladie ou d'accident, constaté par certificat médical et contre-visite s'il y a lieu, est supérieure à une durée fixée par décret, la suspension du contrat de travail ne fait pas obstacle à l'organisation d'un rendez-vous de liaison entre le salarié et l'employeur, associant le service de prévention et de santé au travail.\n\nCe rendez-vous a pour objet d'informer le salarié qu'il peut bénéficier d'actions de prévention de la désinsertion professionnelle, dont celles prévues à l'article L. 323-3-1 du code de la sécurité sociale, de l'examen de préreprise prévu à l'article L. 4624-2-4 du présent code et des mesures prévues à l'article L. 4624-3.\n\nIl est organisé à l'initiative de l'employeur ou du salarié. L'employeur informe celui-ci qu'il peut solliciter l'organisation de ce rendez-vous. Aucune conséquence ne peut être tirée du refus par le salarié de se rendre à ce rendez-vous.",
+          "words": 154
+        },
+        {
+          "num": "L1226-1-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043891457",
+          "text": "Les travailleurs déclarés inaptes en application de l'article L. 4624-4 ou pour lesquels le médecin du travail a identifié, dans le cadre de l'examen de préreprise mentionné à l'article L. 4624-2-4, un risque d'inaptitude peuvent bénéficier de la convention de rééducation professionnelle en entreprise mentionnée à l'article L. 5213-3-1.",
+          "words": 49
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195599",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre VI : Maladie, accident et inaptitude médicale > Section 2 : Inaptitude consécutive à une maladie ou un accident non professionnel  - Maladie grave",
+      "title": "Sous-section 1 : Inaptitude consécutive à une maladie ou un accident non professionnel.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1226-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035653236",
+          "text": "Lorsque le salarié victime d'une maladie ou d'un accident non professionnel est déclaré inapte par le médecin du travail, en application de l'article L. 4624-4, à reprendre l'emploi qu'il occupait précédemment, l'employeur lui propose un autre emploi approprié à ses capacités, au sein de l'entreprise ou des entreprises du groupe auquel elle appartient le cas échéant, situées sur le territoire national et dont l'organisation, les activités ou le lieu d'exploitation assurent la permutation de tout ou partie du personnel.\n\nPour l'application du présent article, la notion de groupe désigne le groupe formé par une entreprise appelée entreprise dominante et les entreprises qu'elle contrôle dans les conditions définies à l'article L. 233-1, aux I et II de l'article L. 233-3 et à l'article L. 233-16 du code de commerce.\n\nCette proposition prend en compte, après avis du comité social et économique lorsqu'il existe, les conclusions écrites du médecin du travail et les indications qu'il formule sur les capacités du salarié à exercer l'une des tâches existantes dans l'entreprise. Le médecin du travail formule également des indications sur la capacité du salarié à bénéficier d'une formation le préparant à occuper un poste adapté.\n\nL'emploi proposé est aussi comparable que possible à l'emploi précédemment occupé, au besoin par la mise en oeuvre de mesures telles que mutations, aménagements, adaptations ou transformations de postes existants ou aménagement du temps de travail.",
+          "words": 227
+        },
+        {
+          "num": "L1226-2-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033013454",
+          "text": "Lorsqu'il est impossible à l'employeur de proposer un autre emploi au salarié, il lui fait connaître par écrit les motifs qui s'opposent à son reclassement.\n\nL'employeur ne peut rompre le contrat de travail que s'il justifie soit de son impossibilité de proposer un emploi dans les conditions prévues à l'article L. 1226-2, soit du refus par le salarié de l'emploi proposé dans ces conditions, soit de la mention expresse dans l'avis du médecin du travail que tout maintien du salarié dans un emploi serait gravement préjudiciable à sa santé ou que l'état de santé du salarié fait obstacle à tout reclassement dans un emploi.\n\nL'obligation de reclassement est réputée satisfaite lorsque l'employeur a proposé un emploi, dans les conditions prévues à l'article L. 1226-2, en prenant en compte l'avis et les indications du médecin du travail.\n\nS'il prononce le licenciement, l'employeur respecte la procédure applicable au licenciement pour motif personnel prévue au chapitre II du titre III du présent livre.",
+          "words": 160
+        },
+        {
+          "num": "L1226-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900967",
+          "text": "Le contrat de travail du salarié déclaré inapte peut être suspendu pour lui permettre de suivre un stage de reclassement professionnel.",
+          "words": 21
+        },
+        {
+          "num": "L1226-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025560071",
+          "text": "Lorsque, à l'issue d'un délai d'un mois à compter de la date de l'examen médical de reprise du travail, le salarié déclaré inapte n'est pas reclassé dans l'entreprise ou s'il n'est pas licencié, l'employeur lui verse, dès l'expiration de ce délai, le salaire correspondant à l'emploi que celui-ci occupait avant la suspension de son contrat de travail.\n\nCes dispositions s'appliquent également en cas d'inaptitude à tout emploi dans l'entreprise constatée par le médecin du travail.\n\nEn cas de licenciement, le préavis n'est pas exécuté et le contrat de travail est rompu à la date de notification du licenciement. Le préavis est néanmoins pris en compte pour le calcul de l'indemnité mentionnée à l'article L. 1234-9. Par dérogation à l'article L. 1234-5, l'inexécution du préavis ne donne pas lieu au versement d'une indemnité compensatrice.",
+          "words": 133
+        },
+        {
+          "num": "L1226-4-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033024864",
+          "text": "En cas de licenciement prononcé dans le cas visé à l'article L. 1226-2-1, les indemnités dues au salarié au titre de la rupture sont prises en charge soit directement par l'employeur, soit au titre des garanties qu'il a souscrites à un fonds de mutualisation.\n\nLa gestion de ce fonds est confiée à l'association prévue à l'article L. 3253-14.",
+          "words": 58
+        },
+        {
+          "num": "L1226-4-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024024756",
+          "text": "Les dispositions visées à l'article L. 1226-4 s'appliquent également aux salariés en contrat de travail à durée déterminée.",
+          "words": 18
+        },
+        {
+          "num": "L1226-4-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024024758",
+          "text": "La rupture du contrat à durée déterminée prononcée en cas d'inaptitude ouvre droit, pour le salarié, à une indemnité dont le montant ne peut être inférieur à celui de l'indemnité prévue à l'article L. 1234-9. Cette indemnité de rupture est versée selon les mêmes modalités que l'indemnité de précarité prévue à l'article L. 1243-8.",
+          "words": 54
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195600",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre VI : Maladie, accident et inaptitude médicale > Section 2 : Inaptitude consécutive à une maladie ou un accident non professionnel  - Maladie grave",
+      "title": "Sous-section 2 : Maladie grave.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1226-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032181969",
+          "text": "Tout salarié atteint d'une maladie grave au sens du 3° et du 4° de l'article L. 160-14 du code de la sécurité sociale bénéficie d'autorisations d'absence pour suivre les traitements médicaux rendus nécessaires par son état de santé.",
+          "words": 38
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195601",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre VI : Maladie, accident et inaptitude médicale > Section 3 : Accident du travail ou maladie professionnelle",
+      "title": "Sous-section 1 : Champ d'application.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1226-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900972",
+          "text": "Les dispositions de la présente section ne sont pas applicables aux rapports entre un employeur et son salarié victime d'un accident du travail ou d'une maladie professionnelle, survenu ou contractée au service d'un autre employeur.",
+          "words": 35
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195602",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre VI : Maladie, accident et inaptitude médicale > Section 3 : Accident du travail ou maladie professionnelle",
+      "title": "Sous-section 2 : Suspension du contrat et protection contre la rupture.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1226-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053283550",
+          "text": "Le contrat de travail du salarié victime d'un accident du travail, autre qu'un accident de trajet, ou d'une maladie professionnelle est suspendu pendant la durée de l'arrêt de travail provoqué par l'accident ou la maladie.\n\nLe contrat de travail est également suspendu pendant le délai d'attente et la durée du stage de réadaptation, de rééducation ou de formation professionnelle que doit suivre l'intéressé, conformément à l'avis de la commission des droits et de l'autonomie des personnes handicapées mentionnée à l'article L. 146-9 du code de l'action sociale et des familles. Le salarié bénéficie d'une priorité en matière d'accès aux actions de formation professionnelle.\n\nLe contrat de travail est également suspendu pendant les périodes au cours desquelles le salarié suit les actions mentionnées à l'article L. 323-3-1 du code de la sécurité sociale dans les conditions prévues à ce même article, en application du cinquième alinéa de l'article L. 433-1 du même code.\n\nLa durée des périodes de suspension est prise en compte pour la détermination de tous les avantages légaux ou conventionnels liés à l'ancienneté dans l'entreprise.",
+          "words": 177
+        },
+        {
+          "num": "L1226-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033024860",
+          "text": "A l'issue des périodes de suspension définies à l'article L. 1226-7, le salarié retrouve son emploi ou un emploi similaire assorti d'une rémunération au moins équivalente, sauf dans les situations mentionnées à l'article L. 1226-10.\n\nLes conséquences de l'accident ou de la maladie professionnelle ne peuvent entraîner pour l'intéressé aucun retard de promotion ou d'avancement au sein de l'entreprise.",
+          "words": 59
+        },
+        {
+          "num": "L1226-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900975",
+          "text": "Au cours des périodes de suspension du contrat de travail, l'employeur ne peut rompre ce dernier que s'il justifie soit d'une faute grave de l'intéressé, soit de son impossibilité de maintenir ce contrat pour un motif étranger à l'accident ou à la maladie.",
+          "words": 43
+        },
+        {
+          "num": "L1226-9-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000046119112",
+          "text": "Les dispositions de la présente sous-section s'appliquent en cas de mise en quarantaine au sens du 2° du I de l'article L. 3131-1 du code de la santé publique.",
+          "words": 29
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195603",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre VI : Maladie, accident et inaptitude médicale > Section 3 : Accident du travail ou maladie professionnelle",
+      "title": "Sous-section 3 : Inaptitude consécutive à un accident du travail ou à une maladie professionnelle.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1226-10",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035653215",
+          "text": "Lorsque le salarié victime d'un accident du travail ou d'une maladie professionnelle est déclaré inapte par le médecin du travail, en application de l'article L. 4624-4, à reprendre l'emploi qu'il occupait précédemment, l'employeur lui propose un autre emploi approprié à ses capacités, au sein de l'entreprise ou des entreprises du groupe auquel elle appartient le cas échéant, situées sur le territoire national et dont l'organisation, les activités ou le lieu d'exploitation assurent la permutation de tout ou partie du personnel.\n\nCette proposition prend en compte, après avis du comité économique et social, les conclusions écrites du médecin du travail et les indications qu'il formule sur les capacités du salarié à exercer l'une des tâches existant dans l'entreprise. Le médecin du travail formule également des indications sur l'aptitude du salarié à bénéficier d'une formation le préparant à occuper un poste adapté.\n\nL'emploi proposé est aussi comparable que possible à l'emploi précédemment occupé, au besoin par la mise en oeuvre de mesures telles que mutations, aménagements, adaptations ou transformations de postes existants ou aménagement du temps de travail.\n\nPour l'application du présent article, la notion de groupe désigne le groupe formé par une entreprise appelée entreprise dominante et les entreprises qu'elle contrôle dans les conditions définies à l'article L. 233-1, aux I et II de l'article L. 233-3 et à l'article L. 233-16 du code de commerce.",
+          "words": 225
+        },
+        {
+          "num": "L1226-11",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900978",
+          "text": "Lorsque, à l'issue d'un délai d'un mois à compter de la date de l'examen médical de reprise du travail, le salarié déclaré inapte n'est pas reclassé dans l'entreprise ou s'il n'est pas licencié, l'employeur lui verse, dès l'expiration de ce délai, le salaire correspondant à l'emploi que celui-ci occupait avant la suspension de son contrat de travail.\n\nCes dispositions s'appliquent également en cas d'inaptitude à tout emploi dans l'entreprise constatée par le médecin du travail.",
+          "words": 75
+        },
+        {
+          "num": "L1226-12",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033024893",
+          "text": "Lorsque l'employeur est dans l'impossibilité de proposer un autre emploi au salarié, il lui fait connaître par écrit les motifs qui s'opposent au reclassement.\n\nL'employeur ne peut rompre le contrat de travail que s'il justifie soit de son impossibilité de proposer un emploi dans les conditions prévues à l'article L. 1226-10, soit du refus par le salarié de l'emploi proposé dans ces conditions, soit de la mention expresse dans l'avis du médecin du travail que tout maintien du salarié dans l'emploi serait gravement préjudiciable à sa santé ou que l'état de santé du salarié fait obstacle à tout reclassement dans l'emploi.\n\nL'obligation de reclassement est réputée satisfaite lorsque l'employeur a proposé un emploi, dans les conditions prévues à l'article L. 1226-10, en prenant en compte l'avis et les indications du médecin du travail.\n\nS'il prononce le licenciement, l'employeur respecte la procédure applicable au licenciement pour motif personnel prévue au chapitre II du titre III.",
+          "words": 154
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195604",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre VI : Maladie, accident et inaptitude médicale > Section 3 : Accident du travail ou maladie professionnelle",
+      "title": "Sous-section 4 : Indemnités et sanctions.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1226-13",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900980",
+          "text": "Toute rupture du contrat de travail prononcée en méconnaissance des dispositions des articles L. 1226-9 et L. 1226-18 est nulle.",
+          "words": 20
+        },
+        {
+          "num": "L1226-14",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900981",
+          "text": "La rupture du contrat de travail dans les cas prévus au deuxième alinéa de l'article L. 1226-12 ouvre droit, pour le salarié, à une indemnité compensatrice d'un montant égal à celui de l'indemnité compensatrice de préavis prévue à l'article L. 1234-5 ainsi qu'à une indemnité spéciale de licenciement qui, sauf dispositions conventionnelles plus favorables, est égale au double de l'indemnité prévue par l'article L. 1234-9.\n\nToutefois, ces indemnités ne sont pas dues par l'employeur qui établit que le refus par le salarié du reclassement qui lui est proposé est abusif.\n\nLes dispositions du présent article ne se cumulent pas avec les avantages de même nature prévus par des dispositions conventionnelles ou contractuelles en vigueur au 7 janvier 1981 et destinés à compenser le préjudice résultant de la perte de l'emploi consécutive à l'accident du travail ou à la maladie professionnelle.",
+          "words": 140
+        },
+        {
+          "num": "L1226-15",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035643503",
+          "text": "Lorsqu'un licenciement est prononcé en méconnaissance des dispositions relatives à la réintégration du salarié, prévues à l'article L. 1226-8, le tribunal saisi peut proposer la réintégration du salarié dans l'entreprise, avec maintien de ses avantages acquis.\nIl en va de même en cas de licenciement prononcé en méconnaissance des dispositions relatives au reclassement du salarié déclaré inapte prévues aux articles L. 1226-10 à L. 1226-12.\nEn cas de refus de réintégration par l'une ou l'autre des parties, le juge octroie une indemnité au salarié dont le montant est fixé conformément aux dispositions de l'article L. 1235-3-1. Elle se cumule avec l'indemnité compensatrice et, le cas échéant, l'indemnité spéciale de licenciement, prévues à l'article L. 1226-14.\n\nLorsqu'un licenciement est prononcé en méconnaissance des dispositions du dernier alinéa de l'article L. 1226-12, il est fait application des dispositions prévues par l'article L. 1235-2 en cas d'inobservation de la procédure de licenciement.",
+          "words": 149
+        },
+        {
+          "num": "L1226-16",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900983",
+          "text": "Les indemnités prévues aux articles L. 1226-14 et L. 1226-15 sont calculées sur la base du salaire moyen qui aurait été perçu par l'intéressé au cours des trois derniers mois s'il avait continué à travailler au poste qu'il occupait avant la suspension du contrat de travail provoquée par l'accident du travail ou la maladie professionnelle.\n\nPour le calcul de ces indemnités, la notion de salaire est définie par le taux personnel, les primes, les avantages de toute nature, les indemnités et les gratifications qui composent le revenu.",
+          "words": 87
+        },
+        {
+          "num": "L1226-17",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900984",
+          "text": "En cas de procédure de sauvegarde, de redressement ou de liquidation judiciaire, les dispositions relatives aux créances salariales mentionnées aux articles L. 3253-15, L. 3253-19 à L. 3253-21 sont applicables au paiement des indemnités prévues aux articles L. 1226-14 et L. 1226-15.",
+          "words": 42
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195605",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre VI : Maladie, accident et inaptitude médicale > Section 3 : Accident du travail ou maladie professionnelle",
+      "title": "Sous-section 5 : Salarié titulaire d'un contrat de travail à durée déterminée.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1226-18",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900985",
+          "text": "Lorsque le salarié victime d'un accident ou d'une maladie professionnelle est titulaire d'un contrat de travail à durée déterminée, l'employeur ne peut rompre le contrat au cours des périodes de suspension du contrat que s'il justifie soit d'une faute grave de l'intéressé, soit d'un cas de force majeure.",
+          "words": 48
+        },
+        {
+          "num": "L1226-19",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900986",
+          "text": "Les périodes de suspension du contrat de travail consécutives à un accident du travail ou à une maladie professionnelle ne font pas obstacle à l'échéance du contrat de travail à durée déterminée.\n\nToutefois, lorsque ce contrat comporte une clause de renouvellement, l'employeur ne peut, au cours des périodes de suspension, refuser le renouvellement que s'il justifie d'un motif réel et sérieux, étranger à l'accident ou à la maladie. A défaut, il verse au salarié une indemnité correspondant au préjudice subi, qui ne peut être inférieure au montant des salaires et avantages que le salarié aurait reçus jusqu'au terme de la période de renouvellement prévue au contrat.",
+          "words": 106
+        },
+        {
+          "num": "L1226-20",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033024877",
+          "text": "Lorsque le salarié est titulaire d'un contrat à durée déterminée, les dispositions des deuxième et dernier alinéas de l'article L. 1226-12 et des articles L. 1226-14 à L. 1226-16, relatives aux conditions de licenciement d'un salarié victime d'un accident du travail ou d'une maladie professionnelle, ne sont pas applicables.\n\nSi l'employeur justifie de son impossibilité de proposer un emploi, dans les conditions prévues aux articles L. 1226-10 et L. 1226-11, au salarié déclaré inapte titulaire d'un tel contrat ou si le salarié refuse un emploi offert dans ces conditions ou si l'avis du médecin du travail mentionne expressément que tout maintien du salarié dans l'emploi serait gravement préjudiciable à sa santé ou que l'état de santé du salarié fait obstacle à tout reclassement dans l'emploi, l'employeur est en droit de procéder à la rupture du contrat.\n\nLes dispositions visées aux articles L. 1226-10 et L. 1226-11 s'appliquent également aux salariés en contrat de travail à durée déterminée.\n\nLa rupture du contrat ouvre droit, pour le salarié, à une indemnité dont le montant ne peut être inférieur au double de celui de l'indemnité prévue à l'article L. 1234-9. Cette indemnité de rupture est versée selon les mêmes modalités que l'indemnité de précarité prévue à l'article L. 1243-8.",
+          "words": 206
+        },
+        {
+          "num": "L1226-21",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033024870",
+          "text": "Lorsque le salarié n'est pas déclaré inapte à l'issue des périodes de suspension, la rupture du contrat de travail à durée déterminée par l'employeur en méconnaissance des dispositions de l'article L. 1226-8 ouvre droit à une indemnité correspondant au préjudice subi. Cette indemnité ne peut être inférieure au montant des salaires et avantages qu'il aurait reçus jusqu'au terme de la période en cours de validité de son contrat.\n\nIl en va de même pour un salarié déclaré inapte en cas de rupture par l'employeur en méconnaissance des dispositions des articles L. 1226-10 et L. 1226-11 ou du deuxième alinéa de l'article L. 1226-20.",
+          "words": 103
+        },
+        {
+          "num": "L1226-22",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900989",
+          "text": "En cas de procédure de sauvegarde, de redressement ou de liquidation judiciaire, les dispositions relatives aux créances salariales mentionnées aux articles L. 3253-15, L. 3253-19 à L. 3253-21 sont applicables au paiement des indemnités prévues aux articles L. 1226-20 et L. 1226-21.",
+          "words": 42
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189431",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre VI : Maladie, accident et inaptitude médicale",
+      "title": "Section 4 : Dispositions particulières aux départements de la Moselle, du Bas-Rhin et du Haut-Rhin.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1226-23",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054336510",
+          "text": "Le salarié dont le contrat de travail est suspendu pour une cause personnelle indépendante de sa volonté et pour une durée relativement sans importance a droit au maintien de son salaire.\n\nToutefois, pendant la suspension du contrat, les indemnités versées par un régime d'assurances sociales obligatoire sont déduites du montant de la rémunération due par l'employeur.\n\nEn contrepartie du maintien du salaire versé au salarié en congé de maladie, l'employeur peut faire procéder à une contre-visite médicale dans les conditions prévues à l'avant-dernier alinéa de l'article L. 1226-1. Lorsque la contre-visite médicale conclut à l'absence de justification de l'arrêt de travail ou lorsqu'il est impossible de procéder au contrôle pour un motif imputable au salarié, l'employeur peut interrompre le maintien du salaire.",
+          "words": 122
+        },
+        {
+          "num": "L1226-24",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018764627",
+          "text": "Le commis commercial qui, par suite d'un accident dont il n'est pas fautif, est dans l'impossibilité d'exécuter son contrat de travail a droit à son salaire pour une durée maximale de six semaines.\n\nPendant cette durée, les indemnités versées par une société d'assurance ou une mutuelle ne sont pas déduites du montant de la rémunération due par l'employeur. Toute stipulation contraire est nulle.\n\nEst un commis commercial le salarié qui, employé par un commerçant au sens de l'article L. 121-1 du code de commerce, occupe des fonctions commerciales au service de la clientèle.",
+          "words": 93
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006177856",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail",
+      "title": "Chapitre VII : Dispositions pénales.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L1227-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900992",
+          "text": "Le fait pour un directeur ou un salarié de révéler ou de tenter de révéler un secret de fabrication est puni d'un emprisonnement de deux ans et d'une amende de 30 000 euros.\n\nLa juridiction peut également prononcer, à titre de peine complémentaire, pour une durée de cinq ans au plus, l'interdiction des droits civiques, civils et de famille prévue par l'article 131-26 du code pénal.",
+          "words": 66
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000024214340",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 1 : Déclaration préalable à l'embauche",
+      "title": "Sous-section 1 : Mentions obligatoires et portée de la déclaration",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R1221-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035492419",
+          "text": "La déclaration préalable à l'embauche comporte les mentions suivantes :\n\n1° Dénomination sociale ou nom et prénoms de l'employeur, code APE, adresse de l'employeur, numéro du système d'identification du répertoire des entreprises et de leurs établissements ainsi que le service de santé au travail dont l'employeur dépend s'il relève du régime général de sécurité sociale ;\n\n2° Nom, prénoms, sexe, date et lieu de naissance du salarié ainsi que son numéro national d'identification s'il est déjà immatriculé à la sécurité sociale ;\n\n3° Date et heure d'embauche ;\n\n4° Nature, durée du contrat ainsi que durée de la période d'essai éventuelle pour les contrats à durée indéterminée et les contrats à durée déterminée dont le terme ou la durée minimale excède six mois ;\n\n5° Lorsqu'il s'agit de l'embauche d'un salarié agricole, les données nécessaires au calcul par les caisses de mutualité sociale agricole des cotisations dues pour l'emploi de salariés agricoles, à l'affiliation de ces mêmes salariés aux institutions mentionnées à l'article L. 727-2 du code rural et de la pêche maritime et à l'organisation de la visite d'information et de prévention ou de l'examen médical d'aptitude à l'embauche prévus aux articles R. 717-13 et R. 717-16 du même code.",
+          "words": 201
+        },
+        {
+          "num": "R1221-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039809034",
+          "text": "Au moyen de la déclaration préalable à l'embauche, l'employeur accomplit les déclarations et demandes suivantes :\n\n1° L'immatriculation de l'employeur au régime général de la sécurité sociale, s'il s'agit d'un salarié non agricole, prévue à l'article R. 243-2 du code de la sécurité sociale, ou l'immatriculation de l'employeur à l'établissement national des invalides de la marine, si la déclaration est relative à un marin salarié ;\n\n2° L'immatriculation du salarié à la caisse primaire d'assurance maladie prévue à l'article R. 312-4 du code de la sécurité sociale ou, s'il s'agit d'un salarié agricole, à la caisse de mutualité sociale agricole prévue à l'article R. 722-34 du code rural et de la pêche maritime ou, s'il s'agit d'un marin salarié, à l'établissement national des invalides de la marine, en application des articles L. 5551-1 et L. 5551-2 du code des transports ;\n\n3° L'affiliation de l'employeur au régime d'assurance chômage prévue à l'article R. 5422-5 du présent code ;\n\n4° La demande d'adhésion à un service de santé au travail, s'il s'agit d'un salarié non agricole, prévu à l'article L. 4622-7 du présent code ;\n\n5° La demande de visite d'information et de prévention prévue au deuxième alinéa de l'article L. 4624-1 du présent code ou la demande d'examen médical d'aptitude à l'embauche prévu à l'article L. 4624-2 du présent code, ou, s'il s'agit d'un salarié agricole, aux articles R. 717-13 et R. 717-16 du code rural et de la pêche maritime ;\n\n6° La déclaration destinée à l'affiliation des salariés agricoles aux institutions prévues à l'article L. 727-2 du code rural et de la pêche maritime.",
+          "words": 266
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018537932",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 1 : Déclaration préalable à l'embauche",
+      "title": "Sous-section 2 : Organisme destinataire",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R1221-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039809055",
+          "text": "La déclaration préalable à l'embauche est adressée par l'employeur :\n\n1° Soit à l'organisme de recouvrement des cotisations du régime général de sécurité sociale dans le ressort territorial duquel est situé l'établissement devant employer le salarié et au service de santé au travail mentionné au 1° de l'article R. 1221-1 ;\n\n2° Soit, s'il s'agit d'un salarié relevant du régime de la protection sociale agricole, à la caisse de mutualité sociale agricole du lieu de travail de ce salarié.\n\n3° Soit, s'il s'agit d'un salarié relevant du régime spécial des marins, à l'union pour le recouvrement des cotisations de sécurité sociale et d'allocations familiales mentionnée à l'article L. 213-4 du code de la sécurité sociale.",
+          "words": 115
+        },
+        {
+          "num": "R1221-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024214323",
+          "text": "La déclaration préalable à l'embauche est adressée au plus tôt dans les huit jours précédant la date prévisible de l'embauche.",
+          "words": 20
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018537926",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 1 : Déclaration préalable à l'embauche",
+      "title": "Sous-section 3 : Transmission",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R1221-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053220410",
+          "text": "La déclaration préalable à l'embauche est effectuée par voie électronique.\n\nA défaut d'utiliser la voie électronique, la déclaration est effectuée au moyen d'un formulaire fixé par arrêté des ministres chargés du travail et de la sécurité sociale, ainsi que, lorsque la déclaration concerne un salarié relevant du régime de protection sociale agricole, du ministre chargé de l'agriculture.\n\nL'employeur adresse ce formulaire, signé par lui, à l'organisme mentionné à l'article R. 1221-3 par lettre recommandée avec demande d'avis de réception envoyée au plus tard le dernier jour ouvrable précédant l'embauche, le cachet de la poste faisant foi. L'employeur conserve un double de la lettre et le récépissé postal jusqu'à réception du document prévu à l'article R. 1221-7.\n\nL'indisponibilité de l'un des moyens de transmission mentionnés ci-dessus n'exonère pas l'employeur de son obligation de déclaration par l'autre moyen.",
+          "words": 136
+        },
+        {
+          "num": "R1221-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024214315",
+          "text": "Lorsque la déclaration est effectuée par voie électronique par un employeur relevant du régime général de sécurité sociale préalablement inscrit à un service d'authentification, la formalité est réputée accomplie au moyen de la fourniture du numéro d'identification de l'établissement employeur, du numéro national d'identification du salarié s'il est déjà immatriculé à la sécurité sociale et s'il a déjà fait l'objet d'une déclaration préalable à l'embauche dans un délai fixé par arrêté ainsi que des mentions prévues aux 3° et 4° de l'article R. 1221-1.",
+          "words": 84
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018537920",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 1 : Déclaration préalable à l'embauche",
+      "title": "Sous-section 4 : Preuve de la déclaration préalable à l'embauche",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R1221-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024214313",
+          "text": "L'organisme destinataire adresse à l'employeur un document accusant réception de la déclaration et mentionnant les informations enregistrées, dans les cinq jours ouvrables suivant celui de la réception du formulaire de déclaration.\n\nA défaut de contestation par l'employeur des informations figurant sur ce document, dans le délai de deux jours ouvrables suivant la réception de celui-ci, le document constitue une preuve de la déclaration.",
+          "words": 63
+        },
+        {
+          "num": "R1221-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024214311",
+          "text": "L'employeur conserve l'avis de réception jusqu'à l'accomplissement de la déclaration prévue par l'article R. 243-14 du code de la sécurité sociale pour les salariés non agricoles et par l'article R. 741-2 du code rural et de la pêche maritime pour les salariés agricoles.",
+          "words": 43
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018537914",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 1 : Déclaration préalable à l'embauche",
+      "title": "Sous-section 5 : Documents à remettre au salarié",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R1221-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024214309",
+          "text": "Lors de l'embauche du salarié, l'employeur lui fournit une copie de la déclaration préalable à l'embauche ou de l'accusé de réception.\n\nCette obligation de remise est considérée comme satisfaite dès lors que le salarié dispose d'un contrat de travail écrit, accompagné de la mention de l'organisme destinataire de la déclaration.",
+          "words": 50
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018537906",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 1 : Déclaration préalable à l'embauche",
+      "title": "Sous-section 6 : Contrôle et sanctions administratives",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R1221-12",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024214305",
+          "text": "Sur toute demande des agents de contrôle mentionnés à l'article L. 8271-7, l'employeur :\n\n1° Présente l'avis de réception de la déclaration préalable à l'embauche s'il est encore tenu de le conserver en application de l'article R. 1221-8 ;\n\n2° Communique, tant qu'il n'a pas reçu l'avis de réception, les éléments leur permettant de vérifier qu'il a bien procédé à la déclaration préalable à l'embauche du salarié.",
+          "words": 67
+        },
+        {
+          "num": "R1221-13",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024214298",
+          "text": "La pénalité prévue à l'article L. 1221-11 en cas de non-respect de l'obligation de déclaration préalable à l'embauche est recouvrée selon les modalités et dans les conditions fixées :\n\n1° Dans les secteurs autres que le secteur agricole, à l'article R. 243-19 du code de la sécurité sociale ;\n\n2° Dans le secteur agricole, à l'article L. 725-3 du code rural et de la pêche maritime.",
+          "words": 66
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000024214249",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 1 : Déclaration préalable à l'embauche",
+      "title": "Sous-section 7 : Obligations de l'organisme destinataire",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R1221-14",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024214276",
+          "text": "L'organisme mentionné à l'article R. 1221-3 communique les renseignements portés sur la déclaration préalable à l'embauche à chaque administration, service, organisme ou institution concerné par l'une ou l'autre des déclarations ou demandes prévues à l'article R. 1221-2, selon leurs compétences respectives.\n\nCes destinataires finaux sont seuls compétents pour apprécier la validité des déclarations et informations transmises les concernant.",
+          "words": 58
+        },
+        {
+          "num": "R1221-15",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049816315",
+          "text": "Les modalités de la transmission mentionnée à l'article R. 1221-14 sont fixées par voie de conventions passées :\n\n1° Soit par l'Agence centrale des organismes de sécurité sociale avec :\n\na) Le ministre chargé du travail ;\n\nb) L'opérateur France Travail ;\n\nc) La Caisse nationale de l'assurance maladie ;\n\nd) La Caisse nationale d'assurance vieillesse ;\n\n2° Soit par la caisse centrale de la Mutualité sociale agricole avec :\n\na) Le ministre chargé du travail ;\n\nb) L'opérateur France Travail ;\n\nc) Les institutions de retraite complémentaire et de prévoyance mentionnées à l'article L. 727-2 du code rural et de la pêche maritime.\n\nCes conventions prévoient les modalités de rémunération du service rendu par l'organisme ou la caisse mentionné à l'article R. 1221-3.",
+          "words": 124
+        },
+        {
+          "num": "R1221-16",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024214263",
+          "text": "L'organisme mentionné à l'article R. 1221-3 conserve les données qui y sont portées pendant un délai de six mois suivant la date de leur réception pour les besoins des administrations, services, organismes ou institutions concernés.",
+          "words": 35
+        },
+        {
+          "num": "R1221-17",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049816312",
+          "text": "L'organisme mentionné à l'article R. 1221-3 transmet à l'opérateur France Travail les informations suivantes portées sur la déclaration préalable à l'embauche :\n\n1° Les éléments d'identification de l'employeur ;\n\n2° Le numéro national d'identification du salarié ;\n\n3° La date d'embauche du salarié, son sexe et sa date de naissance ;\n\n4° La nature et la durée du contrat de travail ;\n\n5° La durée de la période d'essai.",
+          "words": 69
+        },
+        {
+          "num": "R1221-18",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045283920",
+          "text": "A partir des données de la déclaration préalable à l'embauche que lui transmet l'organisme mentionné à l'article R. 1221-3, la Caisse nationale d'assurance vieillesse des travailleurs salariés vérifie que le numéro d'inscription au répertoire national d'identification des personnes physiques (NIR) ou le numéro d'identification d'attente (NIA) du salarié porté sur ladite déclaration correspond aux données d'état civil qui figurent sur cette même déclaration.\n\nEn cas d'absence de numéro d'inscription au répertoire national d'identification des personnes physiques et de numéro d'identification d'attente ou en cas de numéro d'inscription au répertoire national d'identification des personnes physiques ou de numéro d'identification d'attente erroné dans la déclaration préalable à l'embauche, la Caisse nationale d'assurance vieillesse des travailleurs salariés renvoie à l'organisme mentionné à l'article R. 1221-3 un bilan d'identification comprenant, lorsqu'elle a pu retrouver celui-ci, le numéro d'inscription au répertoire national d'identification des personnes physique ou numéro d'identification d'attente à utiliser. L'organisme mentionné à l'article précité avise l'employeur de la disponibilité de ce bilan d'identification afin que, notamment, il rectifie ou complète les données transmises dans la déclaration sociale nominative.",
+          "words": 176
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000029134706",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 1 : Déclaration préalable à l'embauche",
+      "title": "Sous-section 8 : Obligation de dématérialisation",
+      "part": "D",
+      "articles": [
+        {
+          "num": "D1221-18",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029134788",
+          "text": "I. - Les employeurs dont le personnel relève du régime général de sécurité sociale, autres que les particuliers employant un salarié à leur service, qui ont accompli plus de 50 déclarations préalables à l'embauche au cours de l'année civile précédente sont tenus d'adresser ces déclarations par voie électronique.\n\nII. - Les employeurs dont le personnel relève du régime de protection sociale agricole qui ont accompli plus de 50 déclarations préalables à l'embauche au cours de l'année civile précédente sont tenus d'adresser les déclarations préalables à l'embauche par voie électronique.",
+          "words": 89
+        },
+        {
+          "num": "D1221-19",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029134104",
+          "text": "La méconnaissance de l'obligation de déclaration préalable à l'embauche dématérialisée entraîne l'application d'une pénalité égale, par salarié, à 0,5 % du plafond mensuel de la sécurité sociale.",
+          "words": 27
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000024214278",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail",
+      "title": "Section 2 : Registre unique du personnel",
+      "part": "D",
+      "articles": [
+        {
+          "num": "D1221-23",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537878",
+          "text": "Les indications complémentaires portées sur le registre unique du personnel pour chaque salarié, mentionnées au troisième alinéa de l'article L. 1221-13, sont les suivantes :\n1° La nationalité ;\n2° La date de naissance ;\n3° Le sexe ;\n4° L'emploi ;\n5° La qualification ;\n6° Les dates d'entrée et de sortie de l'établissement ;\n7° Lorsqu'une autorisation d'embauche ou de licenciement est requise, la date de cette autorisation ou, à défaut, la date de la demande d'autorisation ;\n8° Pour les travailleurs étrangers assujettis à la possession d'un titre autorisant l'exercice d'une activité salariée, le type et le numéro d'ordre du titre valant autorisation de travail ;\n9° Pour les travailleurs titulaires d'un contrat de travail à durée déterminée, la mention « contrat à durée déterminée » ;\n10° Pour les salariés temporaires, la mention « salarié temporaire » ainsi que le nom et l'adresse de l'entreprise de travail temporaire ;\n11° Pour les travailleurs mis à disposition par un groupement d'employeurs, la mention « mis à disposition par un groupement d'employeurs » ainsi que la dénomination et l'adresse de ce dernier ;\n12° Pour les salariés à temps partiel, la mention « salarié à temps partiel » ;\n13° Pour les jeunes travailleurs titulaires d'un contrat d'apprentissage ou de professionnalisation, la mention « apprenti » ou « contrat de professionnalisation ».",
+          "words": 224
+        },
+        {
+          "num": "D1221-23-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029814209",
+          "text": "Pour chaque stagiaire mentionné au troisième alinéa de l'article L. 1221-13, les indications complémentaires, portées sur le registre unique du personnel ou pour les organismes ne disposant pas d'un registre unique du personnel dans tout autre document permettant de suivre les conventions de stage, sont les suivantes :\n\n1° Les nom et prénoms du stagiaire ;\n\n2° Les dates de début et de fin de la période de formation en milieu professionnel ou du stage ;\n\n3° Les nom et prénoms du tuteur ainsi que le lieu de présence du stagiaire.",
+          "words": 91
+        },
+        {
+          "num": "D1221-24",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036483477",
+          "text": "Une copie des titres autorisant l'exercice d'une activité salariée des travailleurs étrangers est annexée au registre unique du personnel et rendue accessible aux membres de la délégation du personnel du comité social et économique et aux fonctionnaires et agents chargés de veiller à l'application du présent code et du code de la sécurité sociale. Elle est tenue à leur disposition soit dans l'établissement, soit sur chaque chantier ou lieu de travail distinct de l'établissement pour ceux des travailleurs étrangers qui y sont employés.",
+          "words": 83
+        },
+        {
+          "num": "D1221-24-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042168257",
+          "text": "Les accusés de réception des déclarations de détachement mentionnées aux articles R. 1263-3, R. 1263-4 et R. 1263-6 sont annexés au registre unique du personnel et rendus accessibles aux membres de la délégation du personnel du comité social et économique et aux fonctionnaires et agents chargés de veiller à l'application du présent code et du code de la sécurité sociale. Ils sont tenus à leur disposition soit dans l'établissement, soit sur chaque chantier ou lieu de travail distinct de l'établissement pour ceux des travailleurs détachés qui y sont employés.",
+          "words": 89
+        },
+        {
+          "num": "D1221-25",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029825324",
+          "text": "Les mentions relatives à des événements postérieurs à l'embauche du salarié, ou à l'arrivée du stagiaire sont portées sur le registre unique du personnel au moment où ceux-ci surviennent.",
+          "words": 29
+        },
+        {
+          "num": "R1221-26",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031392972",
+          "text": "Les mentions portées sur le registre unique du personnel sont conservées pendant cinq ans à compter de la date à laquelle le salarié ou le stagiaire a quitté l'établissement.",
+          "words": 29
+        },
+        {
+          "num": "D1221-27",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036483458",
+          "text": "Lorsque l'employeur recourt à un support de substitution pour la tenue du registre unique du personnel, les exigences des articles D. 8113-2 et D. 8113-3 sont applicables.\n\nDans ce cas, l'employeur adresse à l'inspection du travail l'avis du comité social et économique prévu à l'article L. 2315-5.",
+          "words": 47
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018537866",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 3 : Autres formalités",
+      "title": "Sous-section 1 : Relevé mensuel des contrats de travail",
+      "part": "D",
+      "articles": [
+        {
+          "num": "D1221-28",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537864",
+          "text": "Les dispositions de la présente sous-section sont applicables aux entreprises et établissements de cinquante salariés et plus.",
+          "words": 17
+        },
+        {
+          "num": "D1221-29",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023052052",
+          "text": "Dans les huit premiers jours de chaque mois, l'employeur adresse à la direction de l'animation de la recherche, des études et des statistiques (DARES) le relevé des contrats de travail conclus ou rompus au cours du mois précédent.\n\nCette disposition ne s'applique pas au contrat de travail à durée déterminée conclu pour une durée maximum d'un mois non renouvelable.",
+          "words": 59
+        },
+        {
+          "num": "D1221-30",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537860",
+          "text": "Le relevé mensuel des contrats de travail contient les mentions suivantes :\n1° Le nom et l'adresse de l'employeur ;\n2° La nature de l'activité de l'entreprise ;\n3° Les nom, prénoms, nationalité, date de naissance, sexe, emploi et qualification des salariés dont le contrat de travail a été conclu ou rompu ;\n4° La date d'effet des contrats de travail ou de leur rupture avec, en cas de licenciement pour motif économique, l'indication de la nature de ce motif.",
+          "words": 80
+        },
+        {
+          "num": "D1221-31",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537858",
+          "text": "Sur demande expresse des services chargés du contrôle de l'emploi, l'employeur communique l'adresse des salariés dont le contrat de travail a été conclu ou rompu, mentionnés au 3° de l'article D. 1221-30.",
+          "words": 32
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018537856",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 3 : Autres formalités",
+      "title": "Sous-section 2 : Autres déclarations préalables",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R1221-32",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537854",
+          "text": "La déclaration préalable prévue à l'article L. 1221-17 est accomplie par l'employeur.\nDans le cas prévu au 2° de ce même article, la déclaration est accomplie par le nouvel employeur, par lettre recommandée adressée à l'inspection du travail.\nLe récépissé de la lettre est présenté par l'employeur sur demande de l'inspection du travail à la première visite de celle-ci.",
+          "words": 59
+        },
+        {
+          "num": "R1221-33",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537852",
+          "text": "La déclaration préalable précise :\n1° Celui des cas prévus à l'article L. 1221-17 auquel elle répond ;\n2° Le nom et l'adresse du déclarant ;\n3° L'emplacement de l'établissement ;\n4° La nature exacte des industries ou des commerces exercés.",
+          "words": 41
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000048286103",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 3 : Autres formalités > Sous-section 3 : Informations délivrées au salarié",
+      "title": "Paragraphe 1 : Informations dues à tous les salariés",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R1221-34",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048288642",
+          "text": "Les documents mentionnés à l'article L. 1221-5-1 comportent au moins les informations suivantes :\n\n1° L'identité des parties à la relation de travail ;\n\n2° Le lieu ou les lieux de travail et, si elle est distincte, l'adresse de l'employeur ;\n\n3° L'intitulé du poste, les fonctions, la catégorie socioprofessionnelle ou la catégorie d'emploi ;\n\n4° La date d'embauche ;\n\n5° Dans le cas d'une relation de travail à durée déterminée, la date de fin ou la durée prévue de celle-ci ;\n\n6° Dans le cas du salarié temporaire mentionné à l'article L. 1251-1, l'identité de l'entreprise utilisatrice, lorsqu'elle est connue et aussitôt qu'elle l'est ;\n\n7° Le cas échéant, la durée et les conditions de la période d'essai ;\n\n8° Le droit à la formation assuré par l'employeur conformément à l'article L. 6321-1 ;\n\n9° La durée du congé payé auquel le salarié a droit, ou les modalités de calcul de cette durée ;\n\n10° La procédure à observer par l'employeur et le salarié en cas de cessation de leur relation de travail ;\n\n11° Les éléments constitutifs de la rémunération mentionnés à l'article L. 3221-3, indiqués séparément, y compris les majorations pour les heures supplémentaires, ainsi que la périodicité et les modalités de paiement de cette rémunération ;\n\n12° La durée de travail quotidienne, hebdomadaire, mensuelle ou ses modalités d'aménagement sur une autre période de référence lorsqu'il est fait application des dispositions des articles L. 3121-41 à L. 3121-47, les conditions dans lesquelles le salarié peut être conduit à effectuer des heures supplémentaires ou complémentaires, ainsi que, le cas échéant, toute modalité concernant les changements d'équipe en cas d'organisation du travail en équipes successives alternantes ;\n\n13° Les conventions et accords collectifs applicables au salarié dans l'entreprise ou l'établissement ;\n\n14° Les régimes obligatoires auxquels est affilié le salarié, la mention des contrats de protection sociale complémentaire dont les salariés bénéficient collectivement en application d'un accord collectif ou d'une décision unilatérale de l'employeur ainsi que, le cas échéant, les conditions d'ancienneté qui y sont attachées.",
+          "words": 337
+        },
+        {
+          "num": "R1221-35",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048288640",
+          "text": "La communication des informations mentionnées aux 7° à 12° et 14° de l'article R. 1221-34 peut prendre la forme d'un renvoi aux dispositions législatives et réglementaires ou aux stipulations conventionnelles applicables.\n\nLes informations mentionnées aux 1° à 5°, 7° et aux 11° et 12° du même article sont communiquées individuellement au salarié au plus tard le septième jour calendaire à compter de la date d'embauche. Les autres informations sont communiquées au plus tard un mois à compter de la même date.",
+          "words": 81
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000048286364",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 3 : Autres formalités > Sous-section 3 : Informations délivrées au salarié",
+      "title": "Paragraphe 2 : Informations dues aux salariés appelés à travailler à l'étranger",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R1221-36",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048286381",
+          "text": "I.-Lorsqu'un salarié exerçant habituellement son activité professionnelle en France est appelé à travailler à l'étranger pour une durée supérieure à quatre semaines consécutives, les documents mentionnés au premier alinéa de l'article L. 1221-5-1 comportent, outre les informations prévues à l'article R. 1221-34, les informations suivantes :\n\n1° Le ou les pays dans lesquels le travail à l'étranger est effectué et la durée prévue ;\n\n2° La devise servant au paiement de la rémunération ;\n\n3° Le cas échéant, les avantages en espèces et en nature liés aux tâches concernées ;\n\n4° Des renseignements indiquant si le rapatriement est organisé et, s'il l'est, les conditions de rapatriement du salarié.\n\nII.-Lorsqu'il relève du champ d'application de la directive 96/71/ CE du Parlement européen et du Conseil du 16 décembre 1996 concernant le détachement de travailleurs effectué dans le cadre d'une prestation de services, défini à l'article 1er de cette directive, le salarié mentionné au I du présent article appelé à travailler dans un autre Etat membre de l'Union européenne ou de l'Espace économique européen, est, en outre, informé :\n\n1° De la rémunération à laquelle il a droit en vertu du droit applicable de l'Etat d'accueil ;\n\n2° Le cas échéant, des allocations propres au détachement et des modalités de remboursement des dépenses de voyage, de logement et de nourriture ;\n\n3° De l'adresse du site internet national mis en place par l'Etat d'accueil conformément aux dispositions de l'article 5, paragraphe 2 de la directive 2014/67/ UE du Parlement européen et du Conseil du 15 mai 2014 relative à l'exécution de la directive 96/71/ CE.",
+          "words": 263
+        },
+        {
+          "num": "R1221-37",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048286383",
+          "text": "La communication des informations mentionnées au 2° du I et au 1° du II de l'article R. 1221-36 du présent code peut prendre la forme d'un renvoi aux dispositions législatives, réglementaires ou aux stipulations conventionnelles applicables.\n\nSans préjudice des dispositions du second alinéa de l'article R. 1221-35, les informations prévues à l'article R. 1221-34 et celles mentionnées à l'article R. 1221-36 sont communiquées au salarié appelé à travailler à l'étranger avant son départ.",
+          "words": 73
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000048286370",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre Ier : Formation du contrat de travail > Section 3 : Autres formalités > Sous-section 3 : Informations délivrées au salarié",
+      "title": "Paragraphe 3 : Dispositions communes",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R1221-38",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048286385",
+          "text": "Un arrêté du ministre chargé du travail fixe des modèles de documents visant à faciliter la mise en œuvre des dispositions de la présente sous-section.",
+          "words": 25
+        },
+        {
+          "num": "R1221-39",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048286387",
+          "text": "L'employeur adresse les informations mentionnées aux articles R. 1221-34 et R. 1221-36 sous format papier, par tout moyen conférant date certaine.\n\nIl peut également les adresser sous format électronique, sous réserve que :\n\n1° Le salarié dispose d'un moyen d'accéder à une information sous format électronique ;\n\n2° Les informations puissent être enregistrées et imprimées ;\n\n3° L'employeur conserve un justificatif de la transmission ou de la réception de ces informations.",
+          "words": 71
+        },
+        {
+          "num": "R1221-40",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048286389",
+          "text": "Lorsqu'une ou plusieurs des informations mentionnées aux articles R. 1221-34 et R. 1221-36 doivent être modifiées, l'employeur remet au salarié un document indiquant ces modifications dans les plus brefs délais, et au plus tard à la date de prise d'effet de cette modification, selon les modalités prévues à l'article R. 1221-39.\n\nLes dispositions de l'alinéa précédent ne sont pas applicables lorsque la modification d'informations mentionnées à l'article R. 1221-34 résulte exclusivement d'un changement des dispositions législatives et réglementaires ou des stipulations conventionnelles en vigueur.",
+          "words": 84
+        },
+        {
+          "num": "R1221-41",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048286391",
+          "text": "Le salarié qui n'a pas reçu les informations mentionnées aux articles R. 1221-34 et R. 1221-36 dans les délais prévus, respectivement, au second alinéa de l'article R. 1221-35 et au second alinéa de l'article R. 1221-37, ne peut saisir la juridiction prud'homale qu'à la condition d'avoir mis son employeur en demeure de les lui communiquer ou de les compléter, et en l'absence de transmission des informations en cause par ce dernier dans un délai de sept jours calendaires à compter de la réception de la mise en demeure.",
+          "words": 88
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018537850",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail",
+      "title": "Chapitre II : Exécution et modification du contrat de travail",
+      "part": "D",
+      "articles": [
+        {
+          "num": "D1222-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537848",
+          "text": "Le délai d'un an pendant lequel l'employeur ne peut opposer la clause d'exclusivité prévue à l'article L. 1222-5 court à compter :\n1° Soit de l'inscription du salarié au registre du commerce et des sociétés ou au répertoire des métiers ;\n2° Soit de sa déclaration de début d'activité professionnelle agricole ou indépendante.",
+          "words": 53
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018537772",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre VI : Maladie, accident et inaptitude médicale",
+      "title": "Section 1 : Absences pour maladie ou accident",
+      "part": "D",
+      "articles": [
+        {
+          "num": "D1226-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537770",
+          "text": "L'indemnité complémentaire prévue à l'article L. 1226-1 est calculée selon les modalités suivantes :\n1° Pendant les trente premiers jours,90 % de la rémunération brute que le salarié aurait perçue s'il avait continué à travailler ;\n2° Pendant les trente jours suivants, deux tiers de cette même rémunération.",
+          "words": 48
+        },
+        {
+          "num": "D1226-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019225871",
+          "text": "Les durées d'indemnisation sont augmentées de dix jours par période entière de cinq ans d'ancienneté en plus de la durée d'une année requise à l'article L. 1226-1, sans que chacune d'elle puisse dépasser quatre-vingt-dix jours.",
+          "words": 35
+        },
+        {
+          "num": "D1226-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019225874",
+          "text": "Lors de chaque arrêt de travail, les durées d'indemnisation courent à compter du premier jour d'absence si celle-ci est consécutive à un accident du travail ou à une maladie professionnelle, à l'exclusion des accidents de trajet.\n\nToutefois, dans tous les autres cas, le délai d'indemnisation court au-delà de sept jours d'absence.",
+          "words": 51
+        },
+        {
+          "num": "D1226-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537764",
+          "text": "Pour le calcul des indemnités dues au titre d'une période de paie, il est tenu compte des indemnités déjà perçues par l'intéressé durant les douze mois antérieurs, de telle sorte que si plusieurs absences pour maladie ou accident ont été indemnisées au cours de ces douze mois, la durée totale d'indemnisation ne dépasse pas celle applicable en application des articles D. 1226-1 et D. 1226-2.",
+          "words": 65
+        },
+        {
+          "num": "D1226-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537762",
+          "text": "Sont déduites de l'indemnité complémentaire les allocations que le salarié perçoit de la sécurité sociale et des régimes complémentaires de prévoyance, mais en ne retenant dans ce dernier cas que la part des prestations résultant des versements de l'employeur.",
+          "words": 39
+        },
+        {
+          "num": "D1226-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537760",
+          "text": "Lorsque les indemnités de la sécurité sociale sont réduites du fait, notamment, de l'hospitalisation ou d'une sanction par la caisse du non respect de son règlement intérieur, elles sont réputées servies intégralement pour le calcul de l'indemnité complémentaire.",
+          "words": 38
+        },
+        {
+          "num": "D1226-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537758",
+          "text": "La rémunération à prendre en considération pour le calcul de l'indemnité complémentaire est celle correspondant à l'horaire pratiqué pendant l'absence du salarié dans l'établissement ou partie d'établissement.\nToutefois, si l'horaire des salariés a été augmenté par suite de l'absence du salarié, cette augmentation n'est pas prise en considération pour la fixation de la rémunération.",
+          "words": 54
+        },
+        {
+          "num": "D1226-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537756",
+          "text": "L'ancienneté prise en compte pour la détermination du droit à l'indemnité complémentaire s'apprécie au premier jour de l'absence.",
+          "words": 18
+        },
+        {
+          "num": "D1226-8-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045368382",
+          "text": "La durée d'arrêt de travail à partir de laquelle l'organisation d'un rendez-vous de liaison est possible est de trente jours.",
+          "words": 20
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018537754",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre VI : Maladie, accident et inaptitude médicale",
+      "title": "Section 2 : Accident du travail ou maladie professionnelle",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R1226-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537752",
+          "text": "La transformation d'un poste réalisée en application de l'article L. 1226-10 peut donner lieu à attribution de l'aide financière prévue à l'article L. 5213-10.",
+          "words": 24
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000049898794",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail > Chapitre VI : Maladie, accident et inaptitude médicale",
+      "title": "Section 3 : Contre-visite",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R1226-10",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049898796",
+          "text": "Le salarié communique à l'employeur, dès le début de l'arrêt de travail délivré en application de l'article L. 321-1 du code de la sécurité sociale ainsi qu'à l'occasion de tout changement, son lieu de repos s'il est différent de son domicile et, s'il bénéficie d'un arrêt de travail portant la mention “ sortie libre ” prévue à l'article R. 323-11-1 du même code, les horaires auxquels la contre-visite mentionnée à l'article L. 1226-1 peut s'effectuer.",
+          "words": 75
+        },
+        {
+          "num": "R1226-11",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049898798",
+          "text": "La contre-visite est effectuée par un médecin mandaté par l'employeur. Ce médecin se prononce sur le caractère justifié de l'arrêt de travail, y compris sa durée.\n\nLa contre-visite s'effectue à tout moment de l'arrêt de travail et, au choix du médecin :\n\n-soit au domicile du salarié ou au lieu communiqué par lui en application de l'article R. 1226-10, en s'y présentant, sans qu'aucun délai de prévenance ne soit exigé, en dehors des heures de sortie autorisées en application de l'article R. 323-11-1 du code de la sécurité sociale ou, s'il y a lieu, aux heures communiquées en application de l'article R. 1226-10 du présent code ;\n\n-soit au cabinet du médecin, sur convocation de celui-ci par tout moyen conférant date certaine à la convocation. Si le salarié est dans l'impossibilité de se déplacer, notamment en raison de son état de santé, il en informe le médecin en en précisant les raisons.",
+          "words": 152
+        },
+        {
+          "num": "R1226-12",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049898800",
+          "text": "Au terme de sa mission et sans préjudice des obligations qui lui incombent en application du II de l'article L. 315-1 du code de la sécurité sociale, le médecin informe l'employeur, soit du caractère justifié ou injustifié de l'arrêt de travail, soit de l'impossibilité de procéder au contrôle pour un motif imputable au salarié, tenant notamment à son refus de se présenter à la convocation ou à son absence lors de la visite à domicile.\n\nL'employeur transmet sans délai cette information au salarié.",
+          "words": 83
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018537750",
+      "path": "Première partie : Les relations individuelles de travail > Livre II : Le contrat de travail > Titre II : Formation et exécution du contrat de travail",
+      "title": "Chapitre VII : Dispositions pénales",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R1227-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537748",
+          "text": "Le fait de ne pas procéder à la déclaration préalable à l'embauche, prévue à l'article L. 1221-10, dans les conditions déterminées aux articles R. 1221-1 à R. 1221-6, est puni de l'amende prévue pour les contraventions de la cinquième classe.",
+          "words": 40
+        },
+        {
+          "num": "R1227-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024214367",
+          "text": "Est puni de l'amende prévue pour les contraventions de la quatrième classe le fait :\n\n1° De contrevenir aux dispositions de l'article R. 1221-9 relatives à la remise d'une copie de la déclaration préalable à l'embauche ou de l'accusé de réception au salarié ou, à défaut, de ne pas délivrer au salarié de contrat écrit accompagné de la mention de l'organisme destinataire de la déclaration préalable d'embauche ;\n\n2° De ne pas présenter à toute réquisition des agents de contrôle mentionnés à l'article L. 8271-7 l'avis de réception prévu par l'article R. 1221-7 s'il est encore tenu de le conserver en application de l'article R. 1221-8 ou, tant qu'il n'a pas reçu cet avis, de ne pas leur communiquer les éléments leur permettant de vérifier qu'il a procédé à la déclaration préalable à l'embauche du salarié, en méconnaissance des dispositions de l'article R. 1221-12.",
+          "words": 144
+        },
+        {
+          "num": "R1227-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537744",
+          "text": "Le fait de ne pas informer le service public de l'emploi d'une embauche ou de la rupture d'un contrat de travail, en méconnaissance des dispositions de l'article L. 1221-16 et de l'arrêté pris pour son application, est puni de l'amende prévue pour les contraventions de la quatrième classe.",
+          "words": 48
+        },
+        {
+          "num": "R1227-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020398255",
+          "text": "Le fait de ne pas fournir les renseignements prévus aux articles D. 1221-30 et D. 1221-31, relatifs au relevé mensuel des contrats de travail, est puni de l'amende prévue pour les contraventions de la quatrième classe.",
+          "words": 36
+        },
+        {
+          "num": "R1227-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537740",
+          "text": "Est puni des amendes prévues pour les contraventions de la cinquième classe le fait de méconnaître les dispositions :\n\n1° Des articles L. 1225-1 à L. 1225-28 ainsi que celles des articles R. 1225-1, R. 1225-3, R. 1225-4, R. 1225-11, relatives à la protection de la grossesse et de la maternité ;\n\n2° Des articles L. 1225-35 et L. 1225-36, relatives au congé de paternité ;\n\n3° Des articles L. 1225-37 à L. 1225-45, relatives au congé d'adoption ;\n\n4° Des articles L. 1225-47 à L. 1225-52 et L. 1225-55, relatives au congé parental et au passage à temps partiel pour l'éducation d'un enfant ;\n\n5° Des articles L. 1225-66 et L. 1225-67, relatives à la démission pour élever un enfant.\n\nLa récidive de la contravention prévue au présent article est réprimée conformément aux articles 132-11 et 132-15 du code pénal.",
+          "words": 141
+        },
+        {
+          "num": "R1227-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018537738",
+          "text": "Le fait de méconnaître les dispositions des articles L. 1225-29 à L. 1225-33, relatives à l'interdiction d'emploi prénatal et postnatal ainsi qu'à l'allaitement, est puni de l'amende prévue pour les contraventions de la cinquième classe, prononcée autant de fois qu'il y a de salariés concernés par l'infraction.\n\nLa récidive de la contravention prévue au présent article est réprimée conformément aux articles 132-11 et 132-15 du code pénal.\n\nEn cas de pluralité de contraventions entraînant les peines de la récidive, l'amende est appliquée autant de fois qu'il a été relevé de nouvelles infractions.",
+          "words": 92
+        },
+        {
+          "num": "R1227-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030422217",
+          "text": "Est puni de l'amende prévue pour les contraventions de la quatrième classe le fait de méconnaître les dispositions :\n\n1° Des articles L. 1221-13, L. 1221-15 et L. 1221-15-1, D. 1221-23 à R. 1221-26, relatives au registre unique du personnel ;\n\n2° Des articles L. 1221-17 et R. 1221-32 à R. 1221-33, relatives aux autres cas de déclaration préalable.\n\nCette amende est appliquée autant de fois qu'il y a de personnes employées dans des conditions susceptibles d'être sanctionnées au titre des dispositions de cet article.",
+          "words": 85
+        }
+      ]
+    }
+  ]
+}

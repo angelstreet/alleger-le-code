@@ -1,0 +1,222 @@
+{
+  "country": "CH",
+  "source": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr ; https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr ; https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr ; consolidated HTML via https://fedlex.data.admin.ch/filestore/... (Loi sur la participation, RS 822.14, état 1er janvier 2011 -- latest consolidation on record; CO état 1er janvier 2026; LTr état 1er septembre 2023)",
+  "fetched_at": "2026-09-10",
+  "topic": "Représentation du personnel",
+  "code_totals": {
+    "co_titre10": {
+      "articles": 139,
+      "words": 14230,
+      "range": "art. 319–362"
+    },
+    "ltr": {
+      "articles": 83,
+      "words": 7288
+    },
+    "co_whole": {
+      "articles": 1603,
+      "words": 120996
+    },
+    "note": "Counts are per <article> element in the Fedlex consolidated HTML (fr), including lettered sub-articles (e.g. 335a) and a handful of jointly-repealed article ranges (e.g. 'art. 226a–226d') that count as one element each. Words = whitespace-separated tokens of the plain article text (footnote markers/footnotes excluded). CO whole = art. 1–1186 (Livre cinquième du Code civil suisse), état 1er janvier 2026. LTr = RS 822.11, état 1er septembre 2023.",
+    "olt1": {
+      "articles": 86,
+      "words": 12117
+    },
+    "olt3": {
+      "articles": 42,
+      "words": 3402
+    },
+    "opa": {
+      "articles": 132,
+      "words": 12321
+    }
+  },
+  "topic_totals": {
+    "articles": 18,
+    "words": 1273
+  },
+  "sections": [
+    {
+      "id": "participation-sec-1",
+      "path": "Loi sur la participation > Section 1 Dispositions générales",
+      "title": "Dispositions générales",
+      "articles": [
+        {
+          "num": "Art. 1",
+          "marginal_title": "Champ d’application",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_1",
+          "text": "La présente loi s’applique à toutes les entreprises privées qui, en Suisse, occupent des travailleurs en permanence.",
+          "words": 17
+        },
+        {
+          "num": "Art. 2",
+          "marginal_title": "Dérogations",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_2",
+          "text": "Il peut être dérogé à la présente loi en faveur des travailleurs. Les dérogations en défaveur des travailleurs ne sont admises que par voie de convention collective de travail; elles sont exclues en ce qui concerne les art. 3, 6, 9, 10, 12 et 14, al. 2, let. b.",
+          "words": 49
+        },
+        {
+          "num": "Art. 3",
+          "marginal_title": "Droit d’être représenté",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_3",
+          "text": "Dans les entreprises occupant au moins cinquante travailleurs, ceux-ci peuvent élire parmi eux des représentants, regroupés en une ou plusieurs représentations.",
+          "words": 21
+        },
+        {
+          "num": "Art. 4",
+          "marginal_title": "Participation dans les entreprises sans représentation des travailleurs",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_4",
+          "text": "Dans les entreprises ou secteurs d’entreprise sans représentation des travailleurs, ces derniers exercent directement le droit à l’information et le droit à la participation prévus aux art. 9 et 10.",
+          "words": 30
+        }
+      ]
+    },
+    {
+      "id": "participation-sec-2",
+      "path": "Loi sur la participation > Section 2 Représentation des travailleurs",
+      "title": "Représentation des travailleurs",
+      "articles": [
+        {
+          "num": "Art. 5",
+          "marginal_title": "Election initiale",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_5",
+          "text": "1 Lorsque la demande en est faite par un cinquième des travailleurs, il y a lieu de déterminer, par un vote secret, si la majorité des votants souhaite la formation d’une représentation. Dans les entreprises comptant plus de 500 travailleurs, il suffit que le vote soit demandé par cent d’entre eux.\n2 L’élection doit être organisée si la majorité des votants s’est prononcée en faveur de la formation d’une telle représentation.\n3 L’employeur et les travailleurs organisent en commun la votation et l’élection.",
+          "words": 83
+        },
+        {
+          "num": "Art. 6",
+          "marginal_title": "Principes régissant les élections",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_6",
+          "text": "Les élections sont générales et libres. Sur demande d’un cinquième des travailleurs participant à l’élection, celle-ci doit se dérouler au bulletin secret.",
+          "words": 22
+        },
+        {
+          "num": "Art. 7",
+          "marginal_title": "Nombre de représentants",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_7",
+          "text": "1 Le nombre des représentants des travailleurs est déterminé conjointement par l’employeur et les travailleurs. La taille et la structure de l’entreprise doivent être équitablement prises en compte.\n2 La représentation compte trois membres au moins.",
+          "words": 36
+        },
+        {
+          "num": "Art. 8",
+          "marginal_title": "Mandat",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_8",
+          "text": "La représentation des travailleurs défend, envers l’employeur, les intérêts communs des travailleurs. Elle les informe régulièrement sur son activité.",
+          "words": 19
+        }
+      ]
+    },
+    {
+      "id": "participation-sec-3",
+      "path": "Loi sur la participation > Section 3 Droits de participation",
+      "title": "Droits de participation",
+      "articles": [
+        {
+          "num": "Art. 9",
+          "marginal_title": "Droit à l’information",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_9",
+          "text": "1 La représentation des travailleurs a le droit d’être informée en temps opportun et de manière complète sur toutes les affaires dont la connaissance lui est nécessaire pour s’acquitter convenablement de ses tâches.\n2 L’employeur est tenu d’informer la représentation des travailleurs au moins une fois par an sur les conséquences de la marche des affaires sur l’emploi et pour le personnel.",
+          "words": 62
+        },
+        {
+          "num": "Art. 10",
+          "marginal_title": "Droits de participation particuliers",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_10",
+          "text": "La représentation des travailleurs dispose, sur la base de la législation y relative, de droits de participation dans les domaines suivants:\na. sécurité au travail au sens de l’art. 82 de la loi fédérale du 20 mars 1981 sur l’assurance-accidents et protection des travailleurs au sens de l’art. 48 de la loi du 13 mars 1964 sur le travail;\nb. le transfert de l’entreprise au sens des art. 333 et 333a du code des obligations;\nc. les licenciements collectifs au sens de l’art. 335d à 335g du code des obligations;\nd. l’affiliation à une institution de la prévoyance professionnelle et la résiliation d’un contrat d’affiliation.",
+          "words": 105
+        }
+      ]
+    },
+    {
+      "id": "participation-sec-4",
+      "path": "Loi sur la participation > Section 4 Collaboration",
+      "title": "Collaboration",
+      "articles": [
+        {
+          "num": "Art. 11",
+          "marginal_title": "Principe",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_11",
+          "text": "1 La collaboration entre l’employeur et la représentation des travailleurs dans le domaine de l’exploitation de l’entreprise repose sur le principe de la bonne foi.\n2 L’employeur doit soutenir la représentation des travailleurs dans l’exercice de ses activités. Il met à sa disposition les locaux, les moyens matériels et les services administratifs nécessaires.",
+          "words": 53
+        },
+        {
+          "num": "Art. 12",
+          "marginal_title": "Protection des représentants des travailleurs",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_12",
+          "text": "1 L’employeur n’a pas le droit d’empêcher les représentants des travailleurs d’exercer leur mandat.\n2 Il ne doit pas défavoriser les représentants des travailleurs, pendant ou après leur mandat, en raison de l’exercice de cette activité. Cette protection est aussi étendue aux personnes se portant candidates à l’élection dans une représentation des travailleurs.",
+          "words": 53
+        },
+        {
+          "num": "Art. 13",
+          "marginal_title": "Exercice du mandat pendant les heures de travail",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_13",
+          "text": "Les représentants des travailleurs peuvent exercer leur mandat durant les heures de travail à condition que ce mandat l’exige et que leurs activités professionnelles le permettent.",
+          "words": 26
+        },
+        {
+          "num": "Art. 14",
+          "marginal_title": "Devoir de discrétion",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_14",
+          "text": "1 Les représentants des travailleurs sont tenus de garder, à l’égard des personnes étrangères à l’entreprise qui n’ont pas qualité pour assurer la défense des intérêts du personnel, le secret sur les affaires qui concernent l’exploitation de l’entreprise et qui sont portées à leur connaissance dans le cadre de leur mandat.\n2 L’employeur et les représentants des travailleurs sont tenus de garder le secret envers toute personne en ce qui concerne:\na. les affaires pour lesquelles l’employeur ou la représentation des travailleurs sur la base d’intérêts légitimes l’exigent expressément;\nb. les affaires personnelles des travailleurs.\n3 Les travailleurs qui n’ont pas de représentation dans l’entreprise et qui exercent directement les droits à l’information et le droit d’être consultés au sens de l’art. 4, de même que les personnes étrangères à l’entreprise qui ont le droit d’être informées au sens de l’al. 1, sont aussi liés par le devoir de discrétion.\n4 Les travailleurs qui ont été informés par la représentation des travailleurs, en application de l’art. 8 de la présente loi, sont aussi tenus de garder le secret.\n5 Le devoir de discrétion subsiste alors même que la charge a pris fin.",
+          "words": 192
+        }
+      ]
+    },
+    {
+      "id": "participation-sec-5",
+      "path": "Loi sur la participation > Section 5 Organisation et procédure judiciaire",
+      "title": "Organisation et procédure judiciaire",
+      "articles": [
+        {
+          "num": "Art. 15",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_15",
+          "text": "1 Les conflits découlant de l’application de la présente loi ou d’une réglementation contractuelle de participation sont soumis aux autorités compétentes pour connaître des litiges relevant des rapports de travail, sous réserve de la compétence accordée aux organes contractuels de conciliation et d’arbitrage.\n2 Ont qualité pour recourir les employeurs et les travailleurs intéressés et leurs associations. Dans ce dernier cas, seule l’action en constatation est admissible.\n3 ...",
+          "words": 69
+        }
+      ]
+    },
+    {
+      "id": "participation-sec-6",
+      "path": "Loi sur la participation > Section 6 Dispositions finales",
+      "title": "Dispositions finales",
+      "articles": [
+        {
+          "num": "Art. 16",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/1994/1037_1037_1037/fr#art_16",
+          "text": "1 La présente loi est sujette au référendum facultatif.\n2 Le Conseil fédéral fixe la date de l’entrée en vigueur.\nDate de l’entrée en vigueur: 1er mai 1994",
+          "words": 28
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-protection-conges",
+      "path": "CO > Titre dixième > Protection contre les congés",
+      "title": "Protection contre les congés",
+      "articles": [
+        {
+          "num": "Art. 336",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_336",
+          "text": "1 Le congé est abusif lorsqu’il est donné par une partie:\na. pour une raison inhérente à la personnalité de l’autre partie, à moins que cette raison n’ait un lien avec le rapport de travail ou ne porte sur un point essentiel un préjudice grave au travail dans l’entreprise;\nb. en raison de l’exercice par l’autre partie d’un droit constitutionnel, à moins que l’exercice de ce droit ne viole une obligation résultant du contrat de travail ou ne porte sur un point essentiel un préjudice grave au travail dans l’entreprise;\nc. seulement afin d’empêcher la naissance de prétentions juridiques de l’autre partie, résultant du contrat de travail;\nd. parce que l’autre partie fait valoir de bonne foi des prétentions résultant du contrat de travail;\ne. parce que l’autre partie accomplit un service obligatoire, militaire ou dans la protection civile, ou un service civil, en vertu de la législation fédérale, ou parce qu’elle accomplit une obligation légale lui incombant sans qu’elle ait demandé de l’assumer.\n2 Est également abusif le congé donné par l’employeur:\na. en raison de l’appartenance ou de la non-appartenance du travailleur à une organisation de travailleurs ou en raison de l’exercice conforme au droit d’une activité syndicale;\nb. pendant que le travailleur, représentant élu des travailleurs, est membre d’une commission d’entreprise ou d’une institution liée à l’entreprise et que l’employeur ne peut prouver qu’il avait un motif justifié de résiliation.\nc. sans respecter la procédure de consultation prévue pour les licenciements collectifs (art. 335f).\n3 Dans les cas prévus à l’al. 2, let. b, la protection du représentant des travailleurs dont le mandat a pris fin en raison d’un transfert des rapports de travail (art. 333) est maintenue jusqu’au moment où ce mandat aurait expiré si le transfert n’avait pas eu lieu.",
+          "words": 295
+        }
+      ]
+    },
+    {
+      "id": "ltr-participation",
+      "path": "LTr > Participation",
+      "title": "Information et consultation",
+      "articles": [
+        {
+          "num": "Art. 48",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_48",
+          "text": "1 Les travailleurs ou leurs représentants dans l’entreprise ont le droit d’être informés et consultés sur les affaires concernant:\na. les questions relatives à la protection de la santé;\nb. l’organisation du temps de travail et l’aménagement des horai­res de travail;\nc. les mesures prévues à l’art. 17e concernant le travail de nuit.\n2 Le droit d’être consulté comprend le droit d’être entendu sur ces affaires et d’en débattre avant que l’employeur ne prenne une déci­sion, ainsi que le droit d’obtenir communication des motifs de la déci­sion prise lorsque les objections soulevées par les travailleurs ou leurs re­présentants dans l’entreprise n’ont pas été prises en considération, ou qu’elles ne l’ont été que partiellement.",
+          "words": 113
+        }
+      ]
+    }
+  ]
+}

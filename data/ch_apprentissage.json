@@ -1,0 +1,230 @@
+{
+  "country": "CH",
+  "source": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr ; https://www.fedlex.admin.ch/eli/cc/2003/674/fr ; consolidated HTML via https://fedlex.data.admin.ch/filestore/... (CO état 1er janvier 2026; LFPr [RS 412.10] état 1er mars 2025; OFPr [RS 412.101] état 1er mars 2025, context only)",
+  "fetched_at": "2026-09-10",
+  "topic": "Apprentissage",
+  "code_totals": {
+    "co_titre10": {
+      "articles": 139,
+      "words": 14230,
+      "range": "art. 319–362"
+    },
+    "ltr": {
+      "articles": 83,
+      "words": 7288
+    },
+    "co_whole": {
+      "articles": 1603,
+      "words": 120996
+    },
+    "note": "Counts are per <article> element in the Fedlex consolidated HTML (fr), including lettered sub-articles (e.g. 335a) and a handful of jointly-repealed article ranges (e.g. 'art. 226a–226d') that count as one element each. Words = whitespace-separated tokens of the plain article text (footnote markers/footnotes excluded). CO whole = art. 1–1186 (Livre cinquième du Code civil suisse), état 1er janvier 2026. LTr = RS 822.11, état 1er septembre 2023.",
+    "olt1": {
+      "articles": 86,
+      "words": 12117
+    },
+    "olt3": {
+      "articles": 42,
+      "words": 3402
+    },
+    "opa": {
+      "articles": 132,
+      "words": 12321
+    },
+    "lfpr": {
+      "articles": 76,
+      "words": 6275
+    },
+    "ofpr": {
+      "articles": 99,
+      "words": 10042
+    }
+  },
+  "topic_totals": {
+    "articles": 20,
+    "words": 2462
+  },
+  "sections": [
+    {
+      "id": "co-tit10-chap2-A-contrat-apprentissage",
+      "path": "CO > Titre dixième > Chapitre II > A. Du contrat d’apprentissage",
+      "title": "Du contrat d’apprentissage",
+      "articles": [
+        {
+          "num": "Art. 344",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_344",
+          "text": "Par le contrat d’apprentissage, l’employeur s’engage à former la personne en formation à l’exercice d’une activité professionnelle déterminée, conformément aux règles du métier, et la personne en formation s’engage à travailler au service de l’employeur pour acquérir cette formation.",
+          "words": 39
+        },
+        {
+          "num": "Art. 344a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_344_a",
+          "text": "1 Le contrat d’apprentissage n’est valable que s’il est passé par écrit.\n2 Le contrat règle la nature et la durée de la formation professionnelle, le salaire, le temps d’essai, l’horaire de travail et les vacances.\n3 Le temps d’essai ne doit pas être inférieur à un mois ni supérieur à trois mois. S’il n’est pas fixé dans le contrat, il est de trois mois.\n4 Avant l’expiration du temps d’essai, ce dernier peut exceptionnellement être prolongé jusqu’à six mois, d’entente entre les parties et avec l’approbation des autorités cantonales.\n5 Le contrat peut contenir d’autres clauses, notamment sur la fourniture des instruments de travail, la contribution aux frais de logement et d’entretien, le paiement de primes d’assurances ou d’autres prestations des parties.\n6 Les accords qui portent atteinte à la libre décision de la personne en formation quant à son activité professionnelle après l’apprentissage sont nuls.",
+          "words": 147
+        },
+        {
+          "num": "Art. 345",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_345",
+          "text": "1 La personne en formation s’efforce d’atteindre le but de l’apprentissage.\n2 Le représentant légal de la personne en formation appuie de son mieux l’employeur dans sa tâche et favorise la bonne entente entre celui-ci et la personne en formation.",
+          "words": 40
+        },
+        {
+          "num": "Art. 345a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_345_a",
+          "text": "1 L’employeur veille à ce que la personne en formation soit formée sous la responsabilité d’une personne du métier ayant les capacités professionnelles et les qualités personnelles nécessaires.\n2 Il laisse à la personne en formation, sans réduction de salaire, le temps nécessaire pour suivre les cours de l’école professionnelle et les cours interentreprises, et pour passer l’examen de fin d’apprentissage.\n3 Il accorde à la personne en formation, jusqu’à l’âge de 20 ans révolus, au moins cinq semaines de vacances par année d’apprentissage.\n4 Il ne peut occuper la personne en formation à des travaux étrangers à l’activité professionnelle envisagée et à des travaux aux pièces ou à la tâche que s’ils sont en relation avec l’exercice de la profession et que sa formation n’est pas compromise.",
+          "words": 128
+        },
+        {
+          "num": "Art. 346",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_346",
+          "text": "1 Pendant le temps d’essai, le contrat d’apprentissage peut être résilié en tout temps moyennant un délai de congé de sept jours.\n2 Le contrat d’apprentissage peut être résilié immédiatement pour de justes motifs au sens de l’art. 337, notamment:\na. si la personne responsable de la formation n’a pas les capacités professionnelles ou les qualités personnelles nécessaires pour former la personne en formation;\nb. si la personne en formation n’a pas les aptitudes physiques ou intellectuelles indispensables à sa formation ou si sa santé ou sa moralité est compromise; la personne en formation et, le cas échéant, ses représentants légaux, doivent être entendus au préalable;\nc. si la formation ne peut être achevée ou ne peut l’être que dans des conditions essentiellement différentes de celles qui avaient été prévues.",
+          "words": 130
+        },
+        {
+          "num": "Art. 346a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_346_a",
+          "text": "1 L’employeur délivre à la personne en formation, au terme de l’apprentissage, un certificat indiquant l’activité professionnelle apprise et la durée de l’apprentissage.\n2 À la demande de la personne en formation ou de son représentant légal, le certificat porte aussi sur les aptitudes, le travail et la conduite de la personne en formation.",
+          "words": 54
+        }
+      ]
+    },
+    {
+      "id": "lfpr-chap2-sec1-dispositions-generales",
+      "path": "LFPr > Chapitre 2 > Section 1 Dispositions générales",
+      "title": "Section 1 Dispositions générales",
+      "articles": [
+        {
+          "num": "Art. 12",
+          "marginal_title": "Préparation à la formation professionnelle initiale",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2003/674/fr#art_12",
+          "text": "Les cantons prennent des mesures pour préparer à la formation professionnelle initiale les personnes qui, arrivées à la fin de la scolarité obligatoire, accusent un déficit de formation.",
+          "words": 28
+        },
+        {
+          "num": "Art. 13",
+          "marginal_title": "Déséquilibres sur le marché de la formation professionnelle initiale",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2003/674/fr#art_13",
+          "text": "Le Conseil fédéral peut, dans le cadre des moyens disponibles, prendre des mesures de durée limitée pour corriger les déséquilibres qui se sont produits ou qui menacent de se produire sur le marché de la formation professionnelle initiale.",
+          "words": 38
+        },
+        {
+          "num": "Art. 14",
+          "marginal_title": "Contrat d’apprentissage",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2003/674/fr#art_14",
+          "text": "1 Les personnes qui commencent une formation et les prestataires de la formation à la pratique professionnelle concluent un contrat d’apprentissage. Ce contrat est régi par les dispositions y relatives du code des obligations (art. 344 à 346a), à moins que la présente loi n’en dispose autrement.\n2 Le contrat est conclu au début de l’apprentissage et porte sur toute la durée de la formation. Il peut être conclu pour chaque partie de l’apprentissage si ce dernier a lieu successivement dans plusieurs entreprises.\n3 Le contrat doit être approuvé par les autorités cantonales. Aucun émolument ne peut être prélevé pour cette approbation.\n4 Si le contrat d’apprentissage est résilié, le prestataire de la formation doit en aviser immédiatement l’autorité cantonale et, le cas échéant, l’école professionnelle.\n5 Si l’entreprise formatrice ferme ses portes ou qu’elle n’assure plus la formation professionnelle initiale conformément aux prescriptions légales, l’autorité cantonale veille à ce que la formation initiale entamée puisse autant que possible être terminée normalement.\n6 Les dispositions de la loi sont applicables à l’apprentissage même si les parties omettent de conclure un contrat, qu’elles ne soumettent pas le contrat à l’approbation de l’autorité cantonale ou qu’elles le lui soumettent tardivement.",
+          "words": 198
+        }
+      ]
+    },
+    {
+      "id": "lfpr-chap2-sec2-structure",
+      "path": "LFPr > Chapitre 2 > Section 2 Structure",
+      "title": "Section 2 Structure",
+      "articles": [
+        {
+          "num": "Art. 15",
+          "marginal_title": "Objet",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2003/674/fr#art_15",
+          "text": "1 La formation professionnelle initiale vise à transmettre et à faire acquérir les compétences, les connaissances et le savoir-faire (ci-après qualifications) indispensables à l’exercice d’une activité dans une profession, un champ professionnel ou un champ d’activité (ci-après activité professionnelle).\n2 Elle permet notamment à la personne en formation d’acquérir:\na. les qualifications spécifiques qui lui permettront d’exercer une activité professionnelle avec compétence et en toute sécurité;\nb. la culture générale de base qui lui permettra d’accéder au monde du travail et d’y rester ainsi que de s’intégrer dans la société;\nc. les connaissances et les compétences économiques, écologiques, sociales et culturelles qui lui permettront de contribuer au développement durable;\nd. l’aptitude et la disponibilité à apprendre tout au long de sa vie, d’exercer son sens critique et de prendre des décisions.\n3 Elle fait suite à l’école obligatoire ou à une qualification équivalente. Le Conseil fédéral détermine les critères permettant de fixer l’âge minimum des personnes qui commencent une formation professionnelle initiale.\n4 Les ordonnances sur la formation fixent les modalités de l’enseignement obligatoire dispensé dans une deuxième langue.\n5 L’éducation physique est régie par la loi du 17 juin 2011 sur l’encouragement du sport.",
+          "words": 195
+        },
+        {
+          "num": "Art. 16",
+          "marginal_title": "Contenus, lieux de formation, responsabilités",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2003/674/fr#art_16",
+          "text": "1 La formation professionnelle initiale comprend:\na. une formation à la pratique professionnelle;\nb. une formation scolaire composée d’une partie de culture générale et d’une partie spécifique à la profession;\nc. des compléments à la formation à la pratique professionnelle et à la formation scolaire, là où l’exige l’apprentissage de la profession.\n2 La formation professionnelle initiale se déroule en règle générale dans les lieux de formation suivants:\na. dans l’entreprise formatrice, un réseau d’entreprises formatrices, une école de métiers, une école de commerce ou dans d’autres institutions accréditées à cette fin, pour ce qui concerne la formation à la pratique professionnelle;\nb. dans une école professionnelle, pour ce qui concerne la formation générale et la formation spécifique à la profession;\nc. dans les cours interentreprises et dans d’autres lieux de formation comparables, pour ce qui concerne les compléments à la formation à la pratique professionnelle et à la formation scolaire.\n3 Les parts de la formation selon l’al. 1, la manière dont elles sont organisées et leur répartition dans le temps sont fixées dans les ordonnances sur la formation en fonction de l’activité professionnelle et de ses exigences.\n4 La responsabilité à l’égard des personnes en formation est fonction du contrat d’apprentissage. En l’absence de contrat, la responsabilité est en règle générale déterminée en fonction du lieu de formation.\n5 Pour atteindre les buts de la formation professionnelle initiale, les prestataires de la formation à la pratique professionnelle, de la formation scolaire et des cours interentreprises et d’autres lieux de formation collaborent.",
+          "words": 253
+        },
+        {
+          "num": "Art. 17",
+          "marginal_title": "Types de formation et durée",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2003/674/fr#art_17",
+          "text": "1 La formation professionnelle initiale dure de deux à quatre ans.\n2 La formation professionnelle initiale de deux ans s’achève en règle générale par un examen qui donne droit à l’attestation fédérale de formation professionnelle. Elle est organisée de sorte que les offres tiennent particulièrement compte des besoins individuels des personnes en formation.\n3 La formation professionnelle initiale de trois ou quatre ans s’achève en règle générale par un examen de fin d’apprentissage qui donne droit au certificat fédéral de capacité.\n4 Le certificat fédéral de capacité et une attestation de formation générale approfondie donnent droit à la maturité professionnelle.\n5 La formation professionnelle initiale peut aussi s’acquérir par une formation professionnelle non formelle, laquelle s’achève par une procédure de qualification.",
+          "words": 121
+        },
+        {
+          "num": "Art. 18",
+          "marginal_title": "Prise en compte des besoins individuels",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2003/674/fr#art_18",
+          "text": "1 La durée de la formation professionnelle initiale peut être écourtée de manière appropriée pour les personnes qui ont beaucoup de facilité ou qui ont une formation préalable et prolongée pour les personnes qui ont des difficultés d’apprentissage ou qui présentent un handicap.\n2 Le Conseil fédéral édicte des dispositions particulières sur l’encadrement individuel spécialisé des personnes engagées dans une formation professionnelle initiale de deux ans qui ont des difficultés.\n3 La Confédération peut encourager l’encadrement professionnel individuel.",
+          "words": 78
+        },
+        {
+          "num": "Art. 19",
+          "marginal_title": "Ordonnances sur la formation",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2003/674/fr#art_19",
+          "text": "1 Le Secrétariat d’État à la formation, à la recherche et à l’innovation (SEFRI) édicte des ordonnances portant sur la formation professionnelle initiale. Il le fait à la demande des organisations du monde du travail ou, au besoin, de son propre chef.\n2 Les ordonnances sur la formation fixent en particulier:\na. les activités faisant l’objet d’une formation professionnelle initiale et la durée de celle-ci;\nb. les objectifs et les exigences de la formation à la pratique professionnelle;\nc. les objectifs et les exigences de la formation scolaire;\nd. l’étendue des contenus de la formation et les parts assumées par les lieux de formation;\ne. les procédures de qualification, les certificats délivrés et les titres décernés.\n3 Les procédures de qualification des formations non formelles se fondent sur les ordonnances correspondantes.\n4 …",
+          "words": 133
+        }
+      ]
+    },
+    {
+      "id": "lfpr-chap2-sec3-prestataires",
+      "path": "LFPr > Chapitre 2 > Section 3 Prestataires",
+      "title": "Section 3 Prestataires",
+      "articles": [
+        {
+          "num": "Art. 20",
+          "marginal_title": "Prestataires de la formation à la pratique professionnelle",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2003/674/fr#art_20",
+          "text": "1 Les prestataires de la formation à la pratique professionnelle font en sorte que les personnes en formation acquièrent un maximum de compétences, qu’ils évaluent périodiquement.\n2 Ils doivent avoir obtenu l’autorisation du canton pour former des apprentis; l’autorisation du canton ne fait l’objet d’aucun émolument.",
+          "words": 46
+        },
+        {
+          "num": "Art. 21",
+          "marginal_title": "École professionnelle",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2003/674/fr#art_21",
+          "text": "1 L’école professionnelle dispense la formation scolaire. Celle-ci comprend un enseignement professionnel et un enseignement de culture générale.\n2 L’école professionnelle a un mandat de formation qui lui est propre. Elle:\na. favorise l’épanouissement de la personnalité et les compétences sociales des personnes en formation en leur transmettant les connaissances théoriques de base nécessaires à l’exercice de leur profession ainsi qu’une bonne culture générale;\nb. met en valeur les talents des personnes en formation et satisfait, par des offres adéquates, aux besoins de celles qui ont beaucoup de facilité comme de celles qui éprouvent des difficultés;\nc. favorise l’égalité effective entre les sexes ainsi que l’élimination des désavantages que subissent les personnes handicapées en leur offrant des types et des programmes de formation adéquats.\n3 La fréquentation de l’école professionnelle est obligatoire.\n4 L’école professionnelle peut aussi proposer des programmes de formation professionnelle supérieure et des programmes de formation continue à des fins professionnelles.\n5 L’école professionnelle peut, en collaboration avec les organisations du monde du travail et les entreprises, participer à la mise sur pied de cours interentreprises et d’autres lieux de formation comparables.\n6 Elle peut assumer des tâches de coordination afin de promouvoir la collaboration des acteurs de la formation professionnelle.",
+          "words": 204
+        },
+        {
+          "num": "Art. 22",
+          "marginal_title": "Offre d’écoles professionnelles",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2003/674/fr#art_22",
+          "text": "1 Les cantons où est dispensée la formation à la pratique professionnelle veillent à ce que l’offre d’écoles professionnelles réponde aux besoins.\n2 L’enseignement obligatoire est gratuit.\n3 Les personnes qui remplissent les conditions requises dans l’entreprise formatrice et à l’école professionnelle peuvent suivre des cours facultatifs sans qu’aucune retenue ne soit opérée sur leur salaire. La fréquentation de ces cours est décidée en accord avec l’entreprise. En cas de désaccord, le canton tranche.\n4 Si une personne en formation a besoin de cours d’appui pour réussir l’école professionnelle, celle-ci peut, avec son accord et celui de l’entreprise formatrice, ordonner qu’elle suive de tels cours. En cas de désaccord, le canton tranche. La fréquentation de ces cours n’entraîne aucune retenue sur le salaire.\n5 Le SEFRI approuve, sur proposition des associations professionnelles, l’organisation de cours spécialisés intercantonaux lorsqu’une telle mesure est adaptée à l’objectif visé, qu’elle favorise la disponibilité des entreprises formatrices, qu’elle n’engendre pas de surcoûts excessifs et qu’elle n’occasionne pas de préjudices majeurs pour les participants.",
+          "words": 168
+        },
+        {
+          "num": "Art. 23",
+          "marginal_title": "Cours interentreprises et autres lieux de formation comparables",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2003/674/fr#art_23",
+          "text": "1 Les cours interentreprises et les autres lieux comparables visent à transmettre et à faire acquérir un savoir-faire de base. Ils complètent la pratique professionnelle et la formation scolaire lorsque la future activité professionnelle l’exige.\n2 Les cantons veillent, avec le concours des organisations du monde du travail, à ce que l’offre de cours interentreprises et d’autres lieux de formation comparables soit suffisante.\n3 La fréquentation des cours interentreprises est obligatoire. Les cantons peuvent, à la demande d’un prestataire de la formation à la pratique professionnelle, déroger à cette obligation si les personnes en formation suivent un enseignement équivalent dans le centre de formation d’une entreprise ou dans une école de métiers.\n4 Tout organisateur de cours interentreprises ou d’offres comparables peut exiger des entreprises formatrices ou des établissements de formation une contribution adéquate aux frais. Pour éviter les distorsions de la concurrence, les organisations du monde du travail qui proposent de tels cours peuvent exiger une contribution plus élevée des entreprises qui ne leur sont pas affiliées.\n5 Le Conseil fédéral fixe les conditions et le montant de ces contributions.",
+          "words": 181
+        }
+      ]
+    },
+    {
+      "id": "lfpr-chap2-sec4-surveillance",
+      "path": "LFPr > Chapitre 2 > Section 4 Surveillance",
+      "title": "Section 4 Surveillance",
+      "articles": [
+        {
+          "num": "Art. 24",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/2003/674/fr#art_24",
+          "text": "1 Les cantons veillent à assurer la surveillance de la formation professionnelle initiale.\n2 L’encadrement, l’accompagnement des parties aux contrats d’apprentissage et la coordination des activités des partenaires de la formation professionnelle initiale font partie de la surveillance.\n3 Font de surcroît l’objet de la surveillance notamment:\na. la qualité de la formation à la pratique professionnelle, y compris celle de la formation dispensée dans les cours interentreprises et d’autres lieux de formation comparables;\nb. la qualité de la formation scolaire;\nc. les examens et les autres procédures de qualification;\nd. le respect des dispositions légales du contrat d’apprentissage;\ne. le respect du contrat d’apprentissage par les parties.\n4 Sur proposition commune du prestataire de la formation professionnelle et de la personne en formation, le canton arrête des décisions portant sur:\na. l’équivalence des formations professionnelles non formelles visées à l’art. 17, al. 5;\nb. les cas visés à l’art. 18, al. 1.\n5 Dans le cadre de la surveillance, les cantons peuvent notamment:\na. exiger la rétrocession, partielle ou totale, des montants qu’ils ont transmis à des tiers en vertu de l’art. 52, al. 2, 2e phrase;\nb. annuler un contrat d’apprentissage.",
+          "words": 193
+        }
+      ]
+    },
+    {
+      "id": "lfpr-chap2-sec5-maturite-pro-federale",
+      "path": "LFPr > Chapitre 2 > Section 5 Maturité professionnelle fédérale",
+      "title": "Section 5 Maturité professionnelle fédérale",
+      "articles": [
+        {
+          "num": "Art. 25",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/2003/674/fr#art_25",
+          "text": "1 La maturité professionnelle fédérale rend son titulaire apte à suivre des études dans une haute école spécialisée.\n2 La formation générale approfondie visée à l’art. 17, al. 4, peut également être acquise après l’obtention du certificat fédéral de capacité.\n3 Les cantons veillent à ce que l’enseignement menant à la maturité professionnelle réponde aux besoins.\n4 L’enseignement menant à la maturité professionnelle dispensé dans les écoles publiques est gratuit. La Confédération et les cantons peuvent soutenir les prestataires privés.\n5 Le Conseil fédéral réglemente la maturité professionnelle.",
+          "words": 88
+        }
+      ]
+    }
+  ]
+}

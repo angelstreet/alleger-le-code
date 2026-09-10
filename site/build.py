@@ -31,7 +31,7 @@ class Topic:
             if exclude_re and re.search(exclude_re, s['path']): continue
             for a in s['articles']:
                 m = re.match(r'[LRD]\*?(\d{4})', a['num'])
-                if m and m.group(1) in prefixes:
+                if prefixes is None or (m and m.group(1) in prefixes):
                     n += 1; w += a['words']
         return n, w
 
@@ -42,7 +42,12 @@ class Topic:
         return CODE_URL
 
     def fr_sel(self, nums):
-        return [{'num': n, 'url': self.fr_arts[n]['url'], 'text': self.fr_arts[n]['text']} for n in nums]
+        out = []
+        for n in nums:
+            if n not in self.fr_arts:
+                print(f'  ! FR article {n} missing in {self.id}', file=sys.stderr); continue
+            out.append({'num': n, 'url': self.fr_arts[n]['url'], 'text': self.fr_arts[n]['text']})
+        return out
 
     def ch_sel(self, nums):
         out = []
@@ -428,6 +433,351 @@ if (root / 'data/ch_sante.json').exists() and (root / 'data/fr_sante.json').exis
     t4.check()
     topics.append(t4)
 
+# ---------------------------------------------------------------- Topic 5
+if (root / 'data/ch_representation.json').exists() and (root / 'data/fr_representation.json').exists():
+    t5 = Topic('representation', 'Représentation du personnel', 'Représentation du personnel et salariés protégés',
+               'Comment les salariés sont représentés dans l’entreprise, ce que l’employeur doit leur dire et leur demander, et comment leurs élus sont protégés.',
+               'Représenter les salariés dans l’entreprise : {fr} articles de loi en France, {ch} en Suisse.',
+               'fr_representation.json', 'ch_representation.json',
+               'Code du travail, 2e partie, Livre III, Titres I « Comité social et économique » et II « Conseil d’entreprise » (L2311 à L2321) + Livre IV « Salariés protégés » (L2411 à L2439), parties L, R et D',
+               'Loi fédérale sur l’information et la consultation des travailleurs (Loi sur la participation, 16 articles) ; CO art. 336 ; Loi sur le travail art. 48',
+               note='<b>Deux modèles.</b> Le CSE français est une institution complète : élections, budgets, heures de délégation, expertises, activités sociales, consultations obligatoires. La représentation suisse est une faculté : dès 50 salariés, les travailleurs peuvent élire une représentation, informée et consultée sur quelques sujets ; la négociation se fait surtout par les conventions collectives de branche. Hors périmètre : comité de groupe, comité d’entreprise européen, syndicats (Livre I).')
+    t5.share = t5.share.format(fr=t5.fr['topic_totals']['articles_total'], ch=t5.ch['topic_totals']['articles'])
+    L4 = lambda titre: t5.fr_match(None, path_re=r'Livre IV[^>]*> ' + titre + r'\b')
+
+    t5.row('elire', 'Question 1', 'Mettre en place le CSE et élire ses membres',
+        ['2311', '2313', '2314'], 'L2311-1 → L2314-37, R2313, R2314, D2314',
+        '<b>Dès 11 salariés</b>, un CSE ; dès 50, des attributions élargies. Périmètre (entreprise, établissements, UES), élections professionnelles (collèges, listes, parité, vote électronique, contentieux), durée des mandats.',
+        ['L2311-2', 'L2314-1'],
+        ['1', '2', '3', '4', '5', '6', '7', '8'], 'Loi sur la participation art. 1 à 8',
+        '<b>Dès 50 salariés</b>, les travailleurs peuvent élire une représentation ; élection à l’initiative d’un cinquième d’entre eux, principes d’élection, nombre de représentants, mandat — huit articles.',
+        ['simp', 'deleg'], 8,
+        ['<b>On garde</b> : les seuils de 11 et 50, l’élection à deux collèges, la parité, la durée du mandat.',
+         '<b>On simplifie</b> : le protocole préélectoral et le contentieux en deux articles ; le vote électronique par décret.',
+         '<b>On délègue</b> : le nombre de sièges et d’heures aux accords d’entreprise, avec un plancher légal.'])
+
+    t5.row('attributions', 'Question 2', 'Ce que le CSE doit savoir et être consulté',
+        ['2312'], 'L2312-1 → L2312-84, R2312',
+        '<b>143 articles</b> : présentation des réclamations, trois consultations récurrentes, consultations ponctuelles, base de données économiques et sociales (61 articles de décret), droits d’alerte, activités sociales et culturelles.',
+        ['L2312-8', 'L2312-17'],
+        ['9', '10', '48'], 'Loi sur la participation art. 9, 10 ; LTr art. 48',
+        '<b>Un droit à l’information</b> sur tout ce qui touche les travailleurs, au moins une fois par an sur la marche de l’entreprise ; participation particulière sur la santé, le transfert d’entreprise, les licenciements collectifs, la prévoyance (art. 10, LTr 48).',
+        ['simp', 'deleg'], 10,
+        ['<b>On garde</b> : les trois consultations annuelles, les consultations avant licenciement collectif et transfert, le droit d’alerte, les activités sociales.',
+         '<b>On simplifie</b> : la base de données en un article de principe et un décret ; les consultations ponctuelles regroupées en une liste.',
+         '<b>On délègue</b> : contenu et calendrier des informations aux accords d’entreprise.'])
+
+    t5.row('moyens', 'Question 3', 'Fonctionnement, heures, budgets, expertises',
+        ['2315'], 'L2315-1 → L2315-95, R2315, D2315',
+        '<b>151 articles</b> : heures de délégation, formation des élus, réunions, budgets de fonctionnement et des activités sociales, commissions obligatoires, expertises (financement, délais, contestation), règlement intérieur.',
+        ['L2315-7', 'L2315-61'],
+        ['11', '13', '14', '15', '16'], 'Loi sur la participation art. 11, 13 à 16',
+        '<b>Collaboration de bonne foi</b>, exercice du mandat pendant les heures de travail « dans la mesure nécessaire », devoir de discrétion, procédure judiciaire — cinq articles.',
+        ['simp', 'deleg'], 10,
+        ['<b>On garde</b> : les heures de délégation avec un plancher, le budget de fonctionnement, le droit à expertise.',
+         '<b>On simplifie</b> : une commission obligatoire (santé-sécurité) au lieu de cinq ; expertises en un régime unique.',
+         '<b>On délègue</b> : la formation, le règlement, le nombre de réunions aux accords.'])
+
+    t5.row('structures', 'Question 4', 'CSE central, d’établissement, conseil d’entreprise',
+        ['2316', '2317', '2321'], 'L2316-1 → L2321-10, R2316, D2316, R2321',
+        '<b>Entreprises à établissements multiples</b> : CSE central et CSE d’établissement, représentants de proximité ; conseil d’entreprise (CSE doté du pouvoir de négocier) ; sanctions.',
+        ['L2316-1', 'L2321-1'],
+        [], 'Aucun article',
+        '<b>Rien de spécifique</b> : la loi laisse l’organisation de la représentation à l’entreprise et aux conventions.',
+        ['simp'], 4,
+        ['<b>On garde</b> : le CSE central au-delà d’un seuil et le conseil d’entreprise.',
+         '<b>On simplifie</b> : répartition des attributions en un article ; le reste par accord.'])
+
+    t5.row('proteges', 'Question 5', 'Protéger les représentants contre le licenciement',
+        tuple(map(sum, zip(L4('Titre Ier'), L4('Titre II')))), 'L2411-1 → L2422-4, R2421, R2422',
+        '<b>Autorisation de l’inspection du travail</b> avant tout licenciement, transfert ou fin de CDD d’un salarié protégé ; vingt catégories de bénéficiaires listées ; durées de protection ; procédure administrative et recours.',
+        ['L2411-1', 'L2421-3'],
+        ['12', '336'], 'Loi sur la participation art. 12 ; CO art. 336',
+        '<b>Deux articles</b> : les représentants ne doivent subir aucun désavantage ; leur licenciement pendant le mandat est abusif, sauf motif justifié (indemnité jusqu’à six mois de salaire).',
+        ['simp'], 6,
+        ['<b>On garde</b> : l’autorisation administrative préalable, propre au droit français, et la nullité du licenciement sans autorisation.',
+         '<b>On simplifie</b> : une seule liste des bénéficiaires, une seule procédure, une seule durée de protection après mandat.'])
+
+    t5.row('penal5', 'Question 6', 'Délit d’entrave et sanctions',
+        L4('Titre III'), 'L2431-1 → L243-11-1',
+        '<b>Délit d’entrave</b> à la constitution, aux élections, au fonctionnement, et à chaque catégorie de salarié protégé — treize articles pénaux.',
+        ['L2432-1'],
+        [], 'Aucune disposition pénale',
+        '<b>Aucune</b> : la loi sur la participation renvoie au juge civil.',
+        ['drop'], 0,
+        ['<b>On supprime</b> : les treize articles au profit d’un article unique « entrave » dans la partie générale des sanctions.'])
+
+    t5.check()
+    topics.append(t5)
+
+# ---------------------------------------------------------------- Topic 6
+if (root / 'data/ch_salaire.json').exists() and (root / 'data/fr_salaire.json').exists():
+    t6 = Topic('salaire', 'Salaire', 'Salaire : minimum, paiement, protection',
+               'Combien au minimum, payé quand et comment, et ce que personne ne peut retenir ou saisir.',
+               'Le salaire : {fr} articles de loi en France, {ch} en Suisse.',
+               'fr_salaire.json', 'ch_salaire.json',
+               'Code du travail, 3e partie, Livre II « Salaire et avantages divers » (L3211 à L3263), parties L, R et D',
+               'Code des obligations art. 322 à 326a « Obligations de l’employeur : salaire »',
+               note='<b>Pas de salaire minimum fédéral en Suisse</b> — cinq cantons en ont un (Genève, Neuchâtel, Jura, Tessin, Bâle-Ville), le reste passe par les conventions collectives. Le SMIC est une spécificité française que cette feuille de route conserve. La garantie des salaires en cas de faillite relève, en Suisse, de la loi sur la poursuite et de l’assurance-chômage, non comptées ici.')
+    t6.share = t6.share.format(fr=t6.fr['topic_totals']['articles_total'], ch=t6.ch['topic_totals']['articles'])
+
+    t6.row('minimum', 'Question 1', 'Salaire minimum',
+        ['3211', '3231', '3232', '3233'], 'L3211-1, L3231-1 → L3232-9, R3231 à R3233, D3231',
+        '<b>SMIC</b> : fixation, revalorisation annuelle et automatique, commission d’experts, minimum garanti, rémunération mensuelle minimale, sanctions.',
+        ['L3231-2', 'L3231-4'],
+        [], 'Aucun article fédéral',
+        '<b>Rien au niveau fédéral</b> : cinq cantons fixent un minimum ; ailleurs, la convention collective ou le contrat.',
+        ['keep'], 6,
+        ['<b>On garde</b> : le SMIC et sa revalorisation automatique.',
+         '<b>On simplifie</b> : la mécanique de fixation en trois articles ; la rémunération mensuelle minimale, doublon historique du SMIC mensualisé, fusionnée.'])
+
+    t6.row('egalite', 'Question 2', 'Égalité de rémunération',
+        ['3221', '3222'], 'L3221-1 → L3222-2, R3221, R3222',
+        '<b>À travail égal, salaire égal</b> entre femmes et hommes : principe, définition, charge de la preuve, sanctions pénales.',
+        ['L3221-2'],
+        [], 'Hors du CO (Loi sur l’égalité, LEg)',
+        '<b>Ailleurs</b> : la loi fédérale sur l’égalité (1995) traite l’égalité salariale en quelques articles ; le CO n’en parle pas.',
+        ['keep'], 4,
+        ['<b>On garde</b> : le principe, la définition du travail de valeur égale, la charge de la preuve.',
+         '<b>On simplifie</b> : le volet pénal rejoint l’article général de sanctions.'])
+
+    t6.row('paiement', 'Question 3', 'Paiement du salaire et bulletin de paie',
+        ['3241', '3242', '3243', '3244', '3245', '3246'], 'L3241-1 → L3245-1, R3241 à R3246, D3243',
+        '<b>Mensualisation</b>, paiement par virement ou chèque au-delà d’un seuil, bulletin de paie et ses mentions (six articles de décret), pourboires, prescription de trois ans.',
+        ['L3242-1', 'L3243-2'],
+        ['322', '322a', '322b', '322c', '322d', '323', '323a', '326', '326a'], 'CO art. 322 à 323a, 326, 326a',
+        '<b>Le salaire convenu</b>, ou usuel ; participation au résultat, provision, gratification ; paiement à la fin de chaque mois avec décompte ; retenues ; travail aux pièces.',
+        ['simp'], 8,
+        ['<b>On garde</b> : la mensualisation, le bulletin de paie, la prescription.',
+         '<b>On simplifie</b> : les mentions du bulletin en un article et un modèle unique par arrêté ; pourboires et modes de paiement en un article.'])
+
+    t6.row('protection', 'Question 4', 'Retenues, saisies et garantie des salaires',
+        ['3251', '3252', '3253', '3254', '3255'], 'L3251-1 → L3255-1, R3252, R3253, D3253',
+        '<b>Compensation interdite</b> sauf exceptions, saisie et cession limitées par un barème, privilège des salaires en cas de faillite et <b>AGS</b> (33 articles de loi pour la garantie des salaires).',
+        ['L3251-1', 'L3253-6'],
+        ['323b', '325'], 'CO art. 323b, 325',
+        '<b>Deux articles</b> : compensation limitée à la part saisissable, cession et mise en gage encadrées. La faillite relève de la loi sur la poursuite ; l’insolvabilité de l’assurance-chômage.',
+        ['simp', 'move'], 10,
+        ['<b>On garde</b> : la protection contre la compensation, le barème de saisie, la garantie AGS.',
+         '<b>On transfère</b> : le fonctionnement de l’AGS (cotisation, gestion, subrogation) vers le Code de la sécurité sociale, en ne gardant ici que le droit du salarié.'])
+
+    t6.row('empechement', 'Question 5', 'Salaire pendant la maladie ou l’empêchement',
+        None, 'Hors de ce livre : L1226-1 (maintien de salaire), conventions collectives',
+        '<b>Ailleurs</b> : le maintien de salaire pendant la maladie est au Livre II de la 1re partie et, surtout, dans les conventions collectives.',
+        [],
+        ['324', '324a', '324b'], 'CO art. 324 à 324b',
+        '<b>Salaire maintenu</b> pendant un temps limité (trois semaines la première année, puis plus longtemps selon une échelle jurisprudentielle), sauf assurance obligatoire ; salaire dû si l’employeur empêche le travail.',
+        ['keep'], 0,
+        ['<b>Rien à ajouter ici</b> : traité avec le contrat de travail (sujet « Contrat de travail »).'])
+
+    t6.row('avantages', 'Question 6', 'Frais de transport, titres-restaurant, chèques-vacances',
+        ['3261', '3262', '3263'], 'L3261-1 → L3263-1, R3261, R3262',
+        '<b>92 articles</b> : prise en charge des transports, forfait mobilités, titres-restaurant (émetteurs, commission, comptes bancaires dédiés — 47 articles de décret), chèques-vacances.',
+        ['L3261-2', 'L3262-1'],
+        [], 'Aucun article (CO 327a : remboursement des frais, compté au sujet « Contrat de travail »)',
+        '<b>Une règle</b> : l’employeur rembourse les frais imposés par le travail (CO 327a). Les avantages sont conventionnels.',
+        ['simp', 'move'], 6,
+        ['<b>On garde</b> : la prise en charge des transports et le principe du titre-restaurant.',
+         '<b>On transfère</b> : la réglementation des émetteurs de titres-restaurant vers le Code monétaire et financier ; les chèques-vacances vers le Code du tourisme, où ils sont déjà.'])
+
+    t6.check()
+    topics.append(t6)
+
+# ---------------------------------------------------------------- Topic 7
+if (root / 'data/ch_contrat.json').exists() and (root / 'data/fr_contrat.json').exists():
+    t7 = Topic('contrat', 'Contrat de travail', 'Le contrat de travail : embauche, exécution, maladie, transfert',
+               'Ce qui se passe entre l’embauche et la fin : période d’essai, obligations de chacun, télétravail, maladie, changement d’employeur.',
+               'Le contrat de travail lui-même : {fr} articles de loi en France, {ch} en Suisse.',
+               'fr_contrat.json', 'ch_contrat.json',
+               'Code du travail, 1re partie, Livre II, Titre II « Formation et exécution du contrat de travail » hors maternité (L1221 à L1227), parties L, R et D',
+               'Code des obligations art. 319 à 321e, 324a, 324b, 326 à 327c, 328a, 328b, 330 à 330b, 332, 332a, 333 à 333b, 335b',
+               note='<b>Périmètre.</b> La maternité et la paternité sont au sujet « Congés », le salaire au sujet « Salaire », la santé au sujet « Santé et sécurité ». Le maintien de salaire pendant la maladie (CO 324a) est compté ici, avec son équivalent français L1226-1.')
+    t7.share = t7.share.format(fr=t7.fr['topic_totals']['articles_total'], ch=t7.ch['topic_totals']['articles'])
+
+    t7.row('embauche', 'Question 1', 'Embaucher : essai, registre, informations',
+        ['1221'], 'L1221-1 → L1221-26, R1221, D1221',
+        '<b>Période d’essai</b> (2, 3, 4 mois selon la catégorie, renouvelable une fois par accord de branche), délai de prévenance, information sur les éléments du contrat, registre unique du personnel, déclaration préalable à l’embauche (27 articles de décret).',
+        ['L1221-19', 'L1221-25'],
+        ['319', '320', '335b', '330b'], 'CO art. 319, 320, 335b, 330b',
+        '<b>Quatre articles</b> : définition, naissance du contrat (même tacite), temps d’essai d’un mois (jusqu’à trois par accord écrit, délai de congé de sept jours), information écrite du travailleur dans le mois.',
+        ['simp'], 8,
+        ['<b>On garde</b> : les durées d’essai par catégorie, le délai de prévenance, l’information écrite, le registre.',
+         '<b>On simplifie</b> : déclaration d’embauche et registre en deux articles ; le contenu des mentions par décret unique.'])
+
+    t7.row('execution', 'Question 2', 'Exécuter le contrat : loyauté, télétravail, modification',
+        ['1222', '1223'], 'L1222-1 → L1223-9, D1222',
+        '<b>Bonne foi</b>, information et transparence, télétravail (accord collectif ou charte, droit au refus, accident), modification du contrat pour motif économique, contrats particuliers (chantier, portage).',
+        ['L1222-1', 'L1222-9'],
+        ['321', '321a', '321b', '321c', '321d', '321e', '326', '326a', '327', '327a', '327b', '327c', '328a', '328b', '330', '330a', '332', '332a'], 'CO art. 321 à 321e, 326 à 327c, 328a, 328b, 330, 330a, 332, 332a',
+        '<b>Obligations du travailleur</b> (diligence, fidélité, secret, heures supplémentaires, directives, responsabilité), <b>de l’employeur</b> (instruments de travail, remboursement des frais, protection des données, certificat de travail), inventions.',
+        ['keep'], 6,
+        ['<b>On garde</b> : la bonne foi, le télétravail et son droit au refus, la modification pour motif économique avec délai de réponse.',
+         '<b>On simplifie</b> : un article par sujet, sans doublon avec le droit commun du contrat.'])
+
+    t7.row('transfert', 'Question 3', 'Changement d’employeur : transfert d’entreprise',
+        ['1224'], 'L1224-1 → L1224-4',
+        '<b>Les contrats passent au nouvel employeur</b> avec leurs droits ; sort des dettes, du personnel des services publics repris ou externalisés.',
+        ['L1224-1'],
+        ['333', '333a', '333b'], 'CO art. 333 à 333b',
+        '<b>Trois articles</b> : passage des rapports de travail avec tous les droits, droit du travailleur de s’y opposer, information et consultation de la représentation, cas de la faillite.',
+        ['keep'], 2, ['<b>On garde</b> tel quel, en un article de principe et un pour le secteur public.'])
+
+    t7.row('maladie', 'Question 4', 'Maladie, accident, inaptitude',
+        ['1226'], 'L1226-1 → L1226-24, R1226, D1226',
+        '<b>Maintien de salaire</b> dès un an d’ancienneté (90 % puis deux tiers, selon l’ancienneté), suspension du contrat, protection après accident du travail, inaptitude constatée par le médecin du travail, obligation de reclassement, licenciement pour impossibilité de reclassement, indemnité spéciale.',
+        ['L1226-1', 'L1226-2', 'L1226-9'],
+        ['324a', '324b'], 'CO art. 324a, 324b',
+        '<b>Deux articles</b> : salaire maintenu pendant un temps limité (trois semaines la première année, puis selon une échelle plus longue), sauf assurance équivalente.',
+        ['simp'], 6,
+        ['<b>On garde</b> : le maintien de salaire, la protection après accident du travail, l’obligation de reclassement en cas d’inaptitude.',
+         '<b>On simplifie</b> : un seul régime d’inaptitude (origine professionnelle ou non) avec des durées différentes ; la procédure médicale au Code de la santé publique.'])
+
+    t7.row('penal7', 'Question 5', 'Sanctions pénales',
+        ['1227'], 'L1227-1, R1227-1 → R1227-7',
+        '<b>Contraventions</b> : registre, déclaration d’embauche, secret de fabrication.',
+        [],
+        [], 'Aucune disposition pénale',
+        '<b>Aucune</b> dans le CO.',
+        ['drop'], 0, ['<b>On supprime</b> : rattaché à l’article général de sanctions.'])
+
+    t7.check()
+    topics.append(t7)
+
+# ---------------------------------------------------------------- Topic 8
+if (root / 'data/ch_cdd.json').exists() and (root / 'data/fr_cdd.json').exists():
+    t8 = Topic('cdd', 'CDD et intérim', 'CDD, intérim et mise à disposition',
+               'Quand on peut embaucher pour une durée limitée, pour combien de temps, et ce que doivent respecter les agences d’intérim.',
+               'CDD et intérim : {fr} articles de loi en France, {ch} en Suisse.',
+               'fr_cdd.json', 'ch_cdd.json',
+               'Code du travail, 1re partie, Livre II, Titres IV « CDD » et V « Travail temporaire et mise à disposition » (L1241 à L1255), parties L, R et D',
+               'Code des obligations art. 334 ; Loi sur le service de l’emploi et la location de services (LSE) art. 12 à 22',
+               note='<b>Deux philosophies.</b> En France, le CDD est l’exception, limité à des cas listés, avec requalification et indemnité de précarité. En Suisse, le contrat de durée déterminée est libre (un article) ; seule la location de services — l’intérim — est autorisée et encadrée. L’ordonnance OSE (83 articles) n’est pas comptée.')
+    t8.share = t8.share.format(fr=t8.fr['topic_totals']['articles_total'], ch=t8.ch['topic_totals']['articles'])
+
+    t8.row('conclure', 'Question 1', 'Conclure un CDD : motifs, durée, renouvellement',
+        ['1241', '1242', '1243', '1244'], 'L1241-1 → L1244-4-1, R1243, D1242, D1243',
+        '<b>Cas de recours listés</b>, interdictions, durée maximale (18 mois, ou fixée par la branche), deux renouvellements, délai de carence, rupture anticipée, indemnité de fin de contrat de 10 %, contrat de mission à objet défini.',
+        ['L1242-2', 'L1243-8'],
+        ['334'], 'CO art. 334',
+        '<b>Un article</b> : le contrat de durée déterminée prend fin sans congé ; reconduit tacitement, il devient de durée indéterminée ; au-delà de dix ans, résiliable avec six mois de préavis.',
+        ['simp', 'deleg'], 8,
+        ['<b>On garde</b> : les motifs de recours, la durée maximale, la prime de précarité, le délai de carence.',
+         '<b>On simplifie</b> : un article par sujet ; les cas particuliers (saisonniers, usage, vendanges, contrat senior) en une liste par décret.',
+         '<b>On délègue</b> : durée maximale et renouvellements aux branches, avec le plafond légal en défaut.'])
+
+    t8.row('requalif', 'Question 2', 'Requalification, contrôle, contentieux',
+        ['1245', '1246', '1247', '1248'], 'L1245-1 → L1248-11, R1245, D1247',
+        '<b>Requalification en CDI</b> avec indemnité d’un mois minimum, procédure accélérée, communication des contrats à l’inspection, onze articles pénaux.',
+        ['L1245-1', 'L1245-2'],
+        [], 'Aucun article',
+        '<b>Rien de spécifique</b> : le droit commun du contrat s’applique.',
+        ['simp'], 3,
+        ['<b>On garde</b> : la requalification et son indemnité.',
+         '<b>On simplifie</b> : le pénal rejoint l’article général de sanctions.'])
+
+    t8.row('interim', 'Question 3', 'Intérim : agences, missions, garanties',
+        ['1251'], 'L1251-1 → L1251-63, R1251, D1251',
+        '<b>110 articles</b> : cas de recours, contrat de mise à disposition, contrat de mission, égalité de traitement, indemnité de fin de mission, garantie financière, déclaration d’activité, CDI intérimaire, intérim d’insertion.',
+        ['L1251-6', 'L1251-32'],
+        ['12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22'], 'LSE art. 12 à 22',
+        '<b>Autorisation obligatoire</b> du bailleur de services, sûretés, obligations envers le travailleur, contrat de travail écrit, contrat de location, respect des conventions collectives étendues, travailleurs étrangers.',
+        ['simp', 'deleg'], 10,
+        ['<b>On garde</b> : l’autorisation ou la déclaration, la garantie financière, l’égalité de traitement, l’indemnité de fin de mission.',
+         '<b>On simplifie</b> : cas de recours communs au CDD (un seul renvoi), un contrat de mission en un article.',
+         '<b>On délègue</b> : CDI intérimaire et intérim d’insertion à la convention de branche du travail temporaire.'])
+
+    t8.row('partage', 'Question 4', 'Temps partagé et groupements d’employeurs',
+        ['1252', '1253'], 'L1252-1 → L1253-24, R1253, D1253',
+        '<b>Prêt de main-d’œuvre à but non lucratif</b>, entreprises de travail à temps partagé, groupements d’employeurs (agricoles, mixtes, de remplacement) : 91 articles.',
+        ['L1253-1'],
+        [], 'Aucun article',
+        '<b>Rien de spécifique</b> : le prêt de personnel non lucratif est libre ; au-delà, c’est de la location de services.',
+        ['simp', 'deleg'], 6,
+        ['<b>On garde</b> : le prêt non lucratif et le groupement d’employeurs comme formes autorisées.',
+         '<b>On simplifie</b> : un régime de groupement au lieu de quatre.',
+         '<b>On délègue</b> : le fonctionnement aux statuts et aux branches.'])
+
+    t8.row('portage', 'Question 5', 'Portage salarial',
+        ['1254'], 'L1254-1 → L1254-31, R1254, D1254',
+        '<b>Le salarié porté</b> : définition, contrat de portage, garantie financière, rémunération minimale, obligations de l’entreprise de portage et de l’entreprise cliente.',
+        ['L1254-1'],
+        [], 'Aucun article',
+        '<b>Rien de spécifique</b> : selon les cas, contrat de travail ordinaire ou location de services.',
+        ['deleg'], 4,
+        ['<b>On garde</b> : la définition et la garantie financière.', '<b>On délègue</b> : le reste à la convention collective du portage, qui existe.'])
+
+    t8.row('penal8', 'Question 6', 'Sanctions pénales',
+        ['1255'], 'L1255-1 → L1255-18, R1255',
+        '<b>Vingt-sept articles</b> de contraventions et délits propres à l’intérim, au prêt de main-d’œuvre et au portage.',
+        [],
+        [], 'Aucune disposition pénale dans ce périmètre',
+        '<b>La LSE</b> a ses propres sanctions, en deux articles (hors périmètre).',
+        ['drop'], 0, ['<b>On supprime</b> : rattaché à l’article général de sanctions.'])
+
+    t8.check()
+    topics.append(t8)
+
+# ---------------------------------------------------------------- Topic 9
+if (root / 'data/ch_apprentissage.json').exists() and (root / 'data/fr_apprentissage.json').exists():
+    t9 = Topic('apprentissage', 'Apprentissage', 'L’apprentissage',
+               'Le contrat qui fait apprendre un métier en entreprise et à l’école, qui forme, qui contrôle, qui paie.',
+               'L’apprentissage : {fr} articles de loi en France, {ch} en Suisse.',
+               'fr_apprentissage.json', 'ch_apprentissage.json',
+               'Code du travail, 6e partie, Livre II « L’apprentissage » (L6211 à L6275), parties L, R et D',
+               'Code des obligations art. 344 à 346a ; Loi fédérale sur la formation professionnelle (LFPr) art. 12 à 25',
+               note='<b>Le pays de l’apprentissage.</b> Deux tiers des jeunes Suisses passent par l’apprentissage dual, régi par 6 articles du CO et 14 de la LFPr (plus l’ordonnance OFPr, 99 articles, non comptée). Le financement suisse (LFPr, chapitre 8) et les cantons ne sont pas comptés ; côté français, la taxe d’apprentissage et les aides le sont.')
+    t9.share = t9.share.format(fr=t9.fr['topic_totals']['articles_total'], ch=t9.ch['topic_totals']['articles'])
+
+    t9.row('contrat', 'Question 1', 'Le contrat d’apprentissage',
+        ['6211', '6221', '6222', '6223', '6224', '6225', '6226'], 'L6211-1 → L6226-1, R6211 à R6226, D6211 à D6224',
+        '<b>167 articles</b> : âge (16 à 29 ans, dérogations), durée, rémunération en pourcentage du SMIC par âge et année, maître d’apprentissage, temps de travail, rupture (45 jours, puis accord, faute grave, médiateur), dépôt du contrat, opposition et interdiction d’engager des apprentis, intérim.',
+        ['L6221-1', 'L6222-18', 'L6222-27'],
+        ['344', '344a', '345', '345a', '346', '346a', '14'], 'CO art. 344 à 346a ; LFPr art. 14',
+        '<b>Six articles du CO</b> : définition, forme écrite et contenu, obligations de l’apprenti et de ses représentants, obligations de l’employeur (formation, temps pour l’école, vacances de cinq semaines jusqu’à 20 ans), fin du contrat et certificat ; la LFPr y ajoute un article sur l’approbation du contrat par le canton.',
+        ['simp', 'deleg'], 14,
+        ['<b>On garde</b> : les âges, la rémunération minimale, le maître d’apprentissage, la rupture encadrée, le dépôt.',
+         '<b>On simplifie</b> : une seule grille de rémunération par décret ; une procédure d’opposition ; fin des variantes par public.',
+         '<b>On délègue</b> : la durée et le rythme aux branches et aux référentiels de diplôme.'])
+
+    t9.row('public', 'Question 2', 'Apprentissage dans le secteur public',
+        ['6227', '6271', '6272', '6273', '6274', '6275'], 'L6227-1 → L6227-12, R6227, D6271 à D6275',
+        '<b>Un régime distinct</b> pour les personnes morales de droit public : rémunération, financement, dispositions particulières.',
+        ['L6227-1'],
+        [], 'Aucun article',
+        '<b>Aucun régime distinct</b> : les administrations forment des apprentis sous le même contrat.',
+        ['simp'], 3,
+        ['<b>On garde</b> : les adaptations indispensables (financement, statut).', '<b>On simplifie</b> : un renvoi au régime commun, sauf trois articles.'])
+
+    t9.row('cfa', 'Question 3', 'Centres de formation et contrôle pédagogique',
+        ['6231', '6232', '6233', '6234', '6235', '6251'], 'L6231-1 → L6235-6, R6231 à R6251, D6235',
+        '<b>Missions des CFA</b>, organisation, unités de formation, CFA d’entreprise, apprentissage transfrontalier (23 articles), contrôle pédagogique.',
+        ['L6231-2'],
+        ['12', '13', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25'], 'LFPr art. 12, 13, 15 à 25',
+        '<b>Treize articles</b> : préparation, structure de la formation (entreprise, école, cours interentreprises), ordonnances de formation par métier, prestataires, écoles professionnelles, surveillance cantonale, maturité professionnelle.',
+        ['simp'], 6,
+        ['<b>On garde</b> : les missions des CFA, la liberté de création, le contrôle pédagogique.',
+         '<b>On simplifie</b> : l’apprentissage transfrontalier par un accord bilatéral plutôt que 23 articles.'])
+
+    t9.row('financement', 'Question 4', 'Taxe d’apprentissage et aides',
+        ['6241', '6242', '6243'], 'L6241-1 → L6243-6, R6241, D6241, D6243',
+        '<b>Taxe d’apprentissage</b> (assiette, affectation, solde, exonérations), contribution supplémentaire, aides à l’embauche d’apprentis.',
+        ['L6241-1'],
+        [], 'Hors périmètre (LFPr chapitre 8, cantons)',
+        '<b>Ailleurs</b> : financement partagé Confédération–cantons et fonds en faveur de la formation professionnelle, dans un autre chapitre de la LFPr.',
+        ['move'], 6,
+        ['<b>On garde</b> : le principe de la taxe et des aides en six articles.', '<b>On transfère</b> : assiette, taux et affectation vers le Code général des impôts, où sont les autres taxes.'])
+
+    t9.row('alsace9', 'Question 5', 'Droit local en Alsace-Moselle',
+        ['6261'], 'L6261-1, R6261',
+        '<b>Un régime local</b> hérité du droit allemand : chambres de métiers, registre, contrôle.',
+        ['L6261-2'],
+        [], 'Aucun article',
+        '<b>Le fédéralisme</b> : la LFPr laisse l’exécution aux cantons.',
+        ['simp'], 1, ['<b>On garde</b> le droit local par un renvoi d’un article.'])
+
+    t9.check()
+    topics.append(t9)
+
 # ---------------------------------------------------------------- Code allégé (drafts)
 allege = {}
 for t in topics:
@@ -449,7 +799,7 @@ data = {
     },
     'topics': [t.out() for t in topics],
     'allege': allege,
-    'upcoming': ['Représentation du personnel', 'Salaire et salaire minimum', 'Formation du contrat, CDD, intérim', 'Apprentissage et formation'],
+    'upcoming': [],
 }
 if len(topics) > 1:
     data['code']['ch']['olt1'] = topics[1].ch['code_totals'].get('olt1')

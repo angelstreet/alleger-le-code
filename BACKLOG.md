@@ -14,7 +14,7 @@ Une tâche prête pour un worker a un périmètre, un fichier de sortie et un cr
 | P4 | done | Export PDF / lecture hors ligne | PDF généré au build par Chrome headless (`site/alleger-le-code.pdf`, ~116 pages, tous les sujets et textes dépliés) ; les boutons « Télécharger · PDF » lʼouvrent quand il est servi à côté de la page, sinon impression navigateur. |
 | P5 | todo | Votes publics (Supabase) | `supabase/schema.sql` prêt ; il faut un projet Supabase actif (le connecteur actuel pointe vers un projet introuvable) et son URL + clé anon. |
 | P6 | done | Déploiement public sur Vercel | https://alleger-le-code.vercel.app — déploiement automatique à chaque push sur `main` (repo github.com/angelstreet/alleger-le-code). Nom de domaine à choisir. |
-| P7 | doing | Sujets suivants | Fait : santé et sécurité (Livre Ier, 267 vs 18). Restent : représentation du personnel · salaire · formation du contrat, CDD, intérim · apprentissage. Un couple de workers (FR + CH) par sujet, même schéma JSON. |
+| P7 | done | Sujets suivants | Neuf sujets couverts : licenciement, temps de travail, congés, santé-sécurité (Livre Ier), représentation du personnel, salaire, contrat de travail, CDD-intérim, apprentissage — 2 914 articles FR vs 181 CH. Sujets possibles ensuite : négociation collective et syndicats, formation professionnelle, égalité-discriminations, inspection et sanctions. |
 | P8 | later | Relecture par des juristes du travail | Chaque verdict doit être validé ou contesté par au moins une personne du métier avant l'envoi aux candidats. |
 | P9 | later | Version anglaise | Après stabilisation du contenu français. |
 

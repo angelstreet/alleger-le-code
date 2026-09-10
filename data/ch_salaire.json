@@ -1,0 +1,217 @@
+{
+  "country": "CH",
+  "source": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr ; consolidated HTML via https://fedlex.data.admin.ch/filestore/... (CO état 1er janvier 2026)",
+  "fetched_at": "2026-09-10",
+  "topic": "Salaire",
+  "code_totals": {
+    "co_titre10": {
+      "articles": 139,
+      "words": 14230,
+      "range": "art. 319–362"
+    },
+    "ltr": {
+      "articles": 83,
+      "words": 7288
+    },
+    "co_whole": {
+      "articles": 1603,
+      "words": 120996
+    },
+    "note": "Counts are per <article> element in the Fedlex consolidated HTML (fr), including lettered sub-articles (e.g. 335a) and a handful of jointly-repealed article ranges (e.g. 'art. 226a–226d') that count as one element each. Words = whitespace-separated tokens of the plain article text (footnote markers/footnotes excluded). CO whole = art. 1–1186 (Livre cinquième du Code civil suisse), état 1er janvier 2026. LTr = RS 822.11, état 1er septembre 2023.",
+    "olt1": {
+      "articles": 86,
+      "words": 12117
+    }
+  },
+  "topic_totals": {
+    "articles": 14,
+    "words": 1374
+  },
+  "context_notes": [
+    "La Suisse ne connaît pas de salaire minimum fédéral. Des salaires minimums cantonaux existent dans certains cantons (Genève, Neuchâtel, Jura, Tessin, Bâle-Ville)."
+  ],
+  "sections": [
+    {
+      "id": "co-tit10-chap1-C-I-1",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > I. Salaire > 1. Nature et montant en général",
+      "title": "I. Salaire > 1. Nature et montant en général",
+      "articles": [
+        {
+          "num": "Art. 322",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_322",
+          "text": "1 L’employeur paie au travailleur le salaire convenu, usuel ou fixé par un contrat-type de travail ou par une convention collective.\n2 Si le travailleur vit dans le ménage de l’employeur, son entretien et son logement font partie du salaire, sauf accord ou usage contraire.",
+          "words": 45
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-I-2",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > I. Salaire > 2. Participation au résultat de l’exploitation",
+      "title": "I. Salaire > 2. Participation au résultat de l’exploitation",
+      "articles": [
+        {
+          "num": "Art. 322a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_322_a",
+          "text": "1 Si, en vertu du contrat, le travailleur a droit à une part du bénéfice ou du chiffre d’affaires ou participe d’une autre manière au résultat de l’exploitation, cette part est calculée sur la base du résultat de l’exercice annuel, déterminé conformément aux prescriptions légales et aux principes commerciaux généralement reconnus.\n2 L’employeur fournit les renseignements nécessaires au travailleur ou, à sa place, à un expert désigné en commun ou par le juge; il autorise le travailleur ou l’expert à consulter les livres de comptabilité dans la mesure où le contrôle l’exige.\n3 Si une participation aux bénéfices de l’entreprise est convenue, une copie du compte de résultat est en outre remise au travailleur qui le demande.",
+          "words": 117
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-I-3",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > I. Salaire > 3. Provision",
+      "title": "I. Salaire > 3. Provision",
+      "articles": [
+        {
+          "num": "Art. 322b",
+          "marginal_title": "Naissance du droit à la provision",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_322_b",
+          "text": "1 S’il est convenu que le travailleur a droit à une provision sur certaines affaires, elle lui est acquise dès que l’affaire a été valablement conclue avec le tiers.\n2 En cas de contrats d’assurance ou d’affaires comportant une exécution par prestations successives, un accord écrit peut prévoir que le droit à la provision s’acquiert lors de l’exigibilité de chaque acompte ou à chaque prestation.\n3 Le droit à la provision s’éteint lorsque l’employeur n’exécute pas l’affaire sans faute de sa part ou si le tiers ne remplit pas ses obligations; si l’inexécution n’est que partielle, la provision est réduite proportionnellement.",
+          "words": 101
+        },
+        {
+          "num": "Art. 322c",
+          "marginal_title": "Décompte",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_322_c",
+          "text": "1 Si le travailleur n’est pas tenu par le contrat d’établir un relevé de ses provisions, l’employeur lui remet à chaque échéance un décompte indiquant les affaires qui donnent droit à une provision.\n2 L’employeur fournit les renseignements nécessaires au travailleur ou, à sa place, à un expert désigné en commun ou par le juge; il autorise le travailleur ou l’expert à consulter les livres et les pièces justificatives dans la mesure où le contrôle l’exige.",
+          "words": 76
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-I-4",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > I. Salaire > 4. Gratification",
+      "title": "I. Salaire > 4. Gratification",
+      "articles": [
+        {
+          "num": "Art. 322d",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_322_d",
+          "text": "1 Si l’employeur accorde en sus du salaire une rétribution spéciale à certaines occasions, telles que Noël ou la fin de l’exercice annuel, le travailleur y a droit lorsqu’il en a été convenu ainsi.\n2 En cas d’extinction des rapports de travail avant l’occasion qui donne lieu à la rétribution spéciale, le travailleur n’a droit à une part proportionnelle de cette rétribution que s’il en a été convenu ainsi.",
+          "words": 69
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-II-1",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > II. Paiement du salaire > 1. Délais et terme de paiement",
+      "title": "II. Paiement du salaire > 1. Délais et terme de paiement",
+      "articles": [
+        {
+          "num": "Art. 323",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_323",
+          "text": "1 Si des délais plus courts ou d’autres termes de paiement ne sont pas prévus par accord ou ne sont pas usuels et sauf clause contraire d’un contrat-type de travail ou d’une convention collective, le salaire est payé au travailleur à la fin de chaque mois.\n2 La provision est payée à la fin de chaque mois, à moins qu’un terme de paiement plus court n’ait été convenu ou ne soit usuel; toutefois, lorsque l’exécution de certaines affaires exige plus d’une demi-année, l’échéance de la provision peut être différée par accord écrit pour ces affaires.\n3 La participation au résultat de l’exploitation est payée dès que ce résultat est constaté, mais au plus tard six mois après la fin de l’exercice.\n4 Dans la mesure du travail déjà exécuté, l’employeur accorde au travailleur dans le besoin les avances qu’il peut raisonnablement faire.",
+          "words": 142
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-II-2",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > II. Paiement du salaire > 2. Retenue sur le salaire",
+      "title": "II. Paiement du salaire > 2. Retenue sur le salaire",
+      "articles": [
+        {
+          "num": "Art. 323a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_323_a",
+          "text": "1 En tant que le prévoit un accord, l’usage, un contrat-type de travail ou une convention collective, l’employeur peut retenir une partie du salaire.\n2 La retenue ne doit pas excéder un dixième du salaire dû le jour de la paie ni, au total, le salaire d’une semaine de travail; toutefois, le contrat-type de travail ou la convention collective peut prévoir une retenue plus élevée.\n3 Sauf accord ou usage contraire ou disposition dérogatoire d’un contrat-type de travail ou d’une convention collective, la retenue est réputée garantir les créances de l’employeur découlant des rapports de travail, sans avoir le caractère d’une peine conventionnelle.",
+          "words": 103
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-II-3",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > II. Paiement du salaire > 3. Garantie du salaire",
+      "title": "II. Paiement du salaire > 3. Garantie du salaire",
+      "articles": [
+        {
+          "num": "Art. 323b",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_323_b",
+          "text": "1 Sauf accord ou usage contraire, le salaire en numéraire est payé pendant les heures de travail en monnaie ayant cours légal. Un décompte est remis au travailleur.\n2 L’employeur ne peut compenser le salaire avec une créance contre le travailleur que dans la mesure où le salaire est saisissable; toutefois, les créances dérivant d’un dommage causé intentionnellement peuvent être compensées sans restriction.\n3 Les accords sur l’utilisation du salaire dans l’intérêt de l’employeur sont nuls.",
+          "words": 76
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-III-1",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > III. Salaire en cas d’empêchement de travailler > 1. En cas de demeure de l’employeur",
+      "title": "III. Salaire en cas d’empêchement de travailler > 1. En cas de demeure de l’employeur",
+      "articles": [
+        {
+          "num": "Art. 324",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_324",
+          "text": "1 Si l’employeur empêche par sa faute l’exécution du travail ou se trouve en demeure de l’accepter pour d’autres motifs, il reste tenu de payer le salaire sans que le travailleur doive encore fournir son travail.\n2 Le travailleur impute sur son salaire ce qu’il a épargné du fait de l’empêchement de travailler ou ce qu’il a gagné en exécutant un autre travail, ou le gain auquel il a intentionnellement renoncé.",
+          "words": 71
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-III-2",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > III. Salaire en cas d’empêchement de travailler > 2. En cas d’empêchement du travailleur",
+      "title": "III. Salaire en cas d’empêchement de travailler > 2. En cas d’empêchement du travailleur",
+      "articles": [
+        {
+          "num": "Art. 324a",
+          "marginal_title": "Principe",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_324_a",
+          "text": "1 Si le travailleur est empêché de travailler sans faute de sa part pour des causes inhérentes à sa personne, telles que maladie, accident, accomplissement d’une obligation légale ou d’une fonction publique, l’employeur lui verse le salaire pour un temps limité, y compris une indemnité équitable pour le salaire en nature perdu, dans la mesure où les rapports de travail ont duré plus de trois mois ou ont été conclus pour plus de trois mois.\n2 Sous réserve de délais plus longs fixés par accord, contrat-type de travail ou convention collective, l’employeur paie pendant la première année de service le salaire de trois semaines et, ensuite, le salaire pour une période plus longue fixée équitablement, compte tenu de la durée des rapports de travail et des circonstances particulières.\n3 En cas de grossesse de la travailleuse, l’employeur est tenu de lui verser le salaire dans la même mesure.\n4 Un accord écrit, un contrat-type de travail ou une convention collective peut déroger aux présentes dispositions à condition d’accorder au travailleur des prestations au moins équivalentes.",
+          "words": 175
+        },
+        {
+          "num": "Art. 324b",
+          "marginal_title": "Exceptions",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_324_b",
+          "text": "1 Si le travailleur est assuré obligatoirement, en vertu d’une disposition légale, contre les conséquences économiques d’un empêchement de travailler qui ne provient pas de sa faute mais est dû à des raisons inhérentes à sa personne, l’employeur ne doit pas le salaire lorsque les prestations d’assurance dues pour le temps limité couvrent les quatre cinquièmes au moins du salaire afférent à cette période.\n2 Si les prestations d’assurance sont inférieures, l’employeur doit payer la différence entre celles-ci et les quatre cinquièmes du salaire.\n3 Si les prestations d’assurance ne sont versées qu’après un délai d’attente, l’employeur doit verser pendant cette période quatre cinquièmes au moins du salaire.",
+          "words": 108
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-IV",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > IV. Cession et mise en gage de créances",
+      "title": "IV. Cession et mise en gage de créances",
+      "articles": [
+        {
+          "num": "Art. 325",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_325",
+          "text": "1 Le travailleur ne peut céder ou mettre en gage son salaire futur pour garantir une obligation d’entretien découlant du droit de la famille que dans la mesure où il est saisissable; à la demande d’un intéressé, l’office des poursuites du domicile du travailleur fixe le minimum insaisissable, conformément à l’art. 93 de la loi fédérale du 11 avril 1889 sur la poursuite pour dettes et la faillite.\n2 Sont nulles la cession et la mise en gage de salaires futurs en garantie d’autres obligations.",
+          "words": 85
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-V-1",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > V. Travail aux pièces ou à la tâche > 1. Fourniture de travail",
+      "title": "V. Travail aux pièces ou à la tâche > 1. Fourniture de travail",
+      "articles": [
+        {
+          "num": "Art. 326",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_326",
+          "text": "1 Lorsqu’en vertu du contrat le travailleur travaille exclusivement aux pièces ou à la tâche pour un seul employeur, celui-ci doit lui fournir du travail en quantité suffisante.\n2 L’employeur peut charger le travailleur d’un travail payé au temps lorsque les conditions de l’exploitation l’exigent momentanément ou qu’il se trouve, sans faute de sa part, dans l’impossibilité de fournir le travail aux pièces ou à la tâche prévu par le contrat.\n3 Si le salaire payé au temps n’est pas fixé dans un accord, un contrat-type de travail ou une convention collective, l’employeur doit verser au travailleur l’équivalent du salaire moyen aux pièces ou à la tâche qu’il gagnait jusqu’alors.\n4 L’employeur qui ne peut pas fournir suffisamment de travail aux pièces ou à la tâche ni de travail payé au temps, n’en reste pas moins tenu, conformément aux dispositions sur la demeure, de payer le salaire qu’il devrait verser pour du travail payé au temps.",
+          "words": 156
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-V-2",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > V. Travail aux pièces ou à la tâche > 2. Salaire",
+      "title": "V. Travail aux pièces ou à la tâche > 2. Salaire",
+      "articles": [
+        {
+          "num": "Art. 326a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_326_a",
+          "text": "1 Lorsqu’en vertu du contrat le travailleur travaille aux pièces ou à la tâche, l’employeur doit lui indiquer le taux du salaire avant le début de chaque travail.\n2 Si l’employeur omet de donner ces indications, il paye le salaire selon le taux fixé pour un travail identique ou analogue.",
+          "words": 50
+        }
+      ]
+    }
+  ]
+}

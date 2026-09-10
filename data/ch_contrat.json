@@ -1,0 +1,382 @@
+{
+  "country": "CH",
+  "source": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr ; consolidated HTML via https://fedlex.data.admin.ch/filestore/... (CO état 1er janvier 2026)",
+  "fetched_at": "2026-09-10",
+  "topic": "Contrat de travail : formation, exécution, maladie, transfert",
+  "code_totals": {
+    "co_titre10": {
+      "articles": 139,
+      "words": 14230,
+      "range": "art. 319–362"
+    },
+    "ltr": {
+      "articles": 83,
+      "words": 7288
+    },
+    "co_whole": {
+      "articles": 1603,
+      "words": 120996
+    },
+    "note": "Counts are per <article> element in the Fedlex consolidated HTML (fr), including lettered sub-articles (e.g. 335a) and a handful of jointly-repealed article ranges (e.g. 'art. 226a–226d') that count as one element each. Words = whitespace-separated tokens of the plain article text (footnote markers/footnotes excluded). CO whole = art. 1–1186 (Livre cinquième du Code civil suisse), état 1er janvier 2026. LTr = RS 822.11, état 1er septembre 2023.",
+    "olt1": {
+      "articles": 86,
+      "words": 12117
+    }
+  },
+  "topic_totals": {
+    "articles": 27,
+    "words": 2541
+  },
+  "sections": [
+    {
+      "id": "co-tit10-chap1-A-I",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > A. Définition et formation > I. Définition",
+      "title": "I. Définition",
+      "articles": [
+        {
+          "num": "Art. 319",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_319",
+          "text": "1 Par le contrat individuel de travail, le travailleur s’engage, pour une durée déterminée ou indéterminée, à travailler au service de l’employeur et celui-ci à payer un salaire fixé d’après le temps ou le travail fourni (salaire aux pièces ou à la tâche).\n2 Est aussi réputé contrat individuel de travail le contrat par lequel un travailleur s’engage à travailler régulièrement au service de l’employeur par heures, demi-journées ou journées (travail à temps partiel).",
+          "words": 74
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-A-II",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > A. Définition et formation > II. Formation",
+      "title": "II. Formation",
+      "articles": [
+        {
+          "num": "Art. 320",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_320",
+          "text": "1 Sauf disposition contraire de la loi, le contrat individuel de travail n’est soumis à aucune forme spéciale.\n2 Il est réputé conclu lorsque l’employeur accepte pour un temps donné l’exécution d’un travail qui, d’après les circonstances, ne doit être fourni que contre un salaire.\n3 Si le travailleur fournit de bonne foi un travail pour l’employeur en vertu d’un contrat qui se révèle nul par la suite, tous deux sont tenus de s’acquitter des obligations découlant des rapports de travail, comme s’il s’agissait d’un contrat valable, jusqu’à ce que l’un ou l’autre mette fin aux rapports de travail en raison de l’invalidité du contrat.",
+          "words": 105
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-B-I",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > B. Obligations du travailleur > I. Travail personnel",
+      "title": "I. Travail personnel",
+      "articles": [
+        {
+          "num": "Art. 321",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_321",
+          "text": "Le travailleur exécute en personne le travail dont il s’est chargé, à moins que le contraire ne résulte d’un accord ou des circonstances.",
+          "words": 23
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-B-II",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > B. Obligations du travailleur > II. Diligence et fidélité à observer",
+      "title": "II. Diligence et fidélité à observer",
+      "articles": [
+        {
+          "num": "Art. 321a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_321_a",
+          "text": "1 Le travailleur exécute avec soin le travail qui lui est confié et sauvegarde fidèlement les intérêts légitimes de l’employeur.\n2 Il est tenu d’utiliser selon les règles en la matière les machines, les instruments de travail, les appareils et les installations techniques ainsi que les véhicules de l’employeur, et de les traiter avec soin, de même que le matériel mis à sa disposition pour l’exécution de son travail.\n3 Pendant la durée du contrat, le travailleur ne doit pas accomplir du travail rémunéré pour un tiers dans la mesure où il lèse son devoir de fidélité et, notamment, fait concurrence à l’employeur.\n4 Pendant la durée du contrat, le travailleur ne doit pas utiliser ni révéler des faits destinés à rester confidentiels, tels que les secrets de fabrication et d’affaires dont il a pris connaissance au service de l’employeur; il est tenu de garder le secret même après la fin du contrat en tant que l’exige la sauvegarde des intérêts légitimes de l’employeur.",
+          "words": 164
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-B-III",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > B. Obligations du travailleur > III. Obligation de rendre compte et de restituer",
+      "title": "III. Obligation de rendre compte et de restituer",
+      "articles": [
+        {
+          "num": "Art. 321b",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_321_b",
+          "text": "1 Le travailleur rend compte à l’employeur de tout ce qu’il reçoit pour lui dans l’exercice de son activité contractuelle, notamment des sommes d’argent; il lui remet immédiatement ce qu’il a reçu.\n2 Il remet en outre immédiatement à l’employeur tout ce qu’il produit par son activité contractuelle.",
+          "words": 48
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-B-IV",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > B. Obligations du travailleur > IV. Heures de travail supplémentaires",
+      "title": "IV. Heures de travail supplémentaires",
+      "articles": [
+        {
+          "num": "Art. 321c",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_321_c",
+          "text": "1 Si les circonstances exigent des heures de travail plus nombreuses que ne le prévoit le contrat ou l’usage, un contrat-type de travail ou une convention collective, le travailleur est tenu d’exécuter ce travail supplémentaire dans la mesure où il peut s’en charger et où les règles de la bonne foi permettent de le lui demander.\n2 L’employeur peut, avec l’accord du travailleur, compenser les heures de travail supplémentaires par un congé d’une durée au moins égale, qui doit être accordé au cours d’une période appropriée.\n3 L’employeur est tenu de rétribuer les heures de travail supplémentaires qui ne sont pas compensées par un congé en versant le salaire normal majoré d’un quart au moins, sauf clause contraire d’un accord écrit, d’un contrat-type de travail ou d’une convention collective.",
+          "words": 129
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-B-V",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > B. Obligations du travailleur > V. Directives générales et instructions à observer",
+      "title": "V. Directives générales et instructions à observer",
+      "articles": [
+        {
+          "num": "Art. 321d",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_321_d",
+          "text": "1 L’employeur peut établir des directives générales sur l’exécution du travail et la conduite des travailleurs dans son exploitation ou son ménage et leur donner des instructions particulières.\n2 Le travailleur observe selon les règles de la bonne foi les directives générales de l’employeur et les instructions particulières qui lui ont été données.",
+          "words": 53
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-B-VI",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > B. Obligations du travailleur > VI. Responsabilité du travailleur",
+      "title": "VI. Responsabilité du travailleur",
+      "articles": [
+        {
+          "num": "Art. 321e",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_321_e",
+          "text": "1 Le travailleur répond du dommage qu’il cause à l’employeur intentionnellement ou par négligence.\n2 La mesure de la diligence incombant au travailleur se détermine par le contrat, compte tenu du risque professionnel, de l’instruction ou des connaissances techniques nécessaires pour accomplir le travail promis, ainsi que des aptitudes et qualités du travailleur que l’employeur connaissait ou aurait dû connaître.",
+          "words": 60
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-III-2",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > III. Salaire en cas d’empêchement de travailler > 2. En cas d’empêchement du travailleur",
+      "title": "2. En cas d’empêchement du travailleur",
+      "articles": [
+        {
+          "num": "Art. 324a",
+          "marginal_title": "Principe",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_324_a",
+          "text": "1 Si le travailleur est empêché de travailler sans faute de sa part pour des causes inhérentes à sa personne, telles que maladie, accident, accomplissement d’une obligation légale ou d’une fonction publique, l’employeur lui verse le salaire pour un temps limité, y compris une indemnité équitable pour le salaire en nature perdu, dans la mesure où les rapports de travail ont duré plus de trois mois ou ont été conclus pour plus de trois mois.\n2 Sous réserve de délais plus longs fixés par accord, contrat-type de travail ou convention collective, l’employeur paie pendant la première année de service le salaire de trois semaines et, ensuite, le salaire pour une période plus longue fixée équitablement, compte tenu de la durée des rapports de travail et des circonstances particulières.\n3 En cas de grossesse de la travailleuse, l’employeur est tenu de lui verser le salaire dans la même mesure.\n4 Un accord écrit, un contrat-type de travail ou une convention collective peut déroger aux présentes dispositions à condition d’accorder au travailleur des prestations au moins équivalentes.",
+          "words": 175
+        },
+        {
+          "num": "Art. 324b",
+          "marginal_title": "Exceptions",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_324_b",
+          "text": "1 Si le travailleur est assuré obligatoirement, en vertu d’une disposition légale, contre les conséquences économiques d’un empêchement de travailler qui ne provient pas de sa faute mais est dû à des raisons inhérentes à sa personne, l’employeur ne doit pas le salaire lorsque les prestations d’assurance dues pour le temps limité couvrent les quatre cinquièmes au moins du salaire afférent à cette période.\n2 Si les prestations d’assurance sont inférieures, l’employeur doit payer la différence entre celles-ci et les quatre cinquièmes du salaire.\n3 Si les prestations d’assurance ne sont versées qu’après un délai d’attente, l’employeur doit verser pendant cette période quatre cinquièmes au moins du salaire.",
+          "words": 108
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-V-1",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > V. Travail aux pièces ou à la tâche > 1. Fourniture de travail",
+      "title": "1. Fourniture de travail",
+      "articles": [
+        {
+          "num": "Art. 326",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_326",
+          "text": "1 Lorsqu’en vertu du contrat le travailleur travaille exclusivement aux pièces ou à la tâche pour un seul employeur, celui-ci doit lui fournir du travail en quantité suffisante.\n2 L’employeur peut charger le travailleur d’un travail payé au temps lorsque les conditions de l’exploitation l’exigent momentanément ou qu’il se trouve, sans faute de sa part, dans l’impossibilité de fournir le travail aux pièces ou à la tâche prévu par le contrat.\n3 Si le salaire payé au temps n’est pas fixé dans un accord, un contrat-type de travail ou une convention collective, l’employeur doit verser au travailleur l’équivalent du salaire moyen aux pièces ou à la tâche qu’il gagnait jusqu’alors.\n4 L’employeur qui ne peut pas fournir suffisamment de travail aux pièces ou à la tâche ni de travail payé au temps, n’en reste pas moins tenu, conformément aux dispositions sur la demeure, de payer le salaire qu’il devrait verser pour du travail payé au temps.",
+          "words": 156
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-V-2",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > V. Travail aux pièces ou à la tâche > 2. Salaire",
+      "title": "2. Salaire",
+      "articles": [
+        {
+          "num": "Art. 326a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_326_a",
+          "text": "1 Lorsqu’en vertu du contrat le travailleur travaille aux pièces ou à la tâche, l’employeur doit lui indiquer le taux du salaire avant le début de chaque travail.\n2 Si l’employeur omet de donner ces indications, il paye le salaire selon le taux fixé pour un travail identique ou analogue.",
+          "words": 50
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-VI-1",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > VI. Instruments de travail, matériaux et frais > 1. Instruments de travail et matériaux",
+      "title": "1. Instruments de travail et matériaux",
+      "articles": [
+        {
+          "num": "Art. 327",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_327",
+          "text": "1 Sauf accord ou usage contraire, l’employeur fournit au travailleur les instruments de travail et les matériaux dont celui-ci a besoin.\n2 Si, d’entente avec l’employeur, le travailleur fournit lui-même des instruments de travail ou des matériaux, il est indemnisé convenablement, sauf accord ou usage contraire.",
+          "words": 46
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-VI-2",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > VI. Instruments de travail, matériaux et frais > 2. Frais",
+      "title": "2. Frais",
+      "articles": [
+        {
+          "num": "Art. 327a",
+          "marginal_title": "En général",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_327_a",
+          "text": "1 L’employeur rembourse au travailleur tous les frais imposés par l’exécution du travail et, lorsque le travailleur est occupé en dehors de son lieu de travail, les dépenses nécessaires pour son entretien.\n2 Un accord écrit, un contrat-type de travail ou une convention collective peut prévoir que les frais engagés par le travailleur lui seront remboursés sous forme d’une indemnité fixe, telle qu’une indemnité journalière ou une indemnité hebdomadaire ou mensuelle forfaitaire, à la condition qu’elle couvre tous les frais nécessaires.\n3 Les accords en vertu desquels le travailleur supporte lui-même tout ou partie de ses frais nécessaires sont nuls.",
+          "words": 100
+        },
+        {
+          "num": "Art. 327b",
+          "marginal_title": "Véhicule à moteur",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_327_b",
+          "text": "1 Si, d’entente avec l’employeur, le travailleur utilise pour son travail son propre véhicule à moteur ou un véhicule à moteur mis à sa disposition par l’employeur, il a droit au remboursement des frais courants d’usage et d’entretien, dans la mesure où le véhicule sert à l’exécution du travail.\n2 S’il fournit le véhicule à moteur d’entente avec l’employeur, le travailleur a droit en outre au paiement des impôts sur le véhicule et des primes d’assurance contre la responsabilité civile, ainsi qu’à une indemnité d’usure équitable, dans la mesure où le véhicule sert à l’exécution du travail.\n3 …",
+          "words": 99
+        },
+        {
+          "num": "Art. 327c",
+          "marginal_title": "Échéance",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_327_c",
+          "text": "1 Le remboursement des frais a lieu en même temps que le paiement du salaire sur la base du décompte établi par le travailleur, à moins qu’un délai plus court ne soit convenu ou usuel.\n2 Lorsque l’accomplissement de ses obligations contractuelles impose régulièrement des frais au travailleur, l’employeur lui fait une avance convenable pour les frais à couvrir, à intervalles déterminés et en tous cas chaque mois.",
+          "words": 68
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-VII-2",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > VII. Protection de la personnalité du travailleur > 2. Communauté domestique",
+      "title": "2. Communauté domestique",
+      "articles": [
+        {
+          "num": "Art. 328a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_328_a",
+          "text": "1 Lorsque le travailleur vit dans le ménage de l’employeur, celui-ci fournit une nourriture suffisante et un logement convenable.\n2 L’employeur accorde au travailleur empêché de travailler sans sa faute pour cause de maladie ou d’accident les soins et secours médicaux pour un temps limité, soit pendant trois semaines au cours de la première année de service et, ensuite, pendant une période plus longue, fixée équitablement compte tenu de la durée des rapports de travail et des circonstances particulières.\n3 En cas de grossesse et d’accouchement de la travailleuse, l’employeur a les mêmes obligations.",
+          "words": 94
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-VII-3",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > VII. Protection de la personnalité du travailleur > 3. Lors du traitement de données personnelles",
+      "title": "3. Lors du traitement de données personnelles",
+      "articles": [
+        {
+          "num": "Art. 328b",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_328_b",
+          "text": "L’employeur ne peut traiter des données concernant le travailleur que dans la mesure où ces données portent sur les aptitudes du travailleur à remplir son emploi ou sont nécessaires à l’exécution du contrat de travail. En outre, les dispositions de la loi fédérale du 25 septembre 2020 sur la protection des données sont applicables.",
+          "words": 54
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-IX-1",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > IX. Autres obligations > 1. Sûreté",
+      "title": "1. Sûreté",
+      "articles": [
+        {
+          "num": "Art. 330",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_330",
+          "text": "1 L’employeur doit tenir hors de son patrimoine la sûreté que le travailleur lui remet pour assurer l’exécution de ses obligations; il lui fournit une garantie pour sa conservation.\n2 L’employeur restitue la sûreté au plus tard à la fin du contrat à moins que la date de la restitution ne soit différée par un accord écrit.\n3 Si l’employeur fait valoir des prétentions contestées découlant du contrat de travail, il peut retenir la sûreté jusqu’à droit connu; à la demande du travailleur, il doit consigner en justice le montant retenu.\n4 Dans la faillite de l’employeur, le travailleur peut réclamer la sûreté que l’employeur a tenue hors de son patrimoine, sous réserve des prétentions de celui-ci qui découlent du contrat de travail.",
+          "words": 123
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-IX-2",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > IX. Autres obligations > 2. Certificat",
+      "title": "2. Certificat",
+      "articles": [
+        {
+          "num": "Art. 330a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_330_a",
+          "text": "1 Le travailleur peut demander en tout temps à l’employeur un certificat portant sur la nature et la durée des rapports de travail, ainsi que sur la qualité de son travail et sa conduite.\n2 À la demande expresse du travailleur, le certificat ne porte que sur la nature et la durée des rapports de travail.",
+          "words": 56
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-C-IX-3",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > C. Obligations de l’employeur > IX. Autres obligations > 3. Obligation d’informer",
+      "title": "3. Obligation d’informer",
+      "articles": [
+        {
+          "num": "Art. 330b",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_330_b",
+          "text": "1 Lorsque le rapport de travail a été convenu pour une durée indéterminée ou pour plus d’un mois, l’employeur doit informer le travailleur par écrit, au plus tard un mois après le début du rapport de travail, sur les points suivants:\na. le nom des parties;\nb. la date du début du rapport de travail;\nc. la fonction du travailleur;\nd. le salaire et les éventuels suppléments salariaux;\ne. la durée hebdomadaire du travail.\n2 Lorsque des éléments faisant l’objet de l’information écrite obligatoire au sens de l’al. 1 sont modifiés durant le rapport de travail, les modifications doivent être communiquées par écrit au travailleur, au plus tard un mois après qu’elles ont pris effet.",
+          "words": 115
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-E",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > E. Droit sur des inventions et des designs",
+      "title": "E. Droit sur des inventions et des designs",
+      "articles": [
+        {
+          "num": "Art. 332",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_332",
+          "text": "1 Les inventions que le travailleur a faites et les designs qu’il a créés, ou à l’élaboration desquels il a pris part, dans l’exercice de son activité au service de l’employeur et conformément à ses obligations contractuelles, appartiennent à l’employeur, qu’ils puissent être protégés ou non.\n2 Par accord écrit, l’employeur peut se réserver un droit sur les inventions que le travailleur a faites et sur les designs qu’il a créés dans l’exercice de son activité au service de l’employeur, mais en dehors de l’accomplissement de ses obligations contractuelles.\n3 Le travailleur qui a fait une invention ou créé un design visé à l’al. 2 en informe par écrit l’employeur; celui-ci lui fait savoir par écrit dans les six mois s’il entend acquérir ou lui laisser l’invention ou le design.\n4 Si l’invention ou le design n’est pas laissé au travailleur, l’employeur lui verse une rétribution spéciale équitable, compte tenu de toutes les circonstances, notamment de la valeur économique de l’invention ou du design, de la collaboration de l’employeur et de ses auxiliaires, de l’usage qui a été fait de ses installations, ainsi que des dépenses du travailleur et de sa situation dans l’entreprise.",
+          "words": 194
+        },
+        {
+          "num": "Art. 332a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_332_a",
+          "text": "",
+          "words": 0
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-F-1",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > F. Transfert des rapports de travail > 1. Effets",
+      "title": "1. Effets",
+      "articles": [
+        {
+          "num": "Art. 333",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_333",
+          "text": "1 Si l’employeur transfère l’entreprise ou une partie de celle-ci à un tiers, les rapports de travail passent à l’acquéreur avec tous les droits et les obligations qui en découlent, au jour du transfert, à moins que le travailleur ne s’y oppose.\n1bis Si les rapports de travail transférés sont régis par une convention collective, l’acquéreur est tenu de la respecter pendant une année pour autant qu’elle ne prend pas fin du fait de l’expiration de la durée convenue ou de sa dénonciation.\n2 En cas d’opposition, les rapports de travail prennent fin à l’expiration du délai de congé légal; jusque-là, l’acquéreur et le travailleur sont tenus d’exécuter le contrat.\n3 L’ancien employeur et l’acquéreur répondent solidairement des créances du travailleur échues dès avant le transfert jusqu’au moment où les rapports de travail pourraient normalement prendre fin ou ont pris fin par suite de l’opposition du travailleur.\n4 Au surplus, l’employeur ne peut pas transférer à un tiers les droits découlant des rapports de travail, à moins que le contraire n’ait été convenu ou ne résulte des circonstances.",
+          "words": 178
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-F-2",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > F. Transfert des rapports de travail > 2. Consultation de la représentation des travailleurs",
+      "title": "2. Consultation de la représentation des travailleurs",
+      "articles": [
+        {
+          "num": "Art. 333a",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_333_a",
+          "text": "1 Si l’employeur transfère l’entreprise ou une partie de celle-ci à un tiers, il est tenu d’informer la représentation des travailleurs ou, à défaut, les travailleurs en temps utile avant la réalisation du transfert de l’entreprise sur:\na. le motif du transfert;\nb. les conséquences juridiques, économiques et sociales du transfert pour les travailleurs.\n2 Si des mesures concernant les travailleurs sont envisagées suite au transfert de l’entreprise, la consultation de la représentation des travailleurs ou, à défaut, des travailleurs doit avoir lieu en temps utile avant que ces mesures ne soient décidées.",
+          "words": 93
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-F-3",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > F. Transfert des rapports de travail > 3. Transfert d’entreprise pour cause d’insolvabilité",
+      "title": "3. Transfert d’entreprise pour cause d’insolvabilité",
+      "articles": [
+        {
+          "num": "Art. 333b",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_333_b",
+          "text": "Lorsque l’entreprise ou une partie de celle-ci est transférée à un tiers durant un sursis concordataire dans le cadre d’une faillite ou dans celui d’un concordat par abandon d’actifs, les rapports de travail passent à l’acquéreur avec tous les droits et les obligations qui en découlent pour autant que ce transfert ait été convenu avec l’acquéreur et que le travailleur ne s’y oppose pas. Pour le reste, les art. 333, à l’exception de l’al. 3, et 333a sont applicables par analogie.",
+          "words": 81
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-chap1-temps-essai",
+      "path": "CO > Titre dixième: Du contrat de travail > Chapitre premier: Du contrat individuel de travail > G. Fin des rapports de travail > II. Contrat de durée indéterminée > 2. Délais de congé > b. Pendant le temps d’essai (extrait, art. 335b)",
+      "title": "Temps d’essai",
+      "articles": [
+        {
+          "num": "Art. 335b",
+          "marginal_title": "Pendant le temps d’essai",
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_335_b",
+          "text": "1 Pendant le temps d’essai, chacune des parties peut résilier le contrat de travail à tout moment moyennant un délai de congé de sept jours; est considéré comme temps d’essai le premier mois de travail.\n2 Des dispositions différentes peuvent être prévues par accord écrit, contrat-type de travail ou convention collective; toutefois, le temps d’essai ne peut dépasser trois mois.\n3 Lorsque, pendant le temps d’essai, le travail est interrompu par suite de maladie, d’accident ou d’accomplissement d’une obligation légale incombant au travailleur sans qu’il ait demandé de l’assumer, le temps d’essai est prolongé d’autant.",
+          "words": 95
+        }
+      ]
+    }
+  ]
+}

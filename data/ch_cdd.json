@@ -1,0 +1,149 @@
+{
+  "country": "CH",
+  "source": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr ; https://www.fedlex.admin.ch/eli/cc/1991/392_392_392/fr ; consolidated HTML via https://fedlex.data.admin.ch/filestore/... (CO état 1er janvier 2026; LSE, RS 823.11, état 1er janvier 2026; OSE, RS 823.111, état 1er août 2024, context only)",
+  "fetched_at": "2026-09-10",
+  "topic": "CDD et location de services",
+  "code_totals": {
+    "co_titre10": {
+      "articles": 139,
+      "words": 14230,
+      "range": "art. 319–362"
+    },
+    "ltr": {
+      "articles": 83,
+      "words": 7288
+    },
+    "co_whole": {
+      "articles": 1603,
+      "words": 120996
+    },
+    "note": "Counts are per <article> element in the Fedlex consolidated HTML (fr), including lettered sub-articles (e.g. 335a) and a handful of jointly-repealed article ranges (e.g. 'art. 226a–226d') that count as one element each. Words = whitespace-separated tokens of the plain article text (footnote markers/footnotes excluded). CO whole = art. 1–1186 (Livre cinquième du Code civil suisse), état 1er janvier 2026. LTr = RS 822.11, état 1er septembre 2023.",
+    "olt1": {
+      "articles": 86,
+      "words": 12117
+    },
+    "olt3": {
+      "articles": 42,
+      "words": 3402
+    },
+    "opa": {
+      "articles": 132,
+      "words": 12321
+    },
+    "olse": {
+      "articles": 83,
+      "words": 6813
+    }
+  },
+  "topic_totals": {
+    "articles": 12,
+    "words": 1594
+  },
+  "sections": [
+    {
+      "id": "co-tit10-G-I-cdd",
+      "path": "CO > Titre dixième > Fin des rapports de travail > Contrat de durée déterminée",
+      "title": "Contrat de durée déterminée",
+      "articles": [
+        {
+          "num": "Art. 334",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_334",
+          "text": "1 Le contrat de durée déterminée prend fin sans qu’il soit nécessaire de donner congé.\n2 Si, après l’expiration de la période convenue, le contrat de durée déterminée est reconduit tacitement, il est réputé être un contrat de durée indéterminée.\n3 Le contrat conclu pour plus de dix ans peut être résilié après dix ans par chacune des parties pour la fin d’un mois, moyennant un délai de congé de six mois.",
+          "words": 72
+        }
+      ]
+    },
+    {
+      "id": "lse-chap3-sec1-autorisation",
+      "path": "LSE > Chapitre 3 > Section 1 Activités soumises à l’autorisation",
+      "title": "Section 1 Activités soumises à l’autorisation",
+      "articles": [
+        {
+          "num": "Art. 12",
+          "marginal_title": "Autorisation obligatoire",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1991/392_392_392/fr#art_12",
+          "text": "1 Les employeurs (bailleurs de services) qui font commerce de céder à des tiers (entreprises locataires de services) les services de travailleurs doivent avoir obtenu une autorisation de l’office cantonal du travail.\n2 Outre l’autorisation cantonale, une autorisation du SECO est nécessaire pour louer les services de travailleurs vers l’étranger. La location en Suisse de services de personnel recruté à l’étranger n’est pas autorisée.\n3 Si une succursale n’a pas son siège dans le même canton que la maison mère, elle doit avoir obtenu une autorisation; si elle est établie dans le même canton que la maison mère, elle doit être déclarée à l’office cantonal du travail.",
+          "words": 107
+        },
+        {
+          "num": "Art. 13",
+          "marginal_title": "Conditions",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1991/392_392_392/fr#art_13",
+          "text": "1 L’autorisation est accordée lorsque l’entreprise:\na. est inscrite au registre suisse du commerce;\nb. dispose d’un local commercial approprié;\nc. n’exerce pas d’autre activité professionnelle pouvant nuire aux intérêts des travailleurs ou des entreprises locataires de services.\n2 Les personnes responsables de la gestion doivent:\na. être de nationalité suisse ou posséder un permis d’établissement;\nb. assurer une location de services satisfaisant aux règles de la profession;\nc. jouir d’une bonne réputation.\n3 En outre, l’autorisation de louer les services de travailleurs vers l’étranger n’est délivrée que si les responsables de la gestion donnent l’assurance que l’entreprise dispose de personnel connaissant suffisamment les conditions régnant dans les pays concernés.\n4 Le Conseil fédéral règle les détails.",
+          "words": 117
+        },
+        {
+          "num": "Art. 14",
+          "marginal_title": "Sûretés",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1991/392_392_392/fr#art_14",
+          "text": "1 Le bailleur de services est tenu de fournir des sûretés en garantie des prétentions de salaire découlant de son activité de location de services.\n2 Le montant des sûretés est proportionnel à l’étendue de l’activité commerciale. Le Conseil fédéral fixe les montants minimum et maximum et règle les détails.",
+          "words": 50
+        },
+        {
+          "num": "Art. 15",
+          "marginal_title": "Durée et portée",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1991/392_392_392/fr#art_15",
+          "text": "1 L’autorisation est délivrée pour une durée illimitée et donne droit d’exercer la location de services dans l’ensemble de la Suisse.\n2 L’autorisation de louer les services vers l’étranger est limitée à des pays déterminés.\n3 Les personnes responsables de la gestion sont nommément indiquées dans l’autorisation.\n4 Le Conseil fédéral fixe les émoluments d’octroi de l’autorisation.",
+          "words": 57
+        },
+        {
+          "num": "Art. 16",
+          "marginal_title": "Retrait",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1991/392_392_392/fr#art_16",
+          "text": "1 L’autorisation est retirée lorsque le bailleur de services:\na. l’a obtenue en donnant des indications inexactes ou fallacieuses ou en taisant des éléments essentiels;\nb. enfreint de manière répétée ou grave des dispositions impératives ressortissant à la protection des travailleurs, la présente loi ou des dispositions d’exécution, en particulier les dispositions fédérales ou cantonal les relatives à l’admission des étrangers;\nc. ne remplit plus les conditions requises pour l’octroi de l’autorisation.\n2 Si le bailleur de services ne remplit plus certaines des conditions requises pour l’octroi de l’autorisation, l’autorité qui l’a délivrée doit, avant d’en décider le retrait, impartir au bailleur de services un délai pour régulariser sa situation.",
+          "words": 110
+        },
+        {
+          "num": "Art. 17",
+          "marginal_title": "Obligation de renseigner",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1991/392_392_392/fr#art_17",
+          "text": "1 Sur requête de l’autorité qui délivre l’autorisation, le bailleur de services est tenu de fournir tous les renseignements nécessaires ainsi que les documents requis.\n2 Lorsqu’il y a présomption sérieuse qu’une personne procure professionnellement les services de travailleurs à des tiers sans autorisation, l’autorité qui délivre les autorisations peut également exiger des renseignements de toutes les personnes et entreprises intéressées.\n3 Dans les domaines régis par une convention collective de travail étendue, le bailleur de services doit présenter à l’organe paritaire compétent tous les documents permettant de vérifier que les conditions de travail sont conformes à l’usage local. Dans les domaines non régis par une convention collective de travail étendue, les renseignements doivent être fournis à la commission cantonale tripartite compétente.",
+          "words": 122
+        }
+      ]
+    },
+    {
+      "id": "lse-chap3-sec2-activites",
+      "path": "LSE > Chapitre 3 > Section 2 Activités de location de services",
+      "title": "Section 2 Activités de location de services",
+      "articles": [
+        {
+          "num": "Art. 18",
+          "marginal_title": "Obligations propres au bailleur de services",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1991/392_392_392/fr#art_18",
+          "text": "1 Le bailleur de services ne peut publier des offres d’emploi que sous son propre nom et en indiquant son adresse exacte. Il mentionnera clairement dans les annonces que les travailleurs seront engagés pour la location de services.\n2 Aux fins d’observer le marché du travail, l’autorité qui délivre l’autorisation peut obliger le bailleur de services à lui fournir, sous une forme anonyme, des indications statistiques sur ses activités.\n3 Le bailleur de services n’est habilité à traiter les données concernant les travailleurs et à les communiquer à des entreprises locataires de services que dans la mesure où et aussi longtemps que ces données sont nécessaires au placement. Hors de ce cadre, ces données ne peuvent être traitées ou communiquées qu’avec l’assentiment exprès du travailleur.",
+          "words": 125
+        },
+        {
+          "num": "Art. 19",
+          "marginal_title": "Contrat de travail",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1991/392_392_392/fr#art_19",
+          "text": "1 En règle générale, le bailleur de services doit conclure un contrat écrit avec le travailleur. Le Conseil fédéral règle les exceptions.\n2 Le contrat contiendra les points suivants:\na. le genre de travail à fournir;\nb. le lieu de travail et le début de l’engagement;\nc. la durée de l’engagement ou le délai de congé;\nd. l’horaire de travail;\ne. le salaire, les indemnités et allocations éventuelles ainsi que les déductions afférentes aux assurances sociales;\nf. les prestations dues en cas d’heures supplémentaires, de maladie, de maternité, d’accident, de service militaire et de vacances;\ng. les dates de paiement du salaire, des allocations et des autres prestations.\n3 Si les exigences relatives à la forme ou au contenu ne sont pas remplies, les conditions de travail selon les usages locaux et professionnels ou les dispositions légales en la matière sont applicables, à moins que des conditions plus favorables aient été conclues verbalement.\n4 Lorsque l’engagement est d’une durée indéterminée, le contrat de travail peut, pendant les six premiers mois de service, être résilié par les deux parties moyennant un délai de congé de:\na. deux jours au moins durant les trois premier mois d’un emploi ininterrompu;\nb. sept jours au moins entre le quatrième et le sixième mois d’un emploi ininterrompu.\n5 Sont nuls et non avenus les accords qui:\na. exigent du travailleur qui loue ses services le paiement d’émoluments ou de prestations financières préalables.\nb. empêchent ou entravent son transfert à l’entreprise locataire de services, une fois son contrat de travail arrivé à échéance.\n6 Si le bailleur de services ne possède pas l’autorisation nécessaire, son contrat de travail avec le travailleur est nul et non avenu. Dans ce cas, l’art. 320, al. 3, du code des obligations, qui règle les suites d’un contrat nul, est applicable.",
+          "words": 300
+        },
+        {
+          "num": "Art. 20",
+          "marginal_title": "Conventions collectives de travail avec déclaration d’extension",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1991/392_392_392/fr#art_20",
+          "text": "1 Lorsqu’une entreprise locataire de services est soumise à une convention collective de travail étendue, le bailleur de services doit appliquer au travailleur celles des dispositions de la convention qui concernent le salaire et la durée du travail. Si une convention collective de travail étendue prévoit une contribution obligatoire aux frais de formation continue et aux frais d’exécution, les dispositions concernées s’appliquent aussi au bailleur de services, auquel cas les contributions doivent être versées au prorata de la durée de l’engagement. Le Conseil fédéral règle les modalités.\n2 L’organe paritaire de contrôle prévu par la convention collective de travail étendue est habilité à contrôler le bailleur de services. En cas d’infraction grave, il doit en informer l’office cantonal du travail et peut:\na. infliger au bailleur de services une peine prévue par la convention collective de travail;\nb. imputer au bailleur de services tout ou partie des frais de contrôle.\n3 Lorsqu’une entreprise locataire de services est soumise à une convention collective de travail avec déclaration d’extension instituant un régime de retraite anticipée, le bailleur de service est également tenu de respecter ce régime envers le travailleur. Le Conseil fédéral peut fixer la durée minimale d’engagement à partir de laquelle le travailleur doit être mis au bénéfice de ce régime.",
+          "words": 210
+        },
+        {
+          "num": "Art. 21",
+          "marginal_title": "Travailleurs étrangers en Suisse",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1991/392_392_392/fr#art_21",
+          "text": "1 Le bailleur de services n’engage en Suisse que des étrangers qui sont admis en vue de l’exercice d’une activité lucrative et autorisés à changer d’emploi.\n2 Des exceptions sont possibles pour protéger des intérêts économiques particuliers.",
+          "words": 37
+        },
+        {
+          "num": "Art. 22",
+          "marginal_title": "Contrat de location de services",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1991/392_392_392/fr#art_22",
+          "text": "1 Le bailleur de services doit conclure un contrat écrit avec l’entreprise locataire de services. Il y indiquera:\na. sa propre adresse et celle de l’autorité qui délivre l’autorisation;\nb. les qualifications professionnelles du travailleur et le genre de travail;\nc. le lieu de travail du travailleur ainsi que le début de l’engagement;\nd. la durée de l’engagement ou les délais de congé;\ne. l’horaire de travail du travailleur;\nf. le coût de la location de services, y compris les prestations sociales, les allocations, les indemnités et les prestations accessoires.\n2 Sont nuls et non avenus les accords qui entravent ou empêchent l’entreprise locataire de services de conclure un contrat de travail avec le travailleur une fois que le contrat de location de services arrive à son terme.\n3 Sont toutefois admissibles les accords selon lesquels le bailleur de services peut exiger de l’entreprise locataire de services le versement d’une indemnité lorsque la location de services a duré moins de trois mois et que le travailleur a repris son activité au sein de l’entreprise locataire de services moins de trois mois après la fin de la location de ses services à cette entreprise.\n4 L’indemnité atteindra au maximum le montant que l’entreprise locataire de services aurait eu à payer au bailleur de services à titre de frais d’administration et de bénéfice pour un engagement de trois mois. Le bailleur de services doit imputer sur l’indemnité le montant déjà versé au titre de frais d’administration et de bénéfice.\n5 Si le bailleur de services ne possède pas l’autorisation nécessaire, le contrat de location de services est nul et non avenu. Dans ce cas, les dispositions du code des obligations concernant les actes illicites et l’enrichissement illégitime sont applicables.",
+          "words": 287
+        }
+      ]
+    }
+  ]
+}

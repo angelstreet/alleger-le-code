@@ -1,0 +1,2135 @@
+{
+  "country": "FR",
+  "source": "https://registry.npmjs.org/@socialgouv/legi-data (npm package @socialgouv/legi-data, data/LEGITEXT000006072050.json - Code du travail, sourced from DILA/Legifrance LEGI open data); article permalinks on https://www.legifrance.gouv.fr/codes/article_lc/",
+  "fetched_at": "2026-09-10T09:35:37Z",
+  "topic": "Salaire : minimum, paiement, protection",
+  "code_totals": {
+    "articles_L": 4393,
+    "articles_R": 5547,
+    "articles_D": 1529,
+    "articles_total": 11477,
+    "words_total": 1047518,
+    "note": "Computed over the entire Code du travail (LEGITEXT000006072050) tree from the @socialgouv/legi-data dataset, counting only articles with etat == 'VIGUEUR' (currently in force), across Partie législative, Partie réglementaire, and their 'ancienne' (superseded) subtrees if any in-force articles remain there. Word count = whitespace-split tokens of the HTML-stripped article text."
+  },
+  "topic_totals": {
+    "articles_L": 113,
+    "articles_R": 120,
+    "articles_D": 19,
+    "articles_total": 252,
+    "words_total": 18495
+  },
+  "sections": [
+    {
+      "id": "LEGISCTA000006178021",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre Ier : Champ d'application",
+      "title": "Chapitre unique.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3211-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902816",
+          "text": "Les dispositions du présent livre sont applicables aux employeurs de droit privé et à leurs salariés.",
+          "words": 16
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006178022",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre II : Egalité de rémunération entre les femmes et les hommes",
+      "title": "Chapitre Ier : Principes.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3221-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902817",
+          "text": "Les dispositions des articles L. 3221-2 à L. 3221-7 sont applicables, outre aux employeurs et salariés mentionnés à l'article L. 3211-1, à ceux non régis par le code du travail et, notamment, aux agents de droit public.",
+          "words": 37
+        },
+        {
+          "num": "L3221-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902818",
+          "text": "Tout employeur assure, pour un même travail ou pour un travail de valeur égale, l'égalité de rémunération entre les femmes et les hommes.",
+          "words": 23
+        },
+        {
+          "num": "L3221-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902819",
+          "text": "Constitue une rémunération au sens du présent chapitre, le salaire ou traitement ordinaire de base ou minimum et tous les autres avantages et accessoires payés, directement ou indirectement, en espèces ou en nature, par l'employeur au salarié en raison de l'emploi de ce dernier.",
+          "words": 44
+        },
+        {
+          "num": "L3221-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902820",
+          "text": "Sont considérés comme ayant une valeur égale, les travaux qui exigent des salariés un ensemble comparable de connaissances professionnelles consacrées par un titre, un diplôme ou une pratique professionnelle, de capacités découlant de l'expérience acquise, de responsabilités et de charge physique ou nerveuse.",
+          "words": 43
+        },
+        {
+          "num": "L3221-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902821",
+          "text": "Les disparités de rémunération entre les établissements d'une même entreprise ne peuvent pas, pour un même travail ou pour un travail de valeur égale, être fondées sur l'appartenance des salariés de ces établissements à l'un ou l'autre sexe.",
+          "words": 38
+        },
+        {
+          "num": "L3221-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037389671",
+          "text": "Les différents éléments composant la rémunération sont établis selon des normes identiques pour les femmes et pour les hommes.\n\nLes catégories et les critères de classification et de promotion professionnelles ainsi que toutes les autres bases de calcul de la rémunération, notamment les modes d'évaluation des emplois, sont établis selon des règles qui assurent l'application du principe fixé à l'article L. 3221-2.",
+          "words": 62
+        },
+        {
+          "num": "L3221-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902825",
+          "text": "Est nulle de plein droit toute disposition figurant notamment dans un contrat de travail, une convention ou accord collectif de travail, un accord de salaires, un règlement ou barème de salaires résultant d'une décision d'un employeur ou d'un groupement d'employeurs et qui, contrairement aux articles L. 3221-2 à L. 3221-6, comporte, pour un ou des salariés de l'un des deux sexes, une rémunération inférieure à celle de salariés de l'autre sexe pour un même travail ou un travail de valeur égale.\n\nLa rémunération plus élevée dont bénéficient ces derniers salariés est substituée de plein droit à celle que comportait la disposition entachée de nullité.",
+          "words": 104
+        },
+        {
+          "num": "L3221-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902826",
+          "text": "Lorsque survient un litige relatif à l'application du présent chapitre, les règles de preuve énoncées à l'article L. 1144-1 s'appliquent.",
+          "words": 20
+        },
+        {
+          "num": "L3221-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033149972",
+          "text": "Les agents de contrôle de l'inspection du travail mentionnés à l'article L. 8112-1 ou, le cas échéant, les autres fonctionnaires de contrôle assimilés sont chargés, dans le domaine de leurs compétences respectives, concurremment avec les officiers et agents de police judiciaire, de constater les infractions à ces dispositions.",
+          "words": 48
+        },
+        {
+          "num": "L3221-10",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018764762",
+          "text": "Un décret en Conseil d'Etat détermine les modalités d'application du présent chapitre.",
+          "words": 12
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006178023",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre II : Egalité de rémunération entre les femmes et les hommes",
+      "title": "Chapitre II : Dispositions pénales.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3222-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035652682",
+          "text": "Les dispositions des articles 132-58 à 132-62 du code pénal relatives à l'ajournement du prononcé de la peine sont applicables dans le cas de poursuites pour infraction aux dispositions des articles L. 3221-2 à L. 3221-7, sous réserve des mesures particulières prévues par le présent article.\n\nL'ajournement comporte injonction à l'employeur de définir, après consultation du comité social et économique, et dans un délai déterminé, les mesures propres à assurer dans l'entreprise en cause le rétablissement de l'égalité professionnelle entre les femmes et les hommes. L'ajournement peut comporter également injonction à l'employeur d'exécuter dans le même délai les mesures définies.\n\nLe juge peut ordonner l'exécution provisoire de sa décision.",
+          "words": 109
+        },
+        {
+          "num": "L3222-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902829",
+          "text": "A l'audience de renvoi et au vu des mesures définies et, le cas échéant, exécutées par l'employeur, la juridiction apprécie s'il y a lieu de prononcer une dispense de peine ou d'infliger les peines prévues par la loi.\n\nToutefois, dans le cas où le délai prévu au deuxième alinéa de l'article L. 3222-1 n'a pas été respecté, la juridiction peut prononcer un nouvel et dernier ajournement et impartir un nouveau délai au prévenu pour exécuter l'injonction.",
+          "words": 76
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189662",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre Ier : Salaire minimum interprofessionnel de croissance",
+      "title": "Section 1 : Champ d'application.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3231-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902830",
+          "text": "Les dispositions du présent chapitre sont applicables, outre aux employeurs et salariés mentionnés à l'article L. 3211-1, au personnel des établissements publics à caractère industriel et commercial et au personnel de droit privé des établissements publics administratifs.",
+          "words": 37
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189663",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre Ier : Salaire minimum interprofessionnel de croissance",
+      "title": "Section 2 : Principes.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3231-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902832",
+          "text": "Le salaire minimum de croissance assure aux salariés dont les rémunérations sont les plus faibles :\n\n1° La garantie de leur pouvoir d'achat ;\n\n2° Une participation au développement économique de la nation.",
+          "words": 33
+        },
+        {
+          "num": "L3231-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902833",
+          "text": "Sont interdites, dans les conventions ou accords collectifs de travail, les clauses comportant des indexations sur le salaire minimum de croissance ou des références à ce dernier en vue de la fixation et de la révision des salaires prévus par ces conventions ou accords.",
+          "words": 44
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195808",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre Ier : Salaire minimum interprofessionnel de croissance > Section 3 : Modalités de fixation",
+      "title": "Sous-section 1 : Garantie du pouvoir d'achat des salariés.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3231-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902834",
+          "text": "La garantie du pouvoir d'achat des salariés prévue au 1° de l'article L. 3231-2 est assurée par l'indexation du salaire minimum de croissance sur l'évolution de l'indice national des prix à la consommation institué comme référence par voie réglementaire.",
+          "words": 39
+        },
+        {
+          "num": "L3231-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902835",
+          "text": "Lorsque l'indice national des prix à la consommation atteint un niveau correspondant à une hausse d'au moins 2 % par rapport à l'indice constaté lors de l'établissement du salaire minimum de croissance immédiatement antérieur, le salaire minimum de croissance est relevé dans la même proportion à compter du premier jour du mois qui suit la publication de l'indice entraînant ce relèvement.",
+          "words": 61
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195809",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre Ier : Salaire minimum interprofessionnel de croissance > Section 3 : Modalités de fixation",
+      "title": "Sous-section 2 : Participation des salariés au développement économique de la nation.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3231-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019870672",
+          "text": "La participation des salariés au développement économique de la nation prévue au 2° de l'article L. 3231-2 est assurée, indépendamment de l'application de l'article L. 3231-4, par la fixation du salaire minimum de croissance, chaque année avec effet au 1er janvier.",
+          "words": 41
+        },
+        {
+          "num": "L3231-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902837",
+          "text": "Le taux du salaire minimum de croissance est fixé par voie réglementaire à l'issue d'une procédure déterminée par décret.",
+          "words": 19
+        },
+        {
+          "num": "L3231-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902839",
+          "text": "En aucun cas, l'accroissement annuel du pouvoir d'achat du salaire minimum de croissance ne peut être inférieur à la moitié de l'augmentation du pouvoir d'achat des salaires horaires moyens enregistrés par l'enquête trimestrielle du ministère chargé du travail.\n\nL'indice de référence peut être modifié par voie réglementaire.",
+          "words": 47
+        },
+        {
+          "num": "L3231-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902840",
+          "text": "Les relèvements annuels successifs du salaire minimum de croissance doivent tendre à éliminer toute distorsion durable entre sa progression et l'évolution des conditions économiques générales et des revenus.",
+          "words": 28
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195810",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre Ier : Salaire minimum interprofessionnel de croissance > Section 3 : Modalités de fixation",
+      "title": "Sous-section 3 : Autres modalités de fixation.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3231-10",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902841",
+          "text": "En cours d'année, le salaire minimum de croissance peut être porté, par voie réglementaire, à un niveau supérieur à celui qui résulte de l'application des dispositions de l'article L. 3231-5.",
+          "words": 30
+        },
+        {
+          "num": "L3231-11",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019870668",
+          "text": "Les améliorations du pouvoir d'achat intervenues en application de l'article L. 3231-10 depuis le 1er janvier de l'année précédente entrent en compte pour l'application, lors de la fixation annuelle du salaire minimum de croissance, de la règle fixée à l'article L. 3231-8.",
+          "words": 42
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189665",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre Ier : Salaire minimum interprofessionnel de croissance",
+      "title": "Section 4 : Minimum garanti.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3231-12",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902843",
+          "text": "Un minimum garanti est déterminé en fonction de l'évolution de l'indice national des prix à la consommation par application des dispositions de l'article L. 3231-4. Il intervient notamment pour l'évaluation des avantages en nature.\n\nCe minimum garanti peut être porté, par voie réglementaire, à un niveau supérieur à celui résultant de l'application du premier alinéa.",
+          "words": 55
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189666",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre II : Rémunération mensuelle minimale",
+      "title": "Section 1 : Dispositions générales.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3232-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902844",
+          "text": "Tout salarié dont l'horaire de travail est au moins égal à la durée légale hebdomadaire, perçoit, s'il n'est pas apprenti, une rémunération au moins égale au minimum fixé dans les conditions prévues à la section 2.\n\nCes dispositions ne s'appliquent pas aux salariés temporaires.",
+          "words": 44
+        },
+        {
+          "num": "L3232-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027565921",
+          "text": "Le gouvernement présente chaque année, en annexe au projet de loi de finances, un rapport sur l'application du présent chapitre indiquant notamment :\n\n1° Le nombre de salariés bénéficiaires de l'allocation complémentaire établie par l'article L. 3232-5 ;\n\n2° Le coût du versement de l'allocation prévue au 1° pour l'année écoulée ;\n\n3° Le nombre de bénéficiaires des allocations publiques de chômage total et des allocations publiques d'activité partielle ainsi que les mesures prises en application de l'article L. 3232-9.",
+          "words": 80
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189667",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre II : Rémunération mensuelle minimale",
+      "title": "Section 2 : Modalités de fixation.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3232-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902847",
+          "text": "La rémunération mensuelle minimale est égale au produit du montant du salaire minimum de croissance tel qu'il est fixé en application des articles L. 3231-2 à L. 3231-12, par le nombre d'heures correspondant à la durée légale hebdomadaire pour le mois considéré.\n\nElle ne peut excéder, après déduction des cotisations obligatoires retenues par l'employeur, la rémunération nette qui aurait été perçue pour un travail effectif de même durée payé au taux du salaire minimum de croissance.",
+          "words": 76
+        },
+        {
+          "num": "L3232-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902848",
+          "text": "La rémunération mensuelle minimale est réduite à due concurrence lorsque :\n\n1° Au cours du mois considéré, le salarié a accompli un nombre d'heures inférieur à celui qui correspond à la durée légale hebdomadaire en cas de suspension du contrat de travail ;\n\n2° Le contrat de travail a débuté ou s'est terminé au cours du mois considéré.",
+          "words": 58
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189668",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre II : Rémunération mensuelle minimale",
+      "title": "Section 3 : Allocation complémentaire.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3232-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027565915",
+          "text": "Lorsque, par suite d'une réduction de l'horaire de travail au-dessous de la durée légale hebdomadaire pour des causes autres que celles énumérées à l'article L. 3232-4, un salarié a perçu au cours d'un mois, à titre de salaire et d'indemnité d'activité partielle, une somme totale inférieure à la rémunération minimale, il lui est alloué une allocation complémentaire égale à la différence entre la rémunération minimale et la somme qu'il a effectivement perçue.\n\nPour l'application du présent chapitre, sont assimilées à l'indemnité d'activité partielle, les indemnités pour intempéries prévues aux articles L. 5424-6 et suivants.",
+          "words": 94
+        },
+        {
+          "num": "L3232-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902850",
+          "text": "Les dispositions fiscales et sociales relatives aux allocations et contributions prévues à l'article L. 5428-1 sont applicables à l'allocation complémentaire.",
+          "words": 20
+        },
+        {
+          "num": "L3232-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902851",
+          "text": "L'allocation complémentaire est à la charge de l'employeur.",
+          "words": 8
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189670",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre II : Rémunération mensuelle minimale",
+      "title": "Section 5 : Dispositions d'application.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3232-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902856",
+          "text": "Des décrets en Conseil d'Etat déterminent les modalités d'application du présent chapitre, notamment :\n\n1° Les conditions, les modalités et les délais de remboursement par l'Etat de la part lui incombant dans l'allocation complémentaire ;\n\n2° En tant que de besoin, les modalités particulières applicables aux salariés de l'agriculture, aux salariés du bâtiment et des travaux publics, aux marins professionnels, aux dockers professionnels, aux salariés travaillant à domicile, aux salariés intermittents, aux travailleurs handicapés, ainsi qu'aux salariés saisonniers pendant la période normale de leur activité. Ces décrets peuvent prévoir le calcul de la rémunération minimale sur une période autre que mensuelle.",
+          "words": 101
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006178026",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre IV : Paiement du salaire",
+      "title": "Chapitre Ier : Dispositions générales.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3241-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044605341",
+          "text": "Sous réserve des dispositions législatives imposant le paiement des salaires sous une forme déterminée, le salaire est payé en espèces ou par chèque barré ou par virement à un compte bancaire ou postal dont le salarié est le titulaire ou le cotitulaire. Le salarié ne peut désigner un tiers pour recevoir son salaire.\n\nToute stipulation contraire est nulle.\n\nEn dessous d'un montant mensuel déterminé par décret, le salaire est payé en espèces au salarié qui le demande.\n\nAu-delà d'un montant mensuel déterminé par décret, le salaire est payé par chèque barré ou par virement à un compte bancaire ou postal dont le salarié est le titulaire ou le cotitulaire.",
+          "words": 109
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006178027",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre IV : Paiement du salaire",
+      "title": "Chapitre II : Mensualisation.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3242-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902858",
+          "text": "La rémunération des salariés est mensuelle et indépendante, pour un horaire de travail effectif déterminé, du nombre de jours travaillés dans le mois. Le paiement mensuel neutralise les conséquences de la répartition inégale des jours entre les douze mois de l'année.\n\nPour un horaire équivalent à la durée légale hebdomadaire, la rémunération mensuelle due au salarié se calcule en multipliant la rémunération horaire par les 52/12 de la durée légale hebdomadaire.\n\nLe paiement de la rémunération est effectué une fois par mois. Un acompte correspondant, pour une quinzaine, à la moitié de la rémunération mensuelle, est versé au salarié qui en fait la demande.\n\nCes dispositions ne s'appliquent pas aux salariés travaillant à domicile, aux salariés saisonniers, aux salariés intermittents et aux salariés temporaires.",
+          "words": 124
+        },
+        {
+          "num": "L3242-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902859",
+          "text": "La mensualisation n'exclut pas les divers modes de calcul du salaire aux pièces, à la prime ou au rendement.",
+          "words": 19
+        },
+        {
+          "num": "L3242-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902860",
+          "text": "Les salariés ne bénéficiant pas de la mensualisation sont payés au moins deux fois par mois, à seize jours au plus d'intervalle.",
+          "words": 22
+        },
+        {
+          "num": "L3242-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902861",
+          "text": "Pour tout travail aux pièces dont l'exécution dure plus d'une quinzaine, les dates de paiement peuvent être fixées d'un commun accord. Toutefois, le salarié reçoit des acomptes chaque quinzaine et est intégralement payé dans la quinzaine qui suit la livraison de l'ouvrage.",
+          "words": 42
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006178028",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre IV : Paiement du salaire",
+      "title": "Chapitre III : Bulletin de paie.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3243-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902862",
+          "text": "Les dispositions du présent chapitre s'appliquent à toutes les personnes salariées ou travaillant à quelque titre ou en quelque lieu que ce soit pour un ou plusieurs employeurs et quels que soient le montant et la nature de leurs rémunérations, la forme, ou la validité de leur contrat.",
+          "words": 48
+        },
+        {
+          "num": "L3243-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033024092",
+          "text": "Lors du paiement du salaire, l'employeur remet aux personnes mentionnées à l'article L. 3243-1 une pièce justificative dite bulletin de paie. Il ne peut exiger aucune formalité de signature ou d'émargement autre que celle établissant que la somme reçue correspond bien au montant net figurant sur ce bulletin.\n\nSauf opposition du salarié, l'employeur peut procéder à la remise du bulletin de paie sous forme électronique, dans des conditions de nature à garantir l'intégrité, la disponibilité pendant une durée fixée par décret et la confidentialité des données ainsi que leur accessibilité dans le cadre du service associé au compte mentionné au 2° du II de l'article L. 5151-6. Un décret en Conseil d'Etat pris après avis de la Commission nationale de l'informatique et des libertés détermine les modalités de cette accessibilité afin de préserver la confidentialité des données.\n\nLes mentions devant figurer sur le bulletin ou y être annexées sont déterminées par décret en Conseil d'Etat.",
+          "words": 155
+        },
+        {
+          "num": "L3243-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019017587",
+          "text": "L'acceptation sans protestation ni réserve d'un bulletin de paie par le travailleur ne peut valoir de sa part renonciation au paiement de tout ou partie du salaire et des indemnités ou accessoires de salaire qui lui sont dus en application de la loi, du règlement, d'une convention ou d'un accord collectif de travail ou d'un contrat.\n\nCette acceptation ne peut valoir non plus compte arrêté et réglé au sens de l'article 1269 du code de procédure civile.",
+          "words": 77
+        },
+        {
+          "num": "L3243-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020625846",
+          "text": "L'employeur conserve un double des bulletins de paie des salariés ou les bulletins de paie remis aux salariés sous forme électronique pendant cinq ans.",
+          "words": 24
+        },
+        {
+          "num": "L3243-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902866",
+          "text": "Il peut être dérogé à la conservation des bulletins de paie, pour tenir compte du recours à d'autres moyens, notamment informatiques, dans les conditions prévues au deuxième alinéa de l'article L. 8113-6.",
+          "words": 32
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006178029",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre IV : Paiement du salaire",
+      "title": "Chapitre IV : Pourboires.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3244-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902867",
+          "text": "Dans tous les établissements commerciaux où existe la pratique du pourboire, toutes les perceptions faites \" pour le service \" par l'employeur sous forme de pourcentage obligatoirement ajouté aux notes des clients ou autrement, ainsi que toutes sommes remises volontairement par les clients pour le service entre les mains de l'employeur, ou centralisées par lui, sont intégralement versées au personnel en contact avec la clientèle et à qui celle-ci avait coutume de les remettre directement.",
+          "words": 75
+        },
+        {
+          "num": "L3244-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902868",
+          "text": "Les sommes mentionnées à l'article L. 3244-1 s'ajoutent au salaire fixe, sauf dans le cas où un salaire minimum a été garanti par l'employeur.",
+          "words": 24
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006178030",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre IV : Paiement du salaire",
+      "title": "Chapitre V : Action en paiement et prescription.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3245-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027566295",
+          "text": "L'action en paiement ou en répétition du salaire se prescrit par trois ans à compter du jour où celui qui l'exerce a connu ou aurait dû connaître les faits lui permettant de l'exercer. La demande peut porter sur les sommes dues au titre des trois dernières années à compter de ce jour ou, lorsque le contrat de travail est rompu, sur les sommes dues au titre des trois années précédant la rupture du contrat.",
+          "words": 74
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000029233242",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre IV : Paiement du salaire",
+      "title": "Chapitre V bis : Obligations et responsabilité financière du donneur d'ordre.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3245-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029233244",
+          "text": "Le maître d'ouvrage ou le donneur d'ordre, informé par écrit par l'un des agents de contrôle mentionnés à l'article L. 8271-1-2 du non-paiement partiel ou total du salaire minimum légal ou conventionnel dû au salarié de son cocontractant, d'un sous-traitant direct ou indirect ou d'un cocontractant d'un sous-traitant, enjoint aussitôt, par écrit, à ce sous-traitant ou à ce cocontractant de faire cesser sans délai cette situation.\n\nLe sous-traitant ou le cocontractant mentionné au premier alinéa du présent article informe, par écrit, le maître d'ouvrage ou le donneur d'ordre de la régularisation de la situation. Ce dernier en transmet une copie à l'agent de contrôle mentionné au même premier alinéa.\n\nEn l'absence de réponse écrite du sous-traitant ou du cocontractant dans un délai fixé par décret en Conseil d'Etat, le maître d'ouvrage ou le donneur d'ordre en informe aussitôt l'agent de contrôle.\n\nPour tout manquement à ses obligations d'injonction et d'information mentionnées aux premier et troisième alinéas, le maître d'ouvrage ou le donneur d'ordre est tenu solidairement avec l'employeur du salarié au paiement des rémunérations, indemnités et charges dues, dans des conditions fixées par décret en Conseil d'Etat.\n\nLe présent article ne s'applique pas au particulier qui contracte avec une entreprise pour son usage personnel, celui de son conjoint, de son partenaire lié par un pacte civil de solidarité, de son concubin ou de ses ascendants ou descendants.",
+          "words": 227
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006178031",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire",
+      "title": "Chapitre Ier : Retenues.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3251-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902873",
+          "text": "L'employeur ne peut opérer une retenue de salaire pour compenser des sommes qui lui seraient dues par un salarié pour fournitures diverses, quelle qu'en soit la nature.",
+          "words": 27
+        },
+        {
+          "num": "L3251-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902874",
+          "text": "Par dérogation aux dispositions de l'article L. 3251-1, une compensation entre le montant des salaires et les sommes qui seraient dues à l'employeur peut être opérée dans les cas de fournitures suivants :\n\n1° Outils et instruments nécessaires au travail ;\n\n2° Matières ou matériaux dont le salarié a la charge et l'usage ;\n\n3° Sommes avancées pour l'acquisition de ces mêmes objets.",
+          "words": 63
+        },
+        {
+          "num": "L3251-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902875",
+          "text": "En dehors des cas prévus au 3° de l'article L. 3251-2, l'employeur ne peut opérer de retenue de salaire pour les avances en espèces qu'il a faites, que s'il s'agit de retenues successives ne dépassant pas le dixième du montant des salaires exigibles.\n\nLa retenue opérée à ce titre ne se confond pas avec la partie saisissable ou cessible.\n\nLes acomptes sur un travail en cours ne sont pas considérés comme des avances.",
+          "words": 73
+        },
+        {
+          "num": "L3251-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032043018",
+          "text": "Il est interdit à l'employeur, sous réserve des dispositions de l'article 1240 du code civil, d'imposer aux salariés des versements d'argent ou d'opérer des retenues d'argent sous la dénomination de frais ou sous toute autre dénomination pour quelque objet que ce soit, à l'occasion de l'exercice normal de leur travail dans les secteurs suivants :\n\n1° Hôtels, cafés, restaurants et établissements similaires ;\n\n2° Entreprises de spectacle, cercles et casinos ;\n\n3° Entreprises de transport.",
+          "words": 75
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006178032",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire",
+      "title": "Chapitre II : Saisies et cessions.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3252-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902877",
+          "text": "Les dispositions du présent chapitre sont applicables aux sommes dues à titre de rémunération à toute personne salariée ou travaillant, à quelque titre ou en quelque lieu que ce soit, pour un ou plusieurs employeurs, quels que soient le montant et la nature de sa rémunération, la forme et la nature de son contrat.",
+          "words": 54
+        },
+        {
+          "num": "L3252-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902878",
+          "text": "Sous réserve des dispositions relatives aux pensions alimentaires prévues à l'article L. 3252-5, les sommes dues à titre de rémunération ne sont saisissables ou cessibles que dans des proportions et selon des seuils de rémunération affectés d'un correctif pour toute personne à charge, déterminés par décret en Conseil d'Etat.\n\nCe décret précise les conditions dans lesquelles ces seuils et correctifs sont révisés en fonction de l'évolution des circonstances économiques.",
+          "words": 69
+        },
+        {
+          "num": "L3252-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033812428",
+          "text": "Pour la détermination de la fraction insaisissable, il est tenu compte du montant de la rémunération, de ses accessoires ainsi que de la valeur des avantages en nature, après déduction des cotisations et contributions sociales obligatoires et de la retenue à la source prévue à l'article 204 A du code général des impôts.\n\nIl est en outre tenu compte d'une fraction insaisissable égale au montant forfaitaire mentionné à l'article L. 262-2 du code de l'action sociale et des familles applicable à un foyer composé d'une seule personne.\n\nIl n'est pas tenu compte des indemnités insaisissables, des sommes allouées à titre de remboursement de frais exposés par le travailleur et des allocations ou indemnités pour charges de famille.",
+          "words": 117
+        },
+        {
+          "num": "L3252-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048447294",
+          "text": "Lorsqu'un débiteur perçoit de plusieurs payeurs des sommes saisissables ou cessibles dans les conditions prévues par le présent chapitre et par le code des procédures civiles d'exécution, la fraction saisissable est calculée sur l'ensemble de ces sommes.\n\nLes retenues sont opérées selon les modalités déterminées par décret en Conseil d'Etat.",
+          "words": 50
+        },
+        {
+          "num": "L3252-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031686176",
+          "text": "Le prélèvement direct du terme mensuel courant et des six derniers mois impayés des pensions alimentaires ou des vingt-quatre derniers mois lorsque l'organisme débiteur des prestations familiales agit pour le compte du créancier peut être poursuivi sur l'intégralité de la rémunération. Il est d'abord imputé sur la fraction insaisissable et, s'il y a lieu, sur la fraction saisissable.\n\nToutefois, une somme est, dans tous les cas, laissée à la disposition du salarié dans des conditions déterminées par décret en Conseil d'Etat.",
+          "words": 81
+        },
+        {
+          "num": "L3252-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902886",
+          "text": "Les rémunérations ne peuvent faire l'objet d'une saisie conservatoire.",
+          "words": 9
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189671",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire > Chapitre III : Privilèges et assurance",
+      "title": "Section 1 : Dispositions générales.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3253-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044073390",
+          "text": "Les créances résultant du contrat de travail sont garanties dans les conditions prévues au 3° de l'article 2331 et au 2° de l'article 2377 du code civil, relatifs aux privilèges sur les biens mobiliers et immobiliers du débiteur.\n\nEn outre, en cas de sauvegarde, de redressement ou de liquidation judiciaire, elles sont garanties, conformément aux articles L. 625-7 et L. 625-8 du code de commerce, dans les conditions prévues aux articles L. 3253-2 à L. 3253-21.",
+          "words": 76
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195811",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire > Chapitre III : Privilèges et assurance > Section 2 : Privilèges et assurance en cas de procédure de sauvegarde, de redressement ou de liquidation judiciaire",
+      "title": "Sous-section 1 : Privilèges.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3253-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902896",
+          "text": "Lorsqu'une procédure de sauvegarde, de redressement ou de liquidation judiciaire est ouverte, les rémunérations de toute nature dues aux salariés pour les soixante derniers jours de travail sont, déduction faite des acomptes déjà perçus, payées, nonobstant l'existence de toute autre créance privilégiée, jusqu'à concurrence d'un plafond mensuel identique pour toutes les catégories de bénéficiaires.\n\nCe plafond est fixé par voie réglementaire sans pouvoir être inférieur à deux fois le plafond retenu pour le calcul des cotisations de sécurité sociale.",
+          "words": 79
+        },
+        {
+          "num": "L3253-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902897",
+          "text": "Les rémunérations prévues au premier alinéa de l'article L. 3253-2 comprennent :\n\n1° Les salaires, appointements ou commissions proprement dites ;\n\n2° Les accessoires et notamment l'indemnité compensatrice prévue à l'article L. 1226-14, l'indemnité compensatrice de préavis prévue à l'article L. 1234-5, l'indemnité de fin de contrat prévue à l'article L. 1243-8 et l'indemnité de fin de mission prévue à l'article L. 1251-32.",
+          "words": 63
+        },
+        {
+          "num": "L3253-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902898",
+          "text": "Les indemnités de congés payés sont, nonobstant l'existence de toute créance privilégiée, payées jusqu'à concurrence d'un plafond identique à celui établi pour une période de trente jours de rémunération par l'article L. 3253-1.",
+          "words": 33
+        },
+        {
+          "num": "L3253-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902899",
+          "text": "Les sommes dues aux façonniers par leurs donneurs d'ordres sont payées, lorsque ces derniers font l'objet d'une procédure de sauvegarde, de redressement ou de liquidation judiciaire, nonobstant l'existence de toute autre créance privilégiée à l'exception de celles garanties par l'article L. 3253-2, à due concurrence du montant total des rémunérations de toute nature dues aux salariés de ces façonniers, au titre des soixante derniers jours de travail ou d'apprentissage précédant l'ouverture de la procédure.",
+          "words": 74
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006198615",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire > Chapitre III : Privilèges et assurance > Section 2 : Privilèges et assurance en cas de procédure de sauvegarde, de redressement ou de liquidation judiciaire > Sous-section 2 : Assurance contre le risque de non-paiement",
+      "title": "Paragraphe 1 : Principes.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3253-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902901",
+          "text": "Tout employeur de droit privé assure ses salariés, y compris ceux détachés à l'étranger ou expatriés mentionnés à l'article L. 5422-13, contre le risque de non-paiement des sommes qui leur sont dues en exécution du contrat de travail, en cas de procédure de sauvegarde, de redressement ou de liquidation judiciaire.",
+          "words": 50
+        },
+        {
+          "num": "L3253-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902902",
+          "text": "Le droit du salarié est garanti indépendamment de l'observation par l'employeur tant des prescriptions de la présente section que des obligations dont il est tenu à l'égard des institutions prévues à l'article L. 3253-14.",
+          "words": 34
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006198616",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire > Chapitre III : Privilèges et assurance > Section 2 : Privilèges et assurance en cas de procédure de sauvegarde, de redressement ou de liquidation judiciaire > Sous-section 2 : Assurance contre le risque de non-paiement",
+      "title": "Paragraphe 2 : Créances couvertes par l'assurance.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3253-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033812421",
+          "text": "L'assurance mentionnée à l'article L. 3253-6 couvre :\n\n1° Les sommes dues aux salariés à la date du jugement d'ouverture de toute procédure de redressement ou de liquidation judiciaire, ainsi que les contributions dues par l'employeur dans le cadre du contrat de sécurisation professionnelle ;\n\n2° Les créances résultant de la rupture des contrats de travail intervenant :\n\na) Pendant la période d'observation ;\n\nb) Dans le mois suivant le jugement qui arrête le plan de sauvegarde, de redressement ou de cession ;\n\nc) Dans les quinze jours, ou vingt et un jours lorsqu'un plan de sauvegarde de l'emploi est élaboré, suivant le jugement de liquidation ;\n\nd) Pendant le maintien provisoire de l'activité autorisé par le jugement de liquidation judiciaire et dans les quinze jours, ou vingt et un jours lorsqu'un plan de sauvegarde de l'emploi est élaboré, suivant la fin de ce maintien de l'activité ;\n\n3° Les créances résultant de la rupture du contrat de travail des salariés auxquels a été proposé le contrat de sécurisation professionnelle, sous réserve que l'administrateur, l'employeur ou le liquidateur, selon le cas, ait proposé ce contrat aux intéressés au cours de l'une des périodes indiquées au 2°, y compris les contributions dues par l'employeur dans le cadre de ce contrat et les salaires dus pendant le délai de réponse du salarié ;\n\n4° Les mesures d'accompagnement résultant d'un plan de sauvegarde de l'emploi déterminé par un accord collectif majoritaire ou par un document élaboré par l'employeur, conformément aux articles L. 1233-24-1 à L. 1233-24-4, dès lors qu'il a été validé ou homologué dans les conditions prévues à l'article L. 1233-58 avant ou après l'ouverture de la procédure de redressement ou de liquidation judiciaire ;\n\n5° Lorsque le tribunal prononce la liquidation judiciaire, dans la limite d'un montant maximal correspondant à un mois et demi de travail, les sommes dues :\n\na) Au cours de la période d'observation ;\n\nb) Au cours des quinze jours, ou vingt et un jours lorsqu'un plan de sauvegarde de l'emploi est élaboré, suivant le jugement de liquidation ;\n\nc) Au cours du mois suivant le jugement de liquidation pour les représentants des salariés prévus par les articles L. 621-4 et L. 631-9 du code de commerce ;\n\nd) Pendant le maintien provisoire de l'activité autorisé par le jugement de liquidation et au cours des quinze jours, ou vingt et un jours lorsqu'un plan de sauvegarde de l'emploi est élaboré, suivant la fin de ce maintien de l'activité.\n\nLa garantie des sommes et créances mentionnées aux 1°, 2° et 5° inclut les cotisations et contributions sociales et salariales d'origine légale, ou d'origine conventionnelle imposée par la loi, ainsi que la retenue à la source prévue à l'article 204 A du code général des impôts.",
+          "words": 457
+        },
+        {
+          "num": "L3253-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902904",
+          "text": "Sont également couvertes les créances résultant du licenciement des salariés bénéficiaires d'une protection particulière relative au licenciement dès lors que l'administrateur, l'employeur ou le liquidateur, selon le cas, a manifesté, au cours des périodes mentionnées au 2° de l'article L. 3253-8, son intention de rompre le contrat de travail.",
+          "words": 49
+        },
+        {
+          "num": "L3253-10",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902905",
+          "text": "Sont également couvertes, lorsqu'elles revêtent la forme d'un droit de créance sur l'entreprise, les sommes dues aux titres de l'intéressement, de la participation des salariés aux fruits de l'expansion ou d'un fonds salarial.",
+          "words": 33
+        },
+        {
+          "num": "L3253-11",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902906",
+          "text": "Sont également couverts les arrérages de préretraite dus à un salarié ou à un ancien salarié en application d'un accord professionnel ou interprofessionnel, d'une convention collective ou d'un accord d'entreprise.\n\nCes dispositions s'appliquent lorsque l'accord ou la convention prévoit le départ en préretraite à cinquante-cinq ans au plus tôt.\n\nLa garantie prévue par le présent article est limitée dans des conditions déterminées par décret.",
+          "words": 64
+        },
+        {
+          "num": "L3253-12",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902907",
+          "text": "Les créances mentionnées aux articles L. 3253-10 et L. 3253-11 sont garanties :\n\n1° Lorsqu'elles sont exigibles à la date du jugement d'ouverture de la procédure ;\n\n2° Lorsque, si un plan organisant la sauvegarde ou le redressement judiciaire de l'entreprise intervient à l'issue de la procédure, elles deviennent exigibles du fait de la rupture du contrat de travail, dans les délais prévus au 2° de l'article L. 3253-8 ;\n\n3° Lorsque intervient un jugement de liquidation judiciaire ou un jugement arrêtant le plan de cession totale de l'entreprise.",
+          "words": 89
+        },
+        {
+          "num": "L3253-13",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027566084",
+          "text": "L'assurance prévue à l'article L. 3253-6 ne couvre pas les sommes qui concourent à l'indemnisation du préjudice causé par la rupture du contrat de travail dans le cadre d'un licenciement pour motif économique, en application d'un accord d'entreprise ou d'établissement ou de groupe, d'un accord collectif validé ou d'une décision unilatérale de l'employeur homologuée conformément à l'article L. 1233-57-3, lorsque l'accord a été conclu et déposé ou la décision notifiée moins de dix-huit mois avant la date du jugement d'ouverture de la procédure de sauvegarde, de redressement ou de liquidation judiciaire, ou l'accord conclu ou la décision notifiée postérieurement à l'ouverture de la procédure de sauvegarde, de redressement ou de liquidation judiciaire.",
+          "words": 112
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018764764",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire > Chapitre III : Privilèges et assurance > Section 2 : Privilèges et assurance en cas de procédure de sauvegarde, de redressement ou de liquidation judiciaire > Sous-section 2 : Assurance contre le risque de non-paiement",
+      "title": "Paragraphe 3 : Institutions de garantie contre le risque de non-paiement.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3253-14",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018767187",
+          "text": "L'assurance prévue à l'article L. 3253-6 est mise en oeuvre par une association créée par les organisations nationales professionnelles d'employeurs représentatives et agréée par l'autorité administrative.\n\nCette association conclut une convention de gestion avec l'organisme gestionnaire du régime d'assurance chômage et avec l'Agence centrale des organismes de sécurité sociale pour le recouvrement des cotisations mentionnées à l'article L. 3253-18.\n\nEn cas de dissolution de cette association, l'autorité administrative confie à l'organisme prévu à l'article L. 5427-1 la gestion du régime d'assurance institué à l'article L. 3253-6, à l'exception du recouvrement des cotisations mentionnées à l'article L. 3253-18 confié aux organismes mentionnés à l'article L. 5422-16.\n\nCette association et l'organisme précité constituent les institutions de garantie contre le risque de non-paiement.",
+          "words": 120
+        },
+        {
+          "num": "L3253-15",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018764780",
+          "text": "Les institutions de garantie mentionnées à l'article L. 3253-14 avancent les sommes comprises dans le relevé établi par le mandataire judiciaire, même en cas de contestation par un tiers.\n\nElles avancent également les sommes correspondant à des créances établies par décision de justice exécutoire, même si les délais de garantie sont expirés.\n\nLes décisions de justice sont de plein droit opposables à l'association prévue à l'article L. 3253-14.\n\nLorsque le mandataire judiciaire a cessé ses fonctions, le greffier du tribunal ou le commissaire à l'exécution du plan, selon le cas, adresse un relevé complémentaire aux institutions de garantie mentionnées à l'article L. 3253-14, à charge pour lui de reverser les sommes aux salariés et organismes créanciers.",
+          "words": 116
+        },
+        {
+          "num": "L3253-16",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018764773",
+          "text": "Les institutions de garantie mentionnées à l'article L. 3253-14 sont subrogées dans les droits des salariés pour lesquels elles ont réalisé des avances :\n\n1° Pour l'ensemble des créances, lors d'une procédure de sauvegarde ;\n\n2° Pour les créances garanties par le privilège prévu aux articles L. 3253-2, L. 3253-4 et L. 7313-8 et les créances avancées au titre du 3° de l'article L. 3253-8, lors d'une procédure de redressement ou de liquidation judiciaire. Les autres sommes avancées dans le cadre de ces procédures leur sont remboursées dans les conditions prévues par les dispositions du livre VI du code de commerce pour le règlement des créances nées antérieurement au jugement d'ouverture de la procédure. Elles bénéficient alors des privilèges attachés à celle-ci.",
+          "words": 122
+        },
+        {
+          "num": "L3253-17",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033812418",
+          "text": "La garantie des institutions de garantie mentionnées à l'article L. 3253-14 est limitée, toutes sommes et créances avancées confondues, à un ou des montants déterminés par décret, en référence au plafond mensuel retenu pour le calcul des contributions du régime d'assurance chômage, et inclut les cotisations et contributions sociales et salariales d'origine légale, ou d'origine conventionnelle imposée par la loi, ainsi que la retenue à la source prévue à l'article 204 A du code général des impôts.",
+          "words": 77
+        },
+        {
+          "num": "L3253-17-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054317307",
+          "text": "Les institutions de garantie contre le risque de non-paiement mentionnées à l'article L. 3253-14 sont tenues de procéder aux contrôles nécessaires lorsqu'elles ont connaissance d'informations ou de faits laissant présumer une fraude.\n\nDes agents chargés de la lutte contre les fraudes sont désignés par le directeur de l'association mentionnée au premier alinéa du même article L. 3253-14.\n\nCes agents bénéficient d'un droit de communication, sans que puisse leur être opposé le secret professionnel, de tout document ou toute information nécessaire à l'appréciation des droits des salariés à l'assurance prévue à l'article L. 3253-6.\n\nLe droit de communication mentionné au troisième alinéa du présent article s'exerce quel que soit le support utilisé pour la conservation des documents et peut s'accompagner de la prise immédiate d'extraits et de copies.\n\nLes documents et les informations sont communiqués à titre gratuit dans un délai de trente jours à compter de la réception de la demande.\n\nLa communication des documents et des informations est effectuée par voie numérique.\n\nLe silence gardé ou le refus de déférer à une demande relevant du même troisième alinéa est puni d'une amende de 1 500 € par bénéficiaire de l'assurance prévue à l'article L. 3253-6, sans que le total de l'amende puisse être supérieur à 10 000 €.\n\nCes montants sont doublés en cas de récidive dans le délai de cinq ans à compter de l'expiration du délai de trente jours octroyé pour faire droit à la première demande des agents des institutions de garantie prévues à l'article L. 3253-14.\n\nSans préjudice des autres dispositions législatives applicables en matière d'échanges d'informations, le droit de communication défini au présent article est exercé dans les conditions prévues et auprès des personnes mentionnées à la section I du chapitre II du titre II du livre des procédures fiscales, à l'exception des personnes mentionnées aux articles L. 82 C, L. 83 A à L. 84 E, L. 89 à L. 91, L. 95, L. 96, L. 96 B à L. 96 H et L. 96 J du même code.\n\nLorsque l'usage du droit mentionné au troisième alinéa du présent article les conduit à refuser le bénéfice de l'assurance prévue à l'article L. 3253-6, les institutions de garantie mentionnées à l'article L. 3253-14 sont tenues d'informer la personne concernée de la teneur et de l'origine des informations et des documents obtenus auprès de tiers sur lesquels est fondée cette décision. Elles communiquent une copie de ces documents à la personne qui en fait la demande.",
+          "words": 411
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006198618",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire > Chapitre III : Privilèges et assurance > Section 2 : Privilèges et assurance en cas de procédure de sauvegarde, de redressement ou de liquidation judiciaire > Sous-section 2 : Assurance contre le risque de non-paiement",
+      "title": "Paragraphe 4 : Financement.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3253-18",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018767219",
+          "text": "L'assurance est financée par des cotisations des employeurs assises sur les rémunérations servant de base au calcul des contributions au régime d'assurance-chômage.\n\nLe recouvrement, le contrôle de ces cotisations et leur contentieux suivent les règles prévues à l'article L. 5422-16.",
+          "words": 40
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018050560",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire > Chapitre III : Privilèges et assurance > Section 2 : Privilèges et assurance en cas de procédure de sauvegarde, de redressement ou de liquidation judiciaire > Sous-section 2 : Assurance contre le risque de non-paiement",
+      "title": "Paragraphe 5 : Dispositions applicables dans le cas où l'employeur est établi dans un autre Etat membre de la Communauté européenne ou de l'Espace économique européen",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3253-18-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018050557",
+          "text": "Les institutions de garantie mentionnées à l'article L. 3253-14 assurent le règlement des créances impayées des salariés qui exercent ou exerçaient habituellement leur activité sur le territoire français, pour le compte d'un employeur dont le siège social, s'il s'agit d'une personne morale, ou, s'il s'agit d'une personne physique, l'activité ou l'adresse de l'entreprise est situé dans un autre Etat membre de la Communauté européenne ou de l'Espace économique européen, lorsque cet employeur se trouve en état d'insolvabilité.",
+          "words": 77
+        },
+        {
+          "num": "L3253-18-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018050554",
+          "text": "Un employeur est considéré comme se trouvant en état d'insolvabilité au sens de l'article L. 3253-18-1 lorsqu'a été demandée l'ouverture d'une procédure collective fondée sur son insolvabilité, prévue par les dispositions législatives, réglementaires et administratives d'un Etat membre de la Communauté européenne ou de l'Espace économique européen, qui entraîne le dessaisissement partiel ou total de cet employeur ainsi que la désignation d'un syndic ou de toute personne exerçant une fonction similaire à celle du mandataire judiciaire, de l'administrateur judiciaire ou du liquidateur, et que l'autorité compétente en application de ces dispositions a :\n\n1° Soit décidé l'ouverture de la procédure ;\n\n2° Soit constaté la fermeture de l'entreprise ou de l'établissement de l'employeur ainsi que l'insuffisance de l'actif disponible pour justifier l'ouverture de la procédure.",
+          "words": 125
+        },
+        {
+          "num": "L3253-18-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018050550",
+          "text": "La garantie due en application de l'article L. 3253-18-1 porte sur les créances impayées mentionnées à l'article L. 3253-8.\n\nToutefois, les délais prévus aux 2° et 3° de l'article L. 3253-8 sont portés à trois mois à compter de toute décision équivalente à une décision de liquidation ou arrêtant un plan de redressement.",
+          "words": 53
+        },
+        {
+          "num": "L3253-18-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018050546",
+          "text": "Si les créances ne peuvent être payées en tout ou partie sur les fonds disponibles, les institutions de garantie mentionnées à l'article L. 3253-14 procèdent au versement des fonds sur présentation par le syndic étranger ou par toute autre personne exerçant une fonction similaire à celle du mandataire judiciaire, de l'administrateur judiciaire ou du liquidateur, des relevés des créances impayées.\n\nLe dernier alinéa de l'article L. 3253-19 est applicable.",
+          "words": 69
+        },
+        {
+          "num": "L3253-18-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024421365",
+          "text": "Les sommes figurant sur ces relevés et restées impayées sont directement versées au salarié dans les huit jours suivant la réception des relevés des créances.\n\nPar dérogation au premier alinéa, l'avance des contributions dues par l'employeur dans le cadre du contrat de sécurisation professionnelle mentionnées au 1° de l'article L. 3253-8 est versée à l'organisme gestionnaire du régime d'assurance chômage.",
+          "words": 60
+        },
+        {
+          "num": "L3253-18-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018050539",
+          "text": "L'article L. 3253-15 est applicable à l'exception du dernier alinéa.\n\nLorsque le mandataire judiciaire, l'administrateur judiciaire ou le liquidateur reçoit d'une institution située dans un autre Etat membre équivalente aux institutions de garantie mentionnées à l'article L. 3253-14 les sommes dues aux salariés, il reverse immédiatement ces sommes aux salariés concernés.\n\nLe mandataire judiciaire ou le liquidateur transmet à toute institution située dans un autre Etat membre équivalente aux institutions de garantie mentionnées à l'article L. 3253-14 les relevés des créances impayées.",
+          "words": 82
+        },
+        {
+          "num": "L3253-18-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018050532",
+          "text": "Les articles L. 3253-7, L. 3253-10 à L. 3253-13 et L. 3253-17 sont applicables aux procédures définies aux articles L. 3253-18-1 et L. 3253-18-2. Les jugements mentionnés à l'article L. 3253-12 s'entendent de toute décision équivalente prise par l'autorité étrangère compétente.\n\nLes institutions mentionnées à l'article L. 3253-14 sont subrogées dans les droits des salariés pour lesquels elles ont réalisé des avances.",
+          "words": 62
+        },
+        {
+          "num": "L3253-18-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018050529",
+          "text": "Lorsque le syndic étranger ou toute personne exerçant une fonction similaire à celle du mandataire judiciaire, de l'administrateur judiciaire ou du liquidateur a cessé ses fonctions ou dans le cas mentionné au 2° de l'article L. 3253-18-2, les institutions de garantie versent les sommes dues au salarié sur présentation, par celui-ci, des pièces justifiant du montant de sa créance. Dans ce cas, les dispositions relatives aux relevés des créances ne sont pas applicables.",
+          "words": 73
+        },
+        {
+          "num": "L3253-18-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018050525",
+          "text": "Les institutions mentionnées à l'article L. 3253-14 informent, en cas de demande, toutes autres institutions de garantie des Etats membres de la Communauté européenne ou de l'Espace économique européen sur la législation et la réglementation nationales applicables en cas de mise en œuvre d'une procédure d'insolvabilité définie aux articles L. 3253-18-1 et L. 3253-18-2.",
+          "words": 54
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006195813",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire > Chapitre III : Privilèges et assurance > Section 2 : Privilèges et assurance en cas de procédure de sauvegarde, de redressement ou de liquidation judiciaire",
+      "title": "Sous-section 3 : Etablissement et liquidation des créances.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3253-19",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902918",
+          "text": "Le mandataire judiciaire établit les relevés des créances dans les conditions suivantes :\n\n1° Pour les créances mentionnées aux articles L. 3253-2 et L. 3253-4, dans les dix jours suivant le prononcé du jugement d'ouverture de la procédure ;\n\n2° Pour les autres créances également exigibles à la date du jugement d'ouverture de la procédure, dans les trois mois suivant le prononcé du jugement ;\n\n3° Pour les salaires et les indemnités de congés payés couvertes en application du 3° de l'article L. 3253-8 et les salaires couverts en application du dernier alinéa de ce même article, dans les dix jours suivant l'expiration des périodes de garantie prévues à ce 3° et ce, jusqu'à concurrence du plafond mentionné aux articles L. 3253-2, L. 3253-4 et L. 7313-8 ;\n\n4° Pour les autres créances, dans les trois mois suivant l'expiration de la période de garantie.\n\nLes relevés des créances précisent le montant des cotisations et contributions mentionnées au dernier alinéa de l'article L. 3253-8 dues au titre de chacun des salariés intéressés.",
+          "words": 171
+        },
+        {
+          "num": "L3253-20",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018764769",
+          "text": "Si les créances ne peuvent être payées en tout ou partie sur les fonds disponibles avant l'expiration des délais prévus par l'article L. 3253-19, le mandataire judiciaire demande, sur présentation des relevés, l'avance des fonds nécessaires aux institutions de garantie mentionnées à l'article L. 3253-14.\n\nDans le cas d'une procédure de sauvegarde, le mandataire judiciaire justifie à ces institutions, lors de sa demande, que l'insuffisance des fonds disponibles est caractérisée. Ces institutions peuvent contester, dans un délai déterminé par décret en Conseil d'Etat, la réalité de cette insuffisance devant le juge-commissaire. Dans ce cas, l'avance des fonds est soumise à l'autorisation du juge-commissaire.",
+          "words": 103
+        },
+        {
+          "num": "L3253-21",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018768863",
+          "text": "Les institutions de garantie mentionnées à l'article L. 3253-14 versent au mandataire judiciaire les sommes figurant sur les relevés et restées impayées :\n\n1° Dans les cinq jours suivant la réception des relevés mentionnés aux 1° et 3° de l'article L. 3253-19 ;\n\n2° Dans les huit jours suivant la réception des relevés mentionnés aux 2° et 4° du même article.\n\nPar dérogation, l'avance des contributions de l'employeur au financement de la convention de reclassement personnalisé est versée directement aux organismes chargés du recouvrement mentionnés à l'article L. 5427-1.\n\nLe mandataire judiciaire reverse immédiatement les sommes qu'il a reçues aux salariés et organismes créanciers, à l'exclusion des créanciers subrogés, et en informe le représentant des salariés.",
+          "words": 116
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189673",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire > Chapitre III : Privilèges et assurance",
+      "title": "Section 3 : Privilèges spéciaux.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3253-22",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025033250",
+          "text": "Les sommes dues aux entrepreneurs de travaux publics ne peuvent être frappées de saisie ni d'opposition au préjudice soit des salariés, soit des fournisseurs créanciers à raison de fournitures de matériaux de toute nature servant à la construction des ouvrages.\n\nLes sommes dues aux salariés à titre de salaire sont payées de préférence à celles dues aux fournisseurs.",
+          "words": 58
+        },
+        {
+          "num": "L3253-23",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044073381",
+          "text": "Peuvent faire valoir une action directe ou des privilèges spéciaux :\n\n1° Dans les conditions fixées à l'article 1798 du code civil, les salariés des secteurs du bâtiment et des travaux publics ;\n\n2° Dans les conditions fixées aux 1° et 3° de l'article 2332 du code civil, les salariés des entreprises agricoles ;\n\n3° Dans les conditions fixées au 4° de l'article 2332 du code civil, les auxiliaires salariés des travailleurs à domicile ;\n\n4° Les caisses de congé pour le paiement des cotisations qui leur sont dues en application des articles L. 3141-32 et L. 5424-6 et suivants. Ce privilège qui garantit le recouvrement de ces cotisations pendant un an à dater de leur exigibilité porte sur les biens meubles des débiteurs et prend rang immédiatement après celui des salariés établis par le 3° de l'article 2331 du code civil. Les immeubles des débiteurs sont également grevés d'une hypothèque légale prenant rang à la date de son inscription ;\n\n5° Dans les conditions fixées à l'article 89 du code du domaine public fluvial et de la navigation intérieure, les salariés employés à la construction, à la réparation, l'armement et à l'équipement du bateau.",
+          "words": 195
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006178034",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire",
+      "title": "Chapitre IV : Economats.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3254-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902924",
+          "text": "Il est interdit à tout employeur :\n\n1° D'annexer à son établissement un économat destiné à la vente, directe ou indirecte, aux salariés et à leurs familles de denrées ou marchandises de quelque nature que ce soit ;\n\n2° D'imposer au salarié l'obligation de dépenser tout ou partie de leur salaire dans des magasins désignés par lui.",
+          "words": 57
+        },
+        {
+          "num": "L3254-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902925",
+          "text": "L'interdiction prévue à l'article L. 3254-1 ne vise pas les cas suivants :\n\n1° Lorsque le contrat de travail stipule que le salarié logé et nourri reçoit en outre un salaire déterminé en argent ;\n\n2° Lorsque, pour l'exécution d'un contrat de travail, l'employeur cède au salarié des fournitures à prix coûtant.",
+          "words": 52
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006178035",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire",
+      "title": "Chapitre V : Dispositions pénales.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3255-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902926",
+          "text": "Le fait de méconnaître les dispositions de l'article L. 3254-1, relatives aux économats, est puni d'une amende de 3 750 euros.",
+          "words": 21
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189674",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre Ier : Frais de transport",
+      "title": "Section 1 : Champ d'application.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3261-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039785092",
+          "text": "Les dispositions du présent chapitre s'appliquent aux employeurs mentionnés à l'article L. 3211-1.\n\nElles s'appliquent également, dans des conditions et selon des modalités prévues par décret, aux magistrats et aux personnels civils et militaires de l'Etat, des collectivités territoriales et de leurs établissements publics, des établissements mentionnés à l'article 2 de la loi n° 86-33 du 9 janvier 1986 portant dispositions statutaires relatives à la fonction publique hospitalière et des groupements d'intérêt public.",
+          "words": 73
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189675",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre Ier : Frais de transport",
+      "title": "Section 2 : Prise en charge des frais de transports publics",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3261-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019950566",
+          "text": "L'employeur prend en charge, dans une proportion et des conditions déterminées par voie réglementaire, le prix des titres d'abonnements souscrits par ses salariés pour leurs déplacements entre leur résidence habituelle et leur lieu de travail accomplis au moyen de transports publics de personnes ou de services publics de location de vélos.",
+          "words": 51
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000019950564",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre Ier : Frais de transport",
+      "title": "Section 3 : Prise en charge des frais de transports personnels.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3261-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039785085",
+          "text": "L'employeur peut prendre en charge, dans les conditions prévues à l'article L. 3261-4, tout ou partie des frais de carburant et des frais exposés pour l'alimentation de véhicules électriques, hybrides rechargeables ou hydrogène engagés pour leurs déplacements entre leur résidence habituelle et leur lieu de travail par ceux de ses salariés :\n\n1° Dont la résidence habituelle ou le lieu de travail soit est situé dans une commune non desservie par un service public de transport collectif régulier ou un service privé mis en place par l'employeur, soit n'est pas inclus dans le périmètre d'un plan de mobilité obligatoire en application des articles L. 1214-3 et L. 1214-24 du code des transports ;\n\n2° Ou pour lesquels l'utilisation d'un véhicule personnel est rendue indispensable par des conditions d'horaires de travail particuliers ne permettant pas d'emprunter un mode collectif de transport.\n\nLe bénéfice de cette prise en charge ne peut être cumulé avec celle prévue à l'article L. 3261-2.",
+          "words": 158
+        },
+        {
+          "num": "L3261-3-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042913106",
+          "text": "L'employeur peut prendre en charge, dans les conditions prévues pour les frais de carburant à l'article L. 3261-4, tout ou partie des frais engagés par ses salariés se déplaçant entre leur résidence habituelle et leur lieu de travail avec leur cycle ou cycle à pédalage assisté personnel ou leur engin de déplacement personnel motorisé ou en tant que conducteur ou passager en covoiturage, ou en transports publics de personnes à l'exception des frais d'abonnement mentionnés à l'article L. 3261-2, ou à l'aide d'autres services de mobilité partagée définis par décret sous la forme d'un “ forfait mobilités durables ” dont les modalités sont fixées par décret.",
+          "words": 106
+        },
+        {
+          "num": "L3261-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039785077",
+          "text": "Le montant, les modalités et les critères d'attribution de la prise en charge des frais mentionnés aux articles L. 3261-3 et L. 3261-3-1 sont déterminés par accord d'entreprise ou par accord interentreprises, et à défaut par accord de branche. A défaut d'accord, la prise en charge de ces frais est mise en œuvre par décision unilatérale de l'employeur, après consultation du comité social et économique, s'il existe.",
+          "words": 67
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000039681587",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre Ier : Frais de transport",
+      "title": "Section 4 : Titre-mobilité",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3261-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039785043",
+          "text": "La prise en charge mentionnée aux articles L. 3261-3 et L. 3261-3-1 peut prendre la forme d'une solution de paiement spécifique, dématérialisée et prépayée, intitulée “ titre-mobilité ”. Ce titre est émis par une société spécialisée qui les cède à l'employeur contre paiement de leur valeur libératoire et, le cas échéant, d'une commission.",
+          "words": 53
+        },
+        {
+          "num": "L3261-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039785071",
+          "text": "L'émetteur du titre-mobilité ouvre un compte bancaire ou postal sur lequel sont uniquement versés les fonds qu'il perçoit en contrepartie de la cession de ces titres.\n\nLe montant des versements est égal à la valeur libératoire des titres mis en circulation.\n\nLes fonds provenant d'autres sources, notamment des commissions éventuellement perçues par les émetteurs, ne peuvent être versés aux comptes ouverts en application du présent article.",
+          "words": 66
+        },
+        {
+          "num": "L3261-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039785068",
+          "text": "Les comptes prévus à l'article L. 3261-6 sont des comptes de dépôt de fonds intitulés “ comptes de titre-mobilité ”.\n\nSous réserve du même article L. 3261-6 et du présent article ainsi que du décret prévu à l'article L. 3261-10, ils ne peuvent être débités qu'en règlement de biens ou de services spécifiques liés aux déplacements des salariés entre leur résidence habituelle et leur lieu de travail, fournis ou commercialisés par des organismes agréés, dans des conditions fixées par ce même décret.\n\nLes émetteurs spécialisés mentionnés à l'article L. 3261-6 qui n'ont pas déposé à l'avance, sur leur compte de titre-mobilité, le montant de la valeur libératoire des titres-mobilité qu'ils cèdent à des employeurs ne peuvent recevoir de ces derniers, en contrepartie de cette valeur, que des versements effectués au crédit de leur compte, à l'exclusion d'espèces, d'effets ou de valeurs quelconques.",
+          "words": 142
+        },
+        {
+          "num": "L3261-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039785065",
+          "text": "En cas de procédure de sauvegarde, de redressement ou de liquidation judiciaire de l'émetteur, les salariés détenteurs de titres non utilisés mais encore valables et échangeables à la date du jugement déclaratif peuvent, par priorité à toute autre créance privilégiée ou non, se faire rembourser immédiatement, sur les fonds déposés aux comptes ouverts en application de l'article L. 3261-6, le montant des sommes versées pour l'acquisition de ces titres-mobilité.",
+          "words": 69
+        },
+        {
+          "num": "L3261-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039785061",
+          "text": "Les titres qui n'ont pas été présentés au remboursement par un organisme mentionné à l'article L. 3261-7 avant la fin du deuxième mois suivant l'expiration de leur période d'utilisation sont définitivement périmés.\n\nSous réserve de prélèvements autorisés par le décret prévu à l'article L. 3261-10, la contre-valeur des titres périmés est versée au budget des activités sociales et culturelles des entreprises auprès desquelles les salariés se sont procuré leurs titres.",
+          "words": 70
+        },
+        {
+          "num": "L3261-10",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039785048",
+          "text": "Un décret en Conseil d'Etat détermine les modalités d'application du présent titre, notamment :\n\n1° Les mentions obligatoires attachées aux titres-mobilité et les modalités d'accessibilité de ces mentions ;\n\n2° Les conditions d'utilisation et de remboursement de ces titres ;\n\n3° Les règles de fonctionnement des comptes bancaires spécialement affectés à l'émission et à l'utilisation des titres mobilité ;\n\n4° Les conditions du contrôle de la gestion des fonds mentionnées à l'article L. 3261-7.",
+          "words": 74
+        },
+        {
+          "num": "L3261-11",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039785109",
+          "text": "Un décret en Conseil d'Etat détermine les modalités des prises en charge prévues par les articles L. 3261-2 et L. 3261-3, notamment pour les salariés ayant plusieurs employeurs et les salariés à temps partiel, ainsi que les sanctions pour contravention aux dispositions du présent chapitre.",
+          "words": 45
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189677",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre II : Titres-restaurant",
+      "title": "Section 1 : Emission.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3262-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035652827",
+          "text": "Le titre-restaurant est un titre spécial de paiement remis par l'employeur aux salariés pour leur permettre d'acquitter en tout ou en partie le prix du repas consommé au restaurant ou acheté auprès d'une personne ou d'un organisme mentionné au deuxième alinéa de l'article L. 3262-3. Ce repas peut être composé de fruits et légumes, qu'ils soient ou non directement consommables.\n\nCes titres sont émis :\n\n1° Soit par l'employeur au profit des salariés directement ou par l'intermédiaire du comité social et économique ;\n\n2° Soit par une entreprise spécialisée qui les cède à l'employeur contre paiement de leur valeur libératoire et, le cas échéant, d'une commission.\n\nUn décret détermine les conditions d'application du présent article.",
+          "words": 115
+        },
+        {
+          "num": "L3262-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038610160",
+          "text": "L'émetteur de titres-restaurant ouvre un compte bancaire ou postal sur lequel sont uniquement versés les fonds qu'il perçoit en contrepartie de la cession de ces titres.\n\nToutefois, cette règle n'est pas applicable à l'employeur émettant ses titres au profit des salariés.\n\nLe montant des versements est égal à la valeur libératoire des titres mis en circulation. Les fonds provenant d'autres sources, et notamment des commissions éventuellement perçues par les émetteurs ne peuvent être versés aux comptes ouverts en application du présent article.",
+          "words": 82
+        },
+        {
+          "num": "L3262-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020886898",
+          "text": "Les comptes prévus à l'article L. 3262-2 sont des comptes de dépôts de fonds intitulés \" comptes de titres-restaurant \".\n\nSous réserve des dispositions des articles L. 3262-4 et L. 3262-5, ils ne peuvent être débités qu'au profit de personnes ou d'organismes exerçant la profession de restaurateur, d'hôtelier restaurateur ou une activité assimilée, ou la profession de détaillant en fruits et légumes.\n\nLes émetteurs spécialisés mentionnés au 2° de l'article L. 3262-1, qui n'ont pas déposé à l'avance à leur compte de titres-restaurant le montant de la valeur libératoire des titres-restaurant qu'ils cèdent à des employeurs, ne peuvent recevoir de ces derniers, en contrepartie de cette valeur, que des versements effectués au crédit de leur compte, à l'exclusion d'espèces, d'effets ou de valeurs quelconques.",
+          "words": 124
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006189678",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre II : Titres-restaurant",
+      "title": "Section 2 : Utilisation.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3262-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902946",
+          "text": "En cas de procédure de sauvegarde, de redressement ou de liquidation judiciaire de l'émetteur, les salariés détenteurs de titres non utilisés mais encore valables et échangeables à la date du jugement déclaratif peuvent, par priorité à toute autre créance privilégiée ou non, se faire rembourser immédiatement, sur les fonds déposés aux comptes ouverts en application de l'article L. 3262-2, le montant des sommes versées pour l'acquisition de ces titres-restaurant.",
+          "words": 69
+        },
+        {
+          "num": "L3262-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020886895",
+          "text": "Les titres qui n'ont pas été présentés au remboursement par un restaurant ou un détaillant en fruits et légumes avant la fin du deuxième mois suivant l'expiration de leur période d'utilisation sont définitivement périmés.\n\nSous réserve de prélèvements autorisés par le décret prévu à l'article L. 3262-7, la contre-valeur des titres périmés est versée au budget des activités sociales et culturelles des entreprises auprès desquelles les salariés se sont procuré leurs titres.",
+          "words": 72
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018765377",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre II : Titres-restaurant",
+      "title": "Section 3 : Exonérations.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3262-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020052276",
+          "text": "Conformément à l'article 81 du code général des impôts, lorsque l'employeur contribue à l'acquisition des titres par le salarié bénéficiaire, le complément de rémunération qui en résulte pour le salarié est exonéré d'impôt sur le revenu dans la limite prévue au 19° dudit article.",
+          "words": 44
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018765382",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre II : Titres-restaurant",
+      "title": "Section 4 : Dispositions d'application.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3262-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018765380",
+          "text": "Un décret en Conseil d'Etat détermine les modalités d'application du présent titre, notamment :\n\n1° Les mentions qui figurent sur les titres-restaurant et les conditions d'apposition de ces mentions ;\n\n2° Les conditions d'utilisation et de remboursement de ces titres ;\n\n3° Les règles de fonctionnement des comptes bancaires ou postaux spécialement affectés à l'émission et à l'utilisation des titres-restaurant ;\n\n4° Les conditions du contrôle de la gestion des fonds mentionnées à l'article L. 3262-2.",
+          "words": 76
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000006178038",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers",
+      "title": "Chapitre III : Chèques-vacances.",
+      "part": "L",
+      "articles": [
+        {
+          "num": "L3263-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902951",
+          "text": "Les dispositions relatives aux chèques-vacances sont prévues aux articles L. 411-1 à L. 411-17 du code du tourisme.",
+          "words": 18
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533912",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre Ier : Champ d'application",
+      "title": "Chapitre unique",
+      "part": "D",
+      "articles": [
+        {
+          "num": "D3211-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533910",
+          "text": "Les dispositions du chapitre premier du titre III relatif au salaire minimum de croissance et celles des articles R. 3232-8 à R. 3232-10 ne sont pas applicables aux jeunes travailleurs titulaires d'un contrat d'apprentissage.",
+          "words": 34
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533906",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre II : Egalité de rémunération entre les femmes et les hommes",
+      "title": "Chapitre Ier : Principes",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3221-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043128621",
+          "text": "L'agent de contrôle de l'inspection du travail peut exiger communication des différents éléments qui concourent à la détermination des rémunérations dans l'entreprise, notamment des normes, catégories, critères et bases de calcul mentionnés à l'article L. 3221-6.\n\nIl peut procéder à une enquête contradictoire au cours de laquelle l'employeur et les salariés intéressés peuvent se faire assister d'une personne de leur choix.\n\nEn cas de mise en œuvre d'une procédure de règlement des difficultés dans les conditions prévues à l'article R. 2261-1, il prend connaissance des avis et observations formulés au cours de celle-ci.",
+          "words": 93
+        },
+        {
+          "num": "R3221-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033292519",
+          "text": "Les dispositions des articles L. 3221-1 à L. 3221-7 du code du travail sont portées, par tout moyen, à la connaissance des personnes ayant accès aux lieux de travail, ainsi qu'aux candidats à l'embauche.\n\nIl en est de même pour les dispositions réglementaires pris pour l'application de ces articles.",
+          "words": 49
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533900",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre II : Egalité de rémunération entre les femmes et les hommes",
+      "title": "Chapitre II : Dispositions pénales",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3222-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533898",
+          "text": "Le fait de méconnaître les dispositions relatives à l'égalité de rémunération entre les femmes et les hommes prévues aux articles L. 3221-2 à L. 3221-6, est puni de l'amende prévue pour les contraventions de la cinquième classe.\nL'amende est appliquée autant de fois qu'il y a de travailleurs rémunérés dans des conditions illégales.\nLa récidive est réprimée conformément aux articles 132-11 et 132-15 du code pénal.",
+          "words": 66
+        },
+        {
+          "num": "R3222-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533896",
+          "text": "Le fait de ne pas communiquer les éléments concourant à la détermination des rémunérations dans l'entreprise, en méconnaissance des dispositions de l'article R. 3221-1, est puni de l'amende prévue pour les contraventions de la troisième classe.",
+          "words": 36
+        },
+        {
+          "num": "R3222-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033292522",
+          "text": "Le fait de ne pas communiquer, dans les conditions prévues par l'article R. 3221-2, les articles relatifs à l'égalité de rémunération entre les femmes et les hommes, est puni de l'amende prévue pour les contraventions de la troisième classe.",
+          "words": 39
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533888",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre Ier : Salaire minimum  interprofessionnel de croissance",
+      "title": "Section 1 : Dispositions générales",
+      "part": "D",
+      "articles": [
+        {
+          "num": "D3231-2-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050665028",
+          "text": "Tous les quatre ans au moins, le ministre chargé du travail transmet à la Commission nationale de la négociation collective, de l'emploi et de la formation professionnelle une évaluation du montant du salaire minimum de croissance réalisée au regard des valeurs de référence suivantes :\n\n-60 % du salaire mensuel net médian en équivalent temps plein des salariés ;\n\n-50 % du salaire mensuel net moyen en équivalent temps plein des salariés.\n\nCette évaluation peut être prise en compte pour l'application des articles L. 3231-10 et L. 3423-3.",
+          "words": 88
+        },
+        {
+          "num": "D3231-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533884",
+          "text": "Le salaire minimum de croissance applicable aux jeunes travailleurs de moins de dix-huit ans comporte un abattement fixé à :\n1° 20 % Avant dix-sept ans ;\n2° 10 % Entre dix-sept et dix-huit ans.\nCet abattement est supprimé pour les jeunes travailleurs justifiant de six mois de pratique professionnelle dans la branche d'activité dont ils relèvent.",
+          "words": 57
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533880",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre Ier : Salaire minimum  interprofessionnel de croissance > Section 2 : Modalités de fixation",
+      "title": "Sous-section 1 : Garantie du pouvoir d'achat des salariés",
+      "part": "D",
+      "articles": [
+        {
+          "num": "D3231-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533878",
+          "text": "Les salariés définis à l'article L. 3231-1 âgés de dix-huit ans révolus, reçoivent de leurs employeurs, lorsque leur salaire horaire contractuel est devenu inférieur au salaire minimum de croissance en vigueur, un complément calculé de façon à porter leur rémunération au montant de ce salaire minimum de croissance.",
+          "words": 48
+        },
+        {
+          "num": "D3231-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533876",
+          "text": "Le salaire horaire à prendre en considération pour l'application de l'article D. 3231-5 est celui qui correspond à une heure de travail effectif compte tenu des avantages en nature et des majorations diverses ayant le caractère de fait d'un complément de salaire.\nSont exclues les sommes versées à titre de remboursement de frais, les majorations pour heures supplémentaires prévues par la loi et la prime de transport.",
+          "words": 67
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533872",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre Ier : Salaire minimum  interprofessionnel de croissance > Section 2 : Modalités de fixation",
+      "title": "Sous-section 3 : Avantages en nature",
+      "part": "D",
+      "articles": [
+        {
+          "num": "D3231-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533870",
+          "text": "Les dispositions de la présente sous-section ne sont pas applicables aux salariés des professions agricoles, au personnel navigant de la marine marchande, aux concierges et employés d'immeuble à usage d'habitation ainsi qu'aux employés de maison lorsque leur rémunération est, de manière habituelle, constituée, pour partie, par la fourniture de la nourriture et du logement.",
+          "words": 54
+        },
+        {
+          "num": "D3231-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533868",
+          "text": "Lorsque la rémunération d'un salarié est, de manière habituelle, constituée, pour partie, par la fourniture de la nourriture et du logement ou d'autres avantages en nature, le salaire minimum en espèces garanti est déterminé en déduisant du salaire minimum de croissance les sommes fixées pour évaluer l'avantage en nature.",
+          "words": 49
+        },
+        {
+          "num": "D3231-10",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533866",
+          "text": "Lorsque l'employeur fournit la nourriture, toute ou partie, cette prestation en nature est évaluée par convention ou accord collectif de travail.\nA défaut, la nourriture est évaluée par journée à deux fois le minimum garanti ou, pour un seul repas, à une fois ce minimum.",
+          "words": 45
+        },
+        {
+          "num": "D3231-11",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533864",
+          "text": "Pour les salariés auxquels l'employeur fournit le logement, cette prestation en nature est évaluée par convention ou accord collectif de travail.\nA défaut, le logement est évalué à 0, 02 euros par jour.",
+          "words": 33
+        },
+        {
+          "num": "D3231-12",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533862",
+          "text": "Les avantages en nature, autres que la nourriture ou le logement, sont évalués d'après leur valeur réelle, au prix de revient pour l'employeur.",
+          "words": 23
+        },
+        {
+          "num": "D3231-13",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533860",
+          "text": "Pour le personnel des hôtels, cafés, restaurants et des établissements ou organismes dans lesquels des denrées alimentaires ou des boissons sont consommées sur place et pour le personnel de cuisine des autres établissements, qui en raison des conditions particulières de leur travail ou des usages, sont nourris gratuitement par l'employeur ou reçoivent une indemnité compensatrice, la nourriture calculée conformément aux dispositions de l'article D. 3231-10, n'entre en compte que pour la moitié de sa valeur.",
+          "words": 75
+        },
+        {
+          "num": "D3231-14",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533858",
+          "text": "Dans tous les cas où le salarié, logé et nourri, perçoit une rémunération en espèces supérieure au minimum résultant des dispositions de la présente sous-section, l'application de ces dispositions n'entraîne aucune modification de cette rémunération.",
+          "words": 35
+        },
+        {
+          "num": "D3231-15",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533856",
+          "text": "Pour les salariés des professions agricoles auxquels l'employeur fournit la nourriture et le logement ou l'un de ces avantages en nature, à défaut de convention ou d'accord collectif de travail, la prestation journalière de nourriture est évaluée à deux fois et demie le taux horaire du minimum garanti prévu à l'article L. 3231-12. La prestation mensuelle de logement est évaluée à huit fois ce même taux.\nL'évaluation des autres avantages en nature est fixée par convention ou accord collectif.",
+          "words": 79
+        },
+        {
+          "num": "R3231-16",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533854",
+          "text": "Une convention ou un accord collectif de travail ou le contrat de travail ne peut comporter de clauses prévoyant l'attribution, au titre d'avantage en nature, de boissons alcoolisées aux travailleurs.\nCes dispositions ne s'appliquent pas aux boissons servies à l'occasion des repas constituant un avantage en nature.",
+          "words": 47
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533848",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre II : Rémunération mensuelle minimale",
+      "title": "Section 1 : Allocation complémentaire",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3232-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533846",
+          "text": "Pour l'application de l'article L. 3232-5, sont considérés comme des éléments constitutifs du salaire les avantages en nature et les majorations diverses ayant le caractère de fait d'un complément de salaire.\nSont exclues les sommes versées à titre de remboursement de frais et la prise en charge des frais de transport.",
+          "words": 51
+        },
+        {
+          "num": "R3232-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533844",
+          "text": "Lors du paiement de l'allocation complémentaire, il est remis au salarié un document indiquant :\n1° Le taux du salaire minimum de croissance ;\n2° Le nombre d'heures correspondant à la durée légale du travail ;\n3° Les déductions obligatoires ayant permis de déterminer le montant de la rémunération mensuelle minimale ;\n4° Les montants du salaire et des diverses allocations constituant les éléments de la rémunération mensuelle minimale versée au salarié.",
+          "words": 72
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533842",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre II : Rémunération mensuelle minimale",
+      "title": "Section 2 : Remboursement par l'Etat",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3232-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533840",
+          "text": "L'aide de l'Etat prévue à l'article L. 3232-8, est fixée à 50 % du montant de l'allocation complémentaire.",
+          "words": 18
+        },
+        {
+          "num": "R3232-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043128618",
+          "text": "L'aide de l'Etat est versée sur production d'états nominatifs, par l'employeur, faisant apparaître les modalités de calcul de l'allocation complémentaire et visés par l'agent de contrôle de l'inspection du travail.\n\nLe versement intervient dans un délai de trois mois suivant l'envoi à l'agent de contrôle de l'inspection du travail des états précités.",
+          "words": 52
+        },
+        {
+          "num": "R3232-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043128614",
+          "text": "En cas de réduction de l'horaire de travail susceptible d'entraîner l'application de l'article L. 3232-8, l'employeur informe l'agent de contrôle de l'inspection du travail et lui fournit toutes indications sur les causes de cette réduction, les effectifs et les qualifications des salariés intéressés.",
+          "words": 43
+        },
+        {
+          "num": "R3232-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000022357066",
+          "text": "En cas de procédure de sauvegarde, de redressement, de liquidation judiciaire ou de difficultés financières de l'employeur, le préfet peut, sur proposition du directeur régional des entreprises, de la concurrence, de la consommation, du travail et de l'emploi, faire ordonner le paiement direct aux salariés de la part de l'allocation complémentaire à la charge de l'Etat.",
+          "words": 56
+        },
+        {
+          "num": "R3232-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043128611",
+          "text": "L'agent de contrôle de l'inspection du travail vérifie si la rémunération versée aux salariés au cours de l'année civile écoulée a bien été répartie sur douze mois.\n\nDans l'hypothèse où, ces rémunérations n'ayant pas été correctement établies compte tenu de l'emploi des intéressés, cette vérification fait apparaître un report abusif en fin d'année de certains éléments de la rémunération ou des inégalités non justifiées entre les rémunérations mensuelles, les redressements nécessaires sont effectués dans le calcul de la participation de l'Etat au versement des allocations complémentaires et dans la détermination des charges sociales incombant à l'employeur et aux salariés.",
+          "words": 99
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533830",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire > Chapitre II : Rémunération mensuelle minimale",
+      "title": "Section 3 : Dispositions particulières à certaines catégories de salariés",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3232-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043128608",
+          "text": "En cas de réduction d'activité, le travailleur à domicile employé au cours d'un même mois par plusieurs employeurs adresse à l'agent de contrôle de l'inspection du travail toutes justifications lui permettant de totaliser les heures de travail accomplies ainsi que les rémunérations perçues au cours du mois et de déterminer l'allocation complémentaire éventuellement due.\n\nCette aide est versée directement au salarié par l'Etat. L'employeur rembourse au Trésor, à la demande du préfet, dans un délai de trois mois la part de l'allocation complémentaire se trouvant à sa charge. Cette part est proportionnelle à l'importance de la réduction d'activité imposée au salarié. Le préfet adresse à l'employeur les indications lui permettant de vérifier le montant de sa participation.",
+          "words": 117
+        },
+        {
+          "num": "R3232-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533826",
+          "text": "La procédure prévue à l'article R. 3232-8 s'applique aux salariés titulaires d'un contrat de travail intermittent lorsqu'ils sont employés au cours d'un même mois par plusieurs employeurs successifs.",
+          "words": 28
+        },
+        {
+          "num": "R3232-10",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533824",
+          "text": "Les réductions de l'horaire de l'établissement employant des salariés saisonniers, qui se produisent pour la troisième année consécutive à la même époque, sont considérées comme se situant en dehors de la période normale d'activité.",
+          "words": 34
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533822",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre III : Détermination du salaire",
+      "title": "Chapitre III : Dispositions pénales",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3233-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533820",
+          "text": "Est puni de l'amende prévue pour les contraventions de la cinquième classe, le fait de payer :\n1° Des salaires inférieurs au salaire minimum de croissance prévu par les articles L. 3231-1 à L. 3231-12 ;\n2° Des rémunérations inférieures à la rémunération mensuelle minimale prévue par l'article L. 3232-1.\nL'amende est appliquée autant de fois qu'il y a de salariés rémunérés dans des conditions illégales.\nLa récidive est réprimée conformément aux articles 132-11 et 132-15 du code pénal.\nEn cas de pluralité de contraventions entraînant des peines de récidive, l'amende est appliquée autant de fois qu'il a été relevé de nouvelles contraventions.",
+          "words": 103
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533816",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre IV : Paiement du salaire",
+      "title": "Chapitre Ier : Dispositions générales",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3241-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533814",
+          "text": "Le salaire est versé un jour ouvrable sauf en cas de paiement réalisé par virement.",
+          "words": 15
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533808",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre IV : Paiement du salaire",
+      "title": "Chapitre III : Bulletin de paie",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3243-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048841718",
+          "text": "Le bulletin de paie prévu à l'article L. 3243-2 comporte :\n\n1° Le nom et l'adresse de l'employeur ainsi que, le cas échéant, la désignation de l'établissement dont dépend le salarié ;\n\n2° Le numéro de la nomenclature d'activité mentionnée au 1° de l'article R. 123-223 du code de commerce caractérisant l'activité de l'établissement d'emploi ainsi que, pour les employeurs inscrits au répertoire national des entreprises et des établissements, le numéro d'inscription de l'employeur au répertoire national mentionné à l'article R. 123-220 du même code ;\n\n3° S'il y a lieu, l'intitulé de la convention collective de branche applicable au salarié ou, à défaut, la référence au code du travail pour les dispositions relatives à la durée des congés payés du salarié et à la durée des délais de préavis en cas de cessation de la relation de travail ;\n\n4° Le nom et l'emploi du salarié ainsi que sa position dans la classification conventionnelle qui lui est applicable. La position du salarié est notamment définie par le niveau ou le coefficient hiérarchique qui lui est attribué ;\n\n5° La période et le nombre d'heures de travail auxquels se rapporte le salaire en distinguant, s'il y a lieu, les heures payées au taux normal et celles qui comportent une majoration pour heures supplémentaires ou pour toute autre cause et en mentionnant le ou les taux appliqués aux heures correspondantes :\n\na) La nature et le volume du forfait auquel se rapporte le salaire des salariés dont la rémunération est déterminée sur la base d'un forfait hebdomadaire ou mensuel en heures, d'un forfait annuel en heures ou en jours ;\n\nb) L'indication de la nature de la base de calcul du salaire lorsque, par exception, cette base de calcul n'est pas la durée du travail ;\n\n6° La nature et le montant des accessoires de salaire soumis aux cotisations salariales et patronales ;\n\n7° Le montant de la rémunération brute du salarié ;\n\n8° a) Le montant et l'assiette des cotisations et contributions d'origine légale et conventionnelle à la charge de l'employeur et du salarié avant déduction des exonérations et exemptions mentionnées au 13° ainsi que, pour les cotisations et contributions d'origine légale et conventionnelle à la charge du salarié, leurs taux ;\n\nb) La nature et le montant des versements et retenues autres que celles mentionnées au a effectués sur la période, notamment au titre de la prise en charge des frais de transport public ou de frais de transports personnels ;\n\n9° L'assiette, le taux et le montant de la retenue à la source prévue au 1° du 2 de l'article 204 A du code général des impôts ainsi que la somme qui aurait été versée au salarié en l'absence de retenue à la source ;\n\n9° bis Le montant des revenus professionnels versés par l'employeur, tel qu'il est défini au II de l'article R. 844-1 du code de la sécurité sociale ;\n\n10° Le montant de la somme effectivement reçue par le salarié ;\n\n11° La date de paiement de cette somme ;\n\n12° Les dates de congé et le montant de l'indemnité correspondante, lorsqu'une période de congé annuel est comprise dans la période de paie considérée ;\n\n13° Le montant total des exonérations et exemptions de cotisations et contributions sociales qui figurent dans l'annexe mentionnée au 5° du III de l'article LO 111-4 du code de la sécurité sociale, appliquées à la rémunération mentionnée au 7° ;\n\n14° Le montant total versé par l'employeur, c'est-à-dire la somme de la rémunération mentionnée au 7° et des cotisations et contributions à la charge de l'employeur mentionnées au a du 8°, déduction faite des exonérations et exemptions des mêmes cotisations et contributions mentionnées au 13° ;\n\n15° La mention de la rubrique dédiée au bulletin de paie sur le portail www. service-public. fr ;\n\n16° En cas d'activité partielle :\n\na) Le nombre d'heures indemnisées ;\n\nb) Le taux appliqué pour le calcul de l'indemnité mentionnée à l'article R. 5122-18 ;\n\nc) Les sommes versées au salarié au titre de la période considérée.",
+          "words": 673
+        },
+        {
+          "num": "R3243-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048841713",
+          "text": "Les informations mentionnées aux7°, 8°, 9°, 9° bis, 10° 13° et 14° de l'article R. 3243-1 sont libellées et ordonnées ainsi que, pour les éléments à la charge de l'employeur, regroupées conformément à un modèle défini par arrêté des ministres chargés de la sécurité sociale et du travail.\n\nLa contribution mentionnée à l'article L. 136-3 du code de la sécurité sociale et la contribution prévue à l'article 14 de l'ordonnance n° 96-50 du 24 janvier 1996 relative au remboursement de la dette sociale sont agrégées. Les contributions autres que les contributions sociales mentionnées au a du 8° sont également agrégées dans une seule rubrique, qui donne le montant total de cette contribution.",
+          "words": 112
+        },
+        {
+          "num": "R3243-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533800",
+          "text": "Il est interdit de faire mention sur le bulletin de paie de l'exercice du droit de grève ou de l'activité de représentation des salariés.\nLa nature et le montant de la rémunération de l'activité de représentation figurent sur une fiche annexée au bulletin de paie qui a le même régime juridique que celui-ci et que l'employeur établit et fournit au salarié.",
+          "words": 61
+        },
+        {
+          "num": "R3243-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533798",
+          "text": "Le bulletin de paie comporte en caractères apparents une mention incitant le salarié à le conserver sans limitation de durée.",
+          "words": 20
+        },
+        {
+          "num": "R3243-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533796",
+          "text": "Par dérogation aux dispositions prévues à l'article R. 3243-1, le bulletin de paie des salariés liés par contrats conclus par une personne physique pour un service rendu à son domicile peut ne pas comporter les mentions suivantes :\n1° La position du salarié dans la classification conventionnelle qui lui est applicable ;\n2° Le montant de la rémunération brute du salarié ;\n3° La nature et le montant des cotisations patronales de sécurité sociale assises sur cette rémunération brute.",
+          "words": 79
+        },
+        {
+          "num": "D3243-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033627030",
+          "text": "Lorsqu'il décide de procéder à la remise du bulletin de paie sous forme électronique, l'employeur informe le salarié par tout moyen conférant date certaine, un mois avant la première émission du bulletin de paie sous forme électronique ou au moment de l'embauche, de son droit de s'opposer à l'émission du bulletin de paie sous forme électronique.\n\nLe salarié peut faire part de son opposition à tout moment, préalablement ou postérieurement à la première émission d'un bulletin de paie sous forme électronique. Le salarié notifie son opposition à l'employeur par tout moyen lui conférant une date certaine.\n\nLa demande du salarié prend effet dans les meilleurs délais et au plus tard trois mois suivant la notification.",
+          "words": 115
+        },
+        {
+          "num": "D3243-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033627046",
+          "text": "L'employeur arrête les conditions dans lesquelles il garantit la disponibilité pour le salarié du bulletin de paie émis sous forme électronique :\n\n-soit pendant une durée de cinquante ans ;\n\n-soit jusqu'à ce que le salarié ait atteint l'âge mentionné au dernier alinéa de l'article L. 1237-5, augmenté de six ans.\n\nEn cas de fermeture du service de mise à disposition du bulletin de paie en raison de la cessation d'activité du prestataire assurant la conservation des bulletins de paie émis sous forme électronique pour le compte de l'employeur, ou de la cessation d'activité de l'employeur lorsque celui-ci assure lui-même cette conservation, les utilisateurs sont informés au moins trois mois avant la date de fermeture du service pour leur permettre de récupérer les bulletins de paie stockés.\n\nLes utilisateurs sont mis en mesure de récupérer à tout moment l'intégralité de leurs bulletins de paie émis sous forme électronique, sans manipulation complexe ou répétitive, et dans un format électronique structuré et couramment utilisé.",
+          "words": 162
+        },
+        {
+          "num": "R3243-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033627094",
+          "text": "Le service en ligne associé au compte personnel d'activité, mentionné au 2° du II de l'article L. 5151-6, permet au titulaire du compte de consulter tous ses bulletins de paie émis sous forme électronique.\n\nL'employeur ou le prestataire agissant pour son compte doit garantir l'accessibilité des bulletins de paie émis sous forme électronique par ce service en ligne.",
+          "words": 58
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533794",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre IV : Paiement du salaire",
+      "title": "Chapitre IV : Pourboires",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3244-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533792",
+          "text": "L'employeur justifie de l'encaissement et de la remise aux salariés des pourboires.",
+          "words": 12
+        },
+        {
+          "num": "R3244-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533790",
+          "text": "Les conventions collectives ou, à défaut, des décrets en Conseil d'Etat pris après consultation des organisations d'employeurs et de salariés intéressées, déterminent par profession ou par catégorie professionnelle, nationalement ou régionalement :\n1° Les modes de justification à la charge de l'employeur ;\n2° Les catégories de personnel qui prennent part à la répartition des pourboires ;\n3° Les modalités de cette répartition.",
+          "words": 63
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000030420805",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre IV : Paiement du salaire",
+      "title": "Chapitre V bis : Obligations et responsabilité financière des maîtres d'ouvrage et des donneurs d'ordre",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3245-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030420807",
+          "text": "A compter du jour de la réception de l'injonction mentionnée à l'article L. 3245-2, l'employeur informe dans un délai de sept jours le maître d'ouvrage ou le donneur d'ordre des mesures prises pour faire cesser la situation.\n\nLe maître d'ouvrage ou le donneur d'ordre transmet aussitôt cette information à l'agent de contrôle auteur du signalement ou informe celui-ci, dès l'expiration du délai imparti, de l'absence de réponse.",
+          "words": 67
+        },
+        {
+          "num": "R3245-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030420809",
+          "text": "Le maître d'ouvrage ou le donneur d'ordre qui n'a pas enjoint l'employeur de faire cesser la situation ou qui n'a pas informé, au terme du délai prévu à l'article R. 3245-1, l'agent de contrôle auteur du signalement de l'absence de réponse de l'employeur est tenu solidairement avec celui-ci au paiement des rémunérations et indemnités dues à chaque salarié et des cotisations et contributions sociales y afférentes.",
+          "words": 66
+        },
+        {
+          "num": "R3245-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030420811",
+          "text": "L'agent de contrôle auteur du signalement informe par écrit les salariés concernés qu'à défaut de paiement de leurs rémunérations ils peuvent saisir le conseil de prud'hommes afin de recouvrer les sommes dues.",
+          "words": 32
+        },
+        {
+          "num": "R3245-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030420813",
+          "text": "Les injonctions et les informations mentionnées aux articles R. 3245-1 et R. 3245-2 sont effectuées par tout moyen permettant de leur conférer date certaine.",
+          "words": 24
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533784",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre IV : Paiement du salaire",
+      "title": "Chapitre VI : Dispositions pénales",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3246-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020398260",
+          "text": "Le fait de méconnaître les modalités de paiement du salaire prévues aux articles L. 3241-1, L. 3242-1, alinéa 3, L. 3242-3 et L. 3242-4, est puni de l'amende prévue pour les contraventions de la troisième classe.",
+          "words": 36
+        },
+        {
+          "num": "R3246-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033644145",
+          "text": "Le fait de méconnaître les dispositions relatives au bulletin de paie des articles L. 3243-1, L. 3243-2 et L. 3243-4 et des articles R. 3243-1 à D. 3243-8, est puni de l'amende prévue pour les contraventions de la troisième classe.",
+          "words": 40
+        },
+        {
+          "num": "R3246-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020398277",
+          "text": "Le fait de méconnaître les dispositions relatives aux pourboires des articles L. 3244-1 et L. 3244-2 et celle des décrets en Conseil d'Etat prévus à l'article R. 3244-2, est puni de l'amende prévue pour les contraventions de la troisième classe.",
+          "words": 40
+        },
+        {
+          "num": "R3246-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533776",
+          "text": "Le fait de méconnaître les dispositions légales relatives aux accessoires du salaire est puni de la peine d'amende prévue pour les contraventions de la quatrième classe.\nL'amende est prononcée autant de fois qu'il y a de salariés intéressés.",
+          "words": 38
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533766",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire > Chapitre II : Saisies et cessions",
+      "title": "Section 1 : Dispositions communes",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3252-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533764",
+          "text": "Le créancier muni d'un titre exécutoire constatant une créance liquide et exigible peut faire procéder à la saisie des sommes dues à titre de rémunération par un employeur à son débiteur.",
+          "words": 31
+        },
+        {
+          "num": "R3252-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053193584",
+          "text": "La proportion dans laquelle les sommes dues à titre de rémunération sont saisissables ou cessibles, en application de l'article L. 3252-2, est fixée comme suit :\n\n1° Le vingtième, sur la tranche inférieure ou égale à 4 480 € ;\n\n2° Le dixième, sur la tranche supérieure à 4 480 € et inférieure ou égale à 8 730 € ;\n\n3° Le cinquième, sur la tranche supérieure à 8 730 € et inférieure ou égale à 13 000 € ;\n\n4° Le quart, sur la tranche supérieure à 13 000 € et inférieure ou égale à 17 230 € ;\n\n5° Le tiers, sur la tranche supérieure à 17 230 € et inférieure ou égale à 21 470 € ;\n\n6° Les deux tiers, sur la tranche supérieure à 21 470 € et inférieure ou égale à 25 810 € ;\n\n7° La totalité, sur la tranche supérieure à 25 810 €.",
+          "words": 152
+        },
+        {
+          "num": "R3252-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053193590",
+          "text": "Les seuils déterminés à l'article R. 3252-2 sont augmentés d'un montant de 1 740 € par personne à la charge du débiteur saisi ou du cédant, sur justification présentée par l'intéressé.\n\nPour l'application du premier alinéa, sont considérés comme personnes à charge :\n\n1° Le conjoint, le partenaire lié par un pacte civil de solidarité ou le concubin du débiteur, dont les ressources personnelles sont inférieures au montant forfaitaire du revenu de solidarité active mentionné à l'article L. 262-2 du code de l'action sociale et des familles, fixé pour un foyer composé d'une seule personne tel qu'il est fixé chaque année par décret ;\n\n2° L'enfant ouvrant droit aux prestations familiales en application des articles L. 512-3 et L. 512-4 du code de la sécurité sociale et se trouvant à la charge effective et permanente du débiteur au sens de l'article L. 513-1 du même code. Est également considéré comme étant à charge l'enfant à qui ou pour l'entretien duquel le débiteur verse une pension alimentaire ;\n\n3° L'ascendant dont les ressources personnelles sont inférieures au montant forfaitaire du revenu de solidarité active mentionné à l'article L. 262-2 du code de l'action sociale et des familles, fixé pour un foyer composé d'une seule personne et qui habite avec le débiteur ou auquel le débiteur verse une pension alimentaire.",
+          "words": 218
+        },
+        {
+          "num": "R3252-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034747531",
+          "text": "Les seuils et correctifs prévus aux articles R. 3252-2 et R. 3252-3 sont révisés annuellement par décret en fonction de l'évolution de l'indice des prix à la consommation, hors tabac, des ménages urbains dont le chef est ouvrier ou employé tel qu'il est fixé au mois d'août de l'année précédente dans la série France-entière. Ils sont arrondis à la dizaine d'euros supérieure.",
+          "words": 62
+        },
+        {
+          "num": "R3252-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031694644",
+          "text": "La somme laissée dans tous les cas à la disposition du salarié dont la rémunération fait l'objet d'une saisie ou d'une cession, en application du second alinéa de l'article L. 3252-5, est égale au montant forfaitaire mentionné à l'article L. 262-2 du code de l'action sociale et des familles fixé pour un foyer composé d'une seule personne.",
+          "words": 57
+        },
+        {
+          "num": "R3252-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054558542",
+          "text": "En cas de notification, en l'absence de toute procédure de saisie des rémunérations en cours, d'une saisie administrative à tiers détenteur conformément à l'article L. 262 du livre des procédures fiscales, lorsque le débiteur perçoit plusieurs rémunérations, le comptable public détermine le ou les tiers saisis chargés d'opérer les retenues ou désigne à cette fin un commissaire de justice répartiteur figurant sur une liste établie par la Chambre nationale des commissaires de justice.",
+          "words": 73
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533662",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire > Chapitre II : Saisies et cessions",
+      "title": "Section 3 : Cession des sommes dues à titre de rémunération",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3252-45",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533660",
+          "text": "La cession des sommes dues à titre de rémunération s'opère par une déclaration du cédant en personne au greffe du tribunal du lieu où il demeure.\nUne copie de la déclaration est remise ou notifiée au cessionnaire.",
+          "words": 37
+        },
+        {
+          "num": "R3252-46",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533658",
+          "text": "A la demande du cessionnaire le greffier notifie la cession à l'employeur.\nCette notification rend la cession opposable aux tiers. Elle est dénoncée au débiteur.\nLa cession qui n'est pas notifiée dans le délai d'un an est périmée.",
+          "words": 38
+        },
+        {
+          "num": "R3252-47",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533656",
+          "text": "A compter de la notification de la cession, l'employeur verse directement au cessionnaire le montant des sommes cédées dans la limite de la fraction saisissable.",
+          "words": 25
+        },
+        {
+          "num": "R3252-48",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051166542",
+          "text": "En cas de saisie d'une somme due à titre de rémunération faisant l'objet d'une cession préalable, le commissaire de justice répartiteur dénonce l'acte de saisie au cessionnaire. L'acte de dénonciation comporte à peine de nullité :\n\n1° L'indication qu'en application de l'article L. 212-11 du code des procédures civiles d'exécution le cessionnaire vient en concours avec le saisissant pour la répartition des sommes saisies ;\n\n2° L'invitation à produire un relevé du montant de ce qui lui reste dû ;\n\n3° L'indication qu'il appartient au cessionnaire de désigner un commissaire de justice dans le délai d'un mois suivant la dénonciation de l'acte de saisie et que, à défaut, les sommes saisies pourront être réparties sans tenir compte de la cession.\n\nLe commissaire de justice répartiteur informe le tiers saisi que les versements sont désormais effectués à son ordre.",
+          "words": 138
+        },
+        {
+          "num": "R3252-49",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051166540",
+          "text": "Si la saisie prend fin avant la cession, le cessionnaire retrouve les droits qu'il tenait de l'acte de cession.\n\nLe commissaire de justice répartiteur en avise le tiers saisi ainsi que le greffe et les informe que les sommes cédées sont à nouveau versées directement au cessionnaire. Il en avise également ce dernier et procède à la radiation de l'acte de saisie et des actes d'intervention du registre numérique des saisies des rémunérations.",
+          "words": 73
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533649",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire",
+      "title": "Chapitre III : Privilèges et assurance",
+      "part": "D",
+      "articles": [
+        {
+          "num": "D3253-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533647",
+          "text": "Le plafond mensuel prévu à l'article L. 3253-2 est fixé à deux fois le plafond retenu, par mois, pour le calcul des cotisations de sécurité sociale.",
+          "words": 26
+        },
+        {
+          "num": "D3253-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533645",
+          "text": "Le montant maximal de garantie prévu au 4° de l'article L. 3253-8 est égal à :\n1° Trois fois le plafond retenu par mois pour le calcul des cotisations de sécurité sociale pour un mois et demi de salaire ;\n2° Deux fois ce plafond, pour un mois de salaire.",
+          "words": 50
+        },
+        {
+          "num": "D3253-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533643",
+          "text": "Les arrérages de préretraite dus en application d'un accord professionnel ou interprofessionnel, d'une convention collective ou d'un accord d'entreprise bénéficient de la garantie prévue à l'article L. 3253-11 lorsque la conclusion de cet accord ou de cette convention est antérieure de six mois à la date du jugement d'ouverture de la procédure de sauvegarde ou de redressement judiciaire.",
+          "words": 58
+        },
+        {
+          "num": "R3253-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533641",
+          "text": "L'autorité administrative mentionnée à l'article L. 3253-14 est le ministre chargé du travail.",
+          "words": 13
+        },
+        {
+          "num": "D3253-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533639",
+          "text": "Le montant maximum de la garantie prévue à l'article L. 3253-17 est fixé à six fois le plafond mensuel retenu pour le calcul des contributions au régime d'assurance chômage.\nCe montant est fixé à cinq fois ce plafond lorsque le contrat de travail dont résulte la créance a été conclu moins de deux ans et six mois au moins avant la date du jugement d'ouverture de la procédure collective, et à quatre fois ce plafond si le contrat dont résulte la créance a été conclu moins de six mois avant la date du jugement d'ouverture.\nIl s'apprécie à la date à laquelle est due la créance du salarié et au plus tard à la date du jugement arrêtant le plan ou prononçant la liquidation judiciaire.",
+          "words": 125
+        },
+        {
+          "num": "R3253-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019562452",
+          "text": "Le délai de contestation prévu au second alinéa de l'article L. 3253-20 est de dix jours à compter de la réception par l'organisme gestionnaire du régime d'assurance chômage mentionné à l'article L. 3253-14 de la demande de fonds par le mandataire judiciaire.",
+          "words": 42
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533630",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre V : Protection du salaire",
+      "title": "Chapitre V : Dispositions pénales",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3255-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533628",
+          "text": "Le fait d'imposer au salarié des versements d'argent ou d'opérer des retenues d'argent sous la dénomination de frais ou sous toute autre dénomination pour quelque objet que ce soit, à l'occasion de son embauche, à l'occasion de l'exercice normal de son travail ou de la rupture de son contrat de travail dans les secteurs mentionnés à l'article L. 3251-4, est puni de l'amende prévue pour les contraventions de la quatrième classe.\nCes peines sont indépendantes des restitutions et des dommages-intérêts auxquels peuvent donner lieu les faits incriminés.",
+          "words": 87
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000020080275",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre Ier : Frais de transport",
+      "title": "Section 1 : Prise en charge des frais de transports publics",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3261-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020080272",
+          "text": "La prise en charge par l'employeur des titres d'abonnement, prévue à l'article L. 3261-2, est égale à 50 % du coût de ces titres pour le salarié.",
+          "words": 27
+        },
+        {
+          "num": "R3261-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020080269",
+          "text": "L'employeur prend en charge les titres souscrits par les salariés, parmi les catégories suivantes :\n\n1° Les abonnements multimodaux à nombre de voyages illimité ainsi que les abonnements annuels, mensuels, hebdomadaires ou à renouvellement tacite à nombre de voyages illimité émis par la Société nationale des chemins de fer (SNCF) ainsi que par les entreprises de transport public, les régies et les autres personnes mentionnées au II de l'article 7 de la loi n° 82-1153 du 30 décembre 1982 d'orientation des transports intérieurs ;\n\n2° Les cartes et abonnements mensuels, hebdomadaires ou à renouvellement tacite à nombre de voyages limité délivrés par la Régie autonome des transports parisiens (RATP), la Société nationale des chemins de fer (SNCF), les entreprises de l'Organisation professionnelle des transports d'Ile-de-France ainsi que par les entreprises de transport public, les régies et les autres personnes mentionnées au II de l'article 7 de la loi n° 82-1153 du 30 décembre 1982 d'orientation des transports intérieurs ;\n\n3° Les abonnements à un service public de location de vélos.",
+          "words": 170
+        },
+        {
+          "num": "R3261-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020080267",
+          "text": "La prise en charge par l'employeur est effectuée sur la base des tarifs deuxième classe. Le bénéficiaire peut demander la prise en charge du ou des titres de transport lui permettant d'accomplir le trajet de la résidence habituelle à son lieu de travail dans le temps le plus court. Lorsque le titre utilisé correspond à un trajet supérieur au trajet nécessaire pour accomplir dans le temps le plus court le trajet de la résidence habituelle au lieu de travail, la prise en charge est effectuée sur la base de l'abonnement qui permet strictement de faire ce dernier trajet.",
+          "words": 98
+        },
+        {
+          "num": "R3261-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020080265",
+          "text": "L'employeur procède au remboursement des titres achetés par les salariés dans les meilleurs délais et, au plus tard, à la fin du mois suivant celui pour lequel ils ont été validés. Les titres dont la période de validité est annuelle font l'objet d'une prise en charge répartie mensuellement pendant la période d'utilisation.",
+          "words": 52
+        },
+        {
+          "num": "R3261-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020080261",
+          "text": "La prise en charge des frais de transport par l'employeur est subordonnée à la remise ou, à défaut, à la présentation des titres par le salarié.\n\nPour être admis à la prise en charge, les titres doivent permettre d'identifier le titulaire et être conformes aux règles de validité définies par l'établissement public, la régie, l'entreprise ou la personne mentionnés à l'article R. 3261-2, ou, le cas échéant, par la personne chargée de la gestion du service public de location de vélos.\n\nLorsque le titre d'abonnement à un service public de location de vélos ne comporte pas les noms et prénoms du bénéficiaire, une attestation sur l'honneur du salarié suffit pour ouvrir droit à la prise en charge des frais d'abonnement.\n\nPour les salariés intérimaires, une attestation sur l'honneur adressée à l'entreprise de travail temporaire mentionnée à l'article L. 1251-45, qui est leur employeur, suffit pour ouvrir droit à la prise en charge des frais d'abonnement à un service de transport public de voyageurs ou à un service public de location de vélos.",
+          "words": 172
+        },
+        {
+          "num": "R3261-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020080258",
+          "text": "Un accord collectif de travail peut prévoir d'autres modalités de preuve et de remboursement des frais de transport, sans que les délais de remboursement des titres puissent excéder ceux mentionnés à l'article R. 3261-4.",
+          "words": 34
+        },
+        {
+          "num": "R3261-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020080256",
+          "text": "En cas de changement des modalités de preuve ou de remboursement des frais de transport, l'employeur avertit les salariés au moins un mois avant la date fixée pour le changement.",
+          "words": 30
+        },
+        {
+          "num": "R3261-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020080253",
+          "text": "L'employeur peut refuser la prise en charge lorsque le salarié perçoit déjà des indemnités représentatives de frais pour ses déplacements entre sa résidence habituelle et son ou ses lieux de travail d'un montant supérieur ou égal à la prise en charge prévue à l'article R. 3261-1.",
+          "words": 46
+        },
+        {
+          "num": "R3261-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020080251",
+          "text": "Le salarié à temps partiel, employé pour un nombre d'heures égal ou supérieur à la moitié de la durée légale hebdomadaire ou conventionnelle, si cette dernière lui est inférieure, bénéficie d'une prise en charge équivalente à celle d'un salarié à temps complet.\n\nLe salarié à temps partiel, employé pour un nombre d'heures inférieur à la moitié de la durée du travail à temps complet défini conformément au premier alinéa, bénéficie d'une prise en charge calculée à due proportion du nombre d'heures travaillées par rapport à la moitié de la durée du travail à temps complet.",
+          "words": 95
+        },
+        {
+          "num": "R3261-10",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020080248",
+          "text": "Le salarié qui exerce son activité sur plusieurs lieux de travail au sein d'une même entreprise qui n'assure pas le transport entre ces différents lieux et entre ces lieux et la résidence habituelle du salarié peut prétendre à la prise en charge du ou des titres de transport lui permettant de réaliser l'ensemble des déplacements qui lui sont imposés entre sa résidence habituelle et ses différents lieux de travail, ainsi qu'entre ces lieux de travail.",
+          "words": 75
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000041862997",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre Ier : Frais de transport > Section 2 : Prise en charge des frais de transports personnels",
+      "title": "Sous-section 1 : Frais de carburant et frais exposés pour l'alimentation de véhicules électriques, hybrides rechargeables ou hydrogène",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3261-11",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041865032",
+          "text": "Lorsque l'employeur prend en charge tout ou partie des frais de carburant d'un véhicule et des frais d'alimentation d'un véhicule électrique, hybride rechargeable ou hydrogène engagés par ses salariés, il en fait bénéficier, selon les mêmes modalités et en fonction de la distance entre le domicile et le lieu de travail, l'ensemble des salariés remplissant les conditions prévues à l'article L. 3261-3.\n\nL'employeur doit disposer des éléments justifiant cette prise en charge. Il les recueille auprès de chaque salarié bénéficiaire qui les lui communique.",
+          "words": 84
+        },
+        {
+          "num": "R3261-12",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041865029",
+          "text": "Sont exclus du bénéfice de la prise en charge des frais mentionnés à l'article R. 3261-11 :\n\n1° Les salariés bénéficiant d'un véhicule mis à disposition permanente par l'employeur avec prise en charge par l'employeur des dépenses de carburant ou d'alimentation électrique d'un véhicule ;\n\n2° Les salariés logés dans des conditions telles qu'ils ne supportent aucun frais de transport pour se rendre à leur travail ;\n\n3° Les salariés dont le transport est assuré gratuitement par l'employeur.",
+          "words": 78
+        },
+        {
+          "num": "R3261-13",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041865026",
+          "text": "En cas de changement des modalités de remboursement des frais mentionnés à l'article R. 3261-11, l'employeur avertit les salariés au moins un mois avant la date fixée pour le changement.",
+          "words": 30
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000041862965",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre Ier : Frais de transport > Section 2 : Prise en charge des frais de transports personnels",
+      "title": "Sous-section 2 : Forfait mobilités durables",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3261-13-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044338432",
+          "text": "Les autres services de mobilité partagée mentionnés à l'article L. 3261-3-1 comprennent :\n\n1° La location ou la mise à disposition en libre-service de véhicules mentionnés aux 4.8,4.9,6.10,6.11 et 6.14 de l'article R. 311-1 du code de la route, avec ou sans station d'attache et accessibles sur la voie publique, à condition qu'ils soient équipés d'un moteur non thermique ou d'une assistance non thermique lorsqu'ils sont motorisés ;\n\n2° Les services d'autopartage mentionnés à l'article L. 1231-14 du code des transports, à condition que les véhicules mis à disposition soient des véhicules à faibles émissions au sens du III de l'article L. 224-7 du code de l'environnement.",
+          "words": 107
+        },
+        {
+          "num": "R3261-13-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041863015",
+          "text": "Lorsque l'employeur assure la prise en charge de tout ou partie des frais mentionnés à l'article L. 3261-3-1, il en fait bénéficier, selon les mêmes modalités, l'ensemble des salariés de l'entreprise remplissant les conditions prévues à l'article L. 3261-3-1.\n\nLa prise en charge prend la forme d'une allocation forfaitaire dénommée “ forfait mobilités durables ”. Cette allocation est versée sous réserve de son utilisation effective conformément à son objet. Elle est réputée utilisée conformément à son objet si l'employeur recueille auprès du salarié, pour chaque année civile, un justificatif de paiement ou une attestation sur l'honneur relatifs à l'utilisation effective d'un ou plusieurs des moyens de déplacement mentionnés à l'article L. 3261-3-1.",
+          "words": 112
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000044510756",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre Ier : Frais de transport > Section 2 : Prise en charge des frais de transports personnels",
+      "title": "Sous-section 3 : Titre-mobilité",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3261-13-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044507367",
+          "text": "Sont affichées directement sur les équipements terminaux, au sens du 10° de l'article L. 32 du code des postes et des communications électroniques, utilisés par le salarié et l'entreprise agréée sur le fondement de l'article L. 3261-7 pour un paiement à l'aide d'un titre-mobilité, les mentions suivantes :\n\n1° Le nom et l'adresse de l'émetteur du titre ;\n\n2° Le nom du salarié.\n\nL'émetteur assure à chaque salarié, directement sur l'équipement terminal appartenant à celui-ci, par voie téléphonique ou, à sa demande, par message textuel, l'accès permanent et gratuit au solde de son compte personnel de titre-mobilité. Le dispositif indique, le cas échéant, le montant qui n'est plus susceptible d'être utilisé que dans un délai de moins d'un mois.",
+          "words": 119
+        },
+        {
+          "num": "R3261-13-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044507372",
+          "text": "La durée de validité des titres-mobilité, qui est fixée par l'émetteur, s'étend au moins jusqu'au dernier jour de l'année civile au cours de laquelle ils ont été émis.",
+          "words": 28
+        },
+        {
+          "num": "R3261-13-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044507381",
+          "text": "I.-L'agrément prévu à l'article L. 3261-7 est délivré par le ministre en charge des transports aux entreprises justifiant fournir ou commercialiser des biens ou services mentionnés aux articles L. 3261-3 et L. 3261-3-1.\n\nIl est notamment délivré aux entreprises qui justifient fournir un ou plusieurs des services suivants :\n\n1° Vente de cycles et cycles à pédalage assisté ;\n\n2° Vente de détail d'équipements pour cycles et cycles à pédalage assisté ;\n\n3° Entretien et réparation de cycles et cycles à pédalage assisté ;\n\n4° Vente de titres permettant l'accès à un stationnement sécurisé pour cycles ;\n\n5° Assurance pour cycles et cycles à pédalage assisté ;\n\n6° Location, quelle qu'en soit la durée, et mise à disposition en libre-service de cycles, cycles à pédalage assisté, engins de déplacement personnels, cyclomoteurs et motocyclettes ;\n\n7° Vente d'engins de déplacement personnels motorisés ;\n\n8° Services de covoiturage ;\n\n9° Location de véhicules électriques, hybrides rechargeables ou hydrogène en libre-service et accessibles sur la voie publique ;\n\n10° Vente de titres de transport en commun ;\n\n11° Vente de détail de carburants ;\n\n12° Vente d'alimentation ou recharge pour véhicules électriques, hybrides rechargeables ou hydrogène.\n\nII.-La demande d'agrément est adressée par le représentant légal de l'entreprise.\n\nLa composition du dossier qui doit être joint à cette demande et les modalités de sa transmission sont fixées par arrêté du ministre chargé des transports.\n\nLe silence gardé par l'administration pendant quinze jours à compter de la réception d'un dossier complet vaut acceptation de la demande.\n\nLa liste des entreprises bénéficiant de l'agrément est mise à la disposition du public par le ministre chargé des transports.\n\nIII.-L'agrément est retiré en cas de manquement aux obligations mentionnées au deuxième alinéa de l'article R. 3261-13-6 ou lorsqu'une entreprise cesse de fournir les services au titre desquels elle a été agréée.\n\nIV.-L'utilisation des titres d'un émetteur est subordonnée à la conclusion, entre celui-ci et les entreprises agréées souhaitant accepter ces titres, d'un contrat d'affiliation prévoyant, notamment, l'acquittement de tout ou partie des commissions identifiées à l'article L. 3261-5.",
+          "words": 340
+        },
+        {
+          "num": "R3261-13-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044507388",
+          "text": "L'émetteur met en œuvre, sur la base des informations qui lui sont transmises à l'occasion d'une demande de paiement, une fonctionnalité de blocage automatique empêchant l'utilisation de titres-mobilité en dehors des cas prévus par les dispositions légales et règlementaires.\n\nChaque entreprise agréée met en place une procédure garantissant que les titres-mobilité sont utilisés pour l'achat de biens et services éligibles aux prises en charge mentionnées aux articles L. 3261-3 et L. 3261-3-1.\n\nTout manquement aux obligations définies aux deux premiers alinéas est puni par une amende prévue pour les contraventions de quatrième classe.",
+          "words": 93
+        },
+        {
+          "num": "R3261-13-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044507398",
+          "text": "Les titres-mobilité sont présentés au remboursement par les entreprises agréées à l'émetteur. Ce dernier s'assure que le présentateur est une entreprise agréée puis donne ordre à l'établissement bancaire qui tient son compte de titre-mobilité d'en effectuer le paiement par imputation au débit de ce compte. Le paiement est opéré par virement bancaire ou par chèque. Il est effectué dans un délai qui ne peut excéder cinq jours à compter de la réception du titre aux fins de règlement.",
+          "words": 78
+        },
+        {
+          "num": "R3261-13-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044507403",
+          "text": "Sous la responsabilité de l'émetteur, les sommes portées au crédit des comptes de titre-mobilité prévus à l'article L. 3261-6 et L. 3261-7 peuvent faire l'objet de placements temporaires sous réserve que leur montant demeure à tout moment immédiatement réalisable pour leur valeur nominale initiale.",
+          "words": 44
+        },
+        {
+          "num": "R3261-13-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044507413",
+          "text": "L'émetteur de titres-mobilité fait appel à un expert-comptable chargé de constater au moins une fois par an les opérations accomplies par cet émetteur. Les constatations de cet expert-comptable sont consignées dans un rapport que l'émetteur tient à la disposition de tout agent de contrôle et qu'il adresse annuellement au ministre chargé des transports.",
+          "words": 53
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000044510766",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre Ier : Frais de transport > Section 2 : Prise en charge des frais de transports personnels",
+      "title": "Sous-section 4 : Dispositions communes",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3261-14",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044510762",
+          "text": "Le salarié à temps partiel, employé pour un nombre d'heures égal ou supérieur à la moitié de la durée légale hebdomadaire ou conventionnelle, si cette dernière lui est inférieure, bénéficie des prises en charges prévues aux articles L. 3261-3 et L. 3261-3-1 dans les mêmes conditions qu'un salarié à temps complet.\n\nLe salarié à temps partiel, employé pour un nombre d'heures inférieur à la moitié de la durée du travail à temps complet défini conformément au premier alinéa, bénéficie d'une prise en charge calculée à due proportion du nombre d'heures travaillées par rapport à la moitié de la durée du travail à temps complet.",
+          "words": 104
+        },
+        {
+          "num": "R3261-15",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044510758",
+          "text": "Le salarié qui exerce son activité sur plusieurs lieux de travail au sein d'une même entreprise qui n'assure pas le transport entre ces différents lieux et entre ces lieux et la résidence habituelle du salarié peut prétendre aux prises en charge mentionnées aux articles L. 3261-3 et L. 3261-3-1 pour les déplacements qui lui sont imposés entre sa résidence habituelle et ses différents lieux de travail, ainsi qu'entre ces lieux de travail.",
+          "words": 72
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533538",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre Ier : Frais de transport",
+      "title": "Section 3 : Dispositions pénales",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3261-16",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020080199",
+          "text": "Le fait pour l'employeur de méconnaître les dispositions des articles L. 3261-1 à L. 3261-4 est puni de l'amende prévue pour les contraventions de la quatrième classe.",
+          "words": 27
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533532",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre II : Titres-restaurant",
+      "title": "Section 1 : Conditions d'émission et de validité",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3262-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028699405",
+          "text": "Les titres-restaurant peuvent être émis sur un support papier ou sous forme dématérialisée.",
+          "words": 13
+        },
+        {
+          "num": "R3262-1-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028695589",
+          "text": "Les titres-restaurant émis sur un support papier comportent, en caractères très apparents, les mentions suivantes :\n\n1° Le nom et l'adresse de l'émetteur ;\n\n2° Le nom et l'adresse de l'établissement bancaire à qui les titres sont présentés au remboursement par les restaurateurs ou les détaillants en fruits et légumes ;\n\n3° Le montant de la valeur libératoire du titre ;\n\n4° L'année civile d'émission ;\n\n5° Le numéro dans une série continue de nombres caractérisant l'émission ;\n\n6° Le nom et l'adresse du restaurateur ou du détaillant en fruits et légumes chez qui le repas a été consommé ou acheté.",
+          "words": 101
+        },
+        {
+          "num": "R3262-1-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028695608",
+          "text": "Lorsque les titres-restaurant sont émis sous forme dématérialisée, les dispositions suivantes sont applicables :\n\n1° Les mentions prévues aux 1° et 2° de l'article R. 3262-1-1 figurent de façon très apparente sur le support physique du paiement dématérialisé. Si le paiement est effectué à partir d'un équipement terminal, au sens du 10° de l'article L. 32 du code des postes et des communications électroniques, utilisé par le salarié et comportant une fonctionnalité de paiement électronique, ces mentions sont accessibles directement sur cet équipement ;\n\n2° L'émetteur assure à chaque salarié l'accès permanent et gratuit, par message textuel, par voie téléphonique ou directement sur l'équipement terminal mentionné au 1°, aux informations suivantes :\n\na) Le solde de son compte personnel de titres-restaurant, en distinguant le montant des titres-restaurant émis durant l'année civile écoulée qui ne sont pas périmés et, pendant la période de quinze jours mentionnée au deuxième alinéa de l'article R. 3262-5, le montant des titres-restaurant périmés ;\n\nb) La date de péremption des titres ainsi que la date limite à laquelle peuvent être échangés les titres périmés ;\n\nc) Le montant de la valeur libératoire du titre, toute modification de cette valeur libératoire faisant en outre l'objet d'une information préalable du salarié sur un support durable ;\n\n3° Le numéro de série caractérisant l'émission mentionné au 5° de l'article R. 3262-1-1 est conservé par l'émetteur dans une base de données qui associe ce numéro avec un identifiant permettant de garantir que le paiement est effectué au profit d'une personne ou d'un organisme mentionné au deuxième alinéa de l'article L. 3262-3. Cette base de données associe également ce numéro de série avec l'année civile d'émission prévue au 4° de l'article R. 3262-1-1 ;\n\n4° L'émetteur met en œuvre une fonctionnalité assurant qu'aucun titre émis durant l'année en cours ne peut être utilisé par le salarié tant qu'il n'a pas utilisé tous les titres émis durant l'année civile écoulée en méconnaissance des dispositions du deuxième alinéa de l'article R. 3262-5 ;\n\n5° L'émetteur met en œuvre une fonctionnalité de blocage automatique du paiement empêchant l'utilisation des titres-restaurant lorsque l'une des obligations suivantes n'est pas satisfaite :\n\na) Celles qui sont prévues aux 3° et 4° du présent article ;\n\nb) Celles qui sont prévues aux articles R. 3262-8 et R. 3262-10 du présent code ;\n\n6° Le solde du compte personnel de titres-restaurant du salarié ne peut être converti sur support papier, sauf pour ceux des salariés qui, dans le cadre des activités de l'entreprise qui les emploie, accomplissent principalement leurs missions en dehors des locaux de cette entreprise. Dans ce cas, la base de données de l'émetteur mentionnée au 3° ci-dessus recense les opérations de conversion par employeur et par salarié.",
+          "words": 451
+        },
+        {
+          "num": "R3262-2",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028699411",
+          "text": "Les mentions prévues aux 1° à 5° de l'article R. 3262-1-1 de l'article R. 3262-1 sont apposées au recto du titre émis sur un support papier par l'émetteur.\nLes mentions prévues au 6° de l'article R. 3262-1-1 sont apposées par le restaurateur ou le détaillant en fruits et légumes au moment de l'acceptation du titre émis sur un support papier.",
+          "words": 60
+        },
+        {
+          "num": "R3262-3",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533526",
+          "text": "Les titres-restaurant émis conformément aux dispositions du présent chapitre sont dispensés du droit de timbre.",
+          "words": 15
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533524",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre II : Titres-restaurant",
+      "title": "Section 2 : Utilisation",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3262-4",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023155179",
+          "text": "Les titres-restaurant ne peuvent être utilisés que dans les restaurants et auprès des organismes ou entreprises assimilés ainsi qu'auprès des détaillants en fruits et légumes, afin d'acquitter en tout ou en partie le prix d'un repas.\n\nCe repas peut être composé de préparations alimentaires directement consommables, le cas échéant à réchauffer ou à décongeler, notamment de produits laitiers.\n\nIl peut également être composé de fruits et légumes, qu'ils soient ou non directement consommables.",
+          "words": 73
+        },
+        {
+          "num": "R3262-5",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028699414",
+          "text": "Les titres-restaurant ne peuvent être utilisés en paiement d'un repas à un restaurateur ou à un détaillant en fruits et légumes que pendant l'année civile dont ils font mention et durant une période de deux mois à compter du 1er janvier de l'année suivante.\nAucun titre émis durant l'année en cours ne peut être utilisé par le salarié tant qu'il n'a pas utilisé tous les titres émis durant l'année civile écoulée.\nLes titres non utilisés au cours de cette période et rendus par les salariés bénéficiaires à leur employeur au plus tard au cours de la quinzaine suivante sont échangés gratuitement contre un nombre égal de titres valables pour la période ultérieure.",
+          "words": 112
+        },
+        {
+          "num": "R3262-6",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533518",
+          "text": "Les titres-restaurant émis ou acquis par une entreprise ne peuvent être utilisés que par les salariés de cette entreprise.",
+          "words": 19
+        },
+        {
+          "num": "R3262-7",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533516",
+          "text": "Un même salarié ne peut recevoir qu'un titre-restaurant par repas compris dans son horaire de travail journalier. Ce titre ne peut être utilisé que par le salarié auquel l'employeur l'a remis.",
+          "words": 31
+        },
+        {
+          "num": "R3262-8",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028699416",
+          "text": "Les titres-restaurant ne sont pas utilisables les dimanches et jours fériés, sauf décision contraire de l'employeur au bénéfice exclusif des salariés travaillant pendant ces mêmes jours. Lorsque les titres sont émis sur support papier, cette décision fait l'objet d'une mention très apparente sur les titres. Lorsque les titres sont émis sous forme dématérialisée, l'employeur informe par tout moyen les salariés concernés de la décision mentionnée ci-dessus, avant l'émission du titre.",
+          "words": 70
+        },
+        {
+          "num": "R3262-9",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533512",
+          "text": "Les titres-restaurant ne peuvent être utilisés que dans le département du lieu de travail des salariés bénéficiaires et les départements limitrophes, à moins qu'ils ne portent de manière très apparente une mention contraire apposée par l'employeur, sous sa responsabilité, au bénéfice exclusif de ceux des salariés qui sont, du fait de leurs fonctions, appelés à des déplacements à longue distance.",
+          "words": 60
+        },
+        {
+          "num": "R3262-10",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000046346263",
+          "text": "L'utilisation des titres-restaurant est limitée à un montant maximum de vingt-cinq euros par jour.\n\nLorsque les titres-restaurant sont émis sous forme dématérialisée, le salarié est débité de la somme exacte à payer, dans la limite du montant maximum journalier mentionné au premier alinéa.",
+          "words": 43
+        },
+        {
+          "num": "R3262-11",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533508",
+          "text": "Le salarié qui quitte l'entreprise remet à l'employeur, au moment de son départ, les titres-restaurant en sa possession. Il est remboursé du montant de sa contribution à l'achat de ces titres.",
+          "words": 31
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533506",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre II : Titres-restaurant",
+      "title": "Section 3 : Conditions de remboursement",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3262-12",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533504",
+          "text": "Lorsque l'employeur a acquis ses titres-restaurant auprès d'un émetteur spécialisé, il peut obtenir de celui-ci au cours du mois qui suit la période d'utilisation l'échange de ses titres inutilisés en ne versant que la commission normalement perçue par l'émetteur lors de la vente de ces titres.\nDans ce cas, le montant des commissions correspondant aux titres dont la non utilisation incombe aux salariés est remboursable par ces derniers à l'employeur.",
+          "words": 70
+        },
+        {
+          "num": "R3262-13",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533502",
+          "text": "En application des dispositions de l'article L. 3262-5, la contre-valeur des titres-restaurant perdus ou périmés est versée à l'émetteur par l'établissement bancaire qui tient son compte de titres-restaurant.\nL'émetteur est autorisé à opérer sur cette somme un prélèvement, dont le taux maximum est fixé par arrêté du ministre chargé de l'économie et des finances, et qui est destiné à couvrir forfaitairement les frais de répartition entraînés par l'application de l'article R. 3262-14 et les frais d'expert comptable prévus à l'article R. 3262-33.",
+          "words": 82
+        },
+        {
+          "num": "R3262-14",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036483134",
+          "text": "Lorsque l'émetteur est l'employeur mentionné au 1° de l'article L. 3262-1, il verse le solde disponible après le prélèvement prévu à l'article R. 3262-13 au comité social et économique s'il en existe un ou, à défaut, l'affecte dans un délai de six mois au budget des activités sociales et culturelles de son entreprise.\nLorsqu'il s'agit d'un émetteur spécialisé mentionné au 2° du même article, il répartit ce solde entre les comités sociaux et économiques des entreprises qui lui ont acheté des titres ou, à défaut, entre ces entreprises elles-mêmes, à due proportion des achats de titres opérés au cours de la période d'émission des titres perdus ou périmés. En l'absence de comité social et économique, chaque entreprise utilise le solde lui revenant conformément aux dispositions du premier alinéa.",
+          "words": 128
+        },
+        {
+          "num": "R3262-15",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926385",
+          "text": "En l'absence de motif légitime justifiant un retard de présentation et lorsque les titres-restaurant sont présentés postérieurement à l'évaluation mentionnée au second alinéa, leur montant ne peut être remboursé au restaurateur ou au détaillant en fruits et légumes par imputation sur le compte ouvert en application de l'article L. 3262-2.\nLes modalités et la périodicité de l'évaluation du montant des titres-restaurant périmés sont fixées par arrêté du ministre chargé de l'économie et des finances.",
+          "words": 74
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533494",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre II : Titres-restaurant > Section 4 : Fonctionnement et contrôle des comptes de titres-restaurant",
+      "title": "Sous-section 1 : Fonctionnement",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3262-16",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029007676",
+          "text": "L'établissement bancaire qui ouvre l'un des comptes des titres-restaurant prévus à l'article L. 3262-2 remet au titulaire de ce compte une attestation d'ouverture de compte en triple exemplaire.\nLe titulaire du compte remet l'un de ces exemplaires au directeur départemental ou, le cas échéant, régional des finances publiques dont il relève et le second à la Commission nationale des titres-restaurant mentionnée à la section 5. Il est délivré récépissé de ces remises.",
+          "words": 72
+        },
+        {
+          "num": "R3262-17",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926383",
+          "text": "L'établissement bancaire adresse mensuellement à la Commission nationale des titres-restaurant le relevé de tous les mouvements de fonds affectant les comptes de titres-restaurant, à l'exception des seuls paiements aux restaurateurs et assimilés et aux détaillants en fruits et légumes.",
+          "words": 39
+        },
+        {
+          "num": "R3262-18",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533488",
+          "text": "Lorsque l'établissement bancaire qui tient le compte fait établir les formules de titres-restaurant qui seront utilisées par l'émetteur titulaire de ce compte, ces formules ne sont remises à l'émetteur qu'après versement à ce compte d'une provision égale à la valeur libératoire des titres.",
+          "words": 43
+        },
+        {
+          "num": "R3262-19",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926379",
+          "text": "Les titres-restaurant sont directement payables aux restaurateurs et aux détaillants en fruits et légumes par l'établissement bancaire qui tient le compte de l'émetteur.\nAvant de procéder au paiement, l'organisme payeur s'assure, selon les modalités prévues aux articles R. 3262-26 à R. 3262-31, que le présentateur exerce la profession de restaurateur, d'hôtelier restaurateur, ou une activité assimilée ou une activité de détaillant en fruits et légumes prévues au deuxième alinéa de l'article L. 3262-3.",
+          "words": 73
+        },
+        {
+          "num": "R3262-21",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533482",
+          "text": "Lorsque les titres sont émis par une entreprise spécialisée, elle ne peut accepter en paiement que des versements correspondant à la valeur libératoire de ces titres.\nCes versements sont opérés :\n1° Soit par virement direct à un compte de titres-restaurant ;\n2° Soit au moyen de chèques bancaires à barrement spécial désignant l'établissement bancaire où le compte est ouvert et portant la mention « compte de titres-restaurant ».",
+          "words": 69
+        },
+        {
+          "num": "R3262-22",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533480",
+          "text": "La délivrance de titres par un émetteur spécialisé est subordonnée :\n1° Soit à la constitution d'une provision équivalente à la valeur libératoire des titres cédés ;\n2° Soit au règlement simultané des titres-restaurant conformément à l'article R. 3262-21.\nDans le cas d'un chèque demeuré impayé, la provision correspondante est immédiatement rétablie.",
+          "words": 52
+        },
+        {
+          "num": "R3262-23",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533478",
+          "text": "Un émetteur spécialisé est habilité à se faire ouvrir plusieurs comptes de titres-restaurant dans plusieurs établissements bancaires. Il peut opérer des virements d'un compte à l'autre.",
+          "words": 26
+        },
+        {
+          "num": "R3262-24",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533476",
+          "text": "Sous la responsabilité de l'émetteur spécialisé, les sommes portées au crédit des comptes de titres-restaurant peuvent faire l'objet de placements temporaires sous réserve que leur montant demeure à tout moment immédiatement réalisable pour sa valeur nominale initiale.",
+          "words": 37
+        },
+        {
+          "num": "R3262-25",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926377",
+          "text": "Les titres sont présentés au remboursement par les restaurateurs ou les détaillants en fruits et légumes à l'émetteur. Ce dernier donne ordre à l'établissement bancaire qui tient son compte d'en effectuer le paiement par imputation au débit de ce compte.\nCe paiement est opéré au moyen soit de virements bancaires, soit de chèques émis ou virés par cet établissement.\nLe paiement est effectué dans un délai qui ne peut excéder vingt et un jours à compter de la réception du titre aux fins de règlement.",
+          "words": 85
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000021926375",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre II : Titres-restaurant > Section 4 : Fonctionnement et contrôle des comptes de titres-restaurant",
+      "title": "Sous-section 2 : Condition d'exercice de la profession de restaurateur ou assimilé ou des détaillants en fruits et légumes",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3262-26",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926372",
+          "text": "L'exercice de la profession de restaurateur ou de détaillant en fruits et légumesexigé par les dispositions de l'article L. 3262-3 est vérifié par la Commission nationale des titres-restaurant mentionnée à la section 5 d'après les renseignements de notoriété dont elle dispose et au besoin par référence au numéro d'activité d'entreprise adopté par l'Institut national de la statistique et des études économiques (I. N. S. E. E.) et par les unions pour le recouvrement des cotisations de sécurité sociale (URSSAF).\nLes pièces que la commission peut demander au professionnel concerné pour l'application de l'alinéa ci-dessus sont précisées par arrêté du ministre chargé de l'économie et des finances.",
+          "words": 106
+        },
+        {
+          "num": "R3262-27",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023155176",
+          "text": "Les personnes, les entreprises ou les organismes qui proposent à la vente au détail, à titre habituel et au moins six mois par an, des préparations alimentaires mentionnées au deuxième alinéa de l'article R. 3262-4 sans être en possession du numéro de code d'activité accordé aux restaurateurs et hôteliers restaurateurs peuvent être assimilés à ces derniers, à la condition d'avoir transmis par lettre recommandée avec avis de réception à la commission un dossier complet.\nLa commission des titres-restaurant vérifie également que les préparations offertes sont conformes aux dispositions mentionnées à l'article R. 3262-4.\n\nLa composition du dossier mentionné au premier alinéa et les pièces nécessaires à la vérification par la commission prévue au deuxième alinéa de la conformité des préparations offertes sont précisées par un arrêté du ministre chargé de l'économie et des finances.",
+          "words": 134
+        },
+        {
+          "num": "R3262-28",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533466",
+          "text": "Les personnes, entreprises ou organismes qui assurent uniquement les prestations de portage ou de livraison de repas à domicile ne peuvent bénéficier de l'assimilation à l'activité de restaurateur.",
+          "words": 28
+        },
+        {
+          "num": "R3262-29",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533464",
+          "text": "Lorsque le dossier qu'a fait parvenir le demandeur de l'assimilation à la profession de restaurateur est complet et qu'il en résulte que l'intéressé remplit les conditions fixées à l'article R. 3262-27 pour bénéficier de cette assimilation, la commission lui adresse une attestation par lettre recommandée avec avis de réception.\nDès réception de cette attestation, l'assimilation est réputée accordée.",
+          "words": 58
+        },
+        {
+          "num": "R3262-30",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533462",
+          "text": "Lorsque le dossier n'est pas complet, la commission adresse au demandeur de l'assimilation une lettre recommandée avec avis de réception mentionnant les pièces justificatives manquantes à produire dans le délai d'un mois suivant la réception de cette lettre recommandée. A défaut d'envoi des pièces complémentaires demandées dans le délai imparti, l'assimilation est réputée refusée.\nA la réception des pièces complémentaires demandées, si l'intéressé remplit les conditions fixées à l'article R. 3262-27, la commission lui adresse une attestation par lettre recommandée avec avis de réception.\nDès réception de cette attestation, l'assimilation est réputée accordée.",
+          "words": 93
+        },
+        {
+          "num": "R3262-31",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533460",
+          "text": "Lorsque, dans le délai d'un mois suivant la date de réception du dossier figurant sur l'avis de réception, la commission n'a pas adressé au demandeur de l'assimilation une attestation de dossier complet ou ne lui a pas demandé la production de pièces justificatives manquantes, l'assimilation est réputée accordée.",
+          "words": 48
+        },
+        {
+          "num": "R3262-32",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023155171",
+          "text": "Pour l'application du 2° de l'article R. 3262-36, les personnes, entreprises ou organismes assimilés aux restaurateurs adressent à nouveau au secrétariat de la commission, sous trente jours au terme d'un délai de douze mois suivant la date à laquelle l'assimilation est réputée leur avoir été accordée, les pièces du dossier mentionné à l'article R. 3262-27, mises à jour à la date d'expiration du délai de douze mois, afin de justifier de leur activité de vente de préparations alimentaires mentionnées au deuxième alinéa de l'article R. 3262-4 dans les conditions définies à ce même article.\nA défaut d'avoir satisfait à l'obligation prévue au premier alinéa, les personnes, entreprises ou organismes assimilés ne bénéficient plus de l'assimilation aux restaurateurs.",
+          "words": 117
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533456",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre II : Titres-restaurant > Section 4 : Fonctionnement et contrôle des comptes de titres-restaurant",
+      "title": "Sous-section 3 : Contrôle de la gestion",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3262-33",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533454",
+          "text": "L'émetteur de titres-restaurant fait appel à un expert comptable chargé de constater au moins une fois par an les opérations accomplies par cet émetteur.\nLes constatations de cet expert comptable sont consignées dans un rapport que l'émetteur tient à la disposition de tout agent de contrôle.",
+          "words": 46
+        },
+        {
+          "num": "R3262-34",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036483130",
+          "text": "Par dérogation à l'article R. 3262-33, si l'émission des titres est assurée par l'employeur et qu'il existe un comité social et économique, ce dernier opère le contrôle de la gestion des fonds.",
+          "words": 32
+        },
+        {
+          "num": "R3262-35",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533450",
+          "text": "Un arrêté du ministre chargé de l'économie et des finances détermine les modalités d'application des articles R. 3262-33 et R. 3262-34.",
+          "words": 21
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533446",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre II : Titres-restaurant > Section 5 : Commission nationale des titres-restaurant",
+      "title": "Sous-section 1 : Missions",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3262-36",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023155181",
+          "text": "La Commission nationale des titres-restaurant est chargée :\n\n1° D'accorder l'assimilation à la profession de restaurateur aux personnes, entreprises ou organismes qui satisfont aux conditions prévues à l'article R. 3262-4 et aux articles R. 3262-26 à R. 3262-32 ;\n\n2° De constater les cas où les restaurateurs, les personnes, entreprises, organismes assimilés ou les détaillants en fruits et légumes ont cessé leur activité ou ne satisfont plus aux conditions ouvrant droit au remboursement des titres-restaurant ;\n\n3° De vérifier l'exercice de la profession de restaurateur ou de celle de détaillant en fruits et légumes conformément aux dispositions de l'article R. 3262-26 ;\n\n4° De réunir les informations relatives aux conditions d'application du présent chapitre et de les transmettre aux administrations compétentes ;\n\n5° De fournir aux émetteurs et aux utilisateurs de titres-restaurant les renseignements pratiques dont ils peuvent avoir besoin ;\n\n6° De faciliter l'accord des parties intéressées sur les améliorations qui peuvent être apportées à l'émission et à l'utilisation des titres-restaurant ;\n\n7° D'étudier et de transmettre à l'administration les propositions de modification de la réglementation des titres-restaurant ;\n\n8° D'exercer un contrôle sur le fonctionnement des comptes de titres-restaurant ouverts par les entreprises émettrices afin d'assurer que sont respectées les obligations qui leur sont imposées ainsi que celles des restaurateurs, organismes ou entreprises assimilés et des détaillants en fruits et légumes.",
+          "words": 223
+        },
+        {
+          "num": "R3262-37",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533442",
+          "text": "Pour permettre à la commission d'exercer la mission de contrôle prévue au 8° de l'article R. 3262-36, chaque société ou entreprise émettrice de titres-restaurant communique, au secrétariat de la commission, le rapport annuel établi par l'expert-comptable désigné à l'article R. 3262-33. Elle lui communique également, chaque mois :\n1° Un état récapitulatif des entrées et sorties de titres-restaurant au cours du mois écoulé ;\n2° Un état récapitulatif des mouvements ayant affecté, au cours du même mois, les fonds détenus au titre des comptes de titres-restaurant.",
+          "words": 86
+        },
+        {
+          "num": "R3262-38",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926364",
+          "text": "A la demande de la commission, la société ou l'entreprise émettrice de titres-restaurant transmet au secrétariat :\n1° L'état récapitulatif des restaurateurs et organismes ou entreprises, des détaillants en fruits et légumes qui, dans une circonscription donnée au cours d'une période donnée, ont présenté des titres de remboursement ;\n2° Tout document comptable ou commercial de nature à justifier la régularité des opérations.",
+          "words": 63
+        },
+        {
+          "num": "R3262-39",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533438",
+          "text": "La commission peut faire opérer, à tout moment par un expert-comptable, des contrôles auprès des entreprises émettrices et des émetteurs spécialisés.",
+          "words": 21
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533436",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre II : Titres-restaurant > Section 5 : Commission nationale des titres-restaurant",
+      "title": "Sous-section 2 : Organisation et fonctionnement",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3262-40",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023155185",
+          "text": "La Commission nationale des titres-restaurant comprend notamment des représentants des organisations représentatives d'employeurs et de salariés, des syndicats de restaurateurs et de détaillants de fruits et légumes, et des entreprises ayant pour activité principale l'émission de titres-restaurant.",
+          "words": 37
+        },
+        {
+          "num": "R3262-41",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533432",
+          "text": "La composition et le fonctionnement de la commission sont déterminés par un arrêté conjoint des ministres chargés du travail et de l'économie et des finances.",
+          "words": 25
+        },
+        {
+          "num": "R3262-42",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533430",
+          "text": "Les membres de la commission ne sont pas rémunérés.",
+          "words": 9
+        },
+        {
+          "num": "R3262-43",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533428",
+          "text": "Le secrétariat de la commission est assuré par les services du ministre chargé de l'économie et des finances.\nLe secrétaire général est désigné en accord avec le ministre chargé du travail.",
+          "words": 31
+        },
+        {
+          "num": "R3262-44",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533425",
+          "text": "La commission est assistée d'un ou de plusieurs experts-comptables et désignés, sur sa proposition, par arrêté conjoint des ministres chargés du travail et de l'économie et des finances.",
+          "words": 28
+        },
+        {
+          "num": "R3262-45",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533423",
+          "text": "La commission peut créer dans un département ou un groupe de départements des comités consultatifs dont la composition est analogue à la sienne.",
+          "words": 23
+        }
+      ]
+    },
+    {
+      "id": "LEGISCTA000018533421",
+      "path": "Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale > Livre II : Salaire et avantages divers > Titre VI : Avantages divers > Chapitre II : Titres-restaurant",
+      "title": "Section 6 : Dispositions pénales",
+      "part": "R",
+      "articles": [
+        {
+          "num": "R3262-46",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018533419",
+          "text": "Le fait de méconnaître les dispositions du premier et du troisième alinéa de l'article L. 3262-2, de l'article L. 3262-3 et du second alinéa de l'article L. 3262-5, est puni de l'amende prévue pour les contraventions de la quatrième classe.\nIl en est de même des infractions aux dispositions des articles R. 3262-1, R. 3262-2, R. 3262-4 à R. 3262-11, R. 3262-16, R. 3262-17, R. 3262-20 à R. 3262-25, R. 3262-33 à R. 3262-35 et R. 3262-37 à R. 3262-39 ainsi que des entraves mises à l'exercice de la mission de contrôle impartie à la commission prévue à l'article R. 3262-36.",
+          "words": 101
+        }
+      ]
+    }
+  ]
+}
