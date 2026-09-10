@@ -16,6 +16,10 @@ Le nombre d'articles en vigueur et de mots que doivent lire un employeur et un s
 | Temps de travail et repos | 301 | 26 |
 | Congés, maternité, paternité | 433 | 17 |
 
+## Contact
+
+ndoye.joachim@gmail.com — remarques, corrections et relectures juridiques bienvenues.
+
 ## Sources
 
 - France : [Légifrance](https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050), données [LEGI](https://www.data.gouv.fr/datasets/legi-codes-lois-et-reglements-consolides) (DILA) via le paquet [@socialgouv/legi-data](https://github.com/SocialGouv/legi-data). Articles en vigueur, parties législative (L) et réglementaire (R, D).
