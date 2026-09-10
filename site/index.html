@@ -140,9 +140,9 @@ section{padding:56px 0 8px}
 .bars{display:grid;gap:18px;padding:18px 16px;border:1px solid var(--hair);border-radius:12px;background:var(--surface)}
 .bar-group{display:grid;gap:6px}
 .bar-group .label{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
-.bar-row{display:grid;grid-template-columns:22px 1fr;align-items:center;gap:10px;height:22px}
+.bar-row{display:grid;grid-template-columns:22px minmax(0,1fr);align-items:center;gap:10px;height:22px}
 .bar-row .tag{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--ink-2)}
-.bar-track{position:relative;height:18px}
+.bar-track{position:relative;height:18px;margin-right:64px}
 .bar{height:18px;border-radius:0 4px 4px 0;min-width:2px}
 .bar.fr{background:var(--fr)}.bar.ch{background:var(--ch)}
 .bar-val{position:absolute;top:50%;transform:translateY(-50%);left:calc(var(--w) + 8px);font-family:var(--mono);font-size:13px;font-weight:500;color:var(--ink);white-space:nowrap;font-variant-numeric:tabular-nums}
