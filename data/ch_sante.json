@@ -1,0 +1,194 @@
+{
+  "country": "CH",
+  "source": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr ; https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/fr ; https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr ; consolidated HTML via https://fedlex.data.admin.ch/filestore/... (LTr état 1er septembre 2023; LAA état 1er janvier 2026; CO état 1er janvier 2026; OLT 3 état 1er septembre 2024, context only; OPA état 1er mai 2018, context only)",
+  "fetched_at": "2026-09-10",
+  "topic": "Santé et sécurité : principes et obligations",
+  "code_totals": {
+    "co_titre10": {
+      "articles": 139,
+      "words": 14230,
+      "range": "art. 319–362"
+    },
+    "ltr": {
+      "articles": 83,
+      "words": 7288
+    },
+    "co_whole": {
+      "articles": 1603,
+      "words": 120996
+    },
+    "note": "Counts are per <article> element in the Fedlex consolidated HTML (fr), including lettered sub-articles (e.g. 335a) and a handful of jointly-repealed article ranges (e.g. 'art. 226a–226d') that count as one element each. Words = whitespace-separated tokens of the plain article text (footnote markers/footnotes excluded). CO whole = art. 1–1186 (Livre cinquième du Code civil suisse), état 1er janvier 2026. LTr = RS 822.11, état 1er septembre 2023.",
+    "olt1": {
+      "articles": 86,
+      "words": 12117
+    },
+    "olt3": {
+      "articles": 42,
+      "words": 3402
+    },
+    "opa": {
+      "articles": 132,
+      "words": 12321
+    }
+  },
+  "topic_totals": {
+    "articles": 18,
+    "words": 1947
+  },
+  "sections": [
+    {
+      "id": "ltr-chap2-protection-sante",
+      "path": "LTr > Chapitre 2 > Protection de la santé",
+      "title": "Protection de la santé et approbation des plans",
+      "articles": [
+        {
+          "num": "Art. 6",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_6",
+          "text": "1 Pour protéger la santé des travailleurs, l’employeur est tenu de pren­dre toutes les mesures dont l’expérience a démontré la nécessité, que l’état de la technique permet d’appliquer et qui sont adaptées aux con­ditions d’exploitation de l’entreprise. Il doit en outre prendre toutes les mesures nécessaires pour protéger l’intégrité personnelle des tra­vail­leurs.\n2 L’employeur doit notamment aménager ses installations et régler la marche du travail de manière à préserver autant que possible les tra­vailleurs des dangers menaçant leur santé et du surmenage.\n2bis L’employeur veille également à ce que le travailleur ne soit pas obligé de consommer des boissons alcooliques ou d’autres substances psychotropes dans l’exercice de son activité professionnelle. Le Con­seil fédéral règle les dérogations.\n3 L’employeur fait collaborer les travailleurs aux mesures de protec­tion de la santé. Ceux-ci sont tenus de seconder l’employeur dans l’appli­cation des prescriptions sur la protection de la santé.\n4 Les mesures de protection de la santé qui doivent être prises dans les entreprises sont déterminées par voie d’ordonnance.",
+          "words": 165
+        },
+        {
+          "num": "Art. 7",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_7",
+          "text": "1 Celui qui se propose de construire ou de transformer une entreprise industrielle doit soumettre ses plans à l’approbation de l’autorité can­to­nale. Celle-ci demande le rapport de la Caisse nationale suisse d’assurance en cas d’accidents. Les propositions désignées expressément comme étant des ordres sont reprises comme conditions de l’approba­tion des plans par les autorités cantonales.\n2 L’autorité cantonale donne son approbation lorsque les plans sont conformes aux prescriptions; au besoin, elle la subordonne à la condi­tion que l’employeur prenne des mesures de protection spéciales.\n3 L’employeur doit demander l’autorisation d’exploiter à l’autorité can­to­nale avant de commencer l’exploitation. Cette autorité donne l’autorisation d’exploiter si la construction et l’aménagement de l’entreprise sont conformes aux plans approuvés.\n4 Si la construction ou la transformation d’une entreprise requiert l’ap­probation d’une autorité fédérale, cette dernière approuve les plans conformément à la procédure visée à l’al. 1. Les art. 62a et 62b de la loi fédérale du 21 mars 1997 sur l’organisation du gouver­nement et de l’administration sont applicables aux rapports et corap­ports.",
+          "words": 167
+        },
+        {
+          "num": "Art. 8",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_8",
+          "text": "Le Conseil fédéral peut déclarer l’art. 7 applicable aux entreprises non indus­trielles qui sont exposées à des risques importants. Les diver­ses catégories d’entreprises sont déterminées par voie d’ordon­nance.",
+          "words": 28
+        }
+      ]
+    },
+    {
+      "id": "laa-titre6-prevention",
+      "path": "LAA > Titre 6 > Prévention des accidents et maladies professionnels",
+      "title": "Prévention des accidents et maladies professionnels",
+      "articles": [
+        {
+          "num": "Art. 81",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/fr#art_81",
+          "text": "1 Les prescriptions sur la prévention des accidents et maladies professionnels s’appliquent à toutes les entreprises dont les travailleurs exécutent des travaux en Suisse.\n2 Le Conseil fédéral peut limiter ou exclure l’application de ces prescriptions pour certaines catégories d’entreprises ou de travailleurs.",
+          "words": 43
+        },
+        {
+          "num": "Art. 82",
+          "marginal_title": "Règles générales",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/fr#art_82",
+          "text": "1 L’employeur est tenu de prendre, pour prévenir les accidents et maladies professionnels, toutes les mesures dont l’expérience a démontré la nécessité, que l’état de la technique permet d’appliquer et qui sont adaptées aux conditions données.\n2 L’employeur doit faire collaborer les travailleurs aux mesures de prévention des accidents et maladies professionnels.\n3 Les travailleurs sont tenus de seconder l’employeur dans l’application des prescriptions sur la prévention des accidents et maladies professionnels. Ils doivent en particulier utiliser les équipements individuels de protection et employer correctement les dispositifs de sécurité et s’abstenir de les enlever ou de les modifier sans autorisation de l’employeur.",
+          "words": 102
+        },
+        {
+          "num": "Art. 82a",
+          "marginal_title": "Travaux présentant des dangers particuliers",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/fr#art_82_a",
+          "text": "1 Si les partenaires sociaux le demandent, le Conseil fédéral peut faire dépendre l’exécution de travaux présentant des dangers particuliers de l’obligation de disposer d’une attestation de formation.\n2 Le Conseil fédéral règle la formation et la reconnaissance des cours de formation après avoir consulté la Commission fédérale de coordination pour la sécurité au travail (commission de coordination).",
+          "words": 58
+        },
+        {
+          "num": "Art. 83",
+          "marginal_title": "Prescriptions d’exécution",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/fr#art_83",
+          "text": "1 Après avoir consulté les organisations d’employeurs et de travailleurs directement intéressées, le Conseil fédéral édicte les prescriptions sur les mesures techniques, médicales et d’autre nature destinées à prévenir les accidents et maladies professionnels dans les entreprises. Il détermine à qui incombent les frais de ces mesures.\n2 Le Conseil fédéral règle la coopération des médecins du travail et autres spécialistes de la sécurité du travail dans les entreprises.",
+          "words": 69
+        },
+        {
+          "num": "Art. 84",
+          "marginal_title": "Compétences des organes d’exécution",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/fr#art_84",
+          "text": "1 Après avoir entendu l’employeur et les assurés directement concernés, les organes d’exécution peuvent ordonner certaines mesures visant à prévenir les accidents et maladies professionnels. L’employeur doit permettre à ces organes d’accéder à tous les locaux et emplacements de travail de l’entreprise et les autoriser à effectuer des vérifications et à prélever des échantillons.\n2 Les organes d’exécution peuvent exclure d’un travail qui les mettrait en danger, les assurés particulièrement exposés aux accidents et maladies professionnels. Le Conseil fédéral règle la question des indemnités à verser aux assurés qui, par suite de leur exclusion de l’activité qu’ils exerçaient précédemment, subissent un préjudice considérable dans leur avancement et ne peuvent pas prétendre à d’autres prestations d’assurance.",
+          "words": 115
+        },
+        {
+          "num": "Art. 85",
+          "marginal_title": "Compétence et coordination",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/fr#art_85",
+          "text": "1 Les organes d’exécution de la LTr et la CNA exécutent les prescriptions sur la prévention des accidents et maladies professionnels. Le Conseil fédéral règle la compétence des organes d’exécution et leur collaboration. Il tient compte de leurs possibilités matérielles et techniques ainsi que de leurs ressources en personnel.\n2 Le Conseil fédéral nomme la commission de coordination qui comprend:\na. trois représentants des assureurs (un représentant de la CNA et deux représentants des assureurs désignés à l’art. 68);\nb. huit représentants des organes d’exécution (trois représentants de la CNA, deux représentants des organes fédéraux d’exécution de la LTr et trois représentants des organes cantonaux d’exécution de la LTr);\nc. deux représentants des employeurs;\nd. deux représentants des travailleurs.\n2bis Le Conseil fédéral désigne un représentant de la CNA en tant que président.\n3 La commission de coordination délimite les différents domaines d’exécution, dans la mesure où le Conseil fédéral n’a pas édicté de dispositions; elle veille à l’application uniforme, dans les entreprises, des prescriptions sur la prévention des accidents et maladies professionnels. Elle peut proposer au Conseil fédéral d’édicter de telles prescriptions et autoriser la CNA à conclure, avec des organisations qualifiées, des contrats concernant certaines tâches spéciales d’exécution dans le domaine de la prévention des accidents et des maladies professionnels.\n4 Les décisions de la commission de coordination lient les assureurs et les organes d’exécution de la loi sur le travail.\n5 Le Conseil fédéral surveille l’activité de la commission de coordination (art. 76 LPGA).",
+          "words": 247
+        },
+        {
+          "num": "Art. 86",
+          "marginal_title": "Mesures de contrainte administrative",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/fr#art_86",
+          "text": "1 Les cantons accordent l’entraide judiciaire pour l’exécution des décisions prises par les organes d’exécution et qui ont passé en force, ainsi que des mesures qui doivent être ordonnées immédiatement.\n2 Lorsque l’inobservation de prescriptions de sécurité met sérieusement en danger la vie et la santé des travailleurs, l’autorité cantonale interdit l’utilisation de locaux ou d’installations et, dans les cas particulièrement graves, ferme l’entreprise jusqu’à ce que le danger soit écarté; elle peut ordonner la saisie de substances et d’objets.",
+          "words": 80
+        },
+        {
+          "num": "Art. 87",
+          "marginal_title": "Supplément de prime",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/fr#art_87",
+          "text": "1 Le Conseil fédéral fixe, sur proposition de la commission de coordination, le supplément de prime destiné à la prévention des accidents et maladies professionnels. Il peut, après avoir entendu la commission de coordination, libérer totalement ou partiellement certaines catégories d’entreprises du paiement de ce supplément.\n2 Le supplément de prime est prélevé par les assureurs et géré par la CNA, qui tient, pour ce faire, un compte séparé; ce compte est soumis à l’approbation du Conseil fédéral.\n3 Le supplément de prime sert à couvrir les frais découlant de l’activité exercée par les organes chargés de prévenir les accidents et les maladies professionnelles. Le Conseil fédéral règle les questions de détail.",
+          "words": 112
+        },
+        {
+          "num": "Art. 87a",
+          "marginal_title": "Contributions des entreprises étrangères",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/fr#art_87_a",
+          "text": "1 Les entreprises étrangères dont les travailleurs ne sont pas soumis à l’assurance obligatoire en vertu de la présente loi doivent payer des contributions à la prévention des accidents.\n2 Le montant des contributions doit être fixé de manière à équivaloir au supplément de prime prélevé en vertu de l’art. 87 pour des entreprises comparables.\n3 Le Conseil fédéral règle la procédure de perception des contributions.",
+          "words": 66
+        },
+        {
+          "num": "Art. 88",
+          "marginal_title": "Encouragement de la prévention des accidents non professionnels",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/fr#art_88",
+          "text": "1 La CNA et les autres assureurs encouragent la prévention des accidents non professionnels. Ils gèrent en commun une institution qui contribue, par l’information et par des mesures générales de sécurité, à la prévention des accidents non professionnels et qui coordonne les efforts de même nature.\n2 Le Conseil fédéral fixe, sur proposition des assureurs, le montant du supplément de prime attribué à la prévention des accidents non professionnels.\n3 Les assureurs sont tenus d’utiliser le produit résultant des suppléments de primes pour promouvoir la prévention des accidents non professionnels.",
+          "words": 90
+        }
+      ]
+    },
+    {
+      "id": "co-tit10-C-protection-personnalite",
+      "path": "CO > Titre dixième > Obligations de l’employeur > Protection de la personnalité",
+      "title": "Protection de la personnalité",
+      "articles": [
+        {
+          "num": "Art. 328",
+          "marginal_title": null,
+          "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr#art_328",
+          "text": "1 L’employeur protège et respecte, dans les rapports de travail, la personnalité du travailleur; il manifeste les égards voulus pour sa santé et veille au maintien de la moralité. En particulier, il veille à ce que les travailleurs ne soient pas harcelés sexuellement et qu’ils ne soient pas, le cas échéant, désavantagés en raison de tels actes.\n2 Il prend, pour protéger la vie, la santé et l’intégrité personnelle du travailleur, les mesures commandées par l’expérience, applicables en l’état de la technique, et adaptées aux conditions de l’exploitation ou du ménage, dans la mesure où les rapports de travail et la nature du travail permettent équitablement de l’exiger de lui.",
+          "words": 110
+        }
+      ]
+    },
+    {
+      "id": "ltr-chap4-jeunes-gens",
+      "path": "LTr > Chapitre 4 > Jeunes travailleurs",
+      "title": "Jeunes gens",
+      "articles": [
+        {
+          "num": "Art. 29",
+          "marginal_title": "Prescriptions généra­les",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_29",
+          "text": "1 Sont réputés jeunes gens les travailleurs des deux sexes âgés de moins de 18 ans.\n2 L’employeur doit avoir les égards voulus pour la santé des jeunes gens et veiller à la sauvegarde de la moralité. Il doit veiller notamment à ce qu’ils ne soient pas surmenés ni exposés à de mauvaises influen­ces dans l’entreprise.\n3 Afin de protéger la vie ou la santé des jeunes gens ou de sauvegarder leur moralité, leur emploi à certains travaux peut, par ordonnance, être interdit ou subordonné à des conditions spéciales.\n4 L’employeur qui engage des jeunes gens doit se faire présenter une attestation d’âge. L’ordonnance peut en outre prescrire la production d’un certificat médical.",
+          "words": 113
+        },
+        {
+          "num": "Art. 30",
+          "marginal_title": "Age minimum",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_30",
+          "text": "1 Il est interdit d’employer des jeunes gens âgés de moins de 15 ans révolus. Les al. 2 et 3 sont réservés.\n2 L’ordonnance détermine dans quelles catégories d’entreprise ou d’emplois et à quelles conditions:\na. les jeunes gens de plus de treize ans peuvent être chargés de faire des courses et d’effectuer des travaux légers;\nb. les jeunes gens de moins de quinze ans peuvent être affectés à un travail dans le cadre de manifestations culturelles, artisti­ques ou sportives ainsi que dans la publicité.\n3 Les cantons où la scolarité obligatoire s’achève avant l’âge de 15 ans révolus peuvent être habilités, par ordonnance et à des conditions spé­ciales, à autoriser des dérogations pour les jeunes gens âgés de plus de 14 ans et libérés de l’école.",
+          "words": 127
+        },
+        {
+          "num": "Art. 31",
+          "marginal_title": "Durée du travail et du repos",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_31",
+          "text": "1 Pour les jeunes gens, la durée quotidienne du travail ne dépassera pas celle des autres travailleurs de la même entreprise ou, à défaut d’autres travailleurs, la durée admise par l’usage local, et elle n’excé­dera pas neuf heures. Cette durée comprend le travail supplé­mentaire et le temps consacré pen­dant les heures de travail aux cours obligatoi­res.\n2 Le travail de jour des jeunes gens, pauses incluses, doit être compris dans un espace de douze heures. Les jeunes travailleurs de moins de seize ans révolus ne peuvent être occupés que jusqu’à 20 heures et ceux de plus de seize ans, jusqu’à 22 heures. Sont réservées les dispo­sitions dérogatoires sur l’emploi de jeunes gens prévues à l’art. 30, al. 2.\n3 Il est interdit d’affecter à un travail supplémentaire les jeunes gens de moins de seize ans révolus.\n4 L’employeur n’est autorisé à occuper des jeunes travailleurs ni la nuit, ni le dimanche. Des dérogations peuvent être prévues par voie d’ordonnance, notamment au profit de la formation professionnelle ainsi que pour les cas prévus à l’art. 30, al. 2.",
+          "words": 177
+        },
+        {
+          "num": "Art. 32",
+          "marginal_title": "Autres soins incom­bant à l’employeur",
+          "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr#art_32",
+          "text": "1 Lorsque le jeune travailleur tombe malade, est victime d’un accident ou est menacé dans sa santé physique ou morale, l’employeur doit en aviser le détenteur de l’autorité parentale ou le tuteur. En attendant leurs instructions, il doit prendre les mesures qui s’imposent.\n2 Lorsque le jeune travailleur vit dans le ménage de l’employeur, celui-ci doit lui donner une nourriture suffisante et adaptée à son âge, et le loger conformément aux exigences de l’hygiène et de la moralité.",
+          "words": 78
+        }
+      ]
+    }
+  ]
+}

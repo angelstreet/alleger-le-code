@@ -171,6 +171,24 @@ section{padding:56px 0 8px}
 .law .more{font-family:var(--mono);font-size:12px;background:none;border:1px solid var(--hair-2);border-radius:6px;padding:4px 10px;color:var(--ink-2);cursor:pointer;justify-self:start}
 .law .none{font-size:15px;color:var(--muted);font-style:italic}
 
+/* code allégé */
+.code{border:1px solid var(--hair);border-radius:12px;background:var(--surface);padding:4px 18px 10px}
+.code .part{font-family:var(--display);font-weight:700;font-size:15px;color:var(--ink-2);padding:22px 0 6px;border-bottom:1px solid var(--hair);margin-bottom:6px}
+.code .cart{padding:16px 0;border-bottom:1px solid var(--hair);display:grid;gap:8px}
+.code .cart:last-child{border-bottom:0}
+.code .cart .h{display:flex;gap:10px;align-items:baseline}
+.code .cart .h .n{font-family:var(--mono);font-size:12px;font-weight:600;color:var(--fr);flex:none}
+.code .cart .h .t{font-family:var(--display);font-weight:700;font-size:17px}
+.code .cart .x{font-size:16px;line-height:1.55;white-space:pre-line}
+.code .cart .r{font-family:var(--mono);font-size:11px;color:var(--muted);line-height:1.7}
+.code .cart .r a{color:var(--ink-2)}
+.code .cart .r b{font-weight:500;color:var(--muted)}
+.removed{display:grid;gap:8px;font-size:15px;color:var(--ink-2)}
+.removed div{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:baseline}
+.removed .n{font-family:var(--mono);font-size:12px;color:var(--drop-ink);white-space:nowrap}
+.astat{display:flex;flex-wrap:wrap;gap:14px;font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.astat b{color:var(--ink);font-weight:600}
+
 /* verdict chips */
 .chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:4px 9px;border-radius:6px;white-space:nowrap}
 .chip::before{content:"";width:7px;height:7px;border-radius:2px;background:currentColor}
@@ -179,6 +197,8 @@ section{padding:56px 0 8px}
 .chip.deleg{color:var(--deleg-ink);background:var(--deleg-bg)}
 .chip.drop{color:var(--drop-ink);background:var(--drop-bg)}
 .chip.add{color:var(--add-ink);background:var(--add-bg)}
+.chip.move{color:var(--deleg-ink);background:var(--deleg-bg)}
+.chip.move::before{width:9px;height:2px;box-shadow:0 3px 0 currentColor}
 .chip.deleg::before{border-radius:50%}
 .chip.drop::before{width:9px;height:2px}
 .chip.add::before{width:9px;height:9px;transform:rotate(45deg)}
@@ -234,6 +254,7 @@ footer .eyebrow{margin-bottom:12px}
   body{background:#fff;color:#000;font-size:11pt}
   .tabbar,.share,.vote,.vote-note,.toast,#pdf,#pdf-top,.more{display:none!important}
   .panel[hidden]{display:grid!important}
+  #code-allege[hidden],#top-allege[hidden]{display:none!important}
   .panel{page-break-before:always;padding-top:0}
   .match,.card,.duel,.bars,.index,.context{break-inside:avoid;border-color:#bbb}
   .law .art .t.clamp{max-height:none}
@@ -253,6 +274,7 @@ footer .eyebrow{margin-bottom:12px}
   <h1>Alléger le Code</h1>
   <p class="lede">Le Code du travail français, comparé article par article au droit suisse. Et une feuille de route : ce qu’on garde, ce qu’on simplifie, ce qu’on supprime, ce qu’on ajoute.</p>
   <p class="claim">Ce site ne juge pas si le droit français protège trop ou pas assez. Il mesure sa complexité, et propose comment obtenir le même résultat avec moins de texte.</p>
+  <p id="top-allege" class="claim" style="margin-top:14px" hidden><a href="#code-allege" style="font-weight:700;color:var(--ink)">Lire le Code allégé →</a> la version simplifiée proposée, article par article.</p>
   <p class="claim" style="margin-top:8px">Indépendant et apolitique. Réalisé par un citoyen avec l’IA Claude (Anthropic), sans parti ni financement. Données, code et méthode ouverts.</p>
 </header>
 
@@ -304,6 +326,17 @@ footer .eyebrow{margin-bottom:12px}
 <section class="wrap" id="sujets" style="padding-top:44px">
   <div class="tabbar"><div class="tabs" role="tablist" id="tabs"></div></div>
   <div id="panels"></div>
+</section>
+
+<section class="wrap stack-lg" id="code-allege" hidden>
+  <div class="stack">
+    <span class="eyebrow">Le Code allégé</span>
+    <h2>La version proposée, à lire</h2>
+    <p class="lede">Le résultat de la feuille de route : les articles qui remplaceraient les articles actuels, écrits pour être compris sans juriste. Chaque article dit ce qu’il remplace.</p>
+    <p class="note" id="allege-status"></p>
+  </div>
+  <div class="tabs" role="tablist" id="allege-tabs"></div>
+  <div id="allege-panels"></div>
 </section>
 
 <section class="wrap stack-lg" id="partager">
@@ -371,7 +404,7 @@ footer .eyebrow{margin-bottom:12px}
   const fmt = n => n.toLocaleString('fr-FR');
   const pages = w => Math.round(w / 400);
   const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-  const CHIP = {keep:'Conserver', simp:'Simplifier', deleg:'Déléguer aux branches', drop:'Supprimer', add:'Ajouter'};
+  const CHIP = {keep:'Conserver', simp:'Simplifier', deleg:'Déléguer aux branches', drop:'Supprimer', add:'Ajouter', move:'Transférer hors du Code'};
   const $ = id => document.getElementById(id);
 
   // ---------- Overview ----------
@@ -433,7 +466,7 @@ footer .eyebrow{margin-bottom:12px}
       <div class="do">${r.plan.map(p=>`<p>${p}</p>`).join('')}</div>
       <div class="foot">
         <button class="vote" type="button" data-id="${t.id}.${r.id}" aria-pressed="false">Je soutiens <span class="n">· <span class="c">0</span></span></button>
-        <a href="#m-${t.id}-${r.id}" class="vote-note">voir les textes</a>
+        <span class="vote-note"><a href="#m-${t.id}-${r.id}">voir les textes</a>${(D.allege && D.allege[t.id]) ? ` · <a href="#a-${t.id}-${(D.allege[t.id].articles.find(a=>a.row===r.id)||{n:1}).n}">lire les articles proposés</a>` : ''}</span>
       </div>
     </article>`;
   }
@@ -490,6 +523,42 @@ footer .eyebrow{margin-bottom:12px}
   const h = (location.hash.match(/sujet=([\w-]+)/)||[])[1];
   show(h || D.topics[0].id, false);
   if(location.hash.startsWith('#m-')){ const el = document.querySelector(location.hash); if(el){ const tid = el.id.split('-')[1]; show(tid,false); el.scrollIntoView(); } }
+
+  // ---------- Code allégé ----------
+  const A = D.allege || {};
+  const aTopics = D.topics.filter(t => A[t.id]);
+  if(aTopics.length){
+    $('code-allege').hidden = false; $('top-allege').hidden = false;
+    $('allege-status').innerHTML = '<b>Statut : ' + esc(A[aTopics[0].id].status) + '.</b> Sujets rédigés : ' + aTopics.map(t=>esc(t.name)).join(', ') + '. Les autres suivent, sujet par sujet.';
+    $('allege-tabs').innerHTML = aTopics.map(t => `<button class="tab" role="tab" type="button" data-allege="${t.id}" aria-selected="false">${esc(t.name)}<span class="n">${A[t.id].articles.length} art.</span></button>`).join('');
+    $('allege-panels').innerHTML = aTopics.map(t => {
+      const d = A[t.id]; let lastRow = null;
+      const arts = d.articles.map(a => {
+        const head = a.row !== lastRow ? `<div class="part">${esc(d.rows[a.row] || a.row)}</div>` : ''; lastRow = a.row;
+        return head + `<article class="cart" id="a-${t.id}-${a.n}">
+          <div class="h"><span class="n">Art. ${a.n}</span><span class="t">${esc(a.title)}</span></div>
+          <div class="x">${esc(a.text)}</div>
+          <div class="r"><b>Remplace</b> ${a.replaces.map(r=>`<a href="${r.url}" target="_blank" rel="noopener">${esc(r.num)}</a>`).join(', ') || '—'}${a.note ? ' · ' + esc(a.note) : ''}</div>
+        </article>`;
+      }).join('');
+      const rem = (d.removed||[]).map(r => `<div><span class="n">${esc(r.nums)}</span><span>${esc(r.reason)}</span></div>`).join('');
+      const c = d.counts || {};
+      return `<div class="panel" id="apanel-${t.id}" role="tabpanel" hidden>
+        <div class="stack-lg">
+          <div class="astat"><span><b>${fmt(c.current_total || t.fr.n)}</b> articles aujourd’hui</span><span>→</span><span><b>${fmt(d.articles.length)}</b> articles proposés</span><span><b>${fmt(c.replaces_total || 0)}</b> remplacés</span><span><b>${fmt(c.removed_total || 0)}</b> supprimés sans successeur</span></div>
+          <div class="code">${arts}</div>
+          ${rem ? `<div class="stack"><h3>Articles supprimés sans successeur</h3><div class="removed">${rem}</div></div>` : ''}
+        </div>
+      </div>`;
+    }).join('');
+    function showA(id){
+      document.querySelectorAll('[data-allege]').forEach(b => b.setAttribute('aria-selected', b.dataset.allege===id ? 'true':'false'));
+      document.querySelectorAll('[id^="apanel-"]').forEach(p => p.hidden = p.id !== 'apanel-'+id);
+    }
+    document.addEventListener('click', e => { const b = e.target.closest('[data-allege]'); if(b) showA(b.dataset.allege); });
+    showA(aTopics[0].id);
+    if(location.hash.startsWith('#a-')){ const el = document.querySelector(location.hash); if(el){ showA(el.id.split('-')[1]); el.scrollIntoView(); } }
+  }
 
   // ---------- Votes ----------
   const LS = 'allegerlecode.votes';
